@@ -7,27 +7,27 @@
       "icon": "🏔️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1536781602098-7ceff4dff60d?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1536781602098-7ceff4dff60d?w=400&q=60",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vieste%2C_Italy_01.jpg/800px-Vieste%2C_Italy_01.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vieste%2C_Italy_01.jpg/400px-Vieste%2C_Italy_01.jpg",
           "alt": "Vieste - Centro storico sul promontorio",
           "caption": "Vieste, il centro storico arroccato sulla roccia",
           "location": "Vieste",
           "day": 2
         },
         {
-          "src": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=400&q=60",
-          "alt": "Foresta Umbra - Sentiero nel bosco",
-          "caption": "Foresta Umbra, trekking tra faggi millenari",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Foresta-umbra-laghetto-umbra-b.jpg/800px-Foresta-umbra-laghetto-umbra-b.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Foresta-umbra-laghetto-umbra-b.jpg/400px-Foresta-umbra-laghetto-umbra-b.jpg",
+          "alt": "Foresta Umbra - Laghetto nel bosco",
+          "caption": "Foresta Umbra, il laghetto tra i faggi millenari",
           "location": "Foresta Umbra",
           "day": 3
         },
         {
-          "src": "https://images.unsplash.com/photo-1586276393635-5ecd8a851acc?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1586276393635-5ecd8a851acc?w=400&q=60",
-          "alt": "Trabucco sul Gargano",
-          "caption": "I trabucchi, antiche macchine da pesca del Gargano",
-          "location": "Gargano",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Trabucco_a_Peschici.jpg/800px-Trabucco_a_Peschici.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Trabucco_a_Peschici.jpg/400px-Trabucco_a_Peschici.jpg",
+          "alt": "Trabucco a Peschici",
+          "caption": "Un trabucco a Peschici, antica macchina da pesca del Gargano",
+          "location": "Peschici",
           "day": 3
         }
       ]
@@ -38,24 +38,24 @@
       "icon": "🏘️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1573069237539-92ac7a80a5be?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1573069237539-92ac7a80a5be?w=400&q=60",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alberobello_BW_2016-10-16_13-44-51.jpg/800px-Alberobello_BW_2016-10-16_13-44-51.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alberobello_BW_2016-10-16_13-44-51.jpg/400px-Alberobello_BW_2016-10-16_13-44-51.jpg",
           "alt": "Trulli di Alberobello",
           "caption": "Alberobello, i trulli patrimonio UNESCO",
           "location": "Alberobello",
           "day": 7
         },
         {
-          "src": "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=400&q=60",
-          "alt": "Ostuni - La citta bianca",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Panorama_Ostuni.jpg/800px-Panorama_Ostuni.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Panorama_Ostuni.jpg/400px-Panorama_Ostuni.jpg",
+          "alt": "Ostuni - La citta bianca panorama",
           "caption": "Ostuni, la citta bianca che brilla al sole",
           "location": "Ostuni",
           "day": 5
         },
         {
-          "src": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&q=60",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Panorama_of_Locorotondo.jpg/800px-Panorama_of_Locorotondo.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Panorama_of_Locorotondo.jpg/400px-Panorama_of_Locorotondo.jpg",
           "alt": "Locorotondo vista panoramica",
           "caption": "Locorotondo, il borgo circolare con vista sulla valle",
           "location": "Locorotondo",
@@ -69,26 +69,26 @@
       "icon": "🏖️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1600002415506-dd06090d3480?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1600002415506-dd06090d3480?w=400&q=60",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lama_Monachile.jpg/800px-Lama_Monachile.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lama_Monachile.jpg/400px-Lama_Monachile.jpg",
           "alt": "Polignano a Mare - Lama Monachile",
-          "caption": "Polignano a Mare, la spiaggetta tra le scogliere",
+          "caption": "Polignano a Mare, la celebre Lama Monachile",
           "location": "Polignano a Mare",
           "day": 6
         },
         {
-          "src": "https://images.unsplash.com/photo-1614713743235-dde24c457028?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1614713743235-dde24c457028?w=400&q=60",
-          "alt": "Acqua cristallina del Salento",
-          "caption": "Le acque cristalline del Salento",
-          "location": "Salento",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baia_dei_Turchi_-_Otranto.jpg/800px-Baia_dei_Turchi_-_Otranto.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baia_dei_Turchi_-_Otranto.jpg/400px-Baia_dei_Turchi_-_Otranto.jpg",
+          "alt": "Baia dei Turchi - Otranto",
+          "caption": "Baia dei Turchi, acque caraibiche a Otranto",
+          "location": "Otranto",
           "day": 9
         },
         {
-          "src": "https://images.unsplash.com/photo-1619008247436-de1e39ef1cce?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1619008247436-de1e39ef1cce?w=400&q=60",
-          "alt": "Torre dell'Orso e faraglioni Due Sorelle",
-          "caption": "Torre dell'Orso, i faraglioni 'Due Sorelle'",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/I_Faraglioni_%22Due_Sorelle%22.jpg/800px-I_Faraglioni_%22Due_Sorelle%22.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/I_Faraglioni_%22Due_Sorelle%22.jpg/400px-I_Faraglioni_%22Due_Sorelle%22.jpg",
+          "alt": "Faraglioni Due Sorelle a Torre dell'Orso",
+          "caption": "I faraglioni 'Due Sorelle' a Torre dell'Orso",
           "location": "Torre dell'Orso",
           "day": 9
         }
@@ -100,26 +100,26 @@
       "icon": "⛪",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1707234197821-9773c730cf08?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1707234197821-9773c730cf08?w=400&q=60",
-          "alt": "Lecce - Basilica di Santa Croce",
-          "caption": "Lecce, il barocco mozzafiato di Santa Croce",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Basilica_of_Santa_Croce%2C_Lecce_02.jpg/800px-Basilica_of_Santa_Croce%2C_Lecce_02.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Basilica_of_Santa_Croce%2C_Lecce_02.jpg/400px-Basilica_of_Santa_Croce%2C_Lecce_02.jpg",
+          "alt": "Lecce - Basilica di Santa Croce facciata barocca",
+          "caption": "Lecce, la facciata barocca della Basilica di Santa Croce",
           "location": "Lecce",
           "day": 8
         },
         {
-          "src": "https://images.unsplash.com/photo-1634745451760-7debddf62087?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1634745451760-7debddf62087?w=400&q=60",
-          "alt": "Gallipoli citta vecchia",
-          "caption": "Gallipoli, la citta vecchia sull'isola",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/73014_Gallipoli%2C_Province_of_Lecce%2C_Italy_-_panoramio.jpg/800px-73014_Gallipoli%2C_Province_of_Lecce%2C_Italy_-_panoramio.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/73014_Gallipoli%2C_Province_of_Lecce%2C_Italy_-_panoramio.jpg/400px-73014_Gallipoli%2C_Province_of_Lecce%2C_Italy_-_panoramio.jpg",
+          "alt": "Gallipoli citta vecchia dal mare",
+          "caption": "Gallipoli, la citta vecchia vista dal mare",
           "location": "Gallipoli",
           "day": 10
         },
         {
-          "src": "https://images.unsplash.com/photo-1689085382741-a0e6f51eca2b?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1689085382741-a0e6f51eca2b?w=400&q=60",
-          "alt": "Otranto - Cattedrale mosaico",
-          "caption": "Otranto, la citta dei Martiri affacciata sull'Adriatico",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Otranto%2C_la_Cattedrale_dell%27Annunziata._-_panoramio.jpg/800px-Otranto%2C_la_Cattedrale_dell%27Annunziata._-_panoramio.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Otranto%2C_la_Cattedrale_dell%27Annunziata._-_panoramio.jpg/400px-Otranto%2C_la_Cattedrale_dell%27Annunziata._-_panoramio.jpg",
+          "alt": "Otranto - Cattedrale dell'Annunziata",
+          "caption": "Otranto, la Cattedrale dell'Annunziata",
           "location": "Otranto",
           "day": 9
         }
@@ -131,25 +131,26 @@
       "icon": "🍽️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=60",
-          "alt": "Focaccia pugliese con pomodorini",
-          "caption": "La focaccia pugliese, croccante e irresistibile",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FocacciaBarese.jpg/800px-FocacciaBarese.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FocacciaBarese.jpg/400px-FocacciaBarese.jpg",
+          "alt": "Focaccia barese con pomodorini e olive",
+          "caption": "La focaccia barese, croccante e irresistibile",
           "location": "Puglia"
         },
         {
-          "src": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&q=60",
-          "alt": "Orecchiette fresche",
-          "caption": "Orecchiette fatte a mano, la pasta della tradizione",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Orecchiette_con_le_cime_di_rapa_nel_pentolone.jpeg/800px-Orecchiette_con_le_cime_di_rapa_nel_pentolone.jpeg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Orecchiette_con_le_cime_di_rapa_nel_pentolone.jpeg/400px-Orecchiette_con_le_cime_di_rapa_nel_pentolone.jpeg",
+          "alt": "Orecchiette con le cime di rapa",
+          "caption": "Orecchiette con le cime di rapa, il piatto simbolo della Puglia",
           "location": "Puglia"
         },
         {
-          "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60",
-          "alt": "Pesce fresco alla griglia",
-          "caption": "Pesce fresco alla griglia, il gusto del mare pugliese",
-          "location": "Puglia"
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Porto_Selvaggio_-_panoramio.jpg/800px-Porto_Selvaggio_-_panoramio.jpg",
+          "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Porto_Selvaggio_-_panoramio.jpg/400px-Porto_Selvaggio_-_panoramio.jpg",
+          "alt": "Porto Selvaggio - caletta nella pineta",
+          "caption": "Porto Selvaggio, la caletta nascosta nella pineta",
+          "location": "Porto Selvaggio",
+          "day": 11
         }
       ]
     }
