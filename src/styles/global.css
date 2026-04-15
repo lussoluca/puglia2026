@@ -276,6 +276,9 @@ body {
 .budget-card ul { list-style: none; margin-bottom: 16px; }
 .budget-card li { padding: 4px 0; font-size: 0.93rem; border-bottom: 1px solid var(--color-bg-alt); }
 .budget-total { display: inline-block; background: var(--color-primary); color: var(--color-white); padding: 6px 18px; border-radius: 50px; font-weight: 700; font-size: 1.05rem; }
+.fuel-source { margin-top: 12px; font-size: 0.78rem; color: var(--color-text-light); font-style: italic; }
+.fuel-source a { color: var(--color-primary-light); text-decoration: none; font-weight: 600; }
+.fuel-source a:hover { text-decoration: underline; }
 .budget-summary { text-align: center; background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); color: var(--color-white); border-radius: var(--radius); padding: 40px; }
 .budget-summary h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 10px; opacity: 0.9; }
 .budget-grand-total { font-family: var(--font-display); font-size: 3.5rem; font-weight: 700; margin-bottom: 16px; }

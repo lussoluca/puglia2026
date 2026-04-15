@@ -1,6 +1,10 @@
 ---
 import budget from '../data/budget.json';
 import camper from '../data/camper.json';
+
+const fuelDate = budget.fuelPrice?.date
+    ? new Date(budget.fuelPrice.date).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+    : null;
 ---
 
 <section id="budget" class="section">
@@ -19,6 +23,14 @@ import camper from '../data/camper.json';
                         ))}
                     </ul>
                     <span class="budget-total">{cat.total}</span>
+                    {cat.title === 'Carburante' && budget.fuelPrice && (
+                        <p class="fuel-source">
+                            Dato aggiornato al {fuelDate} &middot;
+                            <a href={budget.fuelPrice.sourceUrl} target="_blank" rel="noopener noreferrer">
+                                Fonte: MIMIT
+                            </a>
+                        </p>
+                    )}
                 </div>
             ))}
         </div>
