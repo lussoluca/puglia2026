@@ -36,21 +36,23 @@ const base = import.meta.env.BASE_URL;
 </head>
 <body>
     <nav id="navbar">
-        <div class="nav-brand">Puglia 2026</div>
+        <div class="nav-brand"><a href={base} style="text-decoration:none;color:inherit;">Puglia 2026</a></div>
         <button class="nav-toggle" id="navToggle" aria-label="Menu">
             <span></span><span></span><span></span>
         </button>
         <ul class="nav-links" id="navLinks">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#overview">Panoramica</a></li>
-            <li><a href="#camper">Camper</a></li>
-            <li><a href="#itinerary">Itinerario</a></li>
-            <li><a href="#map">Mappa</a></li>
-            <li><a href="#beaches">Spiagge</a></li>
-            <li><a href="#restaurants">Ristoranti</a></li>
-            <li><a href="#events">Eventi</a></li>
-            <li><a href="#budget">Budget</a></li>
-            <li><a href="#weather">Meteo</a></li>
+            <li><a href={`${base}#hero`}>Home</a></li>
+            <li><a href={`${base}#overview`}>Panoramica</a></li>
+            <li><a href={`${base}#camper`}>Camper</a></li>
+            <li><a href={`${base}#itinerary`}>Itinerario</a></li>
+            <li><a href={`${base}#map`}>Mappa</a></li>
+            <li><a href={`${base}#beaches`}>Spiagge</a></li>
+            <li><a href={`${base}#restaurants`}>Ristoranti</a></li>
+            <li><a href={`${base}#events`}>Eventi</a></li>
+            <li><a href={`${base}#gallery`}>Galleria</a></li>
+            <li><a href={`${base}#budget`}>Budget</a></li>
+            <li><a href={`${base}#weather`}>Meteo</a></li>
+            <li><a href={`${base}#checklist`}>Checklist</a></li>
         </ul>
     </nav>
 
@@ -86,7 +88,7 @@ const base = import.meta.env.BASE_URL;
                 const top = section.offsetTop;
                 const height = section.offsetHeight;
                 const id = section.getAttribute('id');
-                const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+                const link = document.querySelector(`.nav-links a[href$="#${id}"]`);
                 if (link) {
                     if (scrollPos >= top && scrollPos < top + height) {
                         navItems.forEach(a => a.classList.remove('active'));

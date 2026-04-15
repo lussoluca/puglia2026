@@ -1,0 +1,154 @@
+---
+import gallery from '../data/gallery.json';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<section id="gallery" class="section">
+    <div class="container">
+        <h2 class="section-title">Galleria</h2>
+        <p class="section-intro">{gallery.intro}</p>
+
+        <!-- Category filters -->
+        <div class="gallery-filters">
+            <button class="gallery-filter active" data-filter="all">Tutte</button>
+            {gallery.categories.map(cat => (
+                <button class="gallery-filter" data-filter={cat.id}>
+                    <span>{cat.icon}</span> {cat.title}
+                </button>
+            ))}
+        </div>
+
+        <!-- Photo grid -->
+        <div class="gallery-grid">
+            {gallery.categories.map(cat =>
+                cat.photos.map((photo, idx) => (
+                    <div class="gallery-item" data-category={cat.id}>
+                        <div class="gallery-thumb" data-src={photo.src} data-alt={photo.alt} data-caption={photo.caption}>
+                            <img src={photo.thumb} alt={photo.alt} loading="lazy" />
+                            <div class="gallery-overlay">
+                                <span class="gallery-zoom">🔍</span>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <p class="gallery-caption">{photo.caption}</p>
+                            <div class="gallery-meta">
+                                <span class="gallery-location">📍 {photo.location}</span>
+                                {photo.day && (
+                                    <a href={`${base}day/${photo.day}/`} class="gallery-day-link">Giorno {photo.day}</a>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                ))
+            )}
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox" role="dialog" aria-hidden="true">
+            <button class="lightbox-close" aria-label="Chiudi">&times;</button>
+            <button class="lightbox-prev" aria-label="Precedente">&#8249;</button>
+            <button class="lightbox-next" aria-label="Successiva">&#8250;</button>
+            <div class="lightbox-content">
+                <img id="lightbox-img" src="" alt="" />
+                <p id="lightbox-caption" class="lightbox-caption"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script is:inline>
+(function() {
+    // Gallery filters
+    const filters = document.querySelectorAll('.gallery-filter');
+    const items = document.querySelectorAll('.gallery-item');
+
+    filters.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filters.forEach(f => f.classList.remove('active'));
+            btn.classList.add('active');
+            const filter = btn.dataset.filter;
+            items.forEach(item => {
+                if (filter === 'all' || item.dataset.category === filter) {
+                    item.style.display = '';
+                    item.classList.add('gallery-visible');
+                } else {
+                    item.style.display = 'none';
+                    item.classList.remove('gallery-visible');
+                }
+            });
+        });
+    });
+
+    // Lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const thumbs = document.querySelectorAll('.gallery-thumb');
+    let currentIndex = 0;
+
+    function getVisibleThumbs() {
+        return Array.from(document.querySelectorAll('.gallery-item'))
+            .filter(item => item.style.display !== 'none')
+            .map(item => item.querySelector('.gallery-thumb'));
+    }
+
+    function openLightbox(thumb) {
+        const visible = getVisibleThumbs();
+        currentIndex = visible.indexOf(thumb);
+        lightboxImg.src = thumb.dataset.src;
+        lightboxImg.alt = thumb.dataset.alt;
+        lightboxCaption.textContent = thumb.dataset.caption;
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+    }
+
+    function navigate(direction) {
+        const visible = getVisibleThumbs();
+        if (visible.length === 0) return;
+        currentIndex = (currentIndex + direction + visible.length) % visible.length;
+        const thumb = visible[currentIndex];
+        lightboxImg.src = thumb.dataset.src;
+        lightboxImg.alt = thumb.dataset.alt;
+        lightboxCaption.textContent = thumb.dataset.caption;
+    }
+
+    thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => openLightbox(thumb));
+    });
+
+    document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    document.querySelector('.lightbox-prev').addEventListener('click', () => navigate(-1));
+    document.querySelector('.lightbox-next').addEventListener('click', () => navigate(1));
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') navigate(-1);
+        if (e.key === 'ArrowRight') navigate(1);
+    });
+
+    // Touch swipe support
+    let touchStartX = 0;
+    lightbox.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    lightbox.addEventListener('touchend', (e) => {
+        const diff = e.changedTouches[0].screenX - touchStartX;
+        if (Math.abs(diff) > 50) {
+            navigate(diff > 0 ? -1 : 1);
+        }
+    }, { passive: true });
+})();
+</script>

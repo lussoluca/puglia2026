@@ -153,6 +153,12 @@ body {
 .campsite-box p { font-size: 0.93rem; }
 .campsite-detail { color: var(--color-text-light); margin-top: 4px; }
 .campsite-alt { margin-top: 8px; font-size: 0.85rem !important; color: var(--color-text-light); font-style: italic; }
+.day-detail-link {
+    display: inline-block; margin-bottom: 12px; font-size: 0.85rem; font-weight: 600;
+    color: var(--color-primary-light); text-decoration: none; padding: 4px 14px;
+    background: var(--color-bg-alt); border-radius: 50px; transition: all 0.2s;
+}
+.day-detail-link:hover { background: var(--color-primary); color: var(--color-white); }
 .poi-box { margin-top: 20px; padding: 16px; background: linear-gradient(135deg, #ebf5fb, #d6eaf8); border-radius: var(--radius-sm); border: 1px solid #aed6f1; }
 .poi-box h5 { font-size: 0.95rem; color: var(--color-primary); margin-bottom: 10px; }
 .poi-box li { margin-bottom: 6px; font-size: 0.93rem; list-style: none; padding-left: 0; }
@@ -413,4 +419,263 @@ footer p { opacity: 0.9; }
     .hero-info-item { font-size: 0.85rem; }
     .camper-specs { grid-template-columns: 1fr; }
     .overview-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ===================================
+   GALLERY
+   =================================== */
+.gallery-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 32px; }
+.gallery-filter {
+    padding: 8px 18px; border: 2px solid var(--color-border); background: var(--color-white);
+    border-radius: 50px; cursor: pointer; font-size: 0.88rem; font-weight: 500; transition: all 0.2s; font-family: var(--font-body);
+}
+.gallery-filter:hover { border-color: var(--color-primary-light); }
+.gallery-filter.active { background: var(--color-primary); color: var(--color-white); border-color: var(--color-primary); }
+
+.gallery-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;
+}
+.gallery-item { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); background: var(--color-white); transition: transform 0.2s, box-shadow 0.2s; }
+.gallery-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+
+.gallery-thumb { position: relative; cursor: pointer; overflow: hidden; aspect-ratio: 4/3; }
+.gallery-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+.gallery-thumb:hover img { transform: scale(1.05); }
+.gallery-overlay {
+    position: absolute; inset: 0; background: rgba(0,0,0,0.3); display: flex; align-items: center;
+    justify-content: center; opacity: 0; transition: opacity 0.3s;
+}
+.gallery-thumb:hover .gallery-overlay { opacity: 1; }
+.gallery-zoom { font-size: 2rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
+
+.gallery-info { padding: 14px 16px; }
+.gallery-caption { font-size: 0.9rem; font-weight: 500; color: var(--color-text); margin-bottom: 6px; }
+.gallery-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.gallery-location { font-size: 0.82rem; color: var(--color-text-light); }
+.gallery-day-link {
+    font-size: 0.78rem; font-weight: 600; color: var(--color-primary-light); text-decoration: none;
+    padding: 2px 10px; background: var(--color-bg-alt); border-radius: 50px;
+}
+.gallery-day-link:hover { background: var(--color-primary); color: var(--color-white); }
+
+/* Lightbox */
+.lightbox {
+    position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.92); display: flex;
+    align-items: center; justify-content: center; opacity: 0; visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.lightbox.open { opacity: 1; visibility: visible; }
+.lightbox-content { max-width: 90vw; max-height: 85vh; text-align: center; }
+.lightbox-content img { max-width: 100%; max-height: 78vh; object-fit: contain; border-radius: var(--radius-sm); }
+.lightbox-caption { color: var(--color-white); margin-top: 16px; font-size: 1rem; font-weight: 500; }
+.lightbox-close {
+    position: absolute; top: 20px; right: 24px; background: none; border: none;
+    color: var(--color-white); font-size: 2.5rem; cursor: pointer; z-index: 10;
+    line-height: 1; padding: 8px; opacity: 0.8; transition: opacity 0.2s;
+}
+.lightbox-close:hover { opacity: 1; }
+.lightbox-prev, .lightbox-next {
+    position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15);
+    border: none; color: var(--color-white); font-size: 2.5rem; cursor: pointer; padding: 16px 12px;
+    border-radius: var(--radius-sm); transition: background 0.2s; z-index: 10;
+}
+.lightbox-prev { left: 16px; }
+.lightbox-next { right: 16px; }
+.lightbox-prev:hover, .lightbox-next:hover { background: rgba(255,255,255,0.25); }
+
+/* ===================================
+   CHECKLIST
+   =================================== */
+.checklist-progress-wrapper { max-width: 600px; margin: 0 auto 40px; }
+.checklist-progress-bar {
+    width: 100%; height: 12px; background: var(--color-border); border-radius: 50px; overflow: hidden; margin-bottom: 8px;
+}
+.checklist-progress-fill {
+    height: 100%; width: 0; border-radius: 50px; transition: width 0.4s ease, background 0.4s ease;
+    background: linear-gradient(90deg, var(--color-primary-light), var(--color-primary));
+}
+.checklist-progress-text { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; color: var(--color-text-light); }
+.checklist-reset-btn {
+    background: none; border: 1px solid var(--color-border); color: var(--color-text-light); padding: 4px 14px;
+    border-radius: 50px; font-size: 0.8rem; cursor: pointer; font-family: var(--font-body); transition: all 0.2s;
+}
+.checklist-reset-btn:hover { border-color: var(--color-red); color: var(--color-red); }
+
+.checklist-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; }
+.checklist-category {
+    background: var(--color-white); border-radius: var(--radius); padding: 24px;
+    box-shadow: var(--shadow-sm); border: 1px solid var(--color-border);
+}
+.checklist-category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--color-border); }
+.checklist-category-icon { font-size: 1.6rem; }
+.checklist-category-header h3 { font-size: 1.05rem; color: var(--color-primary); flex: 1; }
+.checklist-category-count {
+    font-size: 0.82rem; font-weight: 600; color: var(--color-text-light);
+    padding: 3px 10px; background: var(--color-bg-alt); border-radius: 50px;
+}
+.checklist-category-count.complete { background: #d5f5e3; color: #1e8449; }
+
+.checklist-items { list-style: none; }
+.checklist-item { margin-bottom: 4px; border-radius: var(--radius-sm); transition: background 0.2s; }
+.checklist-item.checked { opacity: 0.6; }
+.checklist-item.checked .checklist-text { text-decoration: line-through; }
+
+.checklist-label {
+    display: flex; align-items: center; gap: 10px; cursor: pointer; padding: 8px 10px; border-radius: var(--radius-sm);
+}
+.checklist-label:hover { background: var(--color-bg); }
+
+.checklist-checkbox { display: none; }
+.checklist-checkmark {
+    width: 22px; height: 22px; border: 2px solid var(--color-border); border-radius: 6px;
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+}
+.checklist-checkbox:checked + .checklist-checkmark {
+    background: var(--color-nature); border-color: var(--color-nature);
+}
+.checklist-checkbox:checked + .checklist-checkmark::after {
+    content: '✓'; color: var(--color-white); font-size: 0.8rem; font-weight: 700;
+}
+.checklist-text { font-size: 0.93rem; color: var(--color-text); transition: opacity 0.2s; }
+
+/* ===================================
+   DAY PLANNER PAGES
+   =================================== */
+.day-page { padding-top: 60px; }
+.day-hero {
+    background: linear-gradient(135deg, #1a5276 0%, #2980b9 50%, #3498db 100%);
+    padding: 48px 0 40px; color: var(--color-white);
+}
+.day-back-link {
+    display: inline-block; color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem;
+    margin-bottom: 20px; transition: color 0.2s;
+}
+.day-back-link:hover { color: var(--color-white); }
+.day-hero-content { display: flex; align-items: center; gap: 32px; }
+.day-hero-number {
+    display: flex; flex-direction: column; align-items: center; background: rgba(255,255,255,0.15);
+    padding: 20px 24px; border-radius: var(--radius); backdrop-filter: blur(5px); min-width: 100px;
+}
+.day-hero-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8; }
+.day-hero-num { font-family: var(--font-display); font-size: 3rem; font-weight: 700; line-height: 1; }
+.day-hero-of { font-size: 0.8rem; opacity: 0.7; }
+
+.day-hero-info h1 { font-family: var(--font-display); font-size: clamp(1.5rem, 4vw, 2.2rem); margin-bottom: 8px; }
+.day-hero-date { font-size: 1rem; opacity: 0.85; margin-bottom: 12px; text-transform: capitalize; }
+.day-hero-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.day-container { padding-top: 40px; padding-bottom: 60px; max-width: 900px; }
+
+.day-travel-banner {
+    display: flex; align-items: center; gap: 12px; padding: 14px 20px;
+    background: linear-gradient(135deg, #fef9e7, #fdebd0); border-radius: var(--radius-sm);
+    border: 1px solid #f5cba7; margin-bottom: 32px; font-size: 0.95rem; color: var(--color-text);
+}
+.day-travel-icon { font-size: 1.4rem; }
+
+.day-description { margin-bottom: 32px; font-size: 1rem; line-height: 1.8; color: var(--color-text); }
+
+.day-section-title {
+    font-family: var(--font-display); font-size: 1.4rem; color: var(--color-primary);
+    margin-bottom: 24px; padding-bottom: 10px; border-bottom: 2px solid var(--color-border);
+}
+
+/* Day activity timeline */
+.day-timeline { margin-bottom: 48px; }
+.day-activity-card {
+    display: flex; gap: 20px; margin-bottom: 20px; padding: 20px;
+    background: var(--color-white); border-radius: var(--radius); box-shadow: var(--shadow-sm);
+    border: 1px solid var(--color-border); border-left: 4px solid var(--color-primary-light);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.day-activity-card:hover { transform: translateX(4px); box-shadow: var(--shadow-md); }
+.day-activity-marker { flex-shrink: 0; }
+.day-activity-icon-big { font-size: 2rem; }
+.day-activity-body h3 { font-size: 1.05rem; color: var(--color-primary); margin-bottom: 6px; }
+.day-activity-body p { font-size: 0.93rem; line-height: 1.7; color: var(--color-text); }
+.day-activity-link {
+    display: inline-block; margin-top: 8px; font-size: 0.85rem; font-weight: 600;
+    color: var(--color-primary-light); text-decoration: none;
+}
+.day-activity-link:hover { text-decoration: underline; color: var(--color-primary); }
+
+/* Day highlights */
+.day-highlights { margin-bottom: 48px; }
+.day-highlights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.day-highlight-card {
+    padding: 16px 20px; background: linear-gradient(135deg, #ebf5fb, #d6eaf8);
+    border-radius: var(--radius-sm); border: 1px solid #aed6f1;
+}
+.day-highlight-card p { font-size: 0.93rem; line-height: 1.6; }
+
+/* Day campsite */
+.day-campsite { margin-bottom: 48px; }
+.day-campsite-card {
+    background: var(--color-white); border-radius: var(--radius); box-shadow: var(--shadow-sm);
+    border: 1px solid var(--color-border); overflow: hidden;
+}
+.day-campsite-main { padding: 24px; }
+.day-campsite-main h3 { font-family: var(--font-display); font-size: 1.3rem; color: var(--color-primary); margin-bottom: 10px; }
+.day-campsite-icon { margin-right: 8px; }
+.day-campsite-location, .day-campsite-nights { font-size: 0.93rem; margin-bottom: 4px; }
+.day-campsite-detail { font-size: 0.9rem; color: var(--color-text-light); margin-top: 8px; line-height: 1.6; }
+.day-campsite-link {
+    display: inline-block; margin-top: 12px; font-size: 0.88rem; font-weight: 600;
+    color: var(--color-primary-light); text-decoration: none;
+}
+.day-campsite-link:hover { text-decoration: underline; }
+.day-campsite-alt {
+    padding: 16px 24px; background: linear-gradient(135deg, #fef9e7, #fdebd0);
+    border-top: 1px solid #f5cba7; font-size: 0.9rem;
+}
+
+/* Day photos */
+.day-photos { margin-bottom: 48px; }
+.day-photos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.day-photo-card { border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow-sm); background: var(--color-white); }
+.day-photo-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.day-photo-caption { padding: 10px 14px; font-size: 0.85rem; color: var(--color-text-light); }
+
+/* Day navigation */
+.day-nav {
+    display: flex; align-items: stretch; justify-content: space-between; gap: 16px;
+    margin-top: 48px; padding-top: 32px; border-top: 2px solid var(--color-border);
+}
+.day-nav-btn {
+    display: flex; align-items: center; gap: 12px; text-decoration: none; padding: 16px 20px;
+    border-radius: var(--radius); border: 1px solid var(--color-border); background: var(--color-white);
+    transition: all 0.2s; color: var(--color-text); flex: 1; max-width: 38%;
+}
+.day-nav-btn:hover { border-color: var(--color-primary-light); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.day-nav-home {
+    flex: 0 0 auto; max-width: none; justify-content: center; font-weight: 600;
+    color: var(--color-primary); font-size: 0.9rem;
+}
+.day-nav-next { text-align: right; justify-content: flex-end; }
+.day-nav-arrow { font-size: 1.5rem; color: var(--color-primary); flex-shrink: 0; }
+.day-nav-text { display: flex; flex-direction: column; }
+.day-nav-label { font-size: 0.78rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+.day-nav-title { font-size: 0.9rem; font-weight: 600; color: var(--color-primary); }
+
+/* ===================================
+   RESPONSIVE - Gallery, Checklist, Day
+   =================================== */
+@media (max-width: 768px) {
+    .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+    .lightbox-prev, .lightbox-next { display: none; }
+    .checklist-grid { grid-template-columns: 1fr; }
+    .day-hero-content { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .day-hero-number { flex-direction: row; gap: 10px; padding: 12px 20px; min-width: auto; }
+    .day-hero-num { font-size: 2rem; }
+    .day-activity-card { flex-direction: column; gap: 12px; }
+    .day-highlights-grid { grid-template-columns: 1fr; }
+    .day-nav { flex-direction: column; }
+    .day-nav-btn { max-width: 100%; }
+    .day-nav-home { order: -1; }
+}
+@media (max-width: 480px) {
+    .gallery-grid { grid-template-columns: 1fr; }
+    .gallery-filters { gap: 6px; }
+    .gallery-filter { padding: 6px 12px; font-size: 0.8rem; }
+    .day-photos-grid { grid-template-columns: 1fr; }
 }

@@ -1,0 +1,149 @@
+---
+import checklist from '../data/checklist.json';
+---
+
+<section id="checklist" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Checklist Valigia</h2>
+        <p class="section-intro">{checklist.intro}</p>
+
+        <!-- Progress bar -->
+        <div class="checklist-progress-wrapper">
+            <div class="checklist-progress-bar">
+                <div class="checklist-progress-fill" id="progressFill"></div>
+            </div>
+            <div class="checklist-progress-text">
+                <span id="progressText">0 di 0 preparati</span>
+                <button class="checklist-reset-btn" id="resetBtn" title="Reset checklist">Azzera tutto</button>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="checklist-grid">
+            {checklist.categories.map(cat => (
+                <div class="checklist-category" data-category={cat.id}>
+                    <div class="checklist-category-header">
+                        <span class="checklist-category-icon">{cat.icon}</span>
+                        <h3>{cat.title}</h3>
+                        <span class="checklist-category-count" data-count-for={cat.id}>0/{cat.items.length}</span>
+                    </div>
+                    <ul class="checklist-items">
+                        {cat.items.map((item, idx) => (
+                            <li class="checklist-item">
+                                <label class="checklist-label">
+                                    <input type="checkbox" class="checklist-checkbox" data-cat={cat.id} data-idx={idx} />
+                                    <span class="checklist-checkmark"></span>
+                                    <span class="checklist-text">{item}</span>
+                                </label>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>
+
+<script is:inline>
+(function() {
+    const STORAGE_KEY = 'puglia2026-checklist';
+    const checkboxes = document.querySelectorAll('.checklist-checkbox');
+    const progressFill = document.getElementById('progressFill');
+    const progressText = document.getElementById('progressText');
+    const resetBtn = document.getElementById('resetBtn');
+    const totalItems = checkboxes.length;
+
+    // Load saved state
+    function loadState() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) return JSON.parse(saved);
+        } catch (e) {}
+        return {};
+    }
+
+    // Save state
+    function saveState() {
+        const state = {};
+        checkboxes.forEach(cb => {
+            const key = cb.dataset.cat + '-' + cb.dataset.idx;
+            if (cb.checked) state[key] = true;
+        });
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        } catch (e) {}
+    }
+
+    // Update progress
+    function updateProgress() {
+        const checked = document.querySelectorAll('.checklist-checkbox:checked').length;
+        const pct = totalItems > 0 ? (checked / totalItems) * 100 : 0;
+        progressFill.style.width = pct + '%';
+        progressText.textContent = checked + ' di ' + totalItems + ' preparati';
+
+        // Update category counts
+        const categories = document.querySelectorAll('.checklist-category');
+        categories.forEach(cat => {
+            const catId = cat.dataset.category;
+            const catCheckboxes = cat.querySelectorAll('.checklist-checkbox');
+            const catChecked = cat.querySelectorAll('.checklist-checkbox:checked').length;
+            const countEl = document.querySelector('[data-count-for="' + catId + '"]');
+            if (countEl) {
+                countEl.textContent = catChecked + '/' + catCheckboxes.length;
+                if (catChecked === catCheckboxes.length && catCheckboxes.length > 0) {
+                    countEl.classList.add('complete');
+                } else {
+                    countEl.classList.remove('complete');
+                }
+            }
+        });
+
+        // Progress bar color
+        if (pct === 100) {
+            progressFill.style.background = 'linear-gradient(90deg, #27ae60, #2ecc71)';
+        } else if (pct > 50) {
+            progressFill.style.background = 'linear-gradient(90deg, #f39c12, #e67e22)';
+        } else {
+            progressFill.style.background = 'linear-gradient(90deg, var(--color-primary-light), var(--color-primary))';
+        }
+    }
+
+    // Initialize
+    const state = loadState();
+    checkboxes.forEach(cb => {
+        const key = cb.dataset.cat + '-' + cb.dataset.idx;
+        if (state[key]) cb.checked = true;
+
+        cb.addEventListener('change', () => {
+            saveState();
+            updateProgress();
+            // Visual feedback
+            const item = cb.closest('.checklist-item');
+            if (cb.checked) {
+                item.classList.add('checked');
+            } else {
+                item.classList.remove('checked');
+            }
+        });
+
+        // Set initial checked class
+        if (cb.checked) {
+            cb.closest('.checklist-item').classList.add('checked');
+        }
+    });
+
+    updateProgress();
+
+    // Reset
+    resetBtn.addEventListener('click', () => {
+        if (confirm('Vuoi davvero azzerare tutta la checklist?')) {
+            checkboxes.forEach(cb => {
+                cb.checked = false;
+                cb.closest('.checklist-item').classList.remove('checked');
+            });
+            try { localStorage.removeItem(STORAGE_KEY); } catch(e) {}
+            updateProgress();
+        }
+    });
+})();
+</script>

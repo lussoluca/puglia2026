@@ -1,0 +1,157 @@
+{
+  "intro": "Scorci e ispirazioni dai luoghi che visiteremo. Foto per sognare la Puglia prima di partire!",
+  "categories": [
+    {
+      "id": "gargano",
+      "title": "Gargano",
+      "icon": "🏔️",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1633321702518-7fecdafb94d5?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1633321702518-7fecdafb94d5?w=400&q=60",
+          "alt": "Vieste - Centro storico sul promontorio",
+          "caption": "Vieste, il centro storico arroccato sulla roccia",
+          "location": "Vieste",
+          "day": 2
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1599232288126-599b0649f76b?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1599232288126-599b0649f76b?w=400&q=60",
+          "alt": "Foresta Umbra - Sentiero nel bosco",
+          "caption": "Foresta Umbra, trekking tra faggi millenari",
+          "location": "Foresta Umbra",
+          "day": 3
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1586276393635-5ecd8a851acc?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1586276393635-5ecd8a851acc?w=400&q=60",
+          "alt": "Trabucco sul Gargano",
+          "caption": "I trabucchi, antiche macchine da pesca del Gargano",
+          "location": "Gargano",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "id": "valle-ditria",
+      "title": "Valle d'Itria",
+      "icon": "🏘️",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1568797629192-950a59c6d508?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1568797629192-950a59c6d508?w=400&q=60",
+          "alt": "Trulli di Alberobello",
+          "caption": "Alberobello, i trulli patrimonio UNESCO",
+          "location": "Alberobello",
+          "day": 7
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=400&q=60",
+          "alt": "Ostuni - La citta bianca",
+          "caption": "Ostuni, la citta bianca che brilla al sole",
+          "location": "Ostuni",
+          "day": 5
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&q=60",
+          "alt": "Locorotondo vista panoramica",
+          "caption": "Locorotondo, il borgo circolare con vista sulla valle",
+          "location": "Locorotondo",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "id": "costa",
+      "title": "Costa & Spiagge",
+      "icon": "🏖️",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1600002415506-dd06090d3480?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1600002415506-dd06090d3480?w=400&q=60",
+          "alt": "Polignano a Mare - Lama Monachile",
+          "caption": "Polignano a Mare, la spiaggetta tra le scogliere",
+          "location": "Polignano a Mare",
+          "day": 6
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1591017403997-e8e1075de020?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1591017403997-e8e1075de020?w=400&q=60",
+          "alt": "Acqua cristallina del Salento",
+          "caption": "Le acque cristalline del Salento",
+          "location": "Salento",
+          "day": 9
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&q=60",
+          "alt": "Torre dell'Orso e faraglioni Due Sorelle",
+          "caption": "Torre dell'Orso, i faraglioni 'Due Sorelle'",
+          "location": "Torre dell'Orso",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "id": "salento",
+      "title": "Salento & Barocco",
+      "icon": "⛪",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1582220649741-6a2c0e4e7724?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1582220649741-6a2c0e4e7724?w=400&q=60",
+          "alt": "Lecce - Basilica di Santa Croce",
+          "caption": "Lecce, il barocco mozzafiato di Santa Croce",
+          "location": "Lecce",
+          "day": 8
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbaf?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1596627116790-af6f46dddbaf?w=400&q=60",
+          "alt": "Gallipoli citta vecchia",
+          "caption": "Gallipoli, la citta vecchia sull'isola",
+          "location": "Gallipoli",
+          "day": 10
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1600622752986-5251e00d33a7?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1600622752986-5251e00d33a7?w=400&q=60",
+          "alt": "Otranto - Cattedrale mosaico",
+          "caption": "Otranto, la citta dei Martiri affacciata sull'Adriatico",
+          "location": "Otranto",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Sapori di Puglia",
+      "icon": "🍽️",
+      "photos": [
+        {
+          "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=60",
+          "alt": "Focaccia pugliese con pomodorini",
+          "caption": "La focaccia pugliese, croccante e irresistibile",
+          "location": "Puglia"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&q=60",
+          "alt": "Orecchiette fresche",
+          "caption": "Orecchiette fatte a mano, la pasta della tradizione",
+          "location": "Puglia"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60",
+          "alt": "Pesce fresco alla griglia",
+          "caption": "Pesce fresco alla griglia, il gusto del mare pugliese",
+          "location": "Puglia"
+        }
+      ]
+    }
+  ]
+}
