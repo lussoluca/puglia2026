@@ -1,0 +1,103 @@
+{
+  "intro": "La Notte della Taranta 2026 e il 22 agosto (Maestro Concertatore: Ermal Meta), due giorni prima della partenza. Ma il Salento e la Puglia in questo periodo sono pieni di eventi, feste patronali e sagre!",
+  "taranta": {
+    "note": "Il Concertone e il 22 agosto a Melpignano, lo perdiamo per 2 giorni. Pero il Festival Itinerante ha tappe nei paesi del Salento anche DOPO il concertone (nel 2025 l'ultima tappa fu ad Alessano il 28 agosto). Da controllare il calendario 2026 a giugno.",
+    "url": "https://www.lanottedellataranta.it/"
+  },
+  "confirmed": [
+    {
+      "name": "Festa di Sant'Oronzo",
+      "location": "Ostuni",
+      "dates": "24-27 Agosto (giorno principale: 26 Agosto)",
+      "icon": "🐴",
+      "match": "Noi siamo a Ostuni dal 27!",
+      "matchType": "hit",
+      "description": "La Cavalcata di Sant'Oronzo e una processione a cavallo nel centro storico con costumi tradizionali, bande musicali, luminarie spettacolari e fuochi d'artificio sulla citta bianca. Le celebrazioni durano piu giorni intorno al 26.",
+      "url": "https://maps.google.com/?q=Piazza+della+Liberta+Ostuni"
+    },
+    {
+      "name": "Festa di Sant'Oronzo",
+      "location": "Lecce",
+      "dates": "24-26 Agosto",
+      "icon": "🎆",
+      "match": "Noi siamo a Lecce il 31 - la perdiamo di 5 giorni",
+      "matchType": "miss",
+      "description": "La festa piu importante di Lecce: Fiera di Sant'Oronzo (grande mercato), luminarie artistiche nel centro, processione religiosa, concerti nelle piazze, fuochi d'artificio. L'atmosfera festiva potrebbe ancora esserci il 31.",
+      "url": "https://maps.google.com/?q=Piazza+Sant+Oronzo+Lecce"
+    }
+  ],
+  "likely": [
+    {
+      "name": "Notte della Taranta Itinerante (ultima tappa)",
+      "location": "Paese del Salento (da definire)",
+      "dates": "~26-28 Agosto",
+      "icon": "🎶",
+      "description": "Le tappe itineranti del festival nei paesi della Grecia Salentina. Concerti di pizzica e taranta nelle piazze dei borghi. Calendario pubblicato a giugno 2026.",
+      "url": "https://www.lanottedellataranta.it/il-festival/il-festival-itinerante/"
+    },
+    {
+      "name": "Festa di San Trifone",
+      "location": "Carovigno (vicino al campeggio!)",
+      "dates": "~25-27 Agosto",
+      "icon": "🏇",
+      "description": "Festa patronale con la tradizionale corsa dei cavalli nel centro storico (\"lu nzegn\"), fuochi d'artificio, processione e bancarelle.",
+      "url": "https://maps.google.com/?q=Carovigno+centro+storico"
+    },
+    {
+      "name": "Ronde di Pizzica spontanee",
+      "location": "Lecce, Gallipoli, piazze del Salento",
+      "dates": "Ogni sera in estate",
+      "icon": "💃",
+      "description": "Cerchi spontanei di danza nelle piazze salentine. Musicisti suonano tamburello e si balla la pizzica. Frequentissimi la sera nelle piazze di Lecce vecchia, Gallipoli e nei borghi del Salento.",
+      "url": "https://maps.google.com/?q=Piazza+Sant+Oronzo+Lecce"
+    },
+    {
+      "name": "Sagre varie (pesce, orecchiette, bombette...)",
+      "location": "In qualsiasi paese lungo il percorso",
+      "dates": "Tutto il periodo",
+      "icon": "🍝",
+      "description": "Fine agosto e il picco delle sagre in Puglia. In ogni paese troverete locandine che annunciano sagre della focaccia, del pesce, delle orecchiette, del polpo, delle bombette. Impossibile non incrociarne almeno 2-3!",
+      "url": "https://www.viaggiareinpuglia.it/"
+    }
+  ],
+  "toCheck": [
+    {
+      "name": "Carpino Folk Festival",
+      "location": "Carpino (Gargano, vicino a Vieste)",
+      "period": "Agosto",
+      "description": "Festival di musica folk con tarantella garganica autentica (diversa dalla pizzica salentina). Uno dei piu autentici del Sud."
+    },
+    {
+      "name": "Speleonight - Grotte di Castellana",
+      "location": "Castellana Grotte",
+      "period": "Estate",
+      "description": "Visite serali speciali delle grotte con atmosfera suggestiva. Da verificare il calendario."
+    },
+    {
+      "name": "Red Bull Cliff Diving",
+      "location": "Polignano a Mare",
+      "period": "Fine agosto / settembre",
+      "description": "Tuffi da 27m dalle scogliere di Polignano. Le date cambiano ogni anno. Spettacolare!"
+    },
+    {
+      "name": "Locus Festival",
+      "location": "Locorotondo",
+      "period": "Luglio-agosto",
+      "description": "Festival di musica contemporanea/jazz nel borgo. Potrebbe essere gia finito, ma vale la pena controllare."
+    }
+  ],
+  "resources": [
+    {
+      "name": "La Notte della Taranta (programma itinerante)",
+      "url": "https://www.lanottedellataranta.it/"
+    },
+    {
+      "name": "Viaggiare in Puglia (portale regionale)",
+      "url": "https://www.viaggiareinpuglia.it/"
+    },
+    {
+      "name": "Grotte di Castellana (Speleonight)",
+      "url": "https://www.grottedicastellana.it/"
+    }
+  ]
+}

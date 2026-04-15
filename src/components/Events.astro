@@ -1,0 +1,77 @@
+---
+import events from '../data/events.json';
+---
+
+<section id="events" class="section">
+    <div class="container">
+        <h2 class="section-title">Eventi e Sagre</h2>
+        <p class="section-intro" set:html={events.intro} />
+
+        <!-- Taranta note -->
+        <div class="taranta-box">
+            <div class="taranta-header">
+                <span class="taranta-icon">🎸</span>
+                <h3>La Notte della Taranta 2026</h3>
+            </div>
+            <p>{events.taranta.note}</p>
+            <a href={events.taranta.url} target="_blank" rel="noopener noreferrer" class="ext-link">Sito ufficiale &rarr;</a>
+        </div>
+
+        <!-- Confirmed events -->
+        <h3 class="events-category-title">Date certe</h3>
+        <div class="events-grid">
+            {events.confirmed.map(evt => (
+                <div class={`event-card ${evt.matchType === 'hit' ? 'event-hit' : 'event-miss'}`}>
+                    <div class="event-card-icon">{evt.icon}</div>
+                    <h4>{evt.name}</h4>
+                    <p class="event-location">{evt.location}</p>
+                    <p class="event-dates">{evt.dates}</p>
+                    <p class={`event-match ${evt.matchType}`}>{evt.match}</p>
+                    <p class="event-desc">{evt.description}</p>
+                    {evt.url && (
+                        <a href={evt.url} target="_blank" rel="noopener noreferrer" class="ext-link">Vedi sulla mappa &rarr;</a>
+                    )}
+                </div>
+            ))}
+        </div>
+
+        <!-- Likely events -->
+        <h3 class="events-category-title">Molto probabili</h3>
+        <div class="events-grid">
+            {events.likely.map(evt => (
+                <div class="event-card event-likely">
+                    <div class="event-card-icon">{evt.icon}</div>
+                    <h4>{evt.name}</h4>
+                    <p class="event-location">{evt.location}</p>
+                    <p class="event-dates">{evt.dates}</p>
+                    <p class="event-desc">{evt.description}</p>
+                    {evt.url && (
+                        <a href={evt.url} target="_blank" rel="noopener noreferrer" class="ext-link">Info &rarr;</a>
+                    )}
+                </div>
+            ))}
+        </div>
+
+        <!-- To check closer to trip -->
+        <h3 class="events-category-title">Da verificare prima della partenza</h3>
+        <div class="events-check-grid">
+            {events.toCheck.map(evt => (
+                <div class="event-check-card">
+                    <h4>{evt.name}</h4>
+                    <p class="event-location">{evt.location} &middot; {evt.period}</p>
+                    <p class="event-desc">{evt.description}</p>
+                </div>
+            ))}
+        </div>
+
+        <!-- Useful resources -->
+        <div class="events-resources">
+            <h4>Link utili per controllare i programmi</h4>
+            <div class="resources-list">
+                {events.resources.map(r => (
+                    <a href={r.url} target="_blank" rel="noopener noreferrer" class="resource-link">{r.name} &rarr;</a>
+                ))}
+            </div>
+        </div>
+    </div>
+</section>
