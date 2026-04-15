@@ -1,0 +1,211 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import itinerary from '../../../data/auto/itinerary.json';
+import beaches from '../../../data/beaches.json';
+import restaurants from '../../../data/restaurants.json';
+import gallery from '../../../data/gallery.json';
+
+export function getStaticPaths() {
+    return itinerary.map((dayItem: any) => ({
+        params: { day: String(dayItem.day) },
+        props: { dayData: dayItem }
+    }));
+}
+
+const { day } = Astro.params;
+const { dayData } = Astro.props;
+const dayNum = Number(day);
+const totalDays = itinerary.length;
+const base = import.meta.env.BASE_URL;
+
+// Format date nicely
+const dateObj = new Date(dayData.date + 'T00:00:00');
+const dateFormatted = dateObj.toLocaleDateString('it-IT', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+});
+
+// Get related gallery photos for this day
+const dayPhotos = gallery.categories.flatMap(cat =>
+    cat.photos.filter(p => p.day === dayNum).map(p => ({ ...p, category: cat.title }))
+);
+
+// Tag labels
+const tagLabels: Record<string, string> = {
+    travel: 'Viaggio',
+    sea: 'Mare',
+    nature: 'Natura',
+    culture: 'Cultura'
+};
+
+const tagClasses: Record<string, string> = {
+    travel: 'tag-travel',
+    sea: 'tag-sea',
+    nature: 'tag-nature',
+    culture: 'tag-culture'
+};
+
+// Use accommodation instead of campsite for auto version
+const lodging = dayData.accommodation || dayData.campsite;
+---
+
+<Layout title={`Giorno ${dayNum} - ${dayData.title} | Puglia 2026 (Auto)`}>
+    <div class="day-page">
+        <!-- Day Hero -->
+        <div class="day-hero">
+            <div class="container">
+                <a href={`${base}auto/#itinerary`} class="day-back-link">&larr; Torna all'itinerario</a>
+                <div class="day-hero-content">
+                    <div class="day-hero-number">
+                        <span class="day-hero-label">Giorno</span>
+                        <span class="day-hero-num">{dayNum}</span>
+                        <span class="day-hero-of">di {totalDays}</span>
+                    </div>
+                    <div class="day-hero-info">
+                        <h1>{dayData.title}</h1>
+                        <p class="day-hero-date">{dateFormatted}</p>
+                        <div class="day-hero-tags">
+                            {dayData.tags.map((tag: string) => (
+                                <span class={`timeline-tag ${tagClasses[tag] || ''}`}>
+                                    {tagLabels[tag] || tag}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container day-container">
+            <!-- Travel info -->
+            {dayData.travelInfo && (
+                <div class="day-travel-banner">
+                    <span class="day-travel-icon">🚗</span>
+                    <span>{dayData.travelInfo}</span>
+                </div>
+            )}
+
+            <!-- Description -->
+            {dayData.description && (
+                <div class="day-description">
+                    <p>{dayData.description}</p>
+                </div>
+            )}
+
+            <!-- Timeline activities -->
+            <div class="day-timeline">
+                <h2 class="day-section-title">Programma della giornata</h2>
+                {dayData.activities.map((act: any, idx: number) => (
+                    <div class="day-activity-card">
+                        <div class="day-activity-marker">
+                            <span class="day-activity-icon-big">{act.icon}</span>
+                        </div>
+                        <div class="day-activity-body">
+                            <h3>{act.title}</h3>
+                            <p>{act.text}</p>
+                            {act.url && (
+                                <a href={act.url} target="_blank" rel="noopener" class="day-activity-link">
+                                    Apri in Maps &rarr;
+                                </a>
+                            )}
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <!-- Highlights -->
+            {dayData.highlights && dayData.highlights.length > 0 && (
+                <div class="day-highlights">
+                    <h2 class="day-section-title">Alternative & Extra</h2>
+                    <div class="day-highlights-grid">
+                        {dayData.highlights.map((h: any) => (
+                            <div class="day-highlight-card">
+                                <p>{h.text}</p>
+                                {h.url && (
+                                    <a href={h.url} target="_blank" rel="noopener" class="day-activity-link">
+                                        Maggiori info &rarr;
+                                    </a>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            <!-- Accommodation -->
+            {lodging && (
+                <div class="day-campsite">
+                    <h2 class="day-section-title">Dove dormiamo</h2>
+                    <div class="day-campsite-card">
+                        <div class="day-campsite-main">
+                            <h3>
+                                <span class="day-campsite-icon">🏠</span>
+                                {lodging.name}
+                            </h3>
+                            <p class="day-campsite-location">📍 {lodging.location}</p>
+                            <p class="day-campsite-nights">🌙 {lodging.nightsLabel}</p>
+                            <p class="day-campsite-detail">{lodging.detail}</p>
+                            {lodging.url && (
+                                <a href={lodging.url} target="_blank" rel="noopener" class="day-campsite-link">
+                                    Sito web &rarr;
+                                </a>
+                            )}
+                        </div>
+                        {lodging.alternative && (
+                            <div class="day-campsite-alt">
+                                <p><strong>Alternativa:</strong> {lodging.alternative}</p>
+                                {lodging.alternativeUrl && (
+                                    <a href={lodging.alternativeUrl} target="_blank" rel="noopener" class="day-activity-link">
+                                        Vedi alternativa &rarr;
+                                    </a>
+                                )}
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
+
+            <!-- Day photos -->
+            {dayPhotos.length > 0 && (
+                <div class="day-photos">
+                    <h2 class="day-section-title">Ispirazioni fotografiche</h2>
+                    <div class="day-photos-grid">
+                        {dayPhotos.map(photo => (
+                            <div class="day-photo-card">
+                                <img src={`${base}${photo.thumb}`} alt={photo.alt} loading="lazy" />
+                                <p class="day-photo-caption">{photo.caption}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            <!-- Day navigation -->
+            <div class="day-nav">
+                {dayNum > 1 ? (
+                    <a href={`${base}auto/day/${dayNum - 1}/`} class="day-nav-btn day-nav-prev">
+                        <span class="day-nav-arrow">&larr;</span>
+                        <span class="day-nav-text">
+                            <span class="day-nav-label">Giorno {dayNum - 1}</span>
+                            <span class="day-nav-title">{itinerary[dayNum - 2].title}</span>
+                        </span>
+                    </a>
+                ) : <div></div>}
+                <a href={`${base}auto/#itinerary`} class="day-nav-btn day-nav-home">
+                    Itinerario completo
+                </a>
+                {dayNum < totalDays ? (
+                    <a href={`${base}auto/day/${dayNum + 1}/`} class="day-nav-btn day-nav-next">
+                        <span class="day-nav-text">
+                            <span class="day-nav-label">Giorno {dayNum + 1}</span>
+                            <span class="day-nav-title">{itinerary[dayNum].title}</span>
+                        </span>
+                        <span class="day-nav-arrow">&rarr;</span>
+                    </a>
+                ) : <div></div>}
+            </div>
+        </div>
+    </div>
+</Layout>

@@ -1,5 +1,8 @@
 ---
-import mapPoints from '../data/map-points.json';
+import defaultMapPoints from '../data/map-points.json';
+const mapPoints = Astro.props.mapData || defaultMapPoints;
+const homeLabel = Astro.props.homeLabel || 'Torino';
+const homeCoords = Astro.props.homeCoords || [45.0703, 7.6869];
 ---
 
 <section id="map" class="section section-alt">
@@ -28,7 +31,7 @@ import mapPoints from '../data/map-points.json';
     </div>
 </section>
 
-<script is:inline define:vars={{ mapPoints }}>
+<script is:inline define:vars={{ mapPoints, homeLabel, homeCoords }}>
     document.addEventListener('DOMContentLoaded', () => {
         const mapEl = document.getElementById('travel-map');
         if (!mapEl || typeof L === 'undefined') return;
@@ -51,8 +54,8 @@ import mapPoints from '../data/map-points.json';
             html: '<div class="custom-marker" style="background:#2c3e50;width:32px;height:32px;font-size:16px;">\uD83C\uDFE0</div>',
             iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
         });
-        L.marker([45.0703, 7.6869], { icon: homeIcon }).addTo(map)
-            .bindPopup('<div class="popup-title">Torino</div><div class="popup-desc">Partenza e ritorno</div>');
+        L.marker(homeCoords, { icon: homeIcon }).addTo(map)
+            .bindPopup('<div class="popup-title">' + homeLabel + '</div><div class="popup-desc">Partenza e ritorno</div>');
 
         const categoryColors = {
             campsites: '#e74c3c', beaches: '#3498db', culture: '#9b59b6',

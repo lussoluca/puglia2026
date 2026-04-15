@@ -1,0 +1,58 @@
+{
+  "campsites": [
+    { "name": "Molinella Vacanze (Bungalow)", "lat": 41.8690, "lng": 16.1920, "desc": "Vieste (Gargano) - Bungalow sulla spiaggia, A/C, bagno privato. 3 notti.", "zone": "Gargano", "url": "https://www.molinellavacanze.it/" },
+    { "name": "Campeggio Lamaforca (Bungalow)", "lat": 40.7080, "lng": 17.6600, "desc": "Carovigno - Bungalow tra gli ulivi, vicino Torre Guaceto. 2 notti.", "zone": "Ostuni", "url": "https://www.lamaforca.it/" },
+    { "name": "Baia di Gallipoli (Bungalow)", "lat": 40.0300, "lng": 17.9600, "desc": "Gallipoli - Bungalow nel Parco di Punta Pizzo, piscina, spiaggia. 4 notti.", "zone": "Salento", "url": "https://www.baiadigallipoli.com/" }
+  ],
+  "beaches": [
+    { "name": "Baia delle Zagare", "lat": 41.8328, "lng": 16.1842, "desc": "Due faraglioni spettacolari, acqua turchese, falesie bianche.", "zone": "Gargano", "url": "https://maps.google.com/?q=Baia+delle+Zagare+Gargano" },
+    { "name": "Spiaggia di Scialmarino", "lat": 41.8970, "lng": 16.1640, "desc": "Lunga spiaggia sabbiosa raggiungibile in auto da Vieste.", "zone": "Gargano", "url": "https://maps.google.com/?q=Spiaggia+di+Scialmarino+Vieste" },
+    { "name": "Torre Guaceto", "lat": 40.7160, "lng": 17.7920, "desc": "Area marina protetta. Snorkeling eccezionale.", "zone": "Ostuni", "url": "https://www.riservaditorreguaceto.it/" },
+    { "name": "Lama Monachile", "lat": 40.9942, "lng": 17.2212, "desc": "L'iconica spiaggetta col ponte di Polignano.", "zone": "Polignano", "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare" },
+    { "name": "Baia dei Turchi", "lat": 40.1760, "lng": 18.4827, "desc": "Sabbia bianca, acqua caraibica, sentiero nel bosco.", "zone": "Salento", "url": "https://maps.google.com/?q=Baia+dei+Turchi+Otranto" },
+    { "name": "Torre dell'Orso", "lat": 40.2724, "lng": 18.4413, "desc": "Baia a mezzaluna, faraglioni Due Sorelle.", "zone": "Salento", "url": "https://maps.google.com/?q=Torre+dell+Orso+spiaggia+Salento" },
+    { "name": "Porto Selvaggio", "lat": 40.1536, "lng": 17.9750, "desc": "Caletta rocciosa in pineta. Snorkeling straordinario.", "zone": "Salento", "url": "https://maps.google.com/?q=Porto+Selvaggio+Nardo" },
+    { "name": "Punta Prosciutto", "lat": 40.2863, "lng": 17.7615, "desc": "Acqua bassa per 100m, sabbia bianchissima.", "zone": "Salento", "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia" },
+    { "name": "Pescoluse", "lat": 39.8500, "lng": 18.2800, "desc": "\"Maldive del Salento\": sabbia bianca, acqua cristallina.", "zone": "Salento", "url": "https://maps.google.com/?q=Pescoluse+spiaggia" },
+    { "name": "Spiaggia della Purita", "lat": 40.0540, "lng": 17.9905, "desc": "Spiaggetta dentro le mura di Gallipoli. Tramonto imperdibile.", "zone": "Salento", "url": "https://maps.google.com/?q=Spiaggia+della+Purita+Gallipoli" }
+  ],
+  "culture": [
+    { "name": "Centro storico di Vieste", "lat": 41.8822, "lng": 16.1767, "desc": "Vicoli bianchi, Pizzomunno, centro storico sul promontorio.", "zone": "Gargano", "url": "https://maps.google.com/?q=Centro+storico+Vieste" },
+    { "name": "Peschici", "lat": 41.9468, "lng": 16.0143, "desc": "Borgo medievale su rupe, trabucchi.", "zone": "Gargano", "url": "https://maps.google.com/?q=Peschici+centro+storico" },
+    { "name": "Cattedrale di Trani", "lat": 41.2803, "lng": 16.4186, "desc": "Capolavoro romanico costruito sul mare.", "zone": "Trani", "url": "https://maps.google.com/?q=Cattedrale+di+Trani" },
+    { "name": "Ostuni - La Citta Bianca", "lat": 40.7295, "lng": 17.5778, "desc": "Labirinto di case bianche, Cattedrale, panorami.", "zone": "Ostuni", "url": "https://maps.google.com/?q=Cattedrale+di+Ostuni" },
+    { "name": "Alberobello (UNESCO)", "lat": 40.7846, "lng": 17.2374, "desc": "1.500 trulli unici al mondo.", "zone": "Valle d'Itria", "url": "https://maps.google.com/?q=Rione+Monti+Alberobello" },
+    { "name": "Cisternino", "lat": 40.7403, "lng": 17.4231, "desc": "Borghi piu belli d'Italia. Fornelli pronti, bombette.", "zone": "Valle d'Itria", "url": "https://maps.google.com/?q=Cisternino+centro+storico" },
+    { "name": "Polignano a Mare", "lat": 40.9954, "lng": 17.2204, "desc": "Borgo su scogliere, Lama Monachile.", "zone": "Polignano", "url": "https://maps.google.com/?q=Polignano+a+Mare+centro+storico" },
+    { "name": "Otranto - Cattedrale", "lat": 40.1456, "lng": 18.4908, "desc": "Mosaico di Pantaleone (1163): 600m².", "zone": "Salento", "url": "https://maps.google.com/?q=Cattedrale+di+Otranto" },
+    { "name": "Gallipoli - Citta Vecchia", "lat": 40.0547, "lng": 17.9910, "desc": "Isola collegata da ponte. Cattedrale, Frantoio Ipogeo.", "zone": "Salento", "url": "https://maps.google.com/?q=Gallipoli+citta+vecchia" },
+    { "name": "Lecce - Santa Croce", "lat": 40.3537, "lng": 18.1700, "desc": "Capolavoro del barocco leccese.", "zone": "Salento", "url": "https://maps.google.com/?q=Basilica+di+Santa+Croce+Lecce" }
+  ],
+  "restaurants": [
+    { "name": "Osteria degli Archi", "lat": 41.8830, "lng": 16.1760, "desc": "Vieste - Pesce garganico. 18-25€/persona.", "zone": "Gargano", "url": "https://maps.google.com/?q=Osteria+degli+Archi+Vieste" },
+    { "name": "Al Dragone", "lat": 41.8825, "lng": 16.1770, "desc": "Vieste - Terrazza panoramica, pesce. 20-30€/persona.", "zone": "Gargano", "url": "https://maps.google.com/?q=Ristorante+Al+Dragone+Vieste" },
+    { "name": "La Banchina", "lat": 41.2810, "lng": 16.4180, "desc": "Trani - Sul porto con vista cattedrale. 20-28€/persona.", "zone": "Trani", "url": "https://maps.google.com/?q=La+Banchina+ristorante+Trani" },
+    { "name": "Fornello da Ricci", "lat": 40.7410, "lng": 17.4220, "desc": "Cisternino - Bombette! 10-15€.", "zone": "Ostuni", "url": "https://maps.google.com/?q=Fornello+da+Ricci+Cisternino" },
+    { "name": "Osteria del Tempo Perso", "lat": 40.7300, "lng": 17.5770, "desc": "Ostuni - In grotta. 20-28€/persona.", "zone": "Ostuni", "url": "https://maps.google.com/?q=Osteria+del+Tempo+Perso+Ostuni" },
+    { "name": "Pescaria", "lat": 40.9960, "lng": 17.2190, "desc": "Polignano - Street food pesce. 8-15€.", "zone": "Polignano", "url": "https://www.pescaria.it/" },
+    { "name": "Alle Due Corti", "lat": 40.3530, "lng": 18.1710, "desc": "Lecce - Salentina autentica. 18-25€/persona.", "zone": "Salento", "url": "https://maps.google.com/?q=Alle+Due+Corti+Lecce" },
+    { "name": "Trattoria La Puritate", "lat": 40.0550, "lng": 17.9915, "desc": "Gallipoli - Scapece, pesce. 18-28€/persona.", "zone": "Salento", "url": "https://maps.google.com/?q=Trattoria+La+Puritate+Gallipoli" }
+  ],
+  "nature": [
+    { "name": "Foresta Umbra (UNESCO)", "lat": 41.8052, "lng": 15.9837, "desc": "Foresta millenaria di faggi. Sentieri 1-5 km.", "zone": "Gargano", "url": "https://maps.google.com/?q=Foresta+Umbra+Gargano" },
+    { "name": "Grotte Marine di Vieste", "lat": 41.8835, "lng": 16.1795, "desc": "Tour in barca 3h, ~10 grotte marine. 15-20€/adulto.", "zone": "Gargano", "url": "https://maps.google.com/?q=Grotte+Marine+Vieste" },
+    { "name": "Riserva Torre Guaceto", "lat": 40.7160, "lng": 17.7920, "desc": "Area marina protetta. Snorkeling e natura.", "zone": "Ostuni", "url": "https://www.riservaditorreguaceto.it/" },
+    { "name": "Parco Porto Selvaggio", "lat": 40.1536, "lng": 17.9750, "desc": "Pineta + caletta rocciosa. Natura pura.", "zone": "Salento", "url": "https://maps.google.com/?q=Porto+Selvaggio+Nardo" }
+  ],
+  "route": [
+    [44.9122, 8.6152],
+    [41.8822, 16.1767],
+    [41.2803, 16.4186],
+    [40.7295, 17.5778],
+    [40.7846, 17.2374],
+    [40.9954, 17.2204],
+    [40.0547, 17.9910],
+    [40.1456, 18.4908],
+    [44.9122, 8.6152]
+  ]
+}

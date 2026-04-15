@@ -1,0 +1,116 @@
+---
+const accommodation = Astro.props.accommodationData;
+---
+
+<section id="accommodation" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">{accommodation.title}</h2>
+        <p class="section-intro">{accommodation.intro}</p>
+        <div class="accommodation-grid">
+            {accommodation.stays.map((stay: any) => (
+                <div class="accommodation-card">
+                    <div class="accommodation-header">
+                        <h3>🏠 {stay.name}</h3>
+                        <span class="accommodation-type">{stay.type}</span>
+                    </div>
+                    <div class="accommodation-body">
+                        <p class="accommodation-location">📍 {stay.location}</p>
+                        <p class="accommodation-nights">🌙 {stay.nightsLabel}</p>
+                        <p class="accommodation-detail">{stay.detail}</p>
+                        {stay.url && (
+                            <a href={stay.url} target="_blank" rel="noopener noreferrer" class="accommodation-link">
+                                Sito web &rarr;
+                            </a>
+                        )}
+                        {stay.alternative && (
+                            <p class="accommodation-alt">
+                                <strong>Alternativa:</strong> {stay.alternative}
+                                {stay.alternativeUrl && (
+                                    <a href={stay.alternativeUrl} target="_blank" rel="noopener noreferrer" class="ext-link"> Vedi &rarr;</a>
+                                )}
+                            </p>
+                        )}
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>
+
+<style>
+    .accommodation-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .accommodation-card {
+        background: var(--color-white, #fff);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .accommodation-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .accommodation-header {
+        background: linear-gradient(135deg, var(--color-primary, #1a5276), var(--color-primary-light, #2980b9));
+        color: white;
+        padding: 1.2rem 1.5rem;
+    }
+
+    .accommodation-header h3 {
+        margin: 0 0 0.3rem;
+        font-size: 1.15rem;
+    }
+
+    .accommodation-type {
+        font-size: 0.85rem;
+        opacity: 0.9;
+        background: rgba(255,255,255,0.15);
+        padding: 0.2rem 0.6rem;
+        border-radius: 20px;
+        display: inline-block;
+    }
+
+    .accommodation-body {
+        padding: 1.5rem;
+    }
+
+    .accommodation-location,
+    .accommodation-nights {
+        margin: 0.3rem 0;
+        font-weight: 500;
+    }
+
+    .accommodation-detail {
+        margin: 0.8rem 0;
+        color: var(--color-text-light, #555);
+        line-height: 1.6;
+    }
+
+    .accommodation-link {
+        display: inline-block;
+        margin-top: 0.5rem;
+        color: var(--color-primary, #1a5276);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .accommodation-link:hover {
+        text-decoration: underline;
+    }
+
+    .accommodation-alt {
+        margin-top: 1rem;
+        padding-top: 0.8rem;
+        border-top: 1px solid #eee;
+        font-size: 0.9rem;
+        color: var(--color-text-light, #555);
+    }
+</style>
