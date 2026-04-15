@@ -1,6 +1,6 @@
 {
   "campsites": [
-    { "name": "Centro Vacanze Summerland", "lat": 43.7180, "lng": 13.2140, "desc": "Senigallia (Marche) - Tappa intermedia andata. 3 piscine, vicino alla spiaggia, animazione.", "zone": "Tappa intermedia", "url": "https://www.summerland.it/" },
+    { "name": "Centro Vacanze Summerland", "lat": 43.7180, "lng": 13.2140, "desc": "Senigallia (Marche) - Tappa intermedia andata. 3 piscine, vicino alla spiaggia, animazione.", "zone": "Tappa intermedia", "url": "https://www.campingsummerland.it/" },
     { "name": "Molinella Vacanze", "lat": 41.8690, "lng": 16.1920, "desc": "Vieste (Gargano) - Direttamente sulla spiaggia, campeggio storico dal 1975, area camper service.", "zone": "Gargano", "url": "https://www.molinellavacanze.it/" },
     { "name": "Campeggio Lamaforca", "lat": 40.7080, "lng": 17.6600, "desc": "Carovigno - Immerso tra gli ulivi, vicino Torre Guaceto. Base strategica per Ostuni e Polignano.", "zone": "Ostuni", "url": "https://www.lamaforca.it/" },
     { "name": "Baia di Gallipoli Camping Village", "lat": 40.0300, "lng": 17.9600, "desc": "Gallipoli - Parco Naturale di Punta Pizzo, animazione, piscina, accesso spiaggia.", "zone": "Salento", "url": "https://www.baiadigallipoli.com/" },
@@ -16,7 +16,9 @@
     { "name": "Baia dei Turchi", "lat": 40.1760, "lng": 18.4827, "desc": "Sabbia bianca, acqua caraibica, sentiero nel bosco.", "zone": "Salento", "url": "https://maps.google.com/?q=Baia+dei+Turchi+Otranto" },
     { "name": "Torre dell'Orso", "lat": 40.2724, "lng": 18.4413, "desc": "Baia a mezzaluna, faraglioni Due Sorelle.", "zone": "Salento", "url": "https://maps.google.com/?q=Torre+dell+Orso+spiaggia+Salento" },
     { "name": "Porto Selvaggio", "lat": 40.1536, "lng": 17.9750, "desc": "Caletta rocciosa in pineta. Snorkeling straordinario.", "zone": "Salento", "url": "https://maps.google.com/?q=Porto+Selvaggio+Nardo" },
-    { "name": "Punta Prosciutto", "lat": 40.2863, "lng": 17.7615, "desc": "Acqua bassa per 100m, sabbia bianchissima.", "zone": "Salento", "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia" }
+    { "name": "Punta Prosciutto", "lat": 40.2863, "lng": 17.7615, "desc": "Acqua bassa per 100m, sabbia bianchissima.", "zone": "Salento", "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia" },
+    { "name": "Cala Porta Vecchia", "lat": 40.9503, "lng": 17.3040, "desc": "Spiaggia di sabbia dentro le mura di Monopoli.", "zone": "Monopoli", "url": "https://maps.google.com/?q=Cala+Porta+Vecchia+Monopoli" },
+    { "name": "Spiaggia della Purita", "lat": 40.0540, "lng": 17.9905, "desc": "Spiaggetta dentro le mura della citta vecchia di Gallipoli. Tramonto imperdibile.", "zone": "Salento", "url": "https://maps.google.com/?q=Spiaggia+della+Purita+Gallipoli" }
   ],
   "culture": [
     { "name": "Centro storico di Vieste", "lat": 41.8822, "lng": 16.1767, "desc": "Vicoli bianchi, Cattedrale romanica, Castello Svevo, Pizzomunno.", "zone": "Gargano", "url": "https://maps.google.com/?q=Centro+storico+Vieste" },

@@ -22,7 +22,7 @@
       "nightsLabel": "1 notte: 24 Agosto",
       "detail": "3 piscine, vicino alla spiaggia, animazione, ideale per famiglie. Piazzola camper: ~30-45€/notte.",
       "alternative": "Camping delle Rose - Martinsicuro (TE), sulla costa abruzzese.",
-      "url": "https://www.summerland.it/",
+      "url": "https://www.campingsummerland.it/",
       "alternativeUrl": "https://www.campingdellerose.it/"
     }
   },
@@ -114,7 +114,7 @@
     "weekday": "Giovedi",
     "title": "Vieste → Trani → Ostuni",
     "tags": ["travel", "culture"],
-    "travelInfo": "~260 km totali - viaggio spezzato con soste culturali",
+    "travelInfo": "~320 km totali - viaggio spezzato con soste culturali (strade garganiche lente, prevedere 5-6h)",
     "description": "",
     "activities": [
       {
@@ -374,12 +374,12 @@
     "campsite": {
       "name": "Camping delle Rose",
       "location": "Martinsicuro (TE)",
-      "nights": 1,
-      "nightsLabel": "1 notte: 3 Settembre",
-      "detail": "Spiaggia sabbiosa, fondale basso, ideale per l'ultima notte di relax. Piazzola: ~25-35€/notte.",
+      "nights": 2,
+      "nightsLabel": "2 notti: 3-4 Settembre",
+      "detail": "Spiaggia sabbiosa, fondale basso, ideale per le ultime notti di relax. Piazzola: ~25-35€/notte.",
       "alternative": "Centro Vacanze Summerland - Senigallia (se preferite le Marche).",
       "url": "https://www.campingdellerose.it/",
-      "alternativeUrl": "https://www.summerland.it/"
+      "alternativeUrl": "https://www.campingsummerland.it/"
     }
   },
   {

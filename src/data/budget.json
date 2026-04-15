@@ -2,15 +2,15 @@
   "categories": [
     {
       "title": "Campeggi",
-      "detail": "11 notti in 5 campeggi diversi",
+      "detail": "12 notti in 5 campeggi diversi",
       "items": [
         "Senigallia: 1 notte ~ 35€",
         "Vieste: 2 notti ~ 90€",
         "Ostuni: 3 notti ~ 120€",
         "Gallipoli: 4 notti ~ 200€",
-        "Martinsicuro: 1 notte ~ 30€"
+        "Martinsicuro: 2 notti ~ 60€"
       ],
-      "total": "~475€"
+      "total": "~505€"
     },
     {
       "title": "Ristoranti",
@@ -29,33 +29,33 @@
       "detail": "Musei, grotte, barche, bici",
       "items": [
         "Castel del Monte: ~20€",
-        "Grotte Castellana: ~72€",
+        "Grotte Castellana: ~80€",
         "Grotte marine Vieste: ~55€",
         "Musei vari: ~50€",
         "Noleggio bici: ~100€",
         "Parcheggi: ~50€"
       ],
-      "total": "~350€"
+      "total": "~358€"
     },
     {
       "title": "Carburante",
-      "detail": "~2.200 km, consumo ~10-12 L/100km",
+      "detail": "~2.800 km, consumo ~10-12 L/100km",
       "items": [
-        "Totale litri: ~240 L",
+        "Totale litri: ~310 L",
         "Prezzo diesel: ~2.153€/L (media nazionale self)"
       ],
-      "total": "~517€"
+      "total": "~660€"
     },
     {
       "title": "Pedaggi autostradali",
-      "detail": "A21, A14, A1",
+      "detail": "A21, A14, A1 - Classe B (camper altezza >3m)",
       "items": [
-        "Torino-Senigallia: ~35€",
-        "Senigallia-Foggia: ~25€",
-        "Salento-Martinsicuro: ~30€",
-        "Martinsicuro-Torino: ~40€"
+        "Torino-Senigallia: ~45€",
+        "Senigallia-Foggia: ~35€",
+        "Salento-Martinsicuro: ~40€",
+        "Martinsicuro-Torino: ~55€"
       ],
-      "total": "~130€"
+      "total": "~175€"
     },
     {
       "title": "Spesa alimentare",
@@ -67,7 +67,7 @@
       "total": "~450€"
     }
   ],
-  "grandTotal": "~2550€",
+  "grandTotal": "~2800€",
   "grandTotalNote": "Il noleggio del camper Roadsurfer Family Finca va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
   "fuelPrice": {
     "price": 2.153,
