@@ -1,0 +1,8 @@
+[
+  { "name": "Panzerotti", "description": "Mozzarella filante + pomodoro, fritti. Irresistibili." },
+  { "name": "Bombette", "description": "Involtini di carne ripieni di formaggio, alla griglia." },
+  { "name": "Pasticciotto", "description": "Pasta frolla + crema pasticcera. Colazione perfetta (~2€)." },
+  { "name": "Focaccia barese", "description": "Soffice, con pomodorini e olive. Come una pizza ma diversa." },
+  { "name": "Rustico leccese", "description": "Sfoglia con besciamella, mozzarella e pomodoro." },
+  { "name": "Frittura di pesce", "description": "Calamari e gamberi fritti. Classico per tutti." }
+]

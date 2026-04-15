@@ -1,0 +1,104 @@
+---
+import mapPoints from '../data/map-points.json';
+---
+
+<section id="map" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Mappa del Viaggio</h2>
+        <p class="section-intro">Tutti i punti di interesse, campeggi, spiagge e ristoranti sulla mappa interattiva. Usa i filtri per esplorare.</p>
+        
+        <div class="map-filters">
+            <button class="map-filter active" data-filter="all">Tutti</button>
+            <button class="map-filter" data-filter="campsites">Campeggi</button>
+            <button class="map-filter" data-filter="beaches">Spiagge</button>
+            <button class="map-filter" data-filter="culture">Cultura</button>
+            <button class="map-filter" data-filter="restaurants">Ristoranti</button>
+            <button class="map-filter" data-filter="nature">Natura</button>
+        </div>
+        
+        <div id="travel-map"></div>
+        
+        <div class="map-legend">
+            <div class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span> Campeggi</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#3498db"></span> Spiagge</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#9b59b6"></span> Cultura</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#e67e22"></span> Ristoranti</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#27ae60"></span> Natura</div>
+        </div>
+    </div>
+</section>
+
+<script is:inline define:vars={{ mapPoints }}>
+    document.addEventListener('DOMContentLoaded', () => {
+        const mapEl = document.getElementById('travel-map');
+        if (!mapEl || typeof L === 'undefined') return;
+
+        const map = L.map('travel-map', { scrollWheelZoom: false }).setView([40.8, 17.0], 7);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            maxZoom: 18
+        }).addTo(map);
+
+        // Route line
+        L.polyline(mapPoints.route, {
+            color: '#1a5276', weight: 3, opacity: 0.5, dashArray: '8, 8'
+        }).addTo(map);
+
+        // Torino marker
+        const homeIcon = L.divIcon({
+            className: 'custom-marker-wrapper',
+            html: '<div class="custom-marker" style="background:#2c3e50;width:32px;height:32px;font-size:16px;">\uD83C\uDFE0</div>',
+            iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
+        });
+        L.marker([45.0703, 7.6869], { icon: homeIcon }).addTo(map)
+            .bindPopup('<div class="popup-title">Torino</div><div class="popup-desc">Partenza e ritorno</div>');
+
+        const categoryColors = {
+            campsites: '#e74c3c', beaches: '#3498db', culture: '#9b59b6',
+            restaurants: '#e67e22', nature: '#27ae60'
+        };
+        const categoryIcons = {
+            campsites: '\u26FA', beaches: '\uD83C\uDFD6', culture: '\uD83C\uDFDB',
+            restaurants: '\uD83C\uDF7D', nature: '\uD83C\uDF33'
+        };
+
+        const allMarkers = [];
+
+        Object.keys(categoryColors).forEach(cat => {
+            if (!mapPoints[cat]) return;
+            mapPoints[cat].forEach(item => {
+                const color = categoryColors[cat];
+                const icon = L.divIcon({
+                    className: 'custom-marker-wrapper',
+                    html: '<div class="custom-marker" style="background:' + color + '">' + categoryIcons[cat] + '</div>',
+                    iconSize: [28, 28], iconAnchor: [14, 14], popupAnchor: [0, -16]
+                });
+                const marker = L.marker([item.lat, item.lng], { icon }).addTo(map)
+                    .bindPopup(
+                        '<div class="popup-title">' + item.name + '</div>' +
+                        '<div class="popup-type">' + item.zone + '</div>' +
+                        '<div class="popup-desc">' + item.desc + '</div>'
+                    );
+                allMarkers.push({ marker, category: cat });
+            });
+        });
+
+        map.fitBounds([[39.5, 13.5], [45.5, 19.0]]);
+
+        document.querySelectorAll('.map-filter').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.map-filter').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                allMarkers.forEach(({ marker, category }) => {
+                    if (filter === 'all' || filter === category) {
+                        marker.addTo(map);
+                    } else {
+                        map.removeLayer(marker);
+                    }
+                });
+            });
+        });
+    });
+</script>

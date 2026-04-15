@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Baia delle Zagare",
+    "zone": "Gargano",
+    "zoneColor": "gargano",
+    "description": "Due faraglioni spettacolari, acqua turchese, falesie bianche. La spiaggia piu scenografica del Gargano.",
+    "tags": ["Ciottoli", "Snorkeling", "300 gradini"],
+    "tip": "Arrivate entro le 9:00. Scarpe da scoglio necessarie.",
+    "lat": 41.8328,
+    "lng": 16.1842
+  },
+  {
+    "name": "Vignanotica",
+    "zone": "Gargano",
+    "zoneColor": "gargano",
+    "description": "Spiaggia selvaggia sotto falesie di 30m, raggiungibile solo a piedi (20 min nel bosco).",
+    "tags": ["Avventura", "Selvaggia", "No servizi"],
+    "tip": "Portate acqua e cibo. Sentiero non adatto a passeggini.",
+    "lat": 41.8147,
+    "lng": 16.1890
+  },
+  {
+    "name": "Scialmarino",
+    "zone": "Gargano",
+    "zoneColor": "gargano",
+    "description": "Lunga spiaggia sabbiosa, raggiungibile in bici da Vieste (~3 km). Fondale basso e dolce.",
+    "tags": ["Sabbia", "Bici", "Famiglie"],
+    "tip": "Perfetta per combinare bici + mare.",
+    "lat": 41.8970,
+    "lng": 16.1640
+  },
+  {
+    "name": "Torre Guaceto",
+    "zone": "Ostuni",
+    "zoneColor": "ostuni",
+    "description": "Area marina protetta con dune, snorkeling eccezionale. Praterie di Posidonia, stelle marine, cavallucci.",
+    "tags": ["Protetta", "Snorkeling", "Ciclabile"],
+    "tip": "Navetta obbligatoria. Arrivate entro le 9:00 in agosto.",
+    "lat": 40.7160,
+    "lng": 17.7920
+  },
+  {
+    "name": "Lama Monachile",
+    "zone": "Polignano",
+    "zoneColor": "polignano",
+    "description": "L'iconica spiaggetta di ciottoli incorniciata dal ponte. L'immagine piu fotografata di Puglia.",
+    "tags": ["Iconica", "Ciottoli", "Centro storico"],
+    "tip": "Affollatissima in agosto. Mattina presto o tardo pomeriggio.",
+    "lat": 40.9942,
+    "lng": 17.2212
+  },
+  {
+    "name": "Porto Ghiacciolo",
+    "zone": "Monopoli",
+    "zoneColor": "polignano",
+    "description": "Acqua gelida e trasparente da sorgenti sottomarine. Sembra di galleggiare nel vuoto.",
+    "tags": ["Snorkeling", "Scogli", "Avventura"],
+    "tip": "Scarpe da scoglio indispensabili. Sentiero tra gli scogli.",
+    "lat": 40.9588,
+    "lng": 17.3150
+  },
+  {
+    "name": "Cala Porta Vecchia",
+    "zone": "Monopoli",
+    "zoneColor": "polignano",
+    "description": "Spiaggia di sabbia dentro le mura del centro storico di Monopoli. Bagno ai piedi della citta medievale.",
+    "tags": ["Sabbia", "Centro storico", "Unica"],
+    "tip": "Molto piccola, si riempie presto.",
+    "lat": 40.9503,
+    "lng": 17.3040
+  },
+  {
+    "name": "Baia dei Turchi",
+    "zone": "Salento",
+    "zoneColor": "salento",
+    "description": "Sabbia bianca, acqua caraibica. Dove sbarcarono i turchi nel 1480. Sentiero nel bosco.",
+    "tags": ["Sabbia", "Bassa", "Famiglie"],
+    "tip": "Parcheggio 5€ + 10 min a piedi nel bosco.",
+    "lat": 40.1760,
+    "lng": 18.4827
+  },
+  {
+    "name": "Torre dell'Orso",
+    "zone": "Salento",
+    "zoneColor": "salento",
+    "description": "Baia a mezzaluna con i faraglioni \"Due Sorelle\". Sabbia argento, acqua turchese.",
+    "tags": ["Sabbia", "Faraglioni", "Bandiera Blu"],
+    "tip": "I faraglioni sono nuotabili (~50m). Leggenda delle due sorelle.",
+    "lat": 40.2724,
+    "lng": 18.4413
+  },
+  {
+    "name": "Punta Prosciutto",
+    "zone": "Salento",
+    "zoneColor": "salento",
+    "description": "Acqua bassa per 100 metri, sabbia bianchissima. \"I Caraibi della Puglia\".",
+    "tags": ["Sabbia", "Acqua bassa", "Dune"],
+    "tip": "Lato sinistro piu selvaggio, lato destro attrezzato.",
+    "lat": 40.2863,
+    "lng": 17.7615
+  },
+  {
+    "name": "Porto Selvaggio",
+    "zone": "Salento",
+    "zoneColor": "salento",
+    "description": "Caletta in pineta, solo scogli. Acqua gelida da sorgenti. Snorkeling straordinario. Natura pura.",
+    "tags": ["Scogli", "Selvaggia", "Snorkeling"],
+    "tip": "15 min di sentiero nella pineta. Nessun servizio.",
+    "lat": 40.1536,
+    "lng": 17.9750
+  },
+  {
+    "name": "Spiaggia della Purita",
+    "zone": "Salento",
+    "zoneColor": "salento",
+    "description": "Spiaggetta dentro le mura della citta vecchia di Gallipoli. Tramonto imperdibile.",
+    "tags": ["Centro storico", "Tramonto", "Piccola"],
+    "tip": "Tramonto dal bastione di Gallipoli e obbligatorio.",
+    "lat": 40.0540,
+    "lng": 17.9905
+  }
+]

@@ -1,0 +1,82 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-brand">Puglia 2026</div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#overview">Panoramica</a></li>
+            <li><a href="#camper">Camper</a></li>
+            <li><a href="#itinerary">Itinerario</a></li>
+            <li><a href="#map">Mappa</a></li>
+            <li><a href="#beaches">Spiagge</a></li>
+            <li><a href="#restaurants">Ristoranti</a></li>
+            <li><a href="#budget">Budget</a></li>
+        </ul>
+    </nav>
+
+    <slot />
+
+    <footer>
+        <div class="container">
+            <p>Puglia 2026 - Vacanza in Camper</p>
+            <p class="footer-small">24 Agosto / 5 Settembre 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
+    <script>
+        // Navbar
+        const navbar = document.getElementById('navbar')!;
+        const toggle = document.getElementById('navToggle')!;
+        const links = document.getElementById('navLinks')!;
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        toggle.addEventListener('click', () => links.classList.toggle('open'));
+        navItems.forEach(item => item.addEventListener('click', () => links.classList.remove('open')));
+
+        // Active link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            const scrollPos = window.scrollY + 100;
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                const id = section.getAttribute('id');
+                const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+                if (link) {
+                    if (scrollPos >= top && scrollPos < top + height) {
+                        navItems.forEach(a => a.classList.remove('active'));
+                        link.classList.add('active');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

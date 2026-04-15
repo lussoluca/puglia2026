@@ -1,0 +1,32 @@
+{
+  "name": "Roadsurfer Family Finca",
+  "url": "https://roadsurfer.com/it/noleggio-camper/family-finca/",
+  "image": "https://roadsurfer.com/wp-content/uploads/family-finca-rv-sprinter-van-camper-in-the-mountains-xl.jpg",
+  "tagline": "La nostra casa su quattro ruote per 13 giorni di avventura",
+  "pickupLocation": "Torino",
+  "priceFrom": 69,
+  "specs": [
+    { "label": "Posti sedere", "value": "4 adulti" },
+    { "label": "Posti letto", "value": "2+2 (fissi)" },
+    { "label": "Lunghezza", "value": "5,99 m" },
+    { "label": "Altezza", "value": "3,10 m (tetto alto)" },
+    { "label": "Cambio", "value": "Automatico" },
+    { "label": "Motore", "value": "177 CV Diesel" },
+    { "label": "Cucina", "value": "2 fornelli + frigo 69L" },
+    { "label": "Bagno", "value": "WC + doccia calda" },
+    { "label": "Extra", "value": "Tenda da sole, tavolo, 2 sedie" },
+    { "label": "Acqua dolce", "value": "100 L" },
+    { "label": "Carico max", "value": "300 kg" },
+    { "label": "Noleggio da", "value": "Torino" }
+  ],
+  "features": [
+    "Aria condizionata",
+    "Riscaldamento",
+    "Bluetooth",
+    "Apple CarPlay",
+    "Telecamera retromarcia",
+    "ISOFIX",
+    "Doccino esterno",
+    "Portabici"
+  ]
+}

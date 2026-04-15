@@ -1,0 +1,28 @@
+---
+const stages = [
+    { icon: "📍", title: "Partenza", place: "Torino, Piemonte", date: "Lunedi 24 Agosto", highlight: false },
+    { icon: "🏡", title: "Tappa 1", place: "Senigallia (Marche)", date: "24 Agosto - 1 notte", highlight: false },
+    { icon: "⛰️", title: "Tappa 2", place: "Gargano (Vieste)", date: "25-27 Agosto - 2 notti", highlight: true },
+    { icon: "🏘️", title: "Tappa 3", place: "Ostuni / Valle d'Itria", date: "27-30 Agosto - 3 notti", highlight: true },
+    { icon: "☀️", title: "Tappa 4", place: "Salento (Lecce/Gallipoli)", date: "30 Ago - 3 Set - 4 notti", highlight: true },
+    { icon: "🏠", title: "Tappa 5", place: "Martinsicuro (Abruzzo)", date: "3-4 Settembre - 1 notte", highlight: false },
+    { icon: "📍", title: "Ritorno", place: "Torino", date: "Sabato 5 Settembre", highlight: false },
+];
+---
+
+<section id="overview" class="section">
+    <div class="container">
+        <h2 class="section-title">Panoramica del Viaggio</h2>
+        <p class="section-intro">13 giorni on the road, dal Gargano al Salento, passando per la Valle d'Itria. Un mix perfetto di cultura, mare, avventura e buon cibo.</p>
+        <div class="overview-grid">
+            {stages.map(s => (
+                <div class={`overview-card ${s.highlight ? 'highlight' : ''}`}>
+                    <div class="overview-card-icon">{s.icon}</div>
+                    <h3>{s.title}</h3>
+                    <p>{s.place}</p>
+                    <span class="overview-date">{s.date}</span>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>

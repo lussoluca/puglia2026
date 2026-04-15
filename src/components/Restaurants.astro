@@ -1,0 +1,41 @@
+---
+import zones from '../data/restaurants.json';
+import foodTips from '../data/food-tips.json';
+---
+
+<section id="restaurants" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Dove Mangiare</h2>
+        <p class="section-intro">Proposte per le sere in cui vorrete mangiare fuori. Cucina tipica pugliese, dai trabucchi del Gargano ai fornelli di Cisternino, dal barocco di Lecce al pesce del Salento.</p>
+
+        <div class="food-tip-box">
+            <h4>Piatti da far provare ai ragazzi</h4>
+            <div class="food-tips-grid">
+                {foodTips.map(tip => (
+                    <div class="food-tip"><strong>{tip.name}</strong> - {tip.description}</div>
+                ))}
+            </div>
+        </div>
+
+        <div class="restaurant-zones">
+            {zones.map(zone => (
+                <div class="restaurant-zone">
+                    <h3 class="zone-title"><span class="zone-icon">{zone.zoneIcon}</span> {zone.zone}</h3>
+                    <p class="zone-subtitle">{zone.mealsAdvice}</p>
+                    <div class="restaurant-cards">
+                        {zone.restaurants.map(r => (
+                            <div class={`restaurant-card ${r.featured ? 'featured' : ''}`}>
+                                {r.featured && <div class="featured-badge">{r.featuredLabel}</div>}
+                                <h4>{r.name}</h4>
+                                <p class="restaurant-location">{r.location}</p>
+                                <p class="restaurant-type">{r.type}</p>
+                                <p>{r.description}</p>
+                                <span class="restaurant-price">{r.price}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>

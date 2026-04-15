@@ -1,0 +1,17 @@
+---
+import tips from '../data/tips.json';
+---
+
+<section id="tips" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Consigli Pratici</h2>
+        <div class="tips-grid">
+            {tips.map(tip => (
+                <div class="tip-card">
+                    <h4>{tip.icon} {tip.title}</h4>
+                    <p>{tip.text}</p>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>

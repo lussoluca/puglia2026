@@ -1,0 +1,32 @@
+---
+import camper from '../data/camper.json';
+---
+
+<section id="camper" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Il Nostro Camper</h2>
+        <div class="camper-layout">
+            <div class="camper-image">
+                <img src={camper.image} alt={camper.name} loading="lazy">
+            </div>
+            <div class="camper-details">
+                <h3>{camper.name}</h3>
+                <p class="camper-tagline">{camper.tagline}</p>
+                <a href={camper.url} target="_blank" class="camper-link">Vedi sul sito Roadsurfer &rarr;</a>
+                <div class="camper-specs">
+                    {camper.specs.map(spec => (
+                        <div class="spec">
+                            <span class="spec-label">{spec.label}</span>
+                            <span class="spec-value">{spec.value}</span>
+                        </div>
+                    ))}
+                </div>
+                <div class="camper-features">
+                    {camper.features.map(f => (
+                        <span class="feature-tag">{f}</span>
+                    ))}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

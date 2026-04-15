@@ -1,0 +1,29 @@
+---
+import beaches from '../data/beaches.json';
+---
+
+<section id="beaches" class="section">
+    <div class="container">
+        <h2 class="section-title">Le Spiagge</h2>
+        <p class="section-intro">Le spiagge piu belle lungo il nostro itinerario, dalle scogliere del Gargano alle acque caraibiche del Salento.</p>
+        <div class="beaches-grid">
+            {beaches.map(beach => (
+                <div class="beach-card">
+                    <div class={`beach-card-header ${beach.zoneColor}`}>
+                        <span class="beach-zone">{beach.zone}</span>
+                    </div>
+                    <div class="beach-card-body">
+                        <h3>{beach.name}</h3>
+                        <p>{beach.description}</p>
+                        <div class="beach-tags">
+                            {beach.tags.map(tag => (
+                                <span class="beach-tag">{tag}</span>
+                            ))}
+                        </div>
+                        <p class="beach-tip">{beach.tip}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>

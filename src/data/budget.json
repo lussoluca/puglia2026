@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "title": "Campeggi",
+      "detail": "11 notti in 5 campeggi diversi",
+      "items": [
+        "Senigallia: 1 notte ~ 35€",
+        "Vieste: 2 notti ~ 90€",
+        "Ostuni: 3 notti ~ 120€",
+        "Gallipoli: 4 notti ~ 200€",
+        "Martinsicuro: 1 notte ~ 30€"
+      ],
+      "total": "~475€"
+    },
+    {
+      "title": "Ristoranti",
+      "detail": "8-10 pasti fuori su 13 giorni",
+      "items": [
+        "Gargano: 2-3 cene ~ 200€",
+        "Trani: 1 pranzo ~ 80€",
+        "Cisternino/Ostuni: 2 cene ~ 120€",
+        "Polignano: 1 pranzo ~ 50€",
+        "Salento: 2-3 cene ~ 200€"
+      ],
+      "total": "~650€"
+    },
+    {
+      "title": "Attivita e Ingressi",
+      "detail": "Musei, grotte, barche, bici",
+      "items": [
+        "Castel del Monte: ~20€",
+        "Grotte Castellana: ~72€",
+        "Grotte marine Vieste: ~55€",
+        "Musei vari: ~50€",
+        "Noleggio bici: ~100€",
+        "Parcheggi: ~50€"
+      ],
+      "total": "~350€"
+    },
+    {
+      "title": "Carburante",
+      "detail": "~2.200 km, consumo ~10-12 L/100km",
+      "items": [
+        "Totale litri: ~240 L",
+        "Prezzo diesel: ~1,65€/L"
+      ],
+      "total": "~400€"
+    },
+    {
+      "title": "Pedaggi autostradali",
+      "detail": "A21, A14, A1",
+      "items": [
+        "Torino-Senigallia: ~35€",
+        "Senigallia-Foggia: ~25€",
+        "Salento-Martinsicuro: ~30€",
+        "Martinsicuro-Torino: ~40€"
+      ],
+      "total": "~130€"
+    },
+    {
+      "title": "Spesa alimentare",
+      "detail": "Colazioni, pranzi e cene al camper",
+      "items": [
+        "~30-40€/giorno per 4 persone",
+        "13 giorni"
+      ],
+      "total": "~450€"
+    }
+  ],
+  "grandTotal": "~2.450€",
+  "grandTotalNote": "Il noleggio del camper Roadsurfer Family Finca va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo)."
+}

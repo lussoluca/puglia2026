@@ -1,0 +1,36 @@
+---
+import budget from '../data/budget.json';
+import camper from '../data/camper.json';
+---
+
+<section id="budget" class="section">
+    <div class="container">
+        <h2 class="section-title">Budget Indicativo</h2>
+        <p class="section-intro">Stima dei costi principali per il viaggio. I prezzi sono indicativi e possono variare.</p>
+
+        <div class="budget-grid">
+            {budget.categories.map(cat => (
+                <div class="budget-card">
+                    <h3>{cat.title}</h3>
+                    <p class="budget-detail">{cat.detail}</p>
+                    <ul>
+                        {cat.items.map(item => (
+                            <li>{item}</li>
+                        ))}
+                    </ul>
+                    <span class="budget-total">{cat.total}</span>
+                </div>
+            ))}
+        </div>
+
+        <div class="budget-summary">
+            <h3>Totale stimato (escluso noleggio camper)</h3>
+            <p class="budget-grand-total">{budget.grandTotal}</p>
+            <p class="budget-note">
+                {budget.grandTotalNote.split('Roadsurfer')[0]}
+                <a href={camper.url} target="_blank">Roadsurfer</a>
+                {budget.grandTotalNote.split('Roadsurfer').slice(1).join('Roadsurfer')}
+            </p>
+        </div>
+    </div>
+</section>

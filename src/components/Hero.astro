@@ -1,0 +1,30 @@
+---
+import trip from '../data/trip.json';
+---
+
+<section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>{trip.title}</h1>
+        <p class="hero-subtitle">{trip.subtitle}</p>
+        <div class="hero-info">
+            <div class="hero-info-item">
+                <span class="hero-icon">&#128197;</span>
+                <span>24 Ago - 5 Set</span>
+            </div>
+            <div class="hero-info-item">
+                <span class="hero-icon">&#128663;</span>
+                <span>~{trip.totalKm.toLocaleString()} km</span>
+            </div>
+            <div class="hero-info-item">
+                <span class="hero-icon">&#128106;</span>
+                <span>{trip.people} persone</span>
+            </div>
+            <div class="hero-info-item">
+                <span class="hero-icon">&#127749;</span>
+                <span>{trip.totalNights} notti</span>
+            </div>
+        </div>
+        <a href="#overview" class="hero-cta">Scopri il viaggio</a>
+    </div>
+</section>

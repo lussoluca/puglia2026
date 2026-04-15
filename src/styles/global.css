@@ -1,0 +1,276 @@
+/* ===================================
+   PUGLIA 2026 - Global Styles
+   =================================== */
+
+:root {
+    --color-primary: #1a5276;
+    --color-primary-light: #2980b9;
+    --color-accent: #e67e22;
+    --color-accent-light: #f39c12;
+    --color-sea: #3498db;
+    --color-nature: #27ae60;
+    --color-culture: #9b59b6;
+    --color-red: #e74c3c;
+    --color-bg: #fafbfc;
+    --color-bg-alt: #f0f3f5;
+    --color-text: #2c3e50;
+    --color-text-light: #7f8c8d;
+    --color-white: #ffffff;
+    --color-border: #e0e4e8;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+    --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-bg);
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* --- NAVBAR --- */
+#navbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 24px; height: 60px;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+#navbar.scrolled { box-shadow: var(--shadow-md); }
+.nav-brand { font-family: var(--font-display); font-weight: 700; font-size: 1.4rem; color: var(--color-primary); }
+.nav-links { list-style: none; display: flex; gap: 8px; }
+.nav-links a {
+    text-decoration: none; color: var(--color-text); font-size: 0.9rem; font-weight: 500;
+    padding: 8px 14px; border-radius: var(--radius-sm); transition: background 0.2s, color 0.2s;
+}
+.nav-links a:hover, .nav-links a.active { background: var(--color-primary); color: var(--color-white); }
+.nav-toggle {
+    display: none; background: none; border: none; cursor: pointer;
+    padding: 8px; flex-direction: column; gap: 5px;
+}
+.nav-toggle span { display: block; width: 24px; height: 2px; background: var(--color-text); transition: transform 0.3s; }
+
+/* --- HERO --- */
+#hero {
+    position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, #1a5276 0%, #2980b9 50%, #3498db 100%); overflow: hidden;
+}
+.hero-overlay {
+    position: absolute; inset: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800"><path fill="rgba(255,255,255,0.05)" d="M0,400L60,380C120,360,240,320,360,310C480,300,600,320,720,350C840,380,960,420,1080,410C1200,400,1320,340,1380,310L1440,280V800H0Z"/><path fill="rgba(255,255,255,0.03)" d="M0,500L60,520C120,540,240,580,360,570C480,560,600,500,720,480C840,460,960,480,1080,500C1200,520,1320,540,1380,550L1440,560V800H0Z"/></svg>') no-repeat bottom center;
+    background-size: cover;
+}
+.hero-content { position: relative; text-align: center; color: var(--color-white); padding: 80px 24px 40px; }
+.hero-content h1 { font-family: var(--font-display); font-size: clamp(3rem, 8vw, 5.5rem); font-weight: 700; margin-bottom: 16px; letter-spacing: -1px; }
+.hero-subtitle { font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 300; opacity: 0.9; max-width: 600px; margin: 0 auto 40px; }
+.hero-info { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin-bottom: 40px; }
+.hero-info-item {
+    display: flex; align-items: center; gap: 8px; font-size: 1.1rem; font-weight: 500;
+    background: rgba(255,255,255,0.15); padding: 10px 20px; border-radius: 50px; backdrop-filter: blur(5px);
+}
+.hero-icon { font-size: 1.4rem; }
+.hero-cta {
+    display: inline-block; background: var(--color-accent); color: var(--color-white); text-decoration: none;
+    padding: 14px 36px; border-radius: 50px; font-weight: 600; font-size: 1.1rem; transition: transform 0.2s, box-shadow 0.2s;
+}
+.hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(230,126,34,0.4); }
+
+/* --- SECTIONS --- */
+.section { padding: 80px 0; }
+.section-alt { background: var(--color-bg-alt); }
+.section-title { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.8rem); color: var(--color-primary); text-align: center; margin-bottom: 16px; }
+.section-intro { text-align: center; color: var(--color-text-light); max-width: 700px; margin: 0 auto 48px; font-size: 1.05rem; }
+
+/* --- OVERVIEW --- */
+.overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+.overview-card {
+    background: var(--color-white); border-radius: var(--radius); padding: 24px; text-align: center;
+    box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); transition: transform 0.2s, box-shadow 0.2s;
+}
+.overview-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.overview-card.highlight { border-color: var(--color-primary-light); background: linear-gradient(135deg, rgba(41,128,185,0.05), rgba(41,128,185,0.02)); }
+.overview-card-icon { font-size: 2.4rem; margin-bottom: 12px; }
+.overview-card h3 { font-size: 1rem; color: var(--color-primary); margin-bottom: 4px; }
+.overview-card p { font-weight: 600; margin-bottom: 8px; }
+.overview-date { font-size: 0.85rem; color: var(--color-text-light); }
+
+/* --- CAMPER --- */
+.camper-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.camper-image img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+.camper-details h3 { font-family: var(--font-display); font-size: 1.8rem; color: var(--color-primary); margin-bottom: 8px; }
+.camper-tagline { color: var(--color-text-light); margin-bottom: 12px; }
+.camper-link { display: inline-block; color: var(--color-primary-light); text-decoration: none; font-weight: 600; margin-bottom: 24px; font-size: 0.95rem; }
+.camper-link:hover { text-decoration: underline; }
+.camper-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
+.spec { display: flex; flex-direction: column; padding: 10px 14px; background: var(--color-bg); border-radius: var(--radius-sm); border: 1px solid var(--color-border); }
+.spec-label { font-size: 0.78rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+.spec-value { font-weight: 600; font-size: 0.95rem; }
+.camper-features { display: flex; flex-wrap: wrap; gap: 8px; }
+.feature-tag { background: var(--color-primary); color: var(--color-white); padding: 5px 14px; border-radius: 50px; font-size: 0.8rem; font-weight: 500; }
+
+/* --- TIMELINE --- */
+.timeline { position: relative; max-width: 900px; margin: 0 auto; }
+.timeline::before {
+    content: ''; position: absolute; left: 32px; top: 0; bottom: 0; width: 3px;
+    background: linear-gradient(to bottom, var(--color-primary-light), var(--color-sea), var(--color-accent)); border-radius: 2px;
+}
+.timeline-item { position: relative; padding-left: 80px; margin-bottom: 40px; }
+.timeline-marker {
+    position: absolute; left: 16px; top: 4px; width: 34px; height: 34px;
+    background: var(--color-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    border: 3px solid var(--color-white); box-shadow: var(--shadow-sm); z-index: 1;
+}
+.day-number { color: var(--color-white); font-weight: 700; font-size: 0.7rem; }
+.timeline-content { background: var(--color-white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); }
+.timeline-header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.timeline-header h3 { font-size: 1rem; color: var(--color-text-light); font-weight: 500; }
+.timeline-content h4 { font-family: var(--font-display); font-size: 1.3rem; color: var(--color-primary); margin-bottom: 4px; }
+.timeline-tag { padding: 3px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.tag-travel { background: #fde8d0; color: #c0772b; }
+.tag-sea { background: #d6eaf8; color: #1a5276; }
+.tag-nature { background: #d5f5e3; color: #1e8449; }
+.tag-culture { background: #e8daef; color: #6c3483; }
+.travel-info { font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 16px; padding: 6px 12px; background: var(--color-bg-alt); border-radius: var(--radius-sm); display: inline-block; }
+.day-details { margin-top: 16px; }
+.day-activity { display: flex; gap: 12px; margin-bottom: 14px; padding: 12px; background: var(--color-bg); border-radius: var(--radius-sm); border-left: 3px solid var(--color-primary-light); }
+.activity-icon { font-size: 1.5rem; flex-shrink: 0; }
+.day-activity ul { margin-top: 8px; padding-left: 20px; }
+.day-activity li { margin-bottom: 4px; font-size: 0.95rem; }
+.campsite-box { margin-top: 20px; padding: 16px; background: linear-gradient(135deg, #fef9e7, #fdebd0); border-radius: var(--radius-sm); border: 1px solid #f5cba7; }
+.campsite-box h5 { font-size: 0.95rem; color: var(--color-accent); margin-bottom: 8px; }
+.campsite-box p { font-size: 0.93rem; }
+.campsite-detail { color: var(--color-text-light); margin-top: 4px; }
+.campsite-alt { margin-top: 8px; font-size: 0.85rem !important; color: var(--color-text-light); font-style: italic; }
+.poi-box { margin-top: 20px; padding: 16px; background: linear-gradient(135deg, #ebf5fb, #d6eaf8); border-radius: var(--radius-sm); border: 1px solid #aed6f1; }
+.poi-box h5 { font-size: 0.95rem; color: var(--color-primary); margin-bottom: 10px; }
+.poi-box li { margin-bottom: 6px; font-size: 0.93rem; list-style: none; padding-left: 0; }
+.poi-box ul { padding-left: 0; }
+
+/* --- MAP --- */
+#travel-map { width: 100%; height: 550px; border-radius: var(--radius); box-shadow: var(--shadow-md); margin-bottom: 20px; }
+.map-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 20px; }
+.map-filter {
+    padding: 8px 20px; border: 2px solid var(--color-border); background: var(--color-white);
+    border-radius: 50px; cursor: pointer; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; font-family: var(--font-body);
+}
+.map-filter:hover { border-color: var(--color-primary-light); }
+.map-filter.active { background: var(--color-primary); color: var(--color-white); border-color: var(--color-primary); }
+.map-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.9rem; }
+.legend-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+
+/* --- BEACHES --- */
+.beaches-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+.beach-card { background: var(--color-white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); transition: transform 0.2s, box-shadow 0.2s; }
+.beach-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.beach-card-header { padding: 12px 20px; color: var(--color-white); font-weight: 600; }
+.beach-card-header.gargano { background: linear-gradient(135deg, #1a5276, #2980b9); }
+.beach-card-header.ostuni { background: linear-gradient(135deg, #27ae60, #2ecc71); }
+.beach-card-header.polignano { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+.beach-card-header.salento { background: linear-gradient(135deg, #e67e22, #f39c12); }
+.beach-zone { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; }
+.beach-card-body { padding: 20px; }
+.beach-card-body h3 { font-family: var(--font-display); font-size: 1.2rem; color: var(--color-primary); margin-bottom: 8px; }
+.beach-card-body p { font-size: 0.93rem; color: var(--color-text); margin-bottom: 12px; }
+.beach-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.beach-tag { padding: 3px 10px; background: var(--color-bg-alt); border-radius: 50px; font-size: 0.78rem; font-weight: 500; color: var(--color-text-light); }
+.beach-tip { font-size: 0.85rem !important; color: var(--color-accent) !important; font-style: italic; }
+
+/* --- RESTAURANTS --- */
+.food-tip-box { background: linear-gradient(135deg, #fef9e7, #fdebd0); border-radius: var(--radius); padding: 24px; margin-bottom: 40px; border: 1px solid #f5cba7; }
+.food-tip-box h4 { color: var(--color-accent); margin-bottom: 16px; font-size: 1.1rem; }
+.food-tips-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.food-tip { padding: 10px 14px; background: rgba(255,255,255,0.7); border-radius: var(--radius-sm); font-size: 0.93rem; }
+.restaurant-zone { margin-bottom: 40px; }
+.zone-title { font-family: var(--font-display); font-size: 1.5rem; color: var(--color-primary); margin-bottom: 4px; }
+.zone-icon { margin-right: 8px; }
+.zone-subtitle { color: var(--color-text-light); font-size: 0.9rem; margin-bottom: 20px; }
+.restaurant-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.restaurant-card { background: var(--color-white); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); position: relative; transition: transform 0.2s; }
+.restaurant-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.restaurant-card.featured { border-color: var(--color-accent); border-width: 2px; }
+.featured-badge { position: absolute; top: -10px; right: 16px; background: var(--color-accent); color: var(--color-white); padding: 3px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; }
+.restaurant-card h4 { font-size: 1.1rem; color: var(--color-primary); margin-bottom: 4px; }
+.restaurant-location { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 4px; }
+.restaurant-type { font-size: 0.85rem; font-weight: 600; color: var(--color-accent); margin-bottom: 10px; }
+.restaurant-card p:last-of-type { font-size: 0.93rem; margin-bottom: 12px; }
+.restaurant-price { display: inline-block; background: var(--color-bg-alt); padding: 4px 14px; border-radius: 50px; font-size: 0.85rem; font-weight: 600; color: var(--color-primary); }
+
+/* --- BUDGET --- */
+.budget-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-bottom: 40px; }
+.budget-card { background: var(--color-white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); }
+.budget-card h3 { font-size: 1.1rem; color: var(--color-primary); margin-bottom: 4px; }
+.budget-detail { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 14px; }
+.budget-card ul { list-style: none; margin-bottom: 16px; }
+.budget-card li { padding: 4px 0; font-size: 0.93rem; border-bottom: 1px solid var(--color-bg-alt); }
+.budget-total { display: inline-block; background: var(--color-primary); color: var(--color-white); padding: 6px 18px; border-radius: 50px; font-weight: 700; font-size: 1.05rem; }
+.budget-summary { text-align: center; background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); color: var(--color-white); border-radius: var(--radius); padding: 40px; }
+.budget-summary h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 10px; opacity: 0.9; }
+.budget-grand-total { font-family: var(--font-display); font-size: 3.5rem; font-weight: 700; margin-bottom: 16px; }
+.budget-note { font-size: 0.9rem; opacity: 0.85; max-width: 600px; margin: 0 auto; }
+.budget-note a { color: var(--color-accent-light); text-decoration: underline; }
+
+/* --- TIPS --- */
+.tips-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.tip-card { background: var(--color-white); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-sm); border: 1px solid var(--color-border); }
+.tip-card h4 { font-size: 1.05rem; margin-bottom: 8px; color: var(--color-primary); }
+.tip-card p { font-size: 0.93rem; color: var(--color-text-light); }
+
+/* --- FOOTER --- */
+footer { background: var(--color-primary); color: var(--color-white); text-align: center; padding: 32px 24px; }
+footer p { opacity: 0.9; }
+.footer-small { font-size: 0.85rem; opacity: 0.6; margin-top: 4px; }
+
+/* --- LEAFLET CUSTOM --- */
+.custom-marker {
+    display: flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 50%; color: white;
+    font-size: 14px; font-weight: 700; border: 2px solid white; box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.leaflet-popup-content-wrapper { border-radius: 10px !important; box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important; }
+.leaflet-popup-content { margin: 12px 16px !important; font-family: var(--font-body) !important; font-size: 14px !important; line-height: 1.5 !important; }
+.popup-title { font-weight: 700; font-size: 15px; color: var(--color-primary); margin-bottom: 4px; }
+.popup-type { font-size: 12px; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+.popup-desc { margin-top: 6px; font-size: 13px; }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    .nav-toggle { display: flex; }
+    .nav-links { display: none; position: absolute; top: 60px; left: 0; right: 0; background: var(--color-white); flex-direction: column; padding: 16px; border-bottom: 1px solid var(--color-border); box-shadow: var(--shadow-md); }
+    .nav-links.open { display: flex; }
+    .camper-layout { grid-template-columns: 1fr; }
+    .overview-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    .timeline::before { left: 20px; }
+    .timeline-item { padding-left: 56px; }
+    .timeline-marker { left: 4px; width: 30px; height: 30px; }
+    .day-number { font-size: 0.65rem; }
+    .timeline-content { padding: 16px; }
+    .hero-info { gap: 12px; }
+    .hero-info-item { font-size: 0.95rem; padding: 8px 14px; }
+    #travel-map { height: 400px; }
+    .beaches-grid { grid-template-columns: 1fr; }
+    .restaurant-cards { grid-template-columns: 1fr; }
+    .budget-grid { grid-template-columns: 1fr; }
+    .food-tips-grid { grid-template-columns: 1fr; }
+    .budget-grand-total { font-size: 2.5rem; }
+    .section { padding: 60px 0; }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 { font-size: 2.5rem; }
+    .hero-info-item { font-size: 0.85rem; }
+    .camper-specs { grid-template-columns: 1fr; }
+    .overview-grid { grid-template-columns: 1fr 1fr; }
+}

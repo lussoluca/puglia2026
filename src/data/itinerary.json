@@ -1,0 +1,365 @@
+[
+  {
+    "day": 1,
+    "date": "2026-08-24",
+    "weekday": "Lunedi",
+    "title": "Torino → Senigallia (Marche)",
+    "tags": ["travel"],
+    "travelInfo": "~450 km - circa 4h30 di guida (A21 + A14)",
+    "description": "Ritiro camper a Torino la mattina presto. Viaggio tranquillo verso le Marche con sosta pranzo lungo il percorso (autogrill o area di sosta). Arrivo a Senigallia nel primo pomeriggio.",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Senigallia",
+        "text": "Passeggiata serale sulla Rotonda a Mare e sul lungomare. Cena in una delle trattorie del centro o al camper."
+      }
+    ],
+    "campsite": {
+      "name": "Centro Vacanze Summerland",
+      "location": "Senigallia",
+      "nights": 1,
+      "nightsLabel": "1 notte: 24 Agosto",
+      "detail": "3 piscine, vicino alla spiaggia, animazione, ideale per famiglie. Piazzola camper: ~30-45€/notte.",
+      "alternative": "Camping delle Rose - Martinsicuro (TE), sulla costa abruzzese."
+    }
+  },
+  {
+    "day": 2,
+    "date": "2026-08-25",
+    "weekday": "Martedi",
+    "title": "Senigallia → Vieste (Gargano)",
+    "tags": ["travel", "sea"],
+    "travelInfo": "~380 km - circa 4h di guida (A14 + SS89)",
+    "description": "Partenza mattina, arrivo a Vieste nel primo pomeriggio. Primo impatto con il Gargano: mare turchese e scogliere bianche.",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Pomeriggio al mare",
+        "text": "Relax alla Spiaggia di Scialmarino (sabbia, fondale basso, raggiungibile in bici dal centro ~3 km)."
+      },
+      {
+        "icon": "🏡",
+        "title": "Sera",
+        "text": "Passeggiata nel centro storico di Vieste, gelato con vista sul Pizzomunno (il monolite sulla spiaggia), cena all'Osteria degli Archi o al camper."
+      }
+    ],
+    "campsite": {
+      "name": "Molinella Vacanze",
+      "location": "Vieste",
+      "nights": 2,
+      "nightsLabel": "2 notti: 25-26 Agosto",
+      "detail": "Direttamente sulla spiaggia, campeggio storico dal 1975, area camper service, ristorante, mini market. Piazzola: ~35-55€/notte.",
+      "alternative": "Baia di Manaccora - Peschici. Piscina, padel, dal 1970."
+    }
+  },
+  {
+    "day": 3,
+    "date": "2026-08-26",
+    "weekday": "Mercoledi",
+    "title": "Gargano - Giornata piena",
+    "tags": ["nature", "sea"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🌳",
+        "title": "Mattina - Foresta Umbra (UNESCO)",
+        "text": "Trekking tra faggi millenari. Sentiero dei Tassi Giganti (~5 km, 2h) o Sentiero del Laghetto (facile, 1 km). Picnic al laghetto. Temperatura ~15-20°C - refrigerio dal caldo! Cercate i daini."
+      },
+      {
+        "icon": "🌊",
+        "title": "Pomeriggio - Baia delle Zagare",
+        "text": "La spiaggia piu scenografica del Gargano. Due faraglioni spettacolari, acqua cristallina, snorkeling. Accesso dal sentiero pubblico (~300 gradini) - portate scarpe da scoglio."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Sera",
+        "text": "Cena Al Dragone (terrazza panoramica, pesce fresco) o a Peschici su un trabucco (antica macchina da pesca convertita in ristorante). Prenotate con anticipo!"
+      }
+    ],
+    "highlights": [
+      "Escursione grotte marine in barca (3h, ~15-20€/adulto, ~10€/ragazzo) - Partenza dal porto di Vieste",
+      "Monte Sant'Angelo - Santuario UNESCO con grotta sotterranea \"stile Indiana Jones\"",
+      "Peschici - Borgo medievale sulla rupe, trabucchi",
+      "Spiaggia di Vignanotica - Spiaggia selvaggia sotto falesie di 30m, sentiero avventuroso (20 min nel bosco)",
+      "Museo Malacologico - 15.000 conchiglie da tutto il mondo (~3€, 45 min)"
+    ]
+  },
+  {
+    "day": 4,
+    "date": "2026-08-27",
+    "weekday": "Giovedi",
+    "title": "Vieste → Trani → Ostuni",
+    "tags": ["travel", "culture"],
+    "travelInfo": "~260 km totali - viaggio spezzato con soste culturali",
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏰",
+        "title": "Mattina - Castel del Monte (UNESCO)",
+        "text": "Il misterioso castello ottagonale di Federico II. Perche ottagono? A cosa serviva? Un enigma da risolvere. 10€/adulto, gratis under 18. Navetta dal parcheggio."
+      },
+      {
+        "icon": "⛪",
+        "title": "Pranzo a Trani",
+        "text": "Cattedrale romanica \"che galleggia sul mare\" (imperdibile!). Sinagoga medievale (3€). Pranzo sul porto: La Banchina o Corteinfiore."
+      },
+      {
+        "icon": "🚐",
+        "title": "Pomeriggio",
+        "text": "Sosta facoltativa a Barletta: Colosso di Barletta (statua bronzea di 5m, gratuita) e Castello Svevo. Poi proseguimento verso Ostuni (~1h)."
+      }
+    ],
+    "campsite": {
+      "name": "Campeggio Lamaforca",
+      "location": "Carovigno",
+      "nights": 3,
+      "nightsLabel": "3 notti: 27-28-29 Agosto",
+      "detail": "Immerso tra gli ulivi, vicino alla Riserva di Torre Guaceto. Area camper service, tranquillo e in posizione strategica per visitare sia Ostuni che Polignano/Monopoli. Piazzola: ~30-45€/notte.",
+      "alternative": "Camping Il Pilone - Ostuni. Direttamente sul mare."
+    }
+  },
+  {
+    "day": 5,
+    "date": "2026-08-28",
+    "weekday": "Venerdi",
+    "title": "Ostuni + Torre Guaceto",
+    "tags": ["culture", "nature"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏘️",
+        "title": "Mattina - Ostuni, la Citta Bianca",
+        "text": "Perdetevi nel labirinto di vicoli bianchi. Cattedrale con rosone di 7m di diametro. Museo con \"Delia\" - scheletro di donna incinta di 25.000 anni fa (5€, imperdibile!)."
+      },
+      {
+        "icon": "🌊",
+        "title": "Pomeriggio - Riserva di Torre Guaceto",
+        "text": "Area marina protetta. Snorkeling in fondali protetti con Posidonia, stelle marine, cavallucci marini. Accesso con navetta dal parcheggio. Ciclabile di 6 km tra uliveti fino al mare."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Sera",
+        "text": "Cena a Cisternino: esperienza dei fornelli pronti! Scegliete la carne cruda al banco, la grigliano davanti a voi. Le bombette (involtini ripieni di formaggio) sono irresistibili. ~10-15€/persona. Fornello da Ricci o altri nel centro storico."
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-08-29",
+    "weekday": "Sabato",
+    "title": "Polignano a Mare + Monopoli + Grotte di Castellana",
+    "tags": ["culture", "sea"],
+    "travelInfo": "Gita giornaliera dalla base di Ostuni (~30 min)",
+    "description": "",
+    "activities": [
+      {
+        "icon": "💎",
+        "title": "Mattina - Grotte di Castellana",
+        "text": "Il complesso carsico piu grande d'Italia. Percorso completo 3 km, 2h: la Grotta Bianca e mozzafiato (alabastro bianchissimo). 20€/adulto, 16€ ridotto (6-14 anni). Portate felpe: 16°C!"
+      },
+      {
+        "icon": "🏡",
+        "title": "Pranzo a Polignano a Mare",
+        "text": "Centro storico su scogliere a strapiombo. Lama Monachile (la famosa spiaggetta col ponte). Statua di Domenico Modugno. Poesie sulle scalinate. Pranzo da Pescaria (panini di pesce gourmet, 8-15€/persona)."
+      },
+      {
+        "icon": "🏖️",
+        "title": "Pomeriggio - Monopoli",
+        "text": "Porto pittoresco con barche colorate, Cattedrale barocca. Bagno a Cala Porta Vecchia (spiaggia dentro le mura!) o a Porto Ghiacciolo (acqua cosi trasparente che sembra di galleggiare)."
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "2026-08-30",
+    "weekday": "Domenica",
+    "title": "Valle d'Itria → Salento",
+    "tags": ["culture", "travel"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏘️",
+        "title": "Mattina - Alberobello (UNESCO)",
+        "text": "1.500 trulli, costruzioni coniche uniche al mondo. Sembrano usciti da Star Wars (Tatooine!). Rione Monti + Trullo Sovrano (3€). Arrivate entro le 9:30 per evitare la folla."
+      },
+      {
+        "icon": "🏡",
+        "title": "Locorotondo",
+        "text": "Borgo circolare con vista sulla Valle d'Itria. Balconcini fioriti, atmosfera rilassata, ottimo gelato."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Pranzo a Cisternino",
+        "text": "Ancora fornelli pronti! Bombette, salsiccia, involtini. Uno dei \"borghi piu belli d'Italia\"."
+      },
+      {
+        "icon": "🚐",
+        "title": "Pomeriggio",
+        "text": "Trasferimento verso il Salento. Sosta facoltativa a Martina Franca (centro barocco elegante, capocollo DOP). Arrivo al campeggio in zona Gallipoli."
+      }
+    ],
+    "campsite": {
+      "name": "Baia di Gallipoli Camping Village",
+      "location": "Gallipoli",
+      "nights": 4,
+      "nightsLabel": "4 notti: 30-31 Ago, 1-2 Set",
+      "detail": "Nel Parco Naturale di Punta Pizzo, animazione attiva fino all'11 settembre, piscina, accesso diretto alla spiaggia, area camper service. Piazzola: ~35-60€/notte.",
+      "alternative": "Camping Torre Castiglione - Torre Lapillo. Accesso diretto al mare, piu tranquillo."
+    }
+  },
+  {
+    "day": 8,
+    "date": "2026-08-31",
+    "weekday": "Lunedi",
+    "title": "Lecce - La \"Firenze del Sud\"",
+    "tags": ["culture"],
+    "travelInfo": "~40 km dal campeggio - circa 40 min",
+    "description": "",
+    "activities": [
+      {
+        "icon": "🥐",
+        "title": "Colazione con pasticciotto!",
+        "text": "Da Alvino (Piazza Sant'Oronzo) o Natale (Via Trinchese). Il pasticciotto leccese e pasta frolla ripiena di crema: la colazione pugliese per eccellenza. ~2€."
+      },
+      {
+        "icon": "⛪",
+        "title": "Mattina - Centro storico barocco",
+        "text": "Basilica di Santa Croce (facciata delirante: putti, animali, frutta scolpiti nella pietra). Piazza del Duomo (ci si entra da un unico arco). Anfiteatro Romano (II sec., in mezzo alla piazza moderna!)."
+      },
+      {
+        "icon": "🔍",
+        "title": "Museo Faggiano",
+        "text": "Una casa dove il proprietario, riparando un tubo, ha scoperto 5 livelli archeologici sotto il pavimento: messapico, romano, medievale, templare. Viaggio nel tempo verticale! 5€."
+      },
+      {
+        "icon": "🎨",
+        "title": "Laboratorio di cartapesta",
+        "text": "Lecce e la capitale della cartapesta. I ragazzi possono partecipare a un laboratorio pratico (~10-15€, 1h) e creare una scultura da portare a casa."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Cena",
+        "text": "Alle Due Corti (ciceri e tria, polpette al sugo, cucina salentina autentica) o Trattoria Nonna Tetti (cucina della nonna, prezzi accessibili)."
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "date": "2026-09-01",
+    "weekday": "Martedi",
+    "title": "Otranto + Spiagge del Salento",
+    "tags": ["culture", "sea"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "⛪",
+        "title": "Mattina - Otranto",
+        "text": "La Cattedrale con il mosaico di Pantaleone (1163): 600 m² con Albero della Vita, Re Artu, Alessandro Magno, lo zodiaco. I ragazzi possono fare una caccia ai personaggi! Cappella dei Martiri (813 teschi). Castello Aragonese. Centro storico."
+      },
+      {
+        "icon": "🏖️",
+        "title": "Pomeriggio - Baia dei Turchi",
+        "text": "Spiaggia caraibica dove sbarcarono i turchi nel 1480. Sabbia bianca, acqua bassa per decine di metri. Sentiero nel bosco per arrivarci (10 min). Parcheggio 5€."
+      },
+      {
+        "icon": "🌊",
+        "title": "Alternativa spiaggia",
+        "text": "Torre dell'Orso: baia a mezzaluna con i faraglioni \"Due Sorelle\" (nuotabili, ~50m dalla riva). Leggenda delle due sorelle trasformate in roccia."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Cena a Otranto",
+        "text": "L'Altro Baffo (pesce fresco, nel centro storico, 22-30€/persona)."
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "date": "2026-09-02",
+    "weekday": "Mercoledi",
+    "title": "Gallipoli + Santa Maria di Leuca",
+    "tags": ["sea", "culture"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏡",
+        "title": "Mattina - Gallipoli Citta Vecchia",
+        "text": "Isola collegata da un ponte. Cattedrale barocca, Frantoio Ipogeo (oleificio sotterraneo, 3-5€), Castello Angioino. Spiaggia della Purita dentro le mura."
+      },
+      {
+        "icon": "📍",
+        "title": "Pomeriggio - Santa Maria di Leuca",
+        "text": "Il \"tacco dello stivale\", dove finisce la terra. Basilica De Finibus Terrae, faro, ville in stili esotici (arabi, cinesi, pompeiani). Giro in barca alle grotte costiere (~10-15€, 1h)."
+      },
+      {
+        "icon": "🌅",
+        "title": "Sera",
+        "text": "Tramonto dal bastione di Gallipoli (guarda a ovest, imperdibile!). Cena alla Trattoria La Puritate (scapece gallipolina, pesce fresco)."
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "date": "2026-09-03",
+    "weekday": "Giovedi",
+    "title": "Ultimo mare + Risalita",
+    "tags": ["sea", "travel"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Mattina - Ultima spiaggia!",
+        "text": "Scelta tra: Punta Prosciutto (acqua bassa per 100m, sabbia bianchissima), Porto Selvaggio (caletta rocciosa in pineta, snorkeling straordinario), Pescoluse (\"Maldive del Salento\")."
+      },
+      {
+        "icon": "🚐",
+        "title": "Pomeriggio",
+        "text": "Risalita verso l'Abruzzo. ~480 km, circa 5h. Arrivo in serata."
+      }
+    ],
+    "campsite": {
+      "name": "Camping delle Rose",
+      "location": "Martinsicuro (TE)",
+      "nights": 1,
+      "nightsLabel": "1 notte: 3 Settembre",
+      "detail": "Spiaggia sabbiosa, fondale basso, ideale per l'ultima notte di relax. Piazzola: ~25-35€/notte.",
+      "alternative": "Centro Vacanze Summerland - Senigallia (se preferite le Marche)."
+    }
+  },
+  {
+    "day": 12,
+    "date": "2026-09-04",
+    "weekday": "Venerdi",
+    "title": "Giornata libera in Abruzzo",
+    "tags": ["sea"],
+    "description": "",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Relax",
+        "text": "Giornata di mare e riposo prima del rientro. Spiaggia sabbiosa con fondale basso, perfetta per i ragazzi. Ultimo bagno dell'estate!"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Ultima cena di viaggio",
+        "text": "Pesce fresco adriatico in una trattoria locale o cena speciale al camper con prodotti pugliesi comprati durante il viaggio."
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "date": "2026-09-05",
+    "weekday": "Sabato",
+    "title": "Martinsicuro → Torino",
+    "tags": ["travel"],
+    "travelInfo": "~580 km - circa 5h30 di guida (A14 + A1 + A21)",
+    "description": "Partenza mattina presto. Viaggio di ritorno con sosta pranzo lungo il percorso. Arrivo a Torino nel primo pomeriggio. Restituzione del camper.",
+    "activities": [
+      {
+        "icon": "💦",
+        "title": "Ricordatevi",
+        "text": "Svuotare le acque grigie e il WC prima della riconsegna. Fare il pieno di gasolio. Controllare che non dimentichiate nulla!"
+      }
+    ]
+  }
+]

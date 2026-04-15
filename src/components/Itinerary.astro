@@ -1,0 +1,82 @@
+---
+import itinerary from '../data/itinerary.json';
+
+const tagClasses: Record<string, string> = {
+    travel: 'tag-travel',
+    sea: 'tag-sea',
+    nature: 'tag-nature',
+    culture: 'tag-culture',
+};
+
+const tagLabels: Record<string, string> = {
+    travel: 'Viaggio',
+    sea: 'Mare',
+    nature: 'Natura',
+    culture: 'Cultura',
+};
+---
+
+<section id="itinerary" class="section">
+    <div class="container">
+        <h2 class="section-title">Itinerario Giorno per Giorno</h2>
+        <div class="timeline">
+            {itinerary.map((day) => (
+                <div class="timeline-item" data-day={day.day}>
+                    <div class="timeline-marker">
+                        <span class="day-number">G{day.day}</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>{day.weekday} {new Date(day.date).getDate()} {new Date(day.date).toLocaleDateString('it-IT', { month: 'long' })}</h3>
+                            {day.tags.map(tag => (
+                                <span class={`timeline-tag ${tagClasses[tag]}`}>{tagLabels[tag]}</span>
+                            ))}
+                        </div>
+                        <h4 set:html={day.title.replace(/→/g, '&rarr;')} />
+                        
+                        {day.travelInfo && (
+                            <p class="travel-info">{day.travelInfo}</p>
+                        )}
+                        
+                        {day.description && (
+                            <div class="day-details">
+                                <p>{day.description}</p>
+                            </div>
+                        )}
+                        
+                        <div class="day-details">
+                            {day.activities.map(act => (
+                                <div class="day-activity">
+                                    <span class="activity-icon">{act.icon}</span>
+                                    <div>
+                                        <strong>{act.title}</strong> - {act.text}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        
+                        {day.highlights && (
+                            <div class="poi-box">
+                                <h5>Da non perdere al Gargano</h5>
+                                <ul>
+                                    {day.highlights.map(h => (
+                                        <li set:html={`<strong>${h.split(' - ')[0]}</strong>${h.includes(' - ') ? ' - ' + h.split(' - ').slice(1).join(' - ') : ''}`} />
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+                        
+                        {day.campsite && (
+                            <div class="campsite-box">
+                                <h5>&#9978; Campeggio ({day.campsite.nightsLabel})</h5>
+                                <p><strong>{day.campsite.name}</strong> - {day.campsite.location}</p>
+                                <p class="campsite-detail">{day.campsite.detail}</p>
+                                <p class="campsite-alt">Alternativa: <strong>{day.campsite.alternative.split(' - ')[0]}</strong> - {day.campsite.alternative.split(' - ').slice(1).join(' - ')}</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>
