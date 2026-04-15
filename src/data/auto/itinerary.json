@@ -3,10 +3,37 @@
     "day": 1,
     "date": "2026-08-24",
     "weekday": "Lunedi",
-    "title": "Alessandria → Vieste (Gargano)",
+    "title": "Alessandria → Senigallia (Marche)",
     "tags": ["travel"],
-    "travelInfo": "~750 km - circa 7h30 di guida (A21 + A14 + SS89)",
-    "description": "Partenza presto da Alessandria. Viaggio lungo ma comodo in auto, con soste libere lungo il percorso. Arrivo a Vieste nel tardo pomeriggio. Check-in al bungalow e prima passeggiata serale.",
+    "travelInfo": "~400 km - circa 4h di guida (A21 + A14)",
+    "description": "Partenza da Alessandria la mattina. Viaggio tranquillo verso le Marche con sosta pranzo lungo il percorso. Arrivo a Senigallia nel primo pomeriggio: tempo per una passeggiata e un bagno!",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Senigallia",
+        "text": "Passeggiata serale sulla Rotonda a Mare e sul lungomare. Spiaggia di velluto per un primo bagno. Cena in una delle trattorie del centro.",
+        "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
+      }
+    ],
+    "accommodation": {
+      "name": "Hotel/B&B a Senigallia",
+      "location": "Senigallia",
+      "nights": 1,
+      "nightsLabel": "1 notte: 24 Agosto",
+      "detail": "B&B o hotel sul lungomare. Senigallia e la \"Spiaggia di Velluto\", perfetta per spezzare il viaggio. ~80-120€/notte.",
+      "alternative": "Hotel Caggiari - Senigallia, fronte mare con colazione.",
+      "url": "https://maps.google.com/?q=Senigallia+lungomare",
+      "alternativeUrl": "https://maps.google.com/?q=Hotel+Caggiari+Senigallia"
+    }
+  },
+  {
+    "day": 2,
+    "date": "2026-08-25",
+    "weekday": "Martedi",
+    "title": "Senigallia → Vieste (Gargano)",
+    "tags": ["travel"],
+    "travelInfo": "~380 km - circa 4h di guida (A14 + SS89)",
+    "description": "Partenza dopo colazione. Arrivo a Vieste nel primo pomeriggio. Primo impatto con il Gargano: mare turchese e scogliere bianche. Check-in al bungalow e prima passeggiata serale.",
     "activities": [
       {
         "icon": "🏖️",
@@ -19,7 +46,7 @@
       "name": "Molinella Vacanze - Bungalow",
       "location": "Vieste",
       "nights": 3,
-      "nightsLabel": "3 notti: 24-25-26 Agosto",
+      "nightsLabel": "3 notti: 25-26-27 Agosto",
       "detail": "Bungalow con A/C, bagno privato, angolo cottura. Campeggio sulla spiaggia, ristorante, mini market. ~80-120€/notte.",
       "alternative": "B&B Il Castello - Vieste centro storico, con vista mare.",
       "url": "https://www.molinellavacanze.it/",
@@ -27,9 +54,9 @@
     }
   },
   {
-    "day": 2,
-    "date": "2026-08-25",
-    "weekday": "Martedi",
+    "day": 3,
+    "date": "2026-08-26",
+    "weekday": "Mercoledi",
     "title": "Gargano - Giornata di mare",
     "tags": ["sea"],
     "description": "Prima vera giornata di vacanza: niente sveglia, niente programmi rigidi. Solo mare, sole e relax.",
@@ -49,9 +76,9 @@
     ]
   },
   {
-    "day": 3,
-    "date": "2026-08-26",
-    "weekday": "Mercoledi",
+    "day": 4,
+    "date": "2026-08-27",
+    "weekday": "Giovedi",
     "title": "Gargano - Mare e grotte",
     "tags": ["sea", "nature"],
     "description": "Seconda giornata di mare con un'opzione in piu: le grotte marine in barca. Ma solo se ne avete voglia!",
@@ -91,9 +118,9 @@
     ]
   },
   {
-    "day": 4,
-    "date": "2026-08-27",
-    "weekday": "Giovedi",
+    "day": 5,
+    "date": "2026-08-28",
+    "weekday": "Venerdi",
     "title": "Vieste → Ostuni",
     "tags": ["travel", "culture"],
     "travelInfo": "~280 km - circa 3h30 di guida (con sosta a Trani)",
@@ -122,7 +149,7 @@
       "name": "Campeggio Lamaforca - Bungalow",
       "location": "Carovigno",
       "nights": 2,
-      "nightsLabel": "2 notti: 27-28 Agosto",
+      "nightsLabel": "2 notti: 28-29 Agosto",
       "detail": "Bungalow tra gli ulivi, vicino a Torre Guaceto. Base strategica per Ostuni, Alberobello e Cisternino. ~70-110€/notte.",
       "alternative": "Masseria Il Frantoio - Ostuni. Agriturismo in masseria storica.",
       "url": "https://www.lamaforca.it/",
@@ -130,9 +157,9 @@
     }
   },
   {
-    "day": 5,
-    "date": "2026-08-28",
-    "weekday": "Venerdi",
+    "day": 6,
+    "date": "2026-08-29",
+    "weekday": "Sabato",
     "title": "Torre Guaceto + Cisternino",
     "tags": ["sea", "culture"],
     "description": "Mare la mattina, bombette la sera. Una giornata perfetta!",
@@ -152,9 +179,9 @@
     ]
   },
   {
-    "day": 6,
-    "date": "2026-08-29",
-    "weekday": "Sabato",
+    "day": 7,
+    "date": "2026-08-30",
+    "weekday": "Domenica",
     "title": "Alberobello + Trasferimento al Salento",
     "tags": ["culture", "travel", "sea"],
     "travelInfo": "~150 km fino al Salento - circa 2h",
@@ -183,7 +210,7 @@
       "name": "Baia di Gallipoli Camping Village - Bungalow",
       "location": "Gallipoli",
       "nights": 4,
-      "nightsLabel": "4 notti: 29-30-31 Ago, 1 Set",
+      "nightsLabel": "4 notti: 30-31 Ago, 1-2 Set",
       "detail": "Bungalow con A/C e bagno nel Parco Naturale di Punta Pizzo. Piscina, animazione, spiaggia. ~90-140€/notte.",
       "alternative": "B&B La Casa del Mare - Gallipoli vecchia, con terrazza sul porto.",
       "url": "https://www.baiadigallipoli.com/",
@@ -191,9 +218,9 @@
     }
   },
   {
-    "day": 7,
-    "date": "2026-08-30",
-    "weekday": "Domenica",
+    "day": 8,
+    "date": "2026-08-31",
+    "weekday": "Lunedi",
     "title": "Giornata di mare puro",
     "tags": ["sea"],
     "description": "Oggi niente cultura, niente visite, niente spostamenti. Solo mare, sole e relax totale. Ve lo meritate!",
@@ -213,9 +240,9 @@
     ]
   },
   {
-    "day": 8,
-    "date": "2026-08-31",
-    "weekday": "Lunedi",
+    "day": 9,
+    "date": "2026-09-01",
+    "weekday": "Martedi",
     "title": "Otranto + Spiagge",
     "tags": ["culture", "sea"],
     "travelInfo": "~80 km A/R da Gallipoli",
@@ -242,9 +269,9 @@
     ]
   },
   {
-    "day": 9,
-    "date": "2026-09-01",
-    "weekday": "Martedi",
+    "day": 10,
+    "date": "2026-09-02",
+    "weekday": "Mercoledi",
     "title": "Gallipoli + Ultimo mare",
     "tags": ["sea", "culture"],
     "description": "Ultimo giorno pieno in Puglia. Mattina a Gallipoli, pomeriggio di mare, sera di saluti al Salento.",
@@ -270,23 +297,76 @@
     ]
   },
   {
-    "day": 10,
-    "date": "2026-09-02",
-    "weekday": "Mercoledi",
-    "title": "Salento → Alessandria",
+    "day": 11,
+    "date": "2026-09-03",
+    "weekday": "Giovedi",
+    "title": "Ultimo mare + Risalita",
+    "tags": ["sea", "travel"],
+    "travelInfo": "~480 km - circa 5h di guida",
+    "description": "Mattina con l'ultimo bagno al mare, poi risalita verso l'Abruzzo. Viaggio spezzato per non stancarsi troppo.",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Mattina - Ultima spiaggia!",
+        "text": "Scelta tra: Punta Prosciutto (acqua bassa per 100m, sabbia bianchissima), Porto Selvaggio (caletta rocciosa in pineta, snorkeling straordinario), Pescoluse (\"Maldive del Salento\").",
+        "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia"
+      },
+      {
+        "icon": "🚗",
+        "title": "Pomeriggio",
+        "text": "Risalita verso l'Abruzzo. ~480 km, circa 5h. Arrivo in serata a Martinsicuro. Prima di partire: fate scorta di prodotti pugliesi! Taralli, olio extravergine, burrata in borsa termica, vino Primitivo."
+      }
+    ],
+    "accommodation": {
+      "name": "Hotel/B&B a Martinsicuro",
+      "location": "Martinsicuro (TE)",
+      "nights": 2,
+      "nightsLabel": "2 notti: 3-4 Settembre",
+      "detail": "B&B o hotel sulla costa abruzzese. Spiaggia sabbiosa, fondale basso, ideale per le ultime notti di relax. ~70-100€/notte.",
+      "alternative": "Hotel/B&B a Senigallia (Marche) come alternativa.",
+      "url": "https://maps.google.com/?q=Martinsicuro+lungomare",
+      "alternativeUrl": "https://maps.google.com/?q=Senigallia+lungomare"
+    }
+  },
+  {
+    "day": 12,
+    "date": "2026-09-04",
+    "weekday": "Venerdi",
+    "title": "Giornata libera in Abruzzo",
+    "tags": ["sea"],
+    "description": "Giornata di mare e riposo prima del rientro. Nessun programma, solo relax!",
+    "activities": [
+      {
+        "icon": "🏖️",
+        "title": "Relax",
+        "text": "Giornata di mare e riposo prima del rientro. Spiaggia sabbiosa con fondale basso, perfetta per i ragazzi. Ultimo bagno dell'estate!",
+        "url": "https://maps.google.com/?q=Spiaggia+Martinsicuro"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Ultima cena di viaggio",
+        "text": "Pesce fresco adriatico in una trattoria locale. Oppure cena speciale con i prodotti pugliesi comprati durante il viaggio."
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "date": "2026-09-05",
+    "weekday": "Sabato",
+    "title": "Martinsicuro → Alessandria",
     "tags": ["travel"],
-    "travelInfo": "~950 km - circa 9h di guida (SS101 + A14 + A1 + A21)",
-    "description": "Giornata di rientro. Partenza di buon mattino per arrivare in serata. Viaggio lungo ma con bei ricordi e tanta musica in auto!",
+    "travelInfo": "~530 km - circa 5h di guida (A14 + A1 + A21)",
+    "description": "Partenza mattina presto. Viaggio di ritorno con sosta pranzo lungo il percorso. Arrivo ad Alessandria nel primo pomeriggio.",
     "activities": [
       {
         "icon": "🚗",
         "title": "Rientro",
-        "text": "Soste libere lungo il percorso per pranzo e sgranchirsi. L'auto e comoda e il viaggio scorre. Suggerimento: spezzate il viaggio con una sosta pranzo in Abruzzo o nelle Marche."
+        "text": "Soste libere lungo il percorso per pranzo e sgranchirsi. L'auto e comoda e il viaggio scorre. Viaggio breve rispetto al diretto!"
       },
       {
         "icon": "💡",
         "title": "Ricordatevi",
-        "text": "Prima di partire: fate scorta di prodotti pugliesi! Taralli, olio extravergine, burrata da portare a casa in borsa termica, vino Primitivo o Negroamaro."
+        "text": "Controllate di non aver dimenticato nulla in hotel! Caricabatterie, costumi stesi ad asciugare, prodotti pugliesi nel frigo."
       }
     ]
   }

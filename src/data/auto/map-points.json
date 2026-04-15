@@ -1,8 +1,10 @@
 {
   "campsites": [
+    { "name": "B&B Senigallia", "lat": 43.7168, "lng": 13.2164, "desc": "Senigallia (Marche) - Tappa intermedia andata. 1 notte.", "zone": "Marche", "url": "https://maps.google.com/?q=Senigallia+lungomare" },
     { "name": "Molinella Vacanze (Bungalow)", "lat": 41.8690, "lng": 16.1920, "desc": "Vieste (Gargano) - Bungalow sulla spiaggia, A/C, bagno privato. 3 notti.", "zone": "Gargano", "url": "https://www.molinellavacanze.it/" },
     { "name": "Campeggio Lamaforca (Bungalow)", "lat": 40.7080, "lng": 17.6600, "desc": "Carovigno - Bungalow tra gli ulivi, vicino Torre Guaceto. 2 notti.", "zone": "Ostuni", "url": "https://www.lamaforca.it/" },
-    { "name": "Baia di Gallipoli (Bungalow)", "lat": 40.0300, "lng": 17.9600, "desc": "Gallipoli - Bungalow nel Parco di Punta Pizzo, piscina, spiaggia. 4 notti.", "zone": "Salento", "url": "https://www.baiadigallipoli.com/" }
+    { "name": "Baia di Gallipoli (Bungalow)", "lat": 40.0300, "lng": 17.9600, "desc": "Gallipoli - Bungalow nel Parco di Punta Pizzo, piscina, spiaggia. 4 notti.", "zone": "Salento", "url": "https://www.baiadigallipoli.com/" },
+    { "name": "B&B Martinsicuro", "lat": 42.8866, "lng": 13.9158, "desc": "Martinsicuro (Abruzzo) - Tappa intermedia ritorno. 2 notti.", "zone": "Abruzzo", "url": "https://maps.google.com/?q=Martinsicuro+lungomare" }
   ],
   "beaches": [
     { "name": "Baia delle Zagare", "lat": 41.8328, "lng": 16.1842, "desc": "Due faraglioni spettacolari, acqua turchese, falesie bianche.", "zone": "Gargano", "url": "https://maps.google.com/?q=Baia+delle+Zagare+Gargano" },
@@ -46,6 +48,7 @@
   ],
   "route": [
     [44.9122, 8.6152],
+    [43.7168, 13.2164],
     [41.8822, 16.1767],
     [41.2803, 16.4186],
     [40.7295, 17.5778],
@@ -53,6 +56,7 @@
     [40.9954, 17.2204],
     [40.0547, 17.9910],
     [40.1456, 18.4908],
+    [42.8866, 13.9158],
     [44.9122, 8.6152]
   ]
 }
