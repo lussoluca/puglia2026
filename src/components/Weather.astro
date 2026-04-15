@@ -1,0 +1,72 @@
+---
+import weather from '../data/weather.json';
+---
+
+<section id="weather" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Meteo Tipico</h2>
+        <p class="section-intro">{weather.intro}</p>
+
+        <!-- Zone cards with thermometer data -->
+        <div class="weather-zones">
+            {weather.zones.map(zone => (
+                <div class="weather-zone-card">
+                    <div class="weather-zone-header">
+                        <span class="weather-zone-icon">{zone.icon}</span>
+                        <div>
+                            <h3>{zone.name}</h3>
+                            <span class="weather-zone-dates">{zone.dates}</span>
+                        </div>
+                    </div>
+                    <div class="weather-stats">
+                        <div class="weather-stat">
+                            <span class="stat-icon">🌡️</span>
+                            <span class="stat-value">{zone.tempMin}° / {zone.tempMax}°</span>
+                            <span class="stat-label">Min / Max</span>
+                        </div>
+                        <div class="weather-stat">
+                            <span class="stat-icon">🌊</span>
+                            <span class="stat-value">{zone.seaTemp}°C</span>
+                            <span class="stat-label">Mare</span>
+                        </div>
+                        <div class="weather-stat">
+                            <span class="stat-icon">☀️</span>
+                            <span class="stat-value">{zone.sunHours}h</span>
+                            <span class="stat-label">Sole/giorno</span>
+                        </div>
+                        <div class="weather-stat">
+                            <span class="stat-icon">🌧️</span>
+                            <span class="stat-value">{zone.rainDays}gg</span>
+                            <span class="stat-label">Pioggia/mese</span>
+                        </div>
+                    </div>
+                    {zone.note && <p class="weather-zone-note">{zone.note}</p>}
+                </div>
+            ))}
+        </div>
+
+        <!-- General weather tips -->
+        <h3 class="weather-tips-title">Cosa aspettarsi</h3>
+        <div class="weather-tips-grid">
+            {weather.general.map(tip => (
+                <div class="weather-tip-card">
+                    <span class="weather-tip-icon">{tip.icon}</span>
+                    <div>
+                        <h4>{tip.title}</h4>
+                        <p>{tip.text}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+
+        <!-- Packing list -->
+        <div class="packing-box">
+            <h4>Da mettere in valigia</h4>
+            <ul class="packing-list">
+                {weather.packing.map(item => (
+                    <li>{item}</li>
+                ))}
+            </ul>
+        </div>
+    </div>
+</section>

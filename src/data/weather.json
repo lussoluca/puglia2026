@@ -1,0 +1,111 @@
+{
+  "intro": "Fine agosto e inizio settembre in Puglia offrono condizioni ideali: caldo ma non estremo, pioggia rara, mare ancora caldo. Ecco cosa aspettarsi zona per zona.",
+  "period": "24 Agosto - 5 Settembre",
+  "zones": [
+    {
+      "name": "Gargano",
+      "icon": "⛰️",
+      "dates": "25-26 Agosto",
+      "tempMin": 21,
+      "tempMax": 31,
+      "seaTemp": 26,
+      "rainDays": 2,
+      "sunHours": 10,
+      "humidity": "65%",
+      "wind": "Brezza da nord-ovest, moderata",
+      "note": "La Foresta Umbra e piu fresca: 15-22°C. Portate una felpa!"
+    },
+    {
+      "name": "Trani / Bari",
+      "icon": "⛪",
+      "dates": "27 Agosto",
+      "tempMin": 22,
+      "tempMax": 32,
+      "seaTemp": 26,
+      "rainDays": 1,
+      "sunHours": 10,
+      "humidity": "60%",
+      "wind": "Brezza costiera da nord",
+      "note": "Zona tra le piu calde della Puglia. Visitare Castel del Monte la mattina presto."
+    },
+    {
+      "name": "Ostuni / Valle d'Itria",
+      "icon": "🏘️",
+      "dates": "27-30 Agosto",
+      "tempMin": 20,
+      "tempMax": 31,
+      "seaTemp": 26,
+      "rainDays": 2,
+      "sunHours": 10,
+      "humidity": "60%",
+      "wind": "Brezza leggera, notti fresche nell'entroterra",
+      "note": "Nell'entroterra (Cisternino, Alberobello) le sere sono piu fresche: portate un maglioncino leggero."
+    },
+    {
+      "name": "Salento (Lecce / Otranto / Gallipoli)",
+      "icon": "☀️",
+      "dates": "31 Ago - 2 Set",
+      "tempMin": 22,
+      "tempMax": 33,
+      "seaTemp": 27,
+      "rainDays": 1,
+      "sunHours": 11,
+      "humidity": "65%",
+      "wind": "Scirocco occasionale da sud, afa possibile",
+      "note": "La zona piu calda del viaggio. Da inizio settembre le temperature iniziano a scendere leggermente. Mare ancora perfetto."
+    },
+    {
+      "name": "Abruzzo (ritorno)",
+      "icon": "🏖️",
+      "dates": "3-4 Settembre",
+      "tempMin": 19,
+      "tempMax": 29,
+      "seaTemp": 25,
+      "rainDays": 3,
+      "sunHours": 9,
+      "humidity": "65%",
+      "wind": "Brezza da nord, piu fresco della Puglia",
+      "note": "Temperature piu miti rispetto alla Puglia. Inizio settembre e la fine dell'estate adriatica, ma si sta ancora bene in spiaggia."
+    }
+  ],
+  "general": [
+    {
+      "icon": "🌡️",
+      "title": "Temperature",
+      "text": "Medie 21-33°C. Il caldo picchia tra le 12 e le 16: programmate visite culturali al mattino e spiaggia dal primo pomeriggio."
+    },
+    {
+      "icon": "🌧️",
+      "title": "Pioggia",
+      "text": "Molto rara in questo periodo (1-3 giorni al mese). Quando piove sono temporali brevi e intensi, di solito nel tardo pomeriggio. Si asciuga tutto in fretta."
+    },
+    {
+      "icon": "🌊",
+      "title": "Mare",
+      "text": "Temperatura dell'acqua 25-27°C: perfetta per fare il bagno tutto il giorno. Lo Ionio (Gallipoli) e leggermente piu caldo dell'Adriatico (Vieste)."
+    },
+    {
+      "icon": "☀️",
+      "title": "Sole e UV",
+      "text": "9-11 ore di sole al giorno. Indice UV alto (7-9): crema solare 50+, cappello e occhiali indispensabili, soprattutto per i ragazzi."
+    },
+    {
+      "icon": "💨",
+      "title": "Vento",
+      "text": "In Puglia il vento e frequente, soprattutto nel Salento. Maestrale e Tramontana rinfrescano, lo Scirocco porta afa. Il vento puo creare correnti in mare: attenzione nelle calette esposte."
+    },
+    {
+      "icon": "🌅",
+      "title": "Ore di luce",
+      "text": "Alba ~6:15, tramonto ~19:30. A inizio settembre si perdono circa 3 minuti al giorno. Sfruttatele per cene all'aperto!"
+    }
+  ],
+  "packing": [
+    "Crema solare 50+ (tanto, si consuma in fretta)",
+    "Cappelli e occhiali da sole per tutti",
+    "Scarpe da scoglio (obbligatorie per molte spiagge)",
+    "Felpa leggera per la Foresta Umbra e le sere in Valle d'Itria",
+    "K-way o giacca antipioggia leggera (per i rari temporali)",
+    "Borracce termiche (l'acqua calda e imbevibile)"
+  ]
+}
