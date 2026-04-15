@@ -2,25 +2,29 @@
   "categories": [
     {
       "title": "Alloggi (B&B / Bungalow)",
-      "detail": "9 notti in 3 strutture",
+      "detail": "12 notti in 5 strutture",
       "items": [
+        "Senigallia (B&B): 1 notte ~ 100€",
         "Vieste (bungalow): 3 notti ~ 300€",
         "Ostuni (bungalow): 2 notti ~ 180€",
-        "Gallipoli (bungalow): 4 notti ~ 480€"
+        "Gallipoli (bungalow): 4 notti ~ 480€",
+        "Martinsicuro (B&B): 2 notti ~ 170€"
       ],
-      "total": "~960€"
+      "total": "~1230€"
     },
     {
       "title": "Ristoranti",
-      "detail": "6-8 pasti fuori su 10 giorni",
+      "detail": "8-10 pasti fuori su 13 giorni",
       "items": [
+        "Senigallia: 1 cena ~ 70€",
         "Gargano: 2 cene ~ 150€",
         "Trani: 1 pranzo ~ 80€",
         "Cisternino/Ostuni: 1 cena ~ 60€",
         "Polignano: 1 pranzo ~ 50€",
-        "Salento: 2-3 cene ~ 200€"
+        "Salento: 2-3 cene ~ 200€",
+        "Abruzzo: 1 cena ~ 70€"
       ],
-      "total": "~540€"
+      "total": "~680€"
     },
     {
       "title": "Attivita e Ingressi",
@@ -35,35 +39,37 @@
     },
     {
       "title": "Carburante",
-      "detail": "~2.200 km, consumo ~7 L/100km (auto)",
+      "detail": "~2.500 km, consumo ~7 L/100km (auto)",
       "items": [
-        "Totale litri: ~154 L",
+        "Totale litri: ~175 L",
         "Prezzo benzina: ~1.849€/L (media nazionale self)"
       ],
-      "total": "~285€"
+      "total": "~324€"
     },
     {
       "title": "Pedaggi autostradali",
       "detail": "A21, A14, A1 - Classe A (auto)",
       "items": [
-        "Alessandria-Vieste: ~50€",
+        "Alessandria-Senigallia: ~30€",
+        "Senigallia-Vieste: ~25€",
         "Vieste-Ostuni: ~20€",
         "Ostuni-Gallipoli: ~10€",
-        "Gallipoli-Alessandria: ~60€"
+        "Gallipoli-Martinsicuro: ~40€",
+        "Martinsicuro-Alessandria: ~35€"
       ],
-      "total": "~140€"
+      "total": "~160€"
     },
     {
       "title": "Spesa alimentare",
       "detail": "Colazioni (spesso incluse nel B&B), pranzi e cene",
       "items": [
         "~25-35€/giorno per 4 persone",
-        "10 giorni"
+        "13 giorni"
       ],
-      "total": "~300€"
+      "total": "~390€"
     }
   ],
-  "grandTotal": "~2380€",
+  "grandTotal": "~2940€",
   "grandTotalNote": "Tutto incluso: alloggi, ristoranti, attivita, carburante, pedaggi e spesa alimentare. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 1.849,
