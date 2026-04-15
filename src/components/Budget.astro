@@ -9,6 +9,7 @@ const summaryTitle = Astro.props.summaryTitle || 'Totale stimato (escluso nolegg
 const fuelDate = budget.fuelPrice?.date
     ? new Date(budget.fuelPrice.date).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
     : null;
+const fuelLabel = budget.fuelPrice?.fuelLabel || 'Diesel';
 ---
 
 <section id="budget" class="section">
@@ -29,7 +30,7 @@ const fuelDate = budget.fuelPrice?.date
                     <span class="budget-total">{cat.total}</span>
                     {cat.title === 'Carburante' && budget.fuelPrice && (
                         <p class="fuel-source">
-                            Dato aggiornato al {fuelDate} &middot;
+                            Prezzo {fuelLabel} aggiornato al {fuelDate} &middot;
                             <a href={budget.fuelPrice.sourceUrl} target="_blank" rel="noopener noreferrer">
                                 Fonte: MIMIT
                             </a>
