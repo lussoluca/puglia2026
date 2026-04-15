@@ -1,0 +1,31 @@
+{
+  "name": "Puglia 2026 - Vacanza in Camper",
+  "short_name": "Puglia 2026",
+  "description": "Itinerario, spiagge, ristoranti, mappa e budget per la vacanza in camper in Puglia",
+  "start_url": "/puglia2026/",
+  "scope": "/puglia2026/",
+  "display": "standalone",
+  "background_color": "#1a5276",
+  "theme_color": "#1a5276",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/puglia2026/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/puglia2026/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/puglia2026/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
