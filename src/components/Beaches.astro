@@ -13,7 +13,12 @@ import beaches from '../data/beaches.json';
                         <span class="beach-zone">{beach.zone}</span>
                     </div>
                     <div class="beach-card-body">
-                        <h3>{beach.name}</h3>
+                        <h3>
+                            {beach.name}
+                            {beach.url && (
+                                <a href={beach.url} target="_blank" rel="noopener noreferrer" class="ext-link-icon" title="Apri su Google Maps">&#x2197;</a>
+                            )}
+                        </h3>
                         <p>{beach.description}</p>
                         <div class="beach-tags">
                             {beach.tags.map(tag => (

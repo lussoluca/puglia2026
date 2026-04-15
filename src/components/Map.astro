@@ -74,12 +74,18 @@ import mapPoints from '../data/map-points.json';
                     html: '<div class="custom-marker" style="background:' + color + '">' + categoryIcons[cat] + '</div>',
                     iconSize: [28, 28], iconAnchor: [14, 14], popupAnchor: [0, -16]
                 });
+
+                var popupHtml =
+                    '<div class="popup-title">' + item.name + '</div>' +
+                    '<div class="popup-type">' + item.zone + '</div>' +
+                    '<div class="popup-desc">' + item.desc + '</div>';
+
+                if (item.url) {
+                    popupHtml += '<a href="' + item.url + '" target="_blank" rel="noopener noreferrer" class="popup-link">Apri dettagli &rarr;</a>';
+                }
+
                 const marker = L.marker([item.lat, item.lng], { icon }).addTo(map)
-                    .bindPopup(
-                        '<div class="popup-title">' + item.name + '</div>' +
-                        '<div class="popup-type">' + item.zone + '</div>' +
-                        '<div class="popup-desc">' + item.desc + '</div>'
-                    );
+                    .bindPopup(popupHtml);
                 allMarkers.push({ marker, category: cat });
             });
         });

@@ -10,7 +10,8 @@
         "type": "Pesce e cucina garganica",
         "description": "Troccoli ai frutti di mare, frittura di paranza, tiella di patate riso e cozze. Porzioni generose.",
         "price": "18-25€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Osteria+degli+Archi+Vieste"
       },
       {
         "name": "Al Dragone",
@@ -18,7 +19,8 @@
         "type": "Pesce fresco - terrazza panoramica",
         "description": "Antipasto di mare, spaghetti ai ricci, grigliata. Terrazza con vista che entusiasma anche i ragazzi.",
         "price": "20-30€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Ristorante+Al+Dragone+Vieste"
       },
       {
         "name": "La Vecchia Vieste",
@@ -26,7 +28,8 @@
         "type": "Misto: pesce, carne, pizza",
         "description": "Perfetto se qualcuno vuole la pizza e qualcun altro il pesce. Panzerotti ottimi.",
         "price": "12-20€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=La+Vecchia+Vieste+ristorante"
       },
       {
         "name": "Trabucco (Peschici)",
@@ -34,7 +37,8 @@
         "type": "Pesce fresco su struttura storica",
         "description": "Cenare su un antico trabucco (macchina da pesca in legno a bilanciere) sul mare. Esperienza unica! Prenotate.",
         "price": "25-35€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Trabucco+Peschici"
       }
     ]
   },
@@ -49,7 +53,8 @@
         "type": "Pesce fresco, vista porto",
         "description": "Direttamente sul porto con vista cattedrale. Spaghetti allo scoglio, frittura, insalata di polpo.",
         "price": "20-28€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=La+Banchina+ristorante+Trani"
       },
       {
         "name": "Corteinfiore",
@@ -57,7 +62,8 @@
         "type": "Pugliese rivisitata",
         "description": "Burrata con pomodorini, orecchiette alle cime di rapa, dolci fatti in casa. Elegante ma accogliente.",
         "price": "22-30€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://www.corteinfiore.it/"
       }
     ]
   },
@@ -73,7 +79,8 @@
         "description": "Scegliete la carne cruda al banco, la grigliano davanti a voi. Le BOMBETTE sono obbligatorie! Non si prenota, si fa la fila (andate alle 19:30).",
         "price": "10-15€/persona",
         "featured": true,
-        "featuredLabel": "Da non perdere!"
+        "featuredLabel": "Da non perdere!",
+        "url": "https://maps.google.com/?q=Fornello+da+Ricci+Cisternino"
       },
       {
         "name": "Osteria del Tempo Perso",
@@ -81,7 +88,8 @@
         "type": "Pugliese tradizionale - in grotta",
         "description": "Ambientazione in grotta/cantina che affascina i ragazzi. Orecchiette con sugo di braciole, fave e cicorie.",
         "price": "20-28€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Osteria+del+Tempo+Perso+Ostuni"
       },
       {
         "name": "Gia Sotto l'Arco",
@@ -89,7 +97,8 @@
         "type": "Pugliese rivisitata",
         "description": "Menu vario: antipasti della tradizione, polpette, verdure fritte, burrata, primi fatti in casa.",
         "price": "22-30€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Gia+Sotto+Arco+Carovigno"
       }
     ]
   },
@@ -105,7 +114,8 @@
         "description": "Panino con polpo e patate, panino con gambero crudo, frittura in cono. Si mangia passeggiando con vista mare.",
         "price": "8-15€/persona",
         "featured": true,
-        "featuredLabel": "Street food!"
+        "featuredLabel": "Street food!",
+        "url": "https://www.pescaria.it/"
       },
       {
         "name": "Osteria di Chichibio",
@@ -113,7 +123,8 @@
         "type": "Pesce fresco, cucina marinara",
         "description": "Riso patate e cozze, spaghetti ai frutti di mare, frittura di paranza.",
         "price": "20-30€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Osteria+di+Chichibio+Polignano"
       }
     ]
   },
@@ -128,7 +139,8 @@
         "type": "Salentina tradizionale",
         "description": "Ciceri e tria (pasta e ceci con parte fritta), polpette al sugo, pure di fave. Trattoria storica in cortile.",
         "price": "18-25€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Alle+Due+Corti+Lecce"
       },
       {
         "name": "Trattoria Nonna Tetti",
@@ -136,7 +148,8 @@
         "type": "Casalinga salentina",
         "description": "Sagne 'ncannulate, pittule, piatti del giorno. Cucina della nonna, prezzi accessibili.",
         "price": "12-20€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Trattoria+Nonna+Tetti+Lecce"
       },
       {
         "name": "L'Altro Baffo",
@@ -144,7 +157,8 @@
         "type": "Pesce di mare salentino",
         "description": "Spaghetti ai ricci, frittura del golfo, polpo alla pignata. Nel cuore del centro storico.",
         "price": "22-30€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=L+Altro+Baffo+Otranto"
       },
       {
         "name": "Trattoria La Puritate",
@@ -152,7 +166,8 @@
         "type": "Pesce, cucina gallipolina",
         "description": "Scapece gallipolina (piatto storico), tubettini con le cozze. Vicina alla spiaggetta della Purita.",
         "price": "18-28€/persona",
-        "featured": false
+        "featured": false,
+        "url": "https://maps.google.com/?q=Trattoria+La+Puritate+Gallipoli"
       }
     ]
   }

@@ -27,7 +27,7 @@ const tagLabels: Record<string, string> = {
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3>{day.weekday} {new Date(day.date).getDate()} {new Date(day.date).toLocaleDateString('it-IT', { month: 'long' })}</h3>
+                            <h3>{new Date(day.date).toLocaleDateString('it-IT', { weekday: 'long' })} {new Date(day.date).getDate()} {new Date(day.date).toLocaleDateString('it-IT', { month: 'long' })}</h3>
                             {day.tags.map(tag => (
                                 <span class={`timeline-tag ${tagClasses[tag]}`}>{tagLabels[tag]}</span>
                             ))}
@@ -50,6 +50,9 @@ const tagLabels: Record<string, string> = {
                                     <span class="activity-icon">{act.icon}</span>
                                     <div>
                                         <strong>{act.title}</strong> - {act.text}
+                                        {act.url && (
+                                            <a href={act.url} target="_blank" rel="noopener noreferrer" class="ext-link" title="Apri in Google Maps">Vedi sulla mappa &rarr;</a>
+                                        )}
                                     </div>
                                 </div>
                             ))}
@@ -59,9 +62,19 @@ const tagLabels: Record<string, string> = {
                             <div class="poi-box">
                                 <h5>Da non perdere al Gargano</h5>
                                 <ul>
-                                    {day.highlights.map(h => (
-                                        <li set:html={`<strong>${h.split(' - ')[0]}</strong>${h.includes(' - ') ? ' - ' + h.split(' - ').slice(1).join(' - ') : ''}`} />
-                                    ))}
+                                    {day.highlights.map(h => {
+                                        const text = typeof h === 'string' ? h : h.text;
+                                        const url = typeof h === 'string' ? null : h.url;
+                                        const parts = text.split(' - ');
+                                        return (
+                                            <li>
+                                                <strong>{parts[0]}</strong>{parts.length > 1 ? ' - ' + parts.slice(1).join(' - ') : ''}
+                                                {url && (
+                                                    <a href={url} target="_blank" rel="noopener noreferrer" class="ext-link">Info &rarr;</a>
+                                                )}
+                                            </li>
+                                        );
+                                    })}
                                 </ul>
                             </div>
                         )}
@@ -69,9 +82,19 @@ const tagLabels: Record<string, string> = {
                         {day.campsite && (
                             <div class="campsite-box">
                                 <h5>&#9978; Campeggio ({day.campsite.nightsLabel})</h5>
-                                <p><strong>{day.campsite.name}</strong> - {day.campsite.location}</p>
+                                <p>
+                                    <strong>{day.campsite.name}</strong> - {day.campsite.location}
+                                    {day.campsite.url && (
+                                        <a href={day.campsite.url} target="_blank" rel="noopener noreferrer" class="ext-link">Sito web &rarr;</a>
+                                    )}
+                                </p>
                                 <p class="campsite-detail">{day.campsite.detail}</p>
-                                <p class="campsite-alt">Alternativa: <strong>{day.campsite.alternative.split(' - ')[0]}</strong> - {day.campsite.alternative.split(' - ').slice(1).join(' - ')}</p>
+                                <p class="campsite-alt">
+                                    Alternativa: <strong>{day.campsite.alternative.split(' - ')[0]}</strong> - {day.campsite.alternative.split(' - ').slice(1).join(' - ')}
+                                    {day.campsite.alternativeUrl && (
+                                        <a href={day.campsite.alternativeUrl} target="_blank" rel="noopener noreferrer" class="ext-link">Vedi &rarr;</a>
+                                    )}
+                                </p>
                             </div>
                         )}
                     </div>

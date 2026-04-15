@@ -26,7 +26,12 @@ import foodTips from '../data/food-tips.json';
                         {zone.restaurants.map(r => (
                             <div class={`restaurant-card ${r.featured ? 'featured' : ''}`}>
                                 {r.featured && <div class="featured-badge">{r.featuredLabel}</div>}
-                                <h4>{r.name}</h4>
+                                <h4>
+                                    {r.name}
+                                    {r.url && (
+                                        <a href={r.url} target="_blank" rel="noopener noreferrer" class="ext-link-icon" title="Apri su Google Maps">&#x2197;</a>
+                                    )}
+                                </h4>
                                 <p class="restaurant-location">{r.location}</p>
                                 <p class="restaurant-type">{r.type}</p>
                                 <p>{r.description}</p>
