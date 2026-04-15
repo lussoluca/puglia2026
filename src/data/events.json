@@ -1,7 +1,7 @@
 {
-  "intro": "La Notte della Taranta 2026 e il 22 agosto (Maestro Concertatore: Ermal Meta), due giorni prima della partenza. Ma il Salento e la Puglia in questo periodo sono pieni di eventi, feste patronali e sagre!",
+  "intro": "Il Salento e la Puglia in questo periodo sono pieni di eventi, feste patronali e sagre! Ecco quelli che possiamo intercettare lungo il nostro itinerario.",
   "taranta": {
-    "note": "Il Concertone e il 22 agosto a Melpignano, lo perdiamo per 2 giorni. Pero il Festival Itinerante ha tappe nei paesi del Salento anche DOPO il concertone (nel 2025 l'ultima tappa fu ad Alessano il 28 agosto). Da controllare il calendario 2026 a giugno.",
+    "note": "Il Concertone della Notte della Taranta 2026 (Maestro Concertatore: Ermal Meta) e il 22 agosto a Melpignano, due giorni prima della partenza. Pero il Festival Itinerante ha tappe nei paesi del Salento anche DOPO il concertone (nel 2025 l'ultima tappa fu ad Alessano il 28 agosto). Da controllare il calendario 2026 a giugno!",
     "url": "https://www.lanottedellataranta.it/"
   },
   "confirmed": [
@@ -14,16 +14,6 @@
       "matchType": "hit",
       "description": "La Cavalcata di Sant'Oronzo e una processione a cavallo nel centro storico con costumi tradizionali, bande musicali, luminarie spettacolari e fuochi d'artificio sulla citta bianca. Le celebrazioni durano piu giorni intorno al 26.",
       "url": "https://maps.google.com/?q=Piazza+della+Liberta+Ostuni"
-    },
-    {
-      "name": "Festa di Sant'Oronzo",
-      "location": "Lecce",
-      "dates": "24-26 Agosto",
-      "icon": "🎆",
-      "match": "Noi siamo a Lecce il 31 - la perdiamo di 5 giorni",
-      "matchType": "miss",
-      "description": "La festa piu importante di Lecce: Fiera di Sant'Oronzo (grande mercato), luminarie artistiche nel centro, processione religiosa, concerti nelle piazze, fuochi d'artificio. L'atmosfera festiva potrebbe ancora esserci il 31.",
-      "url": "https://maps.google.com/?q=Piazza+Sant+Oronzo+Lecce"
     }
   ],
   "likely": [
