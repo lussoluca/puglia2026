@@ -13,18 +13,9 @@ import Weather from '../components/Weather.astro';
 import Gallery from '../components/Gallery.astro';
 import Checklist from '../components/Checklist.astro';
 import Tips from '../components/Tips.astro';
-
-const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Puglia 2026 - Vacanza in Camper">
-    <div class="variant-banner variant-banner-camper">
-        <div class="container">
-            <span class="variant-badge">🚐 Versione Camper</span>
-            <span class="variant-text">In camper da Torino, 13 giorni di avventura</span>
-            <a href={`${base}auto/`} class="variant-link">Vedi versione Auto (B&B) &rarr;</a>
-        </div>
-    </div>
+<Layout title="Puglia 2026 - Vacanza in Camper" variant="camper">
     <Hero />
     <Overview />
     <Camper />
@@ -39,46 +30,3 @@ const base = import.meta.env.BASE_URL;
     <Checklist />
     <Tips />
 </Layout>
-
-<style>
-    .variant-banner-camper {
-        background: linear-gradient(135deg, #1a5276, #2980b9);
-        color: white;
-        padding: 0.8rem 0;
-        text-align: center;
-        position: relative;
-        z-index: 5;
-    }
-
-    .variant-banner-camper .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        flex-wrap: wrap;
-    }
-
-    .variant-badge {
-        background: rgba(255,255,255,0.2);
-        padding: 0.3rem 0.8rem;
-        border-radius: 20px;
-        font-weight: 700;
-        font-size: 0.9rem;
-    }
-
-    .variant-text {
-        font-size: 0.9rem;
-        opacity: 0.95;
-    }
-
-    .variant-link {
-        color: white;
-        text-decoration: underline;
-        font-size: 0.85rem;
-        font-weight: 600;
-    }
-
-    .variant-link:hover {
-        opacity: 0.8;
-    }
-</style>

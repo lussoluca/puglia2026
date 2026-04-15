@@ -3,10 +3,57 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
+  variant: 'camper' | 'auto';
 }
 
-const { title } = Astro.props;
+const { title, variant } = Astro.props;
 const base = import.meta.env.BASE_URL;
+
+const isCamper = variant === 'camper';
+
+// Nav links differ by variant
+const navLinks = isCamper
+  ? [
+      { href: `${base}#hero`,        label: 'Home' },
+      { href: `${base}#overview`,    label: 'Panoramica' },
+      { href: `${base}#camper`,      label: 'Camper' },
+      { href: `${base}#itinerary`,   label: 'Itinerario' },
+      { href: `${base}#map`,         label: 'Mappa' },
+      { href: `${base}#beaches`,     label: 'Spiagge' },
+      { href: `${base}#restaurants`, label: 'Ristoranti' },
+      { href: `${base}#events`,      label: 'Eventi' },
+      { href: `${base}#gallery`,     label: 'Galleria' },
+      { href: `${base}#budget`,      label: 'Budget' },
+      { href: `${base}#weather`,     label: 'Meteo' },
+      { href: `${base}#checklist`,   label: 'Checklist' },
+    ]
+  : [
+      { href: `${base}auto/#hero`,          label: 'Home' },
+      { href: `${base}auto/#overview`,      label: 'Panoramica' },
+      { href: `${base}auto/#accommodation`, label: 'Alloggi' },
+      { href: `${base}auto/#itinerary`,     label: 'Itinerario' },
+      { href: `${base}auto/#map`,           label: 'Mappa' },
+      { href: `${base}auto/#beaches`,       label: 'Spiagge' },
+      { href: `${base}auto/#restaurants`,   label: 'Ristoranti' },
+      { href: `${base}auto/#events`,        label: 'Eventi' },
+      { href: `${base}auto/#gallery`,       label: 'Galleria' },
+      { href: `${base}auto/#budget`,        label: 'Budget' },
+      { href: `${base}auto/#weather`,       label: 'Meteo' },
+      { href: `${base}auto/#checklist`,     label: 'Checklist' },
+    ];
+
+// Variant switch shown in the navbar
+const switchHref  = isCamper ? `${base}auto/` : `${base}`;
+const switchLabel = isCamper ? '🚗 Auto' : '🚐 Camper';
+const switchTitle = isCamper ? 'Vedi versione Auto (B&B)' : 'Vedi versione Camper';
+
+// Footer
+const footerText  = isCamper
+  ? 'Puglia 2026 · Vacanza in Camper'
+  : 'Puglia 2026 · Vacanza in Auto (B&B)';
+const footerDates = isCamper
+  ? '24 Agosto / 5 Settembre 2026'
+  : '24 Agosto / 2 Settembre 2026';
 ---
 
 <!DOCTYPE html>
@@ -15,8 +62,8 @@ const base = import.meta.env.BASE_URL;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <meta name="description" content="Itinerario, spiagge, ristoranti, mappa e budget per la vacanza in camper in Puglia - Agosto/Settembre 2026">
-    <meta name="theme-color" content="#1a5276">
+    <meta name="description" content="Itinerario, spiagge, ristoranti, mappa e budget per la vacanza in Puglia - Agosto/Settembre 2026">
+    <meta name="theme-color" content={isCamper ? '#1a5276' : '#27ae60'}>
 
     <!-- PWA -->
     <link rel="manifest" href={`${base}manifest.json`}>
@@ -35,33 +82,33 @@ const base = import.meta.env.BASE_URL;
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="navbar">
-        <div class="nav-brand"><a href={base} style="text-decoration:none;color:inherit;">Puglia 2026</a></div>
+    <nav id="navbar" class={isCamper ? 'variant-camper' : 'variant-auto'}>
+        <div class="nav-brand">
+            <a href={isCamper ? base : `${base}auto/`} style="text-decoration:none;color:inherit;">Puglia 2026</a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {navLinks.map(link => (
+                <li><a href={link.href}>{link.label}</a></li>
+            ))}
+        </ul>
+
+        <!-- Variant switch — always visible, right side of navbar, left of hamburger on mobile -->
+        <a href={switchHref} class="nav-variant-switch" title={switchTitle} aria-label={switchTitle}>
+            {switchLabel}
+        </a>
+
         <button class="nav-toggle" id="navToggle" aria-label="Menu">
             <span></span><span></span><span></span>
         </button>
-        <ul class="nav-links" id="navLinks">
-            <li><a href={`${base}#hero`}>Home</a></li>
-            <li><a href={`${base}#overview`}>Panoramica</a></li>
-            <li><a href={`${base}#camper`}>Camper</a></li>
-            <li><a href={`${base}#itinerary`}>Itinerario</a></li>
-            <li><a href={`${base}#map`}>Mappa</a></li>
-            <li><a href={`${base}#beaches`}>Spiagge</a></li>
-            <li><a href={`${base}#restaurants`}>Ristoranti</a></li>
-            <li><a href={`${base}#events`}>Eventi</a></li>
-            <li><a href={`${base}#gallery`}>Galleria</a></li>
-            <li><a href={`${base}#budget`}>Budget</a></li>
-            <li><a href={`${base}#weather`}>Meteo</a></li>
-            <li><a href={`${base}#checklist`}>Checklist</a></li>
-        </ul>
     </nav>
 
     <slot />
 
     <footer>
         <div class="container">
-            <p>Puglia 2026 - Vacanza in Camper</p>
-            <p class="footer-small">24 Agosto / 5 Settembre 2026</p>
+            <p>{footerText}</p>
+            <p class="footer-small">{footerDates}</p>
         </div>
     </footer>
 
@@ -85,8 +132,8 @@ const base = import.meta.env.BASE_URL;
         window.addEventListener('scroll', () => {
             const scrollPos = window.scrollY + 100;
             sections.forEach(section => {
-                const top = section.offsetTop;
-                const height = section.offsetHeight;
+                const top = (section as HTMLElement).offsetTop;
+                const height = (section as HTMLElement).offsetHeight;
                 const id = section.getAttribute('id');
                 const link = document.querySelector(`.nav-links a[href$="#${id}"]`);
                 if (link) {
@@ -109,3 +156,45 @@ const base = import.meta.env.BASE_URL;
     </script>
 </body>
 </html>
+
+<style>
+    /* Variant switch pill — always visible in the navbar */
+    .nav-variant-switch {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: opacity 0.2s, transform 0.15s;
+        margin-left: auto; /* push to right before hamburger */
+        flex-shrink: 0;
+    }
+    .nav-variant-switch:hover {
+        opacity: 0.85;
+        transform: scale(1.04);
+    }
+
+    /* Camper variant → show blue pill pointing to auto */
+    #navbar.variant-camper .nav-variant-switch {
+        background: linear-gradient(135deg, #27ae60, #2ecc71);
+        color: #fff;
+    }
+
+    /* Auto variant → show green pill pointing to camper */
+    #navbar.variant-auto .nav-variant-switch {
+        background: linear-gradient(135deg, #1a5276, #2980b9);
+        color: #fff;
+    }
+
+    /* Mobile: push switch before hamburger, keep it visible */
+    @media (max-width: 768px) {
+        .nav-variant-switch {
+            margin-left: auto;
+            margin-right: 0.5rem;
+        }
+    }
+</style>
