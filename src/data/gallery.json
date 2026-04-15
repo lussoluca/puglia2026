@@ -7,16 +7,16 @@
       "icon": "🏔️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1633321702518-7fecdafb94d5?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1633321702518-7fecdafb94d5?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1536781602098-7ceff4dff60d?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1536781602098-7ceff4dff60d?w=400&q=60",
           "alt": "Vieste - Centro storico sul promontorio",
           "caption": "Vieste, il centro storico arroccato sulla roccia",
           "location": "Vieste",
           "day": 2
         },
         {
-          "src": "https://images.unsplash.com/photo-1599232288126-599b0649f76b?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1599232288126-599b0649f76b?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=400&q=60",
           "alt": "Foresta Umbra - Sentiero nel bosco",
           "caption": "Foresta Umbra, trekking tra faggi millenari",
           "location": "Foresta Umbra",
@@ -38,8 +38,8 @@
       "icon": "🏘️",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1568797629192-950a59c6d508?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1568797629192-950a59c6d508?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1573069237539-92ac7a80a5be?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1573069237539-92ac7a80a5be?w=400&q=60",
           "alt": "Trulli di Alberobello",
           "caption": "Alberobello, i trulli patrimonio UNESCO",
           "location": "Alberobello",
@@ -77,16 +77,16 @@
           "day": 6
         },
         {
-          "src": "https://images.unsplash.com/photo-1591017403997-e8e1075de020?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1591017403997-e8e1075de020?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1614713743235-dde24c457028?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1614713743235-dde24c457028?w=400&q=60",
           "alt": "Acqua cristallina del Salento",
           "caption": "Le acque cristalline del Salento",
           "location": "Salento",
           "day": 9
         },
         {
-          "src": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1619008247436-de1e39ef1cce?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1619008247436-de1e39ef1cce?w=400&q=60",
           "alt": "Torre dell'Orso e faraglioni Due Sorelle",
           "caption": "Torre dell'Orso, i faraglioni 'Due Sorelle'",
           "location": "Torre dell'Orso",
@@ -100,24 +100,24 @@
       "icon": "⛪",
       "photos": [
         {
-          "src": "https://images.unsplash.com/photo-1582220649741-6a2c0e4e7724?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1582220649741-6a2c0e4e7724?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1707234197821-9773c730cf08?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1707234197821-9773c730cf08?w=400&q=60",
           "alt": "Lecce - Basilica di Santa Croce",
           "caption": "Lecce, il barocco mozzafiato di Santa Croce",
           "location": "Lecce",
           "day": 8
         },
         {
-          "src": "https://images.unsplash.com/photo-1596627116790-af6f46dddbaf?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1596627116790-af6f46dddbaf?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1634745451760-7debddf62087?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1634745451760-7debddf62087?w=400&q=60",
           "alt": "Gallipoli citta vecchia",
           "caption": "Gallipoli, la citta vecchia sull'isola",
           "location": "Gallipoli",
           "day": 10
         },
         {
-          "src": "https://images.unsplash.com/photo-1600622752986-5251e00d33a7?w=800&q=80",
-          "thumb": "https://images.unsplash.com/photo-1600622752986-5251e00d33a7?w=400&q=60",
+          "src": "https://images.unsplash.com/photo-1689085382741-a0e6f51eca2b?w=800&q=80",
+          "thumb": "https://images.unsplash.com/photo-1689085382741-a0e6f51eca2b?w=400&q=60",
           "alt": "Otranto - Cattedrale mosaico",
           "caption": "Otranto, la citta dei Martiri affacciata sull'Adriatico",
           "location": "Otranto",
