@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # temp files
 temp/
+
+# playwright
+.playwright-cli/

@@ -24,8 +24,8 @@ const base = import.meta.env.BASE_URL;
             {gallery.categories.map(cat =>
                 cat.photos.map((photo, idx) => (
                     <div class="gallery-item" data-category={cat.id}>
-                        <div class="gallery-thumb" data-src={photo.src} data-alt={photo.alt} data-caption={photo.caption}>
-                            <img src={photo.thumb} alt={photo.alt} loading="lazy" />
+                        <div class="gallery-thumb" data-src={`${base}${photo.src}`} data-alt={photo.alt} data-caption={photo.caption}>
+                            <img src={`${base}${photo.thumb}`} alt={photo.alt} loading="lazy" />
                             <div class="gallery-overlay">
                                 <span class="gallery-zoom">🔍</span>
                             </div>
