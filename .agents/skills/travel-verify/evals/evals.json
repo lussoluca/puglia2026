@@ -1,0 +1,128 @@
+{
+  "skill_name": "travel-verify",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Verifica il mio piano di viaggio in Puglia. I dati sono nei file JSON sotto src/data/. Controlla che i posti esistano, i prezzi siano realistici e che i conti tornino.",
+      "expected_output": "A comprehensive verification report covering geography, prices, math checks, and cross-file consistency.",
+      "files": [
+        "src/data/itinerary.json",
+        "src/data/budget.json",
+        "src/data/restaurants.json",
+        "src/data/beaches.json",
+        "src/data/map-points.json",
+        "src/data/events.json",
+        "src/data/trip.json",
+        "src/data/camper.json",
+        "src/data/weather.json"
+      ],
+      "assertions": [
+        {
+          "text": "Identifies the night count mismatch (trip.json says 13 nights, actual is 12, campsites sum to 11)",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies the budget grand total math error (categories sum to ~2572, not 2550)",
+          "type": "content_check"
+        },
+        {
+          "text": "Verifies at least 3 places via web lookup (checking websites/existence)",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies the toll class issue (3.10m height = higher toll class than car)",
+          "type": "content_check"
+        },
+        {
+          "text": "Flags the total distance as underestimated (2200 km vs realistic 2500-3000 km)",
+          "type": "content_check"
+        },
+        {
+          "text": "Checks cross-file consistency (e.g., beaches in itinerary vs beaches.json, map-points alignment)",
+          "type": "content_check"
+        },
+        {
+          "text": "Uses structured output format with clear sections (not just prose)",
+          "type": "format_check"
+        },
+        {
+          "text": "Provides actionable fix suggestions, not just problem identification",
+          "type": "content_check"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Check my trip budget in src/data/budget.json — do the numbers add up? Are the campsite prices realistic for August? Also cross-check the fuel calculation against the total distance in trip.json.",
+      "expected_output": "A focused budget verification: math checks on totals, campsite price plausibility for peak season, and fuel calculation cross-reference.",
+      "files": [
+        "src/data/budget.json",
+        "src/data/trip.json",
+        "src/data/itinerary.json",
+        "src/data/camper.json"
+      ],
+      "assertions": [
+        {
+          "text": "Verifies each budget category sub-item arithmetic (e.g., campsite items sum to 475)",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies the grand total discrepancy (2572 vs 2550)",
+          "type": "content_check"
+        },
+        {
+          "text": "Checks the fuel calculation chain (km -> liters -> cost) and identifies the distance underestimate",
+          "type": "content_check"
+        },
+        {
+          "text": "Assesses campsite prices against August peak season reality",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies the missing Martinsicuro night (should be 2, not 1)",
+          "type": "content_check"
+        },
+        {
+          "text": "Provides a corrected/realistic budget estimate",
+          "type": "content_check"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm worried some days on our Puglia trip are too packed. Can you review src/data/itinerary.json and check if the driving times are realistic and if there's enough time for all the activities listed each day?",
+      "expected_output": "A logistics-focused review covering driving time plausibility, activity scheduling feasibility, and identification of overpacked days.",
+      "files": [
+        "src/data/itinerary.json",
+        "src/data/map-points.json",
+        "src/data/trip.json"
+      ],
+      "assertions": [
+        {
+          "text": "Identifies Day 3 (Gargano) as overpacked or tight due to mountain road driving times",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies Day 4 distance claim as wrong (~260km stated vs ~340-360km actual)",
+          "type": "content_check"
+        },
+        {
+          "text": "Flags the Gargano SS89/mountain roads as significantly slower than mapping tools suggest",
+          "type": "content_check"
+        },
+        {
+          "text": "Provides a day-by-day assessment (not just flagging a few days)",
+          "type": "format_check"
+        },
+        {
+          "text": "Offers concrete restructuring suggestions for overpacked days",
+          "type": "content_check"
+        },
+        {
+          "text": "Identifies the total km discrepancy (2200 vs actual ~2800-3000)",
+          "type": "content_check"
+        }
+      ]
+    }
+  ]
+}
