@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import Overview from '../../components/Overview.astro';
+import Accommodation from '../../components/Accommodation.astro';
+import Itinerary from '../../components/Itinerary.astro';
+import Map from '../../components/Map.astro';
+import Beaches from '../../components/Beaches.astro';
+import Restaurants from '../../components/Restaurants.astro';
+import Events from '../../components/Events.astro';
+import Budget from '../../components/Budget.astro';
+import Weather from '../../components/Weather.astro';
+import Gallery from '../../components/Gallery.astro';
+import Checklist from '../../components/Checklist.astro';
+import Tips from '../../components/Tips.astro';
+
+import trip from '../../data/auto/trip.json';
+import itinerary from '../../data/auto/itinerary.json';
+import accommodation from '../../data/auto/accommodation.json';
+import budget from '../../data/auto/budget.json';
+import checklist from '../../data/auto/checklist.json';
+import tips from '../../data/auto/tips.json';
+import mapPoints from '../../data/auto/map-points.json';
+
+const base = import.meta.env.BASE_URL;
+
+const stages = [
+    { icon: "📍", title: "Partenza", place: "Alessandria, Piemonte", date: "Lunedi 24 Agosto", highlight: false },
+    { icon: "⛰️", title: "Tappa 1", place: "Gargano (Vieste)", date: "24-26 Agosto - 3 notti", highlight: true },
+    { icon: "🏘️", title: "Tappa 2", place: "Ostuni / Valle d'Itria", date: "27-28 Agosto - 2 notti", highlight: true },
+    { icon: "☀️", title: "Tappa 3", place: "Salento (Gallipoli)", date: "29 Ago - 1 Set - 4 notti", highlight: true },
+    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Mercoledi 2 Settembre", highlight: false },
+];
+---
+
+<Layout title="Puglia 2026 - Vacanza in Auto (B&B e Bungalow)">
+    <div class="variant-banner">
+        <div class="container">
+            <span class="variant-badge">🚗 Versione Auto</span>
+            <span class="variant-text">In macchina da Alessandria, B&B e bungalow, piu mare e relax</span>
+            <a href={base} class="variant-link">Vedi versione Camper &rarr;</a>
+        </div>
+    </div>
+    <Hero tripData={trip} />
+    <Overview stagesData={stages} introText="10 giorni di relax: dal Gargano al Salento in auto, dormendo in B&B e bungalow. Meno tappe, piu mare, zero stress." />
+    <Accommodation accommodationData={accommodation} />
+    <Itinerary itineraryData={itinerary} basePath="auto/" />
+    <Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9122, 8.6152]} />
+    <Beaches />
+    <Restaurants />
+    <Events />
+    <Gallery />
+    <Budget budgetData={budget} hideCamperLink={true} summaryTitle="Totale stimato del viaggio" />
+    <Weather />
+    <Checklist checklistData={checklist} storageKey="puglia2026-auto-checklist" />
+    <Tips tipsData={tips} />
+</Layout>
+
+<style>
+    .variant-banner {
+        background: linear-gradient(135deg, #27ae60, #2ecc71);
+        color: white;
+        padding: 0.8rem 0;
+        text-align: center;
+        position: relative;
+        z-index: 5;
+    }
+
+    .variant-banner .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .variant-badge {
+        background: rgba(255,255,255,0.2);
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+
+    .variant-text {
+        font-size: 0.9rem;
+        opacity: 0.95;
+    }
+
+    .variant-link {
+        color: white;
+        text-decoration: underline;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .variant-link:hover {
+        opacity: 0.8;
+    }
+</style>

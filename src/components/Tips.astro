@@ -1,5 +1,6 @@
 ---
-import tips from '../data/tips.json';
+import defaultTips from '../data/tips.json';
+const tips = Astro.props.tipsData || defaultTips;
 ---
 
 <section id="tips" class="section section-alt">

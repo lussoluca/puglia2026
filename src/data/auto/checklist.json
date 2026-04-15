@@ -1,0 +1,125 @@
+{
+  "intro": "Checklist interattiva per preparare la valigia. I tuoi progressi vengono salvati automaticamente sul dispositivo!",
+  "categories": [
+    {
+      "id": "documenti",
+      "title": "Documenti & Soldi",
+      "icon": "📄",
+      "items": [
+        "Carte d'identita (tutti e 4)",
+        "Tessere sanitarie",
+        "Patente di guida",
+        "Libretto e assicurazione auto",
+        "Conferme prenotazione B&B/bungalow (stampate)",
+        "Assicurazione viaggio",
+        "Contanti + carte di credito/debito",
+        "Numeri emergenza stampati"
+      ]
+    },
+    {
+      "id": "abbigliamento",
+      "title": "Abbigliamento",
+      "icon": "👕",
+      "items": [
+        "Magliette / T-shirt (7-8 a testa)",
+        "Pantaloncini corti (3-4 a testa)",
+        "Pantaloni leggeri lunghi (1-2 a testa)",
+        "Costume da bagno (2 a testa)",
+        "Felpa / giacca leggera per la sera",
+        "K-way / giacca antipioggia",
+        "Pigiama leggero",
+        "Biancheria intima (10+ giorni)",
+        "Calzini (inclusi corti per scarpe da ginnastica)",
+        "Cappello / bandana per il sole",
+        "Scarpe da ginnastica",
+        "Ciabatte / sandali",
+        "Scarpe da scoglio (per spiagge rocciose!)"
+      ]
+    },
+    {
+      "id": "mare",
+      "title": "Attrezzatura Mare",
+      "icon": "🏖️",
+      "items": [
+        "Teli mare grandi (4)",
+        "Crema solare SPF 50+ e SPF 30",
+        "Doposole / aloe vera",
+        "Maschera + boccaglio snorkeling (2 set)",
+        "Gonfiabili / materassino",
+        "Borsa termica per la spiaggia",
+        "Bottiglia acqua termica",
+        "Ombrellone da spiaggia (portatile)",
+        "Giochi da spiaggia (racchettoni, frisbee)",
+        "Sacchetto impermeabile per telefono"
+      ]
+    },
+    {
+      "id": "igiene",
+      "title": "Igiene & Salute",
+      "icon": "🧴",
+      "items": [
+        "Spazzolini e dentifricio",
+        "Shampoo e bagnoschiuma",
+        "Deodorante",
+        "Asciugamani mare",
+        "Farmaci personali",
+        "Kit pronto soccorso (cerotti, disinfettante, Imodium, Moment)",
+        "Antizanzare (spray + piastrine)",
+        "Collirio",
+        "Gel igienizzante mani"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Tecnologia",
+      "icon": "📱",
+      "items": [
+        "Telefoni + caricabatterie",
+        "Powerbank (almeno 10.000 mAh)",
+        "Cavo USB-C / Lightning",
+        "Caricatore auto USB",
+        "Cuffie / auricolari",
+        "E-reader / tablet per i ragazzi",
+        "Macchina fotografica + schede SD",
+        "Supporto telefono per auto (navigatore)"
+      ]
+    },
+    {
+      "id": "auto",
+      "title": "Per l'Auto",
+      "icon": "🚗",
+      "items": [
+        "Triangolo e gilet catarifrangente",
+        "Borsa termica grande (per il viaggio)",
+        "Cuscini e coperte per i ragazzi (viaggio lungo)",
+        "Sacchetti per l'immondizia",
+        "Parasole per parabrezza",
+        "Tendine parasole per finestrini posteriori",
+        "Cavo AUX / Bluetooth per musica"
+      ]
+    },
+    {
+      "id": "visite",
+      "title": "Per le Visite",
+      "icon": "🎒",
+      "items": [
+        "Zaino da giorno",
+        "Borraccia riutilizzabile (1 a testa)",
+        "Guida Puglia (cartacea o ebook)",
+        "Biglietti / prenotazioni stampati",
+        "Quaderno + penne per diario di viaggio"
+      ]
+    },
+    {
+      "id": "cibo",
+      "title": "Scorte Alimentari Partenza",
+      "icon": "🛒",
+      "items": [
+        "Acqua (scorta per il viaggio)",
+        "Frutta e snack per il viaggio",
+        "Panini / crackers per le soste",
+        "Caffe per moka (se il bungalow ce l'ha)"
+      ]
+    }
+  ]
+}

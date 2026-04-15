@@ -1,0 +1,39 @@
+{
+  "title": "I Nostri Alloggi",
+  "intro": "Dormiamo in B&B e bungalow nei campeggi, per avere il comfort di un letto vero senza rinunciare alla vita da campeggio: piscine, spiaggia e animazione per i ragazzi.",
+  "stays": [
+    {
+      "name": "Molinella Vacanze - Bungalow",
+      "location": "Vieste (Gargano)",
+      "nights": 3,
+      "nightsLabel": "3 notti: 24-25-26 Agosto",
+      "type": "Bungalow in campeggio",
+      "detail": "Bungalow con aria condizionata, bagno privato e angolo cottura. Campeggio direttamente sulla spiaggia, dal 1975, con ristorante e mini market. Bungalow: ~80-120€/notte.",
+      "alternative": "B&B Il Castello - Vieste centro storico, con vista mare.",
+      "url": "https://www.molinellavacanze.it/",
+      "alternativeUrl": "https://maps.google.com/?q=B%26B+Il+Castello+Vieste"
+    },
+    {
+      "name": "Campeggio Lamaforca - Bungalow",
+      "location": "Carovigno (zona Ostuni)",
+      "nights": 2,
+      "nightsLabel": "2 notti: 27-28 Agosto",
+      "type": "Bungalow in campeggio",
+      "detail": "Bungalow immersi tra gli ulivi, vicino alla Riserva di Torre Guaceto. Posizione strategica per Ostuni, Alberobello e Cisternino. Bungalow: ~70-110€/notte.",
+      "alternative": "Masseria Il Frantoio - Ostuni. Agriturismo in masseria storica.",
+      "url": "https://www.lamaforca.it/",
+      "alternativeUrl": "https://maps.google.com/?q=Masseria+Il+Frantoio+Ostuni"
+    },
+    {
+      "name": "Baia di Gallipoli Camping Village - Bungalow",
+      "location": "Gallipoli (Salento)",
+      "nights": 4,
+      "nightsLabel": "4 notti: 29-30-31 Ago, 1 Set",
+      "type": "Bungalow in campeggio",
+      "detail": "Nel Parco Naturale di Punta Pizzo. Piscina, animazione per ragazzi, accesso diretto alla spiaggia. Bungalow con A/C e bagno: ~90-140€/notte.",
+      "alternative": "B&B La Casa del Mare - Gallipoli vecchia, con terrazza sul porto.",
+      "url": "https://www.baiadigallipoli.com/",
+      "alternativeUrl": "https://maps.google.com/?q=Gallipoli+citta+vecchia"
+    }
+  ]
+}

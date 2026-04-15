@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "title": "Alloggi (B&B / Bungalow)",
+      "detail": "9 notti in 3 strutture",
+      "items": [
+        "Vieste (bungalow): 3 notti ~ 300€",
+        "Ostuni (bungalow): 2 notti ~ 180€",
+        "Gallipoli (bungalow): 4 notti ~ 480€"
+      ],
+      "total": "~960€"
+    },
+    {
+      "title": "Ristoranti",
+      "detail": "6-8 pasti fuori su 10 giorni",
+      "items": [
+        "Gargano: 2 cene ~ 150€",
+        "Trani: 1 pranzo ~ 80€",
+        "Cisternino/Ostuni: 1 cena ~ 60€",
+        "Polignano: 1 pranzo ~ 50€",
+        "Salento: 2-3 cene ~ 200€"
+      ],
+      "total": "~540€"
+    },
+    {
+      "title": "Attivita e Ingressi",
+      "detail": "Musei, grotte marine, parcheggi",
+      "items": [
+        "Grotte marine Vieste: ~55€",
+        "Musei vari: ~30€",
+        "Parcheggi spiagge: ~60€",
+        "Alberobello: ~12€"
+      ],
+      "total": "~157€"
+    },
+    {
+      "title": "Carburante",
+      "detail": "~2.200 km, consumo ~7 L/100km (auto)",
+      "items": [
+        "Totale litri: ~154 L",
+        "Prezzo benzina: ~1.849€/L (media nazionale self)"
+      ],
+      "total": "~285€"
+    },
+    {
+      "title": "Pedaggi autostradali",
+      "detail": "A21, A14, A1 - Classe A (auto)",
+      "items": [
+        "Alessandria-Vieste: ~50€",
+        "Vieste-Ostuni: ~20€",
+        "Ostuni-Gallipoli: ~10€",
+        "Gallipoli-Alessandria: ~60€"
+      ],
+      "total": "~140€"
+    },
+    {
+      "title": "Spesa alimentare",
+      "detail": "Colazioni (spesso incluse nel B&B), pranzi e cene",
+      "items": [
+        "~25-35€/giorno per 4 persone",
+        "10 giorni"
+      ],
+      "total": "~300€"
+    }
+  ],
+  "grandTotal": "~2380€",
+  "grandTotalNote": "Tutto incluso: alloggi, ristoranti, attivita, carburante, pedaggi e spesa alimentare. Non include usura auto e assicurazione viaggio.",
+  "fuelPrice": {
+    "price": 1.849,
+    "date": "2026-04-14",
+    "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
+    "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
+    "stations": 20202
+  }
+}

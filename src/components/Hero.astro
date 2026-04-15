@@ -1,5 +1,6 @@
 ---
-import trip from '../data/trip.json';
+import defaultTrip from '../data/trip.json';
+const trip = Astro.props.tripData || defaultTrip;
 ---
 
 <section id="hero">

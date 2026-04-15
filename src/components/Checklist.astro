@@ -1,5 +1,7 @@
 ---
-import checklist from '../data/checklist.json';
+import defaultChecklist from '../data/checklist.json';
+const checklist = Astro.props.checklistData || defaultChecklist;
+const storageKey = Astro.props.storageKey || 'puglia2026-checklist';
 ---
 
 <section id="checklist" class="section section-alt">
@@ -44,9 +46,9 @@ import checklist from '../data/checklist.json';
     </div>
 </section>
 
-<script is:inline>
+<script is:inline define:vars={{ storageKey }}>
 (function() {
-    const STORAGE_KEY = 'puglia2026-checklist';
+    const STORAGE_KEY = storageKey;
     const checkboxes = document.querySelectorAll('.checklist-checkbox');
     const progressFill = document.getElementById('progressFill');
     const progressText = document.getElementById('progressText');
