@@ -51,9 +51,7 @@ const switchTitle = isCamper ? 'Vedi versione Auto (B&B)' : 'Vedi versione Campe
 const footerText  = isCamper
   ? 'Puglia 2026 · Vacanza in Camper'
   : 'Puglia 2026 · Vacanza in Auto (B&B)';
-const footerDates = isCamper
-  ? '24 Agosto / 5 Settembre 2026'
-  : '24 Agosto / 2 Settembre 2026';
+const footerDates = '24 Agosto / 5 Settembre 2026';
 ---
 
 <!DOCTYPE html>
@@ -113,7 +111,7 @@ const footerDates = isCamper
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
-    <script>
+    <script define:vars={{ base }}>
         // Navbar
         const navbar = document.getElementById('navbar')!;
         const toggle = document.getElementById('navToggle')!;
@@ -148,7 +146,7 @@ const footerDates = isCamper
         // Register Service Worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/puglia2026/sw.js')
+                navigator.serviceWorker.register(`${base}sw.js`)
                     .then(reg => console.log('SW registered:', reg.scope))
                     .catch(err => console.warn('SW registration failed:', err));
             });

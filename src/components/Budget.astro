@@ -46,9 +46,9 @@ const fuelLabel = budget.fuelPrice?.fuelLabel || 'Diesel';
             <p class="budget-note">
                 {camper ? (
                     <Fragment>
-                        {budget.grandTotalNote.split('Roadsurfer')[0]}
-                        <a href={camper.url} target="_blank">Roadsurfer</a>
-                        {budget.grandTotalNote.split('Roadsurfer').slice(1).join('Roadsurfer')}
+                        {budget.grandTotalNotePre ?? budget.grandTotalNote.split('Roadsurfer')[0]}
+                        <a href={camper.url} target="_blank">{budget.grandTotalNoteLink ?? 'Roadsurfer'}</a>
+                        {budget.grandTotalNotePost ?? budget.grandTotalNote.split('Roadsurfer').slice(1).join('Roadsurfer')}
                     </Fragment>
                 ) : (
                     budget.grandTotalNote

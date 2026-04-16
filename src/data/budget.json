@@ -69,6 +69,9 @@
   ],
   "grandTotal": "~2800€",
   "grandTotalNote": "Il noleggio del camper Roadsurfer Family Finca va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
+  "grandTotalNotePre": "Il noleggio del camper ",
+  "grandTotalNoteLink": "Roadsurfer Family Finca",
+  "grandTotalNotePost": " va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
   "fuelPrice": {
     "price": 2.153,
     "fuelType": "diesel",
