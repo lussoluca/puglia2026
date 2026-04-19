@@ -21,6 +21,7 @@
       "nights": 1,
       "nightsLabel": "1 notte: 23 Agosto",
       "detail": "B&B o hotel sul lungomare. Senigallia e la \"Spiaggia di Velluto\", perfetta per spezzare il viaggio. ~80-120€/notte.",
+      "warning": "Molti hotel richiedono soggiorno minimo 3 o 7 notti in agosto. Verificare che accettino 1 sola notte.",
       "alternative": "Hotel Caggiari - Senigallia, fronte mare con colazione.",
       "url": "https://maps.google.com/?q=Senigallia+lungomare",
       "alternativeUrl": "https://maps.google.com/?q=Hotel+Caggiari+Senigallia"
@@ -43,14 +44,15 @@
       }
     ],
     "accommodation": {
-      "name": "Molinella Vacanze - Bungalow",
+      "name": "Villaggio Turistico Defensola",
       "location": "Vieste",
       "nights": 3,
       "nightsLabel": "3 notti: 24-25-26 Agosto",
-      "detail": "Bungalow con A/C, bagno privato, angolo cottura. Campeggio sulla spiaggia, ristorante, mini market. ~80-120€/notte.",
-      "alternative": "B&B Il Castello - Vieste centro storico, con vista mare.",
-      "url": "https://www.molinellavacanze.it/",
-      "alternativeUrl": "https://maps.google.com/?q=B%26B+Il+Castello+Vieste"
+      "detail": "Trilocale con 2 camere, bagno, cucina attrezzata e terrazza coperta. Residence a 2 km da Vieste con piscina, bar, animazione e spiaggia raggiungibile a piedi. ~100-150€/notte.",
+      "warning": "Chiamare per confermare che accettino 3 notti (il Molinella Vacanze non e disponibile: richiede minimo 7 notti con check-in sabato o domenica).",
+      "alternative": "B&B nel centro storico di Vieste: massima flessibilita, a piedi dalla spiaggia del Pizzomunno.",
+      "url": "https://www.defensola.it",
+      "alternativeUrl": "https://maps.google.com/?q=Vieste+centro+storico"
     }
   },
   {
@@ -151,10 +153,11 @@
       "location": "Carovigno",
       "nights": 3,
       "nightsLabel": "3 notti: 27-28-29 Agosto",
-      "detail": "Bungalow tra gli ulivi, vicino a Torre Guaceto. Base strategica per Ostuni, Alberobello e Cisternino. ~70-110€/notte.",
-      "alternative": "Masseria Il Frantoio - Ostuni. Agriturismo in masseria storica.",
+      "detail": "Bungalow tra gli ulivi, vicino a Torre Guaceto. Parco acquatico, piscina, ristorante. Base strategica per Ostuni, Alberobello e Cisternino. ~70-110€/notte.",
+      "warning": "Molto probabilmente richiede soggiorno minimo 7 notti in agosto. Contattare via WhatsApp per verificare. Se non disponibile, scegliere un B&B a Ostuni/Carovigno.",
+      "alternative": "B&B o agriturismo a Carovigno/Ostuni oppure appartamento a Torre Santa Sabina.",
       "url": "https://www.lamaforca.it/",
-      "alternativeUrl": "https://maps.google.com/?q=Masseria+Il+Frantoio+Ostuni"
+      "alternativeUrl": "https://maps.google.com/?q=Torre+Santa+Sabina+Carovigno"
     }
   },
   {
@@ -242,14 +245,15 @@
       }
     ],
     "accommodation": {
-      "name": "Baia di Gallipoli Camping Village - Bungalow",
-      "location": "Gallipoli",
+      "name": "Villa Rita - Nardo (vicino Porto Selvaggio)",
+      "location": "Nardo (LE, Salento) - 15 km da Gallipoli",
       "nights": 4,
       "nightsLabel": "4 notti: 30-31 Ago, 1-2 Set",
-      "detail": "Bungalow con A/C e bagno nel Parco Naturale di Punta Pizzo. Piscina, animazione, spiaggia. ~90-140€/notte.",
-      "alternative": "B&B La Casa del Mare - Gallipoli vecchia, con terrazza sul porto.",
-      "url": "https://www.baiadigallipoli.com/",
-      "alternativeUrl": "https://maps.google.com/?q=Gallipoli+citta+vecchia"
+      "detail": "Villa indipendente con 2 camere, giardino, BBQ, terrazza panoramica. A 5 min da Sant'Isidoro e Porto Selvaggio. ~139€/notte (556€ totale).",
+      "warning": "Il Baia di Gallipoli Camping Village non e disponibile: richiede minimo 7 notti (sabato-sabato o domenica-domenica).",
+      "alternative": "Appartamento Delfino 2 a Gallipoli: fronte mare, 2 camere + letto a castello. ~157€/notte su Airbnb.",
+      "url": "https://www.airbnb.com/rooms/3114815",
+      "alternativeUrl": "https://www.airbnb.com/rooms/1447034846400056637"
     }
   },
   {

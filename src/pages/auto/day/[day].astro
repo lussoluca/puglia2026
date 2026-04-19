@@ -147,6 +147,11 @@ const lodging = dayData.accommodation || dayData.campsite;
                             <p class="day-campsite-location">📍 {lodging.location}</p>
                             <p class="day-campsite-nights">🌙 {lodging.nightsLabel}</p>
                             <p class="day-campsite-detail">{lodging.detail}</p>
+                            {lodging.warning && (
+                                <div class="day-campsite-warning">
+                                    <strong>Attenzione:</strong> {lodging.warning}
+                                </div>
+                            )}
                             {lodging.url && (
                                 <a href={lodging.url} target="_blank" rel="noopener" class="day-campsite-link">
                                     Sito web &rarr;

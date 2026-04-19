@@ -1,0 +1,70 @@
+{
+  "title": "Contatti Strutture",
+  "intro": "Tutti i recapiti delle strutture dove alloggiamo e delle alternative, per prenotare o verificare disponibilita.",
+  "structures": [
+    {
+      "name": "Hotel Caggiari",
+      "location": "Senigallia (Marche)",
+      "role": "Alternativa tappa 1 - Senigallia",
+      "phone": "+39 071 7923682",
+      "url": "https://maps.google.com/?q=Hotel+Caggiari+Senigallia",
+      "note": "Fronte mare con colazione. Verificare disponibilita per 1 notte il 23 agosto."
+    },
+    {
+      "name": "Villaggio Turistico Defensola",
+      "location": "Vieste (Gargano)",
+      "role": "Struttura principale tappa 2 - Vieste",
+      "phone": "+39 342 5021491",
+      "email": "info@defensola.it",
+      "url": "https://www.defensola.it",
+      "booking": "https://reservations.verticalbooking.com/reservations/index.html?id_stile=14491&lingua_int=ita&id_albergo=19470",
+      "note": "Chiamare per confermare disponibilita trilocale per 3 notti dal 24 al 27 agosto 2026."
+    },
+    {
+      "name": "Molinella Vacanze",
+      "location": "Vieste (Gargano)",
+      "role": "Tappa 2 - NON disponibile",
+      "status": "unavailable",
+      "phone": "+39 0884 707530",
+      "email": "info@molinellavacanze.it",
+      "url": "https://www.molinellavacanze.it/",
+      "note": "Bungalow solo settimanale (sab-sab o dom-dom), minimo 7 notti. Non compatibile con 3 notti da lunedi."
+    },
+    {
+      "name": "Campeggio Lamaforca",
+      "location": "Carovigno (zona Ostuni)",
+      "role": "Tappa 3 - Da verificare",
+      "status": "toVerify",
+      "phone": "+39 348 380 4846",
+      "whatsapp": "+39 348 380 4846",
+      "email": "informazioni@lamaforca.it",
+      "url": "https://www.lamaforca.it/",
+      "note": "Contattare via WhatsApp per verificare se accettano 3 notti (27-30 agosto). Molto probabilmente richiedono minimo 7 notti in agosto."
+    },
+    {
+      "name": "Villa Rita (Airbnb)",
+      "location": "Nardo (LE, Salento)",
+      "role": "Struttura principale tappa 4 - Salento",
+      "url": "https://www.airbnb.com/rooms/3114815",
+      "note": "Superhost, 4.84/5 (87 recensioni). 2 camere, giardino, BBQ. ~139\u20ac/notte. Prenotare su Airbnb."
+    },
+    {
+      "name": "Appartamento Delfino 2 (Airbnb)",
+      "location": "Gallipoli (LE, Salento)",
+      "role": "Alternativa tappa 4 - Gallipoli fronte mare",
+      "url": "https://www.airbnb.com/rooms/1447034846400056637",
+      "note": "Fronte mare, 2 camere + letto a castello, balcone vista mare. ~157\u20ac/notte. Costi extra: tassa di soggiorno + utenze ~30\u20ac/persona."
+    },
+    {
+      "name": "Baia di Gallipoli Camping Village",
+      "location": "Gallipoli (LE, Salento)",
+      "role": "Tappa 4 - NON disponibile",
+      "status": "unavailable",
+      "phone": "+39 0833 273210",
+      "email": "info@baiadigallipoli.com",
+      "url": "https://www.baiadigallipoli.com/",
+      "booking": "https://be.bookingexpert.it/book/home/index?layout=10019253&lang=it",
+      "note": "Mobile home solo settimanale (sab-sab o dom-dom), minimo 7 notti in alta stagione (fino al 12/09). Non compatibile con 4 notti."
+    }
+  ]
+}

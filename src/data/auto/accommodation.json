@@ -1,6 +1,6 @@
 {
   "title": "I Nostri Alloggi",
-  "intro": "Dormiamo in B&B e bungalow nei campeggi, per avere il comfort di un letto vero senza rinunciare alla vita da campeggio: piscine, spiaggia e animazione per i ragazzi.",
+  "intro": "Dormiamo in B&B, appartamenti e residence. I bungalow nei campeggi pugliesi richiedono quasi tutti un soggiorno minimo di 7 notti in alta stagione (con arrivo sabato o domenica), quindi per soggiorni brevi come i nostri la scelta migliore sono B&B e appartamenti vacanza, piu flessibili e spesso anche piu centrali.",
   "stays": [
     {
       "name": "Hotel/B&B a Senigallia",
@@ -8,21 +8,23 @@
       "nights": 1,
       "nightsLabel": "1 notte: 23 Agosto",
       "type": "Hotel/B&B",
-      "detail": "B&B o hotel sul lungomare di Senigallia, la \"Spiaggia di Velluto\". Tappa intermedia per spezzare il viaggio verso la Puglia. ~80-120€/notte.",
+      "detail": "B&B o hotel sul lungomare di Senigallia, la \"Spiaggia di Velluto\". Tappa intermedia per spezzare il viaggio verso la Puglia. ~80-120\u20ac/notte.",
+      "warning": "Molti hotel sulla riviera adriatica richiedono soggiorno minimo di 3 o 7 notti in agosto. Verificare che accettino 1 sola notte prima di prenotare.",
       "alternative": "Hotel Caggiari - Senigallia, fronte mare con colazione.",
       "url": "https://maps.google.com/?q=Senigallia+lungomare",
       "alternativeUrl": "https://maps.google.com/?q=Hotel+Caggiari+Senigallia"
     },
     {
-      "name": "Molinella Vacanze - Bungalow",
+      "name": "Villaggio Turistico Defensola",
       "location": "Vieste (Gargano)",
       "nights": 3,
       "nightsLabel": "3 notti: 24-25-26 Agosto",
-      "type": "Bungalow in campeggio",
-      "detail": "Bungalow con aria condizionata, bagno privato e angolo cottura. Campeggio direttamente sulla spiaggia, dal 1975, con ristorante e mini market. Bungalow: ~80-120€/notte.",
-      "alternative": "B&B Il Castello - Vieste centro storico, con vista mare.",
-      "url": "https://www.molinellavacanze.it/",
-      "alternativeUrl": "https://maps.google.com/?q=B%26B+Il+Castello+Vieste"
+      "type": "Appartamento in residence",
+      "detail": "Trilocale con 2 camere, bagno, cucina attrezzata e terrazza coperta. Residence a 2 km da Vieste con piscina, bar, animazione e spiaggia raggiungibile a piedi (800m, Baia di Molinella). Aperto 20 maggio - 16 settembre. ~100-150\u20ac/notte.",
+      "warning": "Chiamare per confermare che accettino 3 notti (molti residence nella zona richiedono 7 notti in agosto). Il Molinella Vacanze (campeggio) non e disponibile: richiede minimo 7 notti con check-in sabato o domenica.",
+      "alternative": "B&B nel centro storico di Vieste: massima flessibilita (anche 1 notte), a piedi dalla spiaggia del Pizzomunno. Cercare su Booking.com.",
+      "url": "https://www.defensola.it",
+      "alternativeUrl": "https://maps.google.com/?q=Vieste+centro+storico"
     },
     {
       "name": "Campeggio Lamaforca - Bungalow",
@@ -30,21 +32,23 @@
       "nights": 3,
       "nightsLabel": "3 notti: 27-28-29 Agosto",
       "type": "Bungalow in campeggio",
-      "detail": "Bungalow immersi tra gli ulivi, vicino alla Riserva di Torre Guaceto. Posizione strategica per Ostuni, Alberobello e Cisternino. Bungalow: ~70-110€/notte.",
-      "alternative": "Masseria Il Frantoio - Ostuni. Agriturismo in masseria storica.",
+      "detail": "Bungalow immersi tra gli ulivi, vicino alla Riserva di Torre Guaceto. Parco acquatico Aqua-in, piscina Aqua-beach, ristorante. 88 bungalow da 2 a 6 posti. Posizione strategica per Ostuni, Alberobello e Cisternino. ~70-110\u20ac/notte.",
+      "warning": "Molto probabilmente richiede soggiorno minimo 7 notti in agosto (come quasi tutti i campeggi pugliesi). Non hanno sistema di prenotazione online: contattare via WhatsApp per verificare. Se non disponibile per 3 notti, scegliere un B&B o agriturismo nella zona Ostuni/Carovigno.",
+      "alternative": "B&B o agriturismo a Carovigno/Ostuni oppure appartamento a Torre Santa Sabina o Specchiolla (stessa zona costiera).",
       "url": "https://www.lamaforca.it/",
-      "alternativeUrl": "https://maps.google.com/?q=Masseria+Il+Frantoio+Ostuni"
+      "alternativeUrl": "https://maps.google.com/?q=Torre+Santa+Sabina+Carovigno"
     },
     {
-      "name": "Baia di Gallipoli Camping Village - Bungalow",
-      "location": "Gallipoli (Salento)",
+      "name": "Villa Rita - Nardo (vicino Porto Selvaggio)",
+      "location": "Nardo (LE, Salento) - 15 km da Gallipoli",
       "nights": 4,
       "nightsLabel": "4 notti: 30-31 Ago, 1-2 Set",
-      "type": "Bungalow in campeggio",
-      "detail": "Nel Parco Naturale di Punta Pizzo. Piscina, animazione per ragazzi, accesso diretto alla spiaggia. Bungalow con A/C e bagno: ~90-140€/notte.",
-      "alternative": "B&B La Casa del Mare - Gallipoli vecchia, con terrazza sul porto.",
-      "url": "https://www.baiadigallipoli.com/",
-      "alternativeUrl": "https://maps.google.com/?q=Gallipoli+citta+vecchia"
+      "type": "Villa indipendente (Airbnb)",
+      "detail": "Villa indipendente con 2 camere da letto, giardino (120 mq), BBQ, terrazza panoramica sul tetto, A/C, doccia esterna. Superhost con 87 recensioni (4.84/5). A 5 minuti in auto dalla spiaggia di Sant'Isidoro e dal Parco di Porto Selvaggio. ~139\u20ac/notte (556\u20ac totale).",
+      "warning": "Il Baia di Gallipoli Camping Village non e disponibile: richiede minimo 7 notti (sabato-sabato o domenica-domenica) per le mobile home in alta stagione. Villa Rita accetta soggiorni di 4 notti.",
+      "alternative": "Appartamento Delfino 2 a Gallipoli: fronte mare, 2 camere + letto a castello, balcone vista mare. ~157\u20ac/notte su Airbnb.",
+      "url": "https://www.airbnb.com/rooms/3114815",
+      "alternativeUrl": "https://www.airbnb.com/rooms/1447034846400056637"
     },
     {
       "name": "Hotel/B&B a Martinsicuro",
@@ -52,8 +56,8 @@
       "nights": 2,
       "nightsLabel": "2 notti: 3-4 Settembre",
       "type": "Hotel/B&B",
-      "detail": "B&B o hotel sulla costa abruzzese. Spiaggia sabbiosa con fondale basso, ideale per le ultime notti di relax prima del rientro. ~70-100€/notte.",
-      "alternative": "Hotel/B&B a Senigallia (Marche) come alternativa.",
+      "detail": "B&B o hotel sulla costa abruzzese. Spiaggia sabbiosa con fondale basso, ideale per le ultime notti di relax prima del rientro. Settembre e bassa stagione: facile trovare disponibilita anche per 2 sole notti. ~70-100\u20ac/notte.",
+      "alternative": "Hotel/B&B a Senigallia (Marche) come alternativa per il rientro.",
       "url": "https://maps.google.com/?q=Martinsicuro+lungomare",
       "alternativeUrl": "https://maps.google.com/?q=Senigallia+lungomare"
     }

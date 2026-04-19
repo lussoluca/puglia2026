@@ -13,10 +13,12 @@ import Weather from '../../components/Weather.astro';
 import Gallery from '../../components/Gallery.astro';
 import Checklist from '../../components/Checklist.astro';
 import Tips from '../../components/Tips.astro';
+import Contacts from '../../components/Contacts.astro';
 
 import trip from '../../data/auto/trip.json';
 import itinerary from '../../data/auto/itinerary.json';
 import accommodation from '../../data/auto/accommodation.json';
+import contacts from '../../data/auto/contacts.json';
 import budget from '../../data/auto/budget.json';
 import checklist from '../../data/auto/checklist.json';
 import tips from '../../data/auto/tips.json';
@@ -36,6 +38,7 @@ const stages = [
     <Overview stagesData={stages} introText="11 giorni di relax: dal Gargano al Salento in auto, dormendo in B&B e bungalow. Meno tappe, piu mare, zero stress." />
     <Accommodation accommodationData={accommodation} />
     <Itinerary itineraryData={itinerary} basePath="auto/" />
+    <Contacts contactsData={contacts} />
     <Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9122, 8.6152]} />
     <Beaches />
     <Restaurants />

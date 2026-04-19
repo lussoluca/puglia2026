@@ -17,6 +17,11 @@ const accommodation = Astro.props.accommodationData;
                         <p class="accommodation-location">📍 {stay.location}</p>
                         <p class="accommodation-nights">🌙 {stay.nightsLabel}</p>
                         <p class="accommodation-detail">{stay.detail}</p>
+                        {stay.warning && (
+                            <div class="accommodation-warning">
+                                <strong>Attenzione:</strong> {stay.warning}
+                            </div>
+                        )}
                         {stay.url && (
                             <a href={stay.url} target="_blank" rel="noopener noreferrer" class="accommodation-link">
                                 Sito web &rarr;
@@ -104,6 +109,17 @@ const accommodation = Astro.props.accommodationData;
 
     .accommodation-link:hover {
         text-decoration: underline;
+    }
+
+    .accommodation-warning {
+        margin: 0.8rem 0;
+        padding: 0.8rem 1rem;
+        background: #fff8e1;
+        border-left: 4px solid var(--color-accent, #e67e22);
+        border-radius: 6px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        color: #5d4037;
     }
 
     .accommodation-alt {
