@@ -23,9 +23,9 @@ import tips from '../../data/auto/tips.json';
 import mapPoints from '../../data/auto/map-points.json';
 
 const stages = [
-    { icon: "📍", title: "Partenza", place: "Alessandria, Piemonte", date: "Lunedi 24 Agosto", highlight: false },
+    { icon: "📍", title: "Partenza", place: "Alessandria, Piemonte", date: "Domenica 23 Agosto", highlight: false },
     { icon: "⛰️", title: "Tappa 1", place: "Gargano (Vieste)", date: "24-26 Agosto - 3 notti", highlight: true },
-    { icon: "🏘️", title: "Tappa 2", place: "Ostuni / Valle d'Itria", date: "27-28 Agosto - 2 notti", highlight: true },
+    { icon: "🏘️", title: "Tappa 2", place: "Ostuni / Valle d'Itria", date: "27-29 Agosto - 3 notti", highlight: true },
     { icon: "☀️", title: "Tappa 3", place: "Salento (Gallipoli)", date: "30 Ago - 2 Set - 4 notti", highlight: true },
     { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Sabato 5 Settembre", highlight: false },
 ];
@@ -33,7 +33,7 @@ const stages = [
 
 <Layout title="Puglia 2026 - Vacanza in Auto (B&B e Bungalow)" variant="auto">
     <Hero tripData={trip} />
-    <Overview stagesData={stages} introText="10 giorni di relax: dal Gargano al Salento in auto, dormendo in B&B e bungalow. Meno tappe, piu mare, zero stress." />
+    <Overview stagesData={stages} introText="11 giorni di relax: dal Gargano al Salento in auto, dormendo in B&B e bungalow. Meno tappe, piu mare, zero stress." />
     <Accommodation accommodationData={accommodation} />
     <Itinerary itineraryData={itinerary} basePath="auto/" />
     <Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9122, 8.6152]} />

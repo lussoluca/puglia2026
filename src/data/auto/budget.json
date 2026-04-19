@@ -2,29 +2,30 @@
   "categories": [
     {
       "title": "Alloggi (B&B / Bungalow)",
-      "detail": "12 notti in 5 strutture",
+      "detail": "13 notti in 5 strutture",
       "items": [
         "Senigallia (B&B): 1 notte ~ 100€",
         "Vieste (bungalow): 3 notti ~ 300€",
-        "Ostuni (bungalow): 2 notti ~ 180€",
+        "Ostuni (bungalow): 3 notti ~ 270€",
         "Gallipoli (bungalow): 4 notti ~ 480€",
         "Martinsicuro (B&B): 2 notti ~ 170€"
       ],
-      "total": "~1230€"
+      "total": "~1320€"
     },
     {
       "title": "Ristoranti",
-      "detail": "8-10 pasti fuori su 13 giorni",
+      "detail": "9-11 pasti fuori su 14 giorni",
       "items": [
         "Senigallia: 1 cena ~ 70€",
         "Gargano: 2 cene ~ 150€",
         "Trani: 1 pranzo ~ 80€",
         "Cisternino/Ostuni: 1 cena ~ 60€",
+        "Locorotondo/Martina Franca: 1 pranzo ~ 60€",
         "Polignano: 1 pranzo ~ 50€",
         "Salento: 2-3 cene ~ 200€",
         "Abruzzo: 1 cena ~ 70€"
       ],
-      "total": "~680€"
+      "total": "~740€"
     },
     {
       "title": "Attivita e Ingressi",
@@ -64,12 +65,12 @@
       "detail": "Colazioni (spesso incluse nel B&B), pranzi e cene",
       "items": [
         "~25-35€/giorno per 4 persone",
-        "13 giorni"
+        "14 giorni"
       ],
-      "total": "~390€"
+      "total": "~420€"
     }
   ],
-  "grandTotal": "~2850€",
+  "grandTotal": "~3030€",
   "grandTotalNote": "Tutto incluso: alloggi, ristoranti, attivita, carburante GPL, pedaggi e spesa alimentare. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 0.787,

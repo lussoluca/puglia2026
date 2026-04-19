@@ -1,8 +1,8 @@
 [
   {
     "day": 1,
-    "date": "2026-08-24",
-    "weekday": "Lunedi",
+    "date": "2026-08-23",
+    "weekday": "Domenica",
     "title": "Alessandria → Senigallia (Marche)",
     "tags": ["travel"],
     "travelInfo": "~400 km - circa 4h di guida (A21 + A14)",
@@ -19,7 +19,7 @@
       "name": "Hotel/B&B a Senigallia",
       "location": "Senigallia",
       "nights": 1,
-      "nightsLabel": "1 notte: 24 Agosto",
+      "nightsLabel": "1 notte: 23 Agosto",
       "detail": "B&B o hotel sul lungomare. Senigallia e la \"Spiaggia di Velluto\", perfetta per spezzare il viaggio. ~80-120€/notte.",
       "alternative": "Hotel Caggiari - Senigallia, fronte mare con colazione.",
       "url": "https://maps.google.com/?q=Senigallia+lungomare",
@@ -28,8 +28,8 @@
   },
   {
     "day": 2,
-    "date": "2026-08-25",
-    "weekday": "Martedi",
+    "date": "2026-08-24",
+    "weekday": "Lunedi",
     "title": "Senigallia → Vieste (Gargano)",
     "tags": ["travel"],
     "travelInfo": "~380 km - circa 4h di guida (A14 + SS89)",
@@ -46,7 +46,7 @@
       "name": "Molinella Vacanze - Bungalow",
       "location": "Vieste",
       "nights": 3,
-      "nightsLabel": "3 notti: 25-26-27 Agosto",
+      "nightsLabel": "3 notti: 24-25-26 Agosto",
       "detail": "Bungalow con A/C, bagno privato, angolo cottura. Campeggio sulla spiaggia, ristorante, mini market. ~80-120€/notte.",
       "alternative": "B&B Il Castello - Vieste centro storico, con vista mare.",
       "url": "https://www.molinellavacanze.it/",
@@ -55,8 +55,8 @@
   },
   {
     "day": 3,
-    "date": "2026-08-26",
-    "weekday": "Mercoledi",
+    "date": "2026-08-25",
+    "weekday": "Martedi",
     "title": "Gargano - Giornata di mare",
     "tags": ["sea"],
     "description": "Prima vera giornata di vacanza: niente sveglia, niente programmi rigidi. Solo mare, sole e relax.",
@@ -77,8 +77,8 @@
   },
   {
     "day": 4,
-    "date": "2026-08-27",
-    "weekday": "Giovedi",
+    "date": "2026-08-26",
+    "weekday": "Mercoledi",
     "title": "Gargano - Mare e grotte",
     "tags": ["sea", "nature"],
     "description": "Seconda giornata di mare con un'opzione in piu: le grotte marine in barca. Ma solo se ne avete voglia!",
@@ -120,8 +120,8 @@
   },
   {
     "day": 5,
-    "date": "2026-08-28",
-    "weekday": "Venerdi",
+    "date": "2026-08-27",
+    "weekday": "Giovedi",
     "title": "Vieste → Ostuni",
     "tags": ["travel", "culture"],
     "travelInfo": "~280 km - circa 3h30 di guida (con sosta a Trani)",
@@ -149,8 +149,8 @@
     "accommodation": {
       "name": "Campeggio Lamaforca - Bungalow",
       "location": "Carovigno",
-      "nights": 2,
-      "nightsLabel": "2 notti: 28-29 Agosto",
+      "nights": 3,
+      "nightsLabel": "3 notti: 27-28-29 Agosto",
       "detail": "Bungalow tra gli ulivi, vicino a Torre Guaceto. Base strategica per Ostuni, Alberobello e Cisternino. ~70-110€/notte.",
       "alternative": "Masseria Il Frantoio - Ostuni. Agriturismo in masseria storica.",
       "url": "https://www.lamaforca.it/",
@@ -159,8 +159,8 @@
   },
   {
     "day": 6,
-    "date": "2026-08-29",
-    "weekday": "Sabato",
+    "date": "2026-08-28",
+    "weekday": "Venerdi",
     "title": "Torre Guaceto + Cisternino",
     "tags": ["sea", "culture"],
     "description": "Mare la mattina, bombette la sera. Una giornata perfetta!",
@@ -181,6 +181,40 @@
   },
   {
     "day": 7,
+    "date": "2026-08-29",
+    "weekday": "Sabato",
+    "title": "Valle d'Itria - Locorotondo e Martina Franca",
+    "tags": ["culture"],
+    "description": "Giornata senza fretta tra i borghi piu belli della Valle d'Itria. Vicoli bianchi, panorami sui trulli e buon cibo.",
+    "activities": [
+      {
+        "icon": "🏘️",
+        "title": "Mattina - Locorotondo",
+        "text": "Uno dei Borghi piu Belli d'Italia: balconate fiorite, vicoli circolari e vista mozzafiato sulla Valle d'Itria. Passeggiata nel centro storico e colazione con pasticciotto in un bar della piazza.",
+        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
+      },
+      {
+        "icon": "🍷",
+        "title": "Pranzo - Martina Franca",
+        "text": "Centro barocco elegante con Palazzo Ducale. Pranzo con capocollo di Martina Franca (presidio Slow Food) in una trattoria del centro.",
+        "url": "https://maps.google.com/?q=Martina+Franca+centro+storico"
+      },
+      {
+        "icon": "🏖️",
+        "title": "Pomeriggio - Relax",
+        "text": "Rientro al bungalow e pomeriggio libero: spiaggia a Torre Guaceto o relax in campeggio. Ultimo giorno nella zona, godetevelo!",
+        "url": "https://maps.google.com/?q=Torre+Guaceto+spiaggia"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Sera",
+        "text": "Cena a Ostuni o ultima serata a Cisternino con le bombette. Domani si parte per il Salento!",
+        "url": "https://maps.google.com/?q=Ostuni+centro+storico"
+      }
+    ]
+  },
+  {
+    "day": 8,
     "date": "2026-08-30",
     "weekday": "Domenica",
     "title": "Alberobello + Trasferimento al Salento",
@@ -219,7 +253,7 @@
     }
   },
   {
-    "day": 8,
+    "day": 9,
     "date": "2026-08-31",
     "weekday": "Lunedi",
     "title": "Giornata di mare puro",
@@ -241,7 +275,7 @@
     ]
   },
   {
-    "day": 9,
+    "day": 10,
     "date": "2026-09-01",
     "weekday": "Martedi",
     "title": "Otranto + Spiagge",
@@ -270,7 +304,7 @@
     ]
   },
   {
-    "day": 10,
+    "day": 11,
     "date": "2026-09-02",
     "weekday": "Mercoledi",
     "title": "Gallipoli + Ultimo mare",
@@ -298,7 +332,7 @@
     ]
   },
   {
-    "day": 11,
+    "day": 12,
     "date": "2026-09-03",
     "weekday": "Giovedi",
     "title": "Ultimo mare + Risalita",
@@ -330,7 +364,7 @@
     }
   },
   {
-    "day": 12,
+    "day": 13,
     "date": "2026-09-04",
     "weekday": "Venerdi",
     "title": "Giornata libera in Abruzzo",
@@ -351,7 +385,7 @@
     ]
   },
   {
-    "day": 13,
+    "day": 14,
     "date": "2026-09-05",
     "weekday": "Sabato",
     "title": "Martinsicuro → Alessandria",
