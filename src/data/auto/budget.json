@@ -70,15 +70,15 @@
       "total": "~420€"
     }
   ],
-  "grandTotal": "~3030€",
+  "grandTotal": "~3000€",
   "grandTotalNote": "Tutto incluso: alloggi, ristoranti, attivita, carburante GPL, pedaggi e spesa alimentare. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 0.787,
     "fuelType": "gpl",
     "fuelLabel": "GPL",
-    "date": "2026-04-18",
+    "date": "2026-04-19",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
-    "stations": 158
+    "stations": 159
   }
 }
