@@ -76,9 +76,9 @@
     "price": 2.061,
     "fuelType": "diesel",
     "fuelLabel": "Diesel",
-    "date": "2026-04-25",
+    "date": "2026-04-26",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
-    "stations": 20247
+    "stations": 20245
   }
 }
