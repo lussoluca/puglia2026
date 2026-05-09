@@ -76,9 +76,9 @@
     "price": 0.806,
     "fuelType": "gpl",
     "fuelLabel": "GPL",
-    "date": "2026-05-07",
+    "date": "2026-05-08",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
-    "stations": 160
+    "stations": 159
   }
 }
