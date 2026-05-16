@@ -43,7 +43,7 @@
       "detail": "~2.500 km, consumo ~11 L/100km (auto GPL)",
       "items": [
         "Totale litri: ~275 L",
-        "Prezzo GPL: ~0.804€/L (media nazionale self)"
+        "Prezzo GPL: ~0.802€/L (media nazionale self)"
       ],
       "total": "~221€"
     },
@@ -73,10 +73,10 @@
   "grandTotal": "~3000€",
   "grandTotalNote": "Tutto incluso: alloggi, ristoranti, attivita, carburante GPL, pedaggi e spesa alimentare. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
-    "price": 0.804,
+    "price": 0.802,
     "fuelType": "gpl",
     "fuelLabel": "GPL",
-    "date": "2026-05-14",
+    "date": "2026-05-15",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
     "stations": 160
