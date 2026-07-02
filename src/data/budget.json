@@ -42,9 +42,9 @@
       "detail": "~2.800 km, consumo ~10-12 L/100km",
       "items": [
         "Totale litri: ~310 L",
-        "Prezzo diesel: ~1.892€/L (media nazionale self)"
+        "Prezzo diesel: ~1.888€/L (media nazionale self)"
       ],
-      "total": "~587€"
+      "total": "~585€"
     },
     {
       "title": "Pedaggi autostradali",
@@ -67,16 +67,16 @@
       "total": "~450€"
     }
   ],
-  "grandTotal": "~2750€",
+  "grandTotal": "~2700€",
   "grandTotalNote": "Il noleggio del camper Roadsurfer Family Finca va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
   "grandTotalNotePre": "Il noleggio del camper ",
   "grandTotalNoteLink": "Roadsurfer Family Finca",
   "grandTotalNotePost": " va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
   "fuelPrice": {
-    "price": 1.892,
+    "price": 1.888,
     "fuelType": "diesel",
     "fuelLabel": "Diesel",
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
     "stations": 20374
