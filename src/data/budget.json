@@ -42,9 +42,9 @@
       "detail": "~2.800 km, consumo ~10-12 L/100km",
       "items": [
         "Totale litri: ~310 L",
-        "Prezzo diesel: ~1.944€/L (media nazionale self)"
+        "Prezzo diesel: ~1.971€/L (media nazionale self)"
       ],
-      "total": "~603€"
+      "total": "~611€"
     },
     {
       "title": "Pedaggi autostradali",
@@ -73,12 +73,12 @@
   "grandTotalNoteLink": "Roadsurfer Family Finca",
   "grandTotalNotePost": " va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
   "fuelPrice": {
-    "price": 1.944,
+    "price": 1.971,
     "fuelType": "diesel",
     "fuelLabel": "Diesel",
-    "date": "2026-07-08",
+    "date": "2026-07-10",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
-    "stations": 20389
+    "stations": 20391
   }
 }
