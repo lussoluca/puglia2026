@@ -43,7 +43,7 @@
       "detail": "~2.700 km, consumo ~11 L/100km (auto GPL)",
       "items": [
         "Totale litri: ~297 L",
-        "Prezzo GPL: ~0.756€/L (media nazionale self)"
+        "Prezzo GPL: ~0.757€/L (media nazionale self)"
       ],
       "total": "~225€"
     },
@@ -73,10 +73,10 @@
   "grandTotal": "~1950€",
   "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e la notte di Grottammare ancora da prenotare. Le tre strutture già prenotate sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
-    "price": 0.756,
+    "price": 0.757,
     "fuelType": "gpl",
     "fuelLabel": "GPL",
-    "date": "2026-08-11",
+    "date": "2026-08-12",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
     "stations": 167
