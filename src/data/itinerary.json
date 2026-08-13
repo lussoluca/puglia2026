@@ -480,30 +480,30 @@
     "day": 12,
     "date": "2026-09-03",
     "weekday": "Giovedì",
-    "title": "Costa dei Trabocchi → Ravenna e Cervia",
+    "title": "Costa dei Trabocchi → Cervia e la salina",
     "tags": [
       "travel",
-      "culture"
+      "nature"
     ],
     "travelInfo": "~360 km - circa 3h30 di guida (A14)",
-    "description": "Penultima tappa: i mosaici bizantini di Ravenna nel pomeriggio e la sera la festa del sale a Cervia, che apre proprio oggi la trentesima edizione.",
+    "description": "Penultima tappa in Romagna: il pomeriggio tra i fenicotteri della salina e la sera la festa del sale, che apre proprio oggi la trentesima edizione.",
     "activities": [
       {
         "icon": "🚗",
         "title": "Mattina - Risalita",
-        "text": "Partenza dopo colazione, o dopo un'ora di bici sulla Via Verde se vi è piaciuta. Tre ore e mezza di A14 lungo le Marche, con sosta pranzo a metà. Arrivo a Ravenna nel primo pomeriggio.",
-        "url": "https://maps.google.com/?q=Ravenna+centro"
+        "text": "Partenza dopo colazione, o dopo un'ora di bici sulla Via Verde se vi è piaciuta. Tre ore e mezza di A14 lungo le Marche, con sosta pranzo a metà. Arrivo a Cervia nel primo pomeriggio.",
+        "url": "https://maps.google.com/?q=Cervia+centro"
       },
       {
-        "icon": "✨",
-        "title": "Pomeriggio - I mosaici di Ravenna",
-        "text": "Otto siti UNESCO in una città piccola. Il biglietto cumulativo da 12,50€ copre i cinque principali: Basilica di San Vitale, Mausoleo di Galla Placidia, Sant'Apollinare Nuovo, Battistero Neoniano e Museo Arcivescovile. Galla Placidia è minuscola e si entra a orario prenotato, incluso nel prezzo: bloccate lo slot online prima di partire.",
-        "url": "https://www.ravennamosaici.it/"
+        "icon": "🦩",
+        "title": "Pomeriggio - Salina di Cervia",
+        "text": "La salina più a nord d'Italia, dentro il Parco del Delta del Po: vasche rosate, sentieri sull'argine e una colonia di fenicotteri che si vede a occhio nudo dal centro visite. Ci si arriva a piedi o in bici dal centro, sono cinque minuti. Accanto c'è il MUSA, il museo del sale ricavato nel vecchio Magazzino.",
+        "url": "https://maps.google.com/?q=Salina+di+Cervia"
       },
       {
         "icon": "🧂",
-        "title": "Sera - Sapore di Sale a Cervia",
-        "text": "Venti minuti da Ravenna. La festa del sale dolce di Cervia compie trent'anni e va dal 3 al 6 settembre: stasera è la serata di apertura in piazzale Salinari, con il centro storico, il Porto Canale e il Magazzino del Sale pieni di stand, cucina e musica. Capitarci il primo giorno è fortuna pura.",
+        "title": "Sera - Sapore di Sale",
+        "text": "La festa del sale dolce di Cervia compie trent'anni e va dal 3 al 6 settembre: stasera è la serata di apertura in piazzale Salinari, con centro storico, Porto Canale e Magazzino del Sale pieni di stand, cucina e musica. Si cena tra gli stand: piadina, cassoni, sardoncini, formaggio di fossa. Capitarci il primo giorno è fortuna pura.",
         "url": "https://www.cerviasaporedisale.it/"
       }
     ],
@@ -512,40 +512,69 @@
       "location": "Cervia o Milano Marittima (RA), Romagna",
       "nights": 1,
       "nightsLabel": "1 notte: 3 Settembre",
-      "detail": "Da prenotare. Cervia mette a portata di piedi la festa e lascia 3h30 di strada per l'ultimo giorno. Milano Marittima è attaccata, più elegante e con la pineta.",
+      "detail": "Da prenotare. Cervia mette la festa e la salina a portata di piedi, e lascia una tratta finale corta. Milano Marittima è attaccata, più elegante e con la pineta.",
       "warning": "Sono i giorni di Sapore di Sale: gli alberghi si riempiono e il centro è chiuso al traffico. Prenotate presto e chiedete del parcheggio.",
-      "alternative": "Ravenna centro, se preferite dormire vicino ai mosaici e salutare la festa prima di cena.",
+      "alternative": "Milano Marittima, a due passi, se preferite la pineta e il lungomare.",
       "url": "https://maps.google.com/?q=Cervia+centro",
-      "alternativeUrl": "https://maps.google.com/?q=Ravenna+centro+storico"
-    }
+      "alternativeUrl": "https://maps.google.com/?q=Milano+Marittima"
+    },
+    "highlightsTitle": "Nei dintorni, se avanza tempo",
+    "highlights": [
+      {
+        "text": "Cesenatico, 20 minuti a sud: il Porto Canale disegnato da Leonardo da Vinci, con il Museo della Marineria e le barche storiche a vele colorate ormeggiate in acqua",
+        "url": "https://maps.google.com/?q=Porto+Canale+Cesenatico"
+      },
+      {
+        "text": "Milano Marittima è attaccata a Cervia: pineta, lungomare e gelaterie. Comoda per una passeggiata prima di cena",
+        "url": "https://maps.google.com/?q=Milano+Marittima"
+      }
+    ]
   },
   {
     "day": 13,
     "date": "2026-09-04",
     "weekday": "Venerdì",
-    "title": "Cervia → Alessandria",
+    "title": "Cervia → Comacchio → Alessandria",
     "tags": [
-      "travel"
+      "travel",
+      "nature"
     ],
-    "travelInfo": "~360 km - circa 3h30 di guida (A14 + A1 + A21)",
-    "description": "Ultima tratta, la più corta del rientro. Partendo la mattina si è ad Alessandria per pranzo.",
+    "travelInfo": "~420 km in tutto - circa 4h di guida, più le 2h della barca",
+    "description": "L'ultimo giorno si prende una deviazione che vale la sveglia: la barca nelle Valli di Comacchio, poi l'autostrada verso casa.",
     "activities": [
       {
-        "icon": "🦩",
-        "title": "Prima di partire - Se avanza mezz'ora",
-        "text": "La Salina di Cervia è dentro il Parco del Delta del Po e ci vivono i fenicotteri rosa: si vedono dai sentieri e dal centro visite, a cinque minuti dal centro. Accanto c'è il MUSA, il museo del sale nel vecchio magazzino.",
-        "url": "https://maps.google.com/?q=Salina+di+Cervia"
+        "icon": "🚗",
+        "title": "Mattina presto - Verso Comacchio",
+        "text": "Colazione e partenza verso le 9:30: 70 km di strada fino alla Stazione Foce, l'imbarco dentro le Valli di Comacchio. Praticamente sulla strada verso Bologna, quindi la deviazione costa poco.",
+        "url": "https://maps.google.com/?q=Stazione+Foce+Valli+di+Comacchio"
       },
       {
-        "icon": "🚗",
-        "title": "Mattina - Rientro",
-        "text": "Partenza verso le 9: A14 fino a Bologna, poi A1 e A21. Una sosta sola e si arriva ad Alessandria per pranzo, con il pomeriggio libero per le valigie.",
+        "icon": "🦩",
+        "title": "11:00 - In barca nelle Valli",
+        "text": "Due ore di navigazione nella laguna tra centinaia di uccelli acquatici e una grossa colonia di fenicotteri, con sosta guidata ai casoni, le vecchie stazioni da pesca in legno, e al parco archeologico di Spina con le case ricostruite della città etrusca. Da settembre le partenze sono tutti i giorni alle 11:00 e alle 15:00. Prenotare: 0533 81302 oppure 346 5926555.",
+        "url": "https://www.podeltatourism.it/it/escursioni-nel-parco-del-delta-del-po/escursioni-e-proposte-in-barca"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Pranzo - Comacchio",
+        "text": "Dieci minuti dall'imbarco: la piccola Venezia di canali e ponti, con il Trepponti seicentesco a cinque rampe. La Manifattura dei Marinati è l'ecomuseo dove si marina ancora l'anguilla nei camini come una volta. Pranzo veloce sui canali e poi si parte.",
+        "url": "https://maps.google.com/?q=Trepponti+Comacchio"
+      },
+      {
+        "icon": "🏠",
+        "title": "Pomeriggio - Rientro",
+        "text": "Circa 350 km fino ad Alessandria: A13 verso Bologna, poi A1 e A21. Con partenza alle 14 si arriva verso le 18. Ultima cosa: formaggi e burrata direttamente in frigo, il resto in cantina."
+      }
+    ],
+    "highlightsTitle": "Se preferite accorciare",
+    "highlights": [
+      {
+        "text": "Saltando la barca si parte da Cervia alle 9 e si è ad Alessandria per pranzo, con 350 km e 3h30 di guida. La deviazione a Comacchio costa circa quattro ore in più tra strada, escursione e pranzo",
         "url": "https://maps.google.com/?q=Alessandria"
       },
       {
-        "icon": "🧊",
-        "title": "La borsa termica",
-        "text": "Formaggi e burrata hanno passato tre notti in giro: in frigo appena arrivati. Olio, taralli, vino Primitivo, pane di Matera e sale di Cervia invece aspettano tranquilli in cantina."
+        "text": "La barca delle 11:00 va prenotata: se è piena c'è quella delle 15:00, ma allora conviene dormire una notte in più o rinunciare",
+        "url": "https://www.podeltatourism.it/it/escursioni-nel-parco-del-delta-del-po/escursioni-e-proposte-in-barca"
       }
     ]
   }

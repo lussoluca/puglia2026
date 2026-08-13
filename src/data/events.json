@@ -136,16 +136,16 @@
       "description": "Il parco archeologico in estate chiude alle 13:30 e il museo è chiuso la seconda domenica del mese. Verificare gli orari del 28 agosto sul sito dei Musei Puglia."
     },
     {
-      "name": "Slot per il Mausoleo di Galla Placidia",
-      "location": "Ravenna Mosaici",
-      "period": "Prima di partire",
-      "description": "Il cumulativo da 12,50€ include l'ingresso a orario prenotato per Galla Placidia e il Battistero Neoniano, ma lo slot va bloccato online: senza prenotazione non si entra."
-    },
-    {
       "name": "Tavolo su un trabocco",
       "location": "Costa dei Trabocchi",
       "period": "Almeno una settimana prima",
       "description": "Ogni trabocco ha pochissimi coperti e a inizio settembre sono ancora pieni. Se non si trova, si cena sul lungomare a Fossacesia."
+    },
+    {
+      "name": "Barca nelle Valli di Comacchio",
+      "location": "Stazione Foce, Comacchio",
+      "period": "Qualche giorno prima",
+      "description": "Da settembre parte alle 11:00 e alle 15:00, dura 2 ore. Noi puntiamo a quella delle 11:00 del 4 settembre: va prenotata al 0533 81302, e il prezzo va confermato al telefono."
     }
   ],
   "resources": [
@@ -178,12 +178,12 @@
       "url": "https://www.cerviasaporedisale.it/"
     },
     {
-      "name": "Ravenna Mosaici",
-      "url": "https://www.ravennamosaici.it/"
-    },
-    {
       "name": "Via Verde dei Trabocchi",
       "url": "https://viaverdedeitrabocchi.info/"
+    },
+    {
+      "name": "Po Delta Tourism - escursioni in barca",
+      "url": "https://www.podeltatourism.it/it/escursioni-nel-parco-del-delta-del-po/escursioni-e-proposte-in-barca"
     }
   ]
 }

@@ -106,8 +106,8 @@
       "date": "Gio 3 Set",
       "base": "Cervia (RA)",
       "zone": "Romagna",
-      "type": "visit",
-      "plan": "Mosaici di Ravenna + Sapore di Sale",
+      "type": "sea",
+      "plan": "Salina con i fenicotteri + Sapore di Sale",
       "km": "~360 km"
     },
     {
@@ -116,8 +116,8 @@
       "base": "Rientro",
       "zone": "Autostrada",
       "type": "travel",
-      "plan": "Cervia → Alessandria",
-      "km": "~360 km"
+      "plan": "Barca nelle Valli di Comacchio → casa",
+      "km": "~420 km"
     }
   ],
   "summary": [
@@ -130,12 +130,12 @@
       "value": "6"
     },
     {
-      "label": "Giornate di mare",
-      "value": "4"
+      "label": "Giornate di mare e natura",
+      "value": "5"
     },
     {
       "label": "Giornate di visita",
-      "value": "5"
+      "value": "4"
     },
     {
       "label": "Tratta più lunga",
@@ -143,7 +143,7 @@
     },
     {
       "label": "Km totali",
-      "value": "~2.750"
+      "value": "~2.800"
     }
   ]
 }

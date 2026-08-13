@@ -285,12 +285,12 @@
       "url": "https://maps.google.com/?q=Abbazia+di+San+Giovanni+in+Venere"
     },
     {
-      "name": "Mosaici di Ravenna (UNESCO)",
-      "lat": 44.42,
-      "lng": 12.197,
-      "desc": "San Vitale, Galla Placidia, Sant'Apollinare Nuovo, Battistero Neoniano. Cumulativo 12,50€.",
-      "zone": "Romagna",
-      "url": "https://www.ravennamosaici.it/"
+      "name": "Comacchio - Trepponti",
+      "lat": 44.694,
+      "lng": 12.183,
+      "desc": "La piccola Venezia del Delta: canali, il ponte seicentesco a cinque rampe, la Manifattura dei Marinati.",
+      "zone": "Delta del Po",
+      "url": "https://maps.google.com/?q=Trepponti+Comacchio"
     }
   ],
   "restaurants": [
@@ -407,6 +407,14 @@
       "desc": "Salina nel Parco del Delta del Po, con i fenicotteri rosa. Accanto il MUSA, museo del sale.",
       "zone": "Romagna",
       "url": "https://maps.google.com/?q=Salina+di+Cervia"
+    },
+    {
+      "name": "Valli di Comacchio - Stazione Foce",
+      "lat": 44.628,
+      "lng": 12.227,
+      "desc": "Imbarco per la barca nelle valli: fenicotteri, casoni da pesca, parco archeologico di Spina. 2h, alle 11:00 e alle 15:00.",
+      "zone": "Delta del Po",
+      "url": "https://www.podeltatourism.it/it/escursioni-nel-parco-del-delta-del-po/escursioni-e-proposte-in-barca"
     }
   ],
   "route": [
@@ -453,6 +461,10 @@
     [
       44.262,
       12.35
+    ],
+    [
+      44.694,
+      12.183
     ],
     [
       44.9122,

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026: 13 days by car from Alessandria, 12 nights across six stops (Montemarciano in the Marche, Vieste on the Gargano, Ostuni as the main base for six nights, then Matera, the Costa dei Trabocchi and Cervia on the way home). The site is a PWA (Progressive Web App) with offline support via Service Worker.
+Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026: 13 days by car from Alessandria, 12 nights across six stops (Montemarciano in the Marche, Vieste on the Gargano, Ostuni as the main base for six nights, then Matera, the Costa dei Trabocchi and Cervia with the Po delta on the way home). The site is a PWA (Progressive Web App) with offline support via Service Worker.
 
 **Tech stack:** Astro 6.x · TypeScript (strict) · Plain CSS · Leaflet.js (maps, CDN) · Static JSON data layer  
 **Deployment:** GitHub Pages at `https://lussoluca.github.io/puglia2026/`

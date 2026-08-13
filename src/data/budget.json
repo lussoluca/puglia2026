@@ -39,18 +39,19 @@
         "Parcheggi spiagge e Torre Guaceto: ~60€",
         "Matera: Belvedere Murgia Timone 10€ + Casa Grotta 5€ a testa: ~60€",
         "Noleggio bici sulla Via Verde: ~60€",
-        "Ravenna, cumulativo 5 siti UNESCO (12,50€ a testa): ~50€"
+        "Barca nelle Valli di Comacchio: ~60€ (prezzo da confermare)",
+        "MUSA e ingressi minori in Romagna: ~20€"
       ],
-      "total": "~547€"
+      "total": "~577€"
     },
     {
       "title": "Carburante",
-      "detail": "~2.750 km, consumo ~11 L/100km (auto GPL)",
+      "detail": "~2.800 km, consumo ~11 L/100km (auto GPL)",
       "items": [
-        "Totale litri: ~303 L",
+        "Totale litri: ~308 L",
         "Prezzo GPL: ~0.757€/L (media nazionale self)"
       ],
-      "total": "~229€"
+      "total": "~233€"
     },
     {
       "title": "Pedaggi autostradali",
@@ -62,7 +63,7 @@
         "Ostuni-Matera: quasi tutto statale, ~5€",
         "Matera-Fossacesia: ~20€",
         "Fossacesia-Cervia: ~25€",
-        "Cervia-Alessandria: ~30€"
+        "Cervia-Comacchio-Alessandria: ~30€"
       ],
       "total": "~155€"
     },

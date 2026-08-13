@@ -200,7 +200,7 @@
   {
     "zone": "Rientro: Romagna",
     "zoneIcon": "🧂",
-    "mealsAdvice": "1 cena, il 3 settembre alla festa",
+    "mealsAdvice": "1 cena alla festa il 3, 1 pranzo a Comacchio il 4",
     "restaurants": [
       {
         "name": "Stand di Sapore di Sale",
@@ -211,6 +211,15 @@
         "featured": true,
         "featuredLabel": "3-6 Settembre",
         "url": "https://www.cerviasaporedisale.it/"
+      },
+      {
+        "name": "Osterie sui canali di Comacchio",
+        "location": "Centro storico, Comacchio (FE)",
+        "type": "Anguilla e pesce di laguna",
+        "description": "L'anguilla marinata è il piatto del posto e si produce ancora nella Manifattura dei Marinati. Pranzo veloce sui canali prima di mettersi in autostrada.",
+        "price": "20-30€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=ristoranti+Comacchio+centro"
       }
     ]
   }
