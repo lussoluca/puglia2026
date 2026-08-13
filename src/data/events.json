@@ -22,9 +22,9 @@
       "location": "Grotte di Castellana",
       "dates": "Sabato 29 Agosto, ore 21:00",
       "icon": "🔥",
-      "match": "Scelto: è la serata del giorno 7",
+      "match": "Biglietti già presi",
       "matchType": "hit",
-      "description": "L'Inferno di Dante nella Grave, la caverna d'ingresso delle Grotte di Castellana: acrobati sulle pareti, musica dal vivo, proiezioni sulla roccia. 25€ adulti e 20€ fino a 17 anni, 90€ in quattro. Età consigliata dagli 8 anni. Dentro fa fresco: felpa.",
+      "description": "L'Inferno di Dante nella Grave, la caverna d'ingresso delle Grotte di Castellana: acrobati sulle pareti, musica dal vivo, proiezioni sulla roccia. 90€ in quattro, già pagati. In biglietteria alle 20:30. Dentro fa fresco: felpa.",
       "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
     },
     {
@@ -100,12 +100,6 @@
       "location": "Comune di Ostuni",
       "period": "Pubblicato a inizio agosto",
       "description": "Gli orari precisi di processione, Cavalcata e fuochi cambiano di anno in anno, e i nomi degli artisti dei tre concerti gratuiti si sanno tardi. Controllare il sito del Comune e i canali social nei giorni prima."
-    },
-    {
-      "name": "Biglietti per Hell in the Cave",
-      "location": "Grotte di Castellana",
-      "period": "Da prenotare appena possibile",
-      "description": "Le date estive vanno esaurite e il 29 agosto è la serata scelta. Prenotare sullo shop online appena possibile: non ci sono altre date compatibili con il soggiorno a Ostuni."
     },
     {
       "name": "Escursione grotte marine di Vieste",

@@ -21,28 +21,29 @@
         "Polignano: 1 cena leggera ~ 50€",
         "Ostuni: 2 cene ~ 130€",
         "Cisternino (bombette): 1 cena ~ 70€",
-        "Locorotondo: 1 pranzo ~ 90€",
+        "Locorotondo, aperitivo: ~40€",
+        "Alberobello, cena in un trullo: ~120€",
         "Matera: 1 cena ~ 90€",
         "Cena su un trabocco: ~ 220€",
         "Cervia, stand di Sapore di Sale: ~ 60€"
       ],
-      "total": "~1020€"
+      "total": "~1090€"
     },
     {
       "title": "Attività e Ingressi",
       "detail": "Le uscite prenotabili, per 4 persone",
       "items": [
         "Grotte marine di Vieste in barca: ~100€",
-        "Hell in the Cave (25€ adulti, 20€ ragazzi): ~90€",
+        "Hell in the Cave: ~90€ (già pagati)",
         "Egnazia (6€ a testa): ~24€",
-        "Alberobello, Trullo Sovrano e ingressi minori: ~25€",
+        "Alberobello, ingressi minori (di sera si gira fuori): ~15€",
         "Parcheggi spiagge e Torre Guaceto: ~60€",
         "Matera: Belvedere Murgia Timone 10€ + Casa Grotta 5€ a testa: ~60€",
         "Noleggio bici sulla Via Verde: ~60€",
         "Barca nelle Valli di Comacchio: ~60€ (prezzo da confermare)",
         "MUSA e ingressi minori in Romagna: ~20€"
       ],
-      "total": "~499€"
+      "total": "~489€"
     },
     {
       "title": "Carburante",
@@ -78,7 +79,7 @@
       "total": "~390€"
     }
   ],
-  "grandTotal": "~2650€",
+  "grandTotal": "~2700€",
   "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e le tre notti del rientro ancora da prenotare. Le nove notti pugliesi, già prenotate, sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 0.757,

@@ -1,6 +1,6 @@
 {
   "title": "Dove Saremo Ogni Giorno",
-  "intro": "La griglia di riferimento per pianificare: dove si dorme, in che zona si passa la giornata, che tipo di giornata è e quanti chilometri comporta. Il criterio è uno: mai due giornate impegnative di fila, e in una giornata o il mare o una visita, non entrambi. Il rientro è spezzato in quattro tratte, nessuna oltre le 3h30.",
+  "intro": "La griglia di riferimento per pianificare: dove si dorme, in che zona si passa la giornata, che tipo di giornata è e quanti chilometri comporta. Il criterio è uno: mai due giornate impegnative di fila, e in una giornata o il mare o una visita. Ad agosto le visite ai borghi sono spostate la sera, quando si respira. Il rientro è spezzato in quattro tratte.",
   "days": [
     {
       "day": 1,
@@ -62,26 +62,26 @@
       "base": "Ostuni (BR)",
       "zone": "Valle d'Itria",
       "type": "visit",
-      "plan": "Alberobello + Hell in the Cave",
-      "km": "~110 km A/R"
+      "plan": "Aperitivo a Locorotondo + Hell in the Cave",
+      "km": "~120 km A/R"
     },
     {
       "day": 8,
       "date": "Dom 30 Ago",
       "base": "Ostuni (BR)",
-      "zone": "Ostuni",
+      "zone": "Ostuni e Alberobello",
       "type": "sea",
-      "plan": "Spiagge di Ostuni + Città Bianca",
-      "km": "~25 km A/R"
+      "plan": "Mare la mattina, trulli illuminati la sera",
+      "km": "~80 km A/R"
     },
     {
       "day": 9,
       "date": "Lun 31 Ago",
       "base": "Ostuni (BR)",
-      "zone": "Valle d'Itria",
+      "zone": "Ostuni e Cisternino",
       "type": "visit",
-      "plan": "Locorotondo + bombette a Cisternino",
-      "km": "~70 km A/R"
+      "plan": "Città Bianca a piedi + bombette",
+      "km": "~40 km A/R"
     },
     {
       "day": 10,

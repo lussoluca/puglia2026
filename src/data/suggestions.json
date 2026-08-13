@@ -31,22 +31,28 @@
     },
     {
       "name": "Valle d'Itria",
-      "direction": "Verso l'interno, tra trulli e grotte",
+      "direction": "Verso l'interno, due serate diverse",
       "plannedDay": 7,
-      "plannedLabel": "Pianificato: Sabato 29 Agosto",
-      "totalTime": "~1h all'andata",
+      "plannedLabel": "Pianificato: sere del 29 e 30 Agosto",
+      "totalTime": "35-40 min all'andata, mai di più",
       "legs": [
         {
-          "place": "Alberobello",
-          "time": "40 min da Ostuni",
-          "note": "1.500 trulli UNESCO. Ci passiamo il pomeriggio intero: Rione Monti, il Rione Aia Piccola ancora abitato, il Trullo Sovrano e il belvedere di Santa Lucia.",
-          "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
+          "place": "Locorotondo",
+          "time": "35 min da Ostuni",
+          "note": "Aperitivo del 29, prima dello spettacolo. Borgo circolare con le case a cummerse e la vista sulla Valle d'Itria. Zona di vino bianco.",
+          "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
         },
         {
           "place": "Castellana Grotte",
-          "time": "+20 min",
-          "note": "Ci andiamo solo la sera, per Hell in the Cave nella caverna d'ingresso. La visita guidata alla grotta l'abbiamo lasciata fuori per stare di più ad Alberobello.",
-          "url": "https://www.grottedicastellana.it/"
+          "time": "+25 min da Locorotondo",
+          "note": "Solo la sera del 29, per Hell in the Cave alle 21:00 nella caverna d'ingresso. Biglietti già presi.",
+          "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
+        },
+        {
+          "place": "Alberobello",
+          "time": "40 min da Ostuni",
+          "note": "La sera del 30, non di pomeriggio: ad agosto nelle ore centrali è un forno. Al buio le vie di Rione Monti sono illuminate, le botteghe aperte e i pullman dei tour spariti.",
+          "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
         }
       ]
     },
@@ -67,18 +73,18 @@
     }
   ],
   "wishlistTitle": "Lo spettacolo nelle Grotte di Castellana",
-  "wishlistIntro": "Abbiamo scelto Hell in the Cave, sabato 29 agosto alle 21:00. Solo lo spettacolo: la visita guidata alla grotta resta fuori, per avere un pomeriggio pieno ad Alberobello.",
+  "wishlistIntro": "Hell in the Cave, sabato 29 agosto alle 21:00. Biglietti già acquistati: resta solo da presentarsi in biglietteria mezz'ora prima.",
   "wishlist": [
     {
       "name": "Hell in the Cave",
       "status": "primary",
-      "statusLabel": "Scelto",
+      "statusLabel": "Biglietti presi",
       "when": "Sabato 29 Agosto, ore 21:00",
-      "price": "25€ adulti · 20€ fino a 17 anni · 90€ in quattro",
-      "description": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni sulla roccia. Durata circa 1h15, età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Ad agosto va sold out: da prenotare appena possibile.",
+      "price": "25€ adulti · 20€ fino a 17 anni · 90€ in quattro, già pagati",
+      "description": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni sulla roccia. Durata circa 1h15, età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Dentro ci sono 16-18°C: felpa e scarpe chiuse.",
       "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
     }
   ],
-  "bookingNote": "Biglietti online su shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722 (segreteria@grottedicastellana.it).",
+  "bookingNote": "Contatti utili se serve modificare qualcosa: telefono 080 4998221, WhatsApp 339 1176722, segreteria@grottedicastellana.it.",
   "bookingUrl": "https://shop.grottedicastellana.it/"
 }

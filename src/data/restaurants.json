@@ -95,9 +95,9 @@
     ]
   },
   {
-    "zone": "Valle d'Itria (Cisternino / Locorotondo)",
+    "zone": "Valle d'Itria (Alberobello / Cisternino / Locorotondo)",
     "zoneIcon": "🔥",
-    "mealsAdvice": "1 cena obbligatoria: i fornelli pronti",
+    "mealsAdvice": "1 aperitivo, 2 cene: tutte serali, per stare fuori dal caldo",
     "restaurants": [
       {
         "name": "Fornelli pronti di Cisternino",
@@ -110,13 +110,23 @@
         "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
       },
       {
-        "name": "Trattorie di Locorotondo",
+        "name": "Aperitivo a Locorotondo",
         "location": "Centro storico di Locorotondo",
-        "type": "Cucina della Valle d'Itria",
-        "description": "Orecchiette, gnumeredde, formaggi e il vino bianco locale. Buone per il pranzo della mattinata nel borgo.",
-        "price": "20-30€/persona",
+        "type": "Vino bianco e taglieri",
+        "description": "Locorotondo DOC, formaggi e salumi in una delle piazzette del borgo circolare, con il sole basso sulla Valle d'Itria. Prima di scendere a Castellana per lo spettacolo.",
+        "price": "10-15€/persona",
         "featured": false,
-        "url": "https://maps.google.com/?q=trattoria+Locorotondo+centro+storico"
+        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
+      },
+      {
+        "name": "Ristorante in un trullo ad Alberobello",
+        "location": "Rione Monti o centro, Alberobello",
+        "type": "Cucina pugliese sotto la volta in pietra",
+        "description": "Diversi trulli sono diventati ristoranti: si mangia sotto la cupola a secco. Orecchiette, carne alla brace, verdure. Domenica sera in alta stagione sono aperti, ma conviene prenotare nel pomeriggio.",
+        "price": "25-35€/persona",
+        "featured": true,
+        "featuredLabel": "Cena del 30, da prenotare",
+        "url": "https://maps.google.com/?q=ristorante+trullo+Alberobello"
       }
     ]
   },
