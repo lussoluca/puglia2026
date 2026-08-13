@@ -69,19 +69,19 @@
       "day": 8,
       "date": "Dom 30 Ago",
       "base": "Ostuni (BR)",
-      "zone": "Ostuni e Alberobello",
+      "zone": "Ostuni e Cisternino",
       "type": "sea",
-      "plan": "Mare la mattina, trulli illuminati la sera",
-      "km": "~80 km A/R"
+      "plan": "Mare, Città Bianca e bombette",
+      "km": "~40 km A/R"
     },
     {
       "day": 9,
       "date": "Lun 31 Ago",
       "base": "Ostuni (BR)",
-      "zone": "Ostuni e Cisternino",
+      "zone": "Valle d'Itria",
       "type": "visit",
-      "plan": "Città Bianca a piedi + bombette",
-      "km": "~40 km A/R"
+      "plan": "Alberobello illuminata la sera",
+      "km": "~80 km A/R"
     },
     {
       "day": 10,

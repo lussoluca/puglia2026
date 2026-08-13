@@ -97,16 +97,16 @@
   {
     "zone": "Valle d'Itria (Alberobello / Cisternino / Locorotondo)",
     "zoneIcon": "🔥",
-    "mealsAdvice": "1 aperitivo, 2 cene: tutte serali, per stare fuori dal caldo",
+    "mealsAdvice": "1 aperitivo il 29, bombette il 30, cena nel trullo il 31: tutte serali",
     "restaurants": [
       {
         "name": "Fornelli pronti di Cisternino",
         "location": "Centro storico di Cisternino, 25 min da Ostuni",
         "type": "Macelleria con griglia",
-        "description": "Si scelgono bombette, salsicce e spiedini al banco della macelleria e le grigliano davanti a voi mentre aspettate al tavolo. Fornello da Ricci è il più conosciuto, ma nel centro storico ce ne sono diversi a pochi metri l'uno dall'altro.",
+        "description": "Di giorno sono macellerie, la sera diventano braceria: si scelgono bombette, salsicce e spiedini al banco e le grigliano davanti a voi. Aprono verso le 20. Fornello da Ricci è il più conosciuto, ma nel centro storico ce ne sono diversi a pochi metri l'uno dall'altro, con giorni di chiusura diversi.",
         "price": "15-20€/persona",
         "featured": true,
-        "featuredLabel": "L'esperienza da fare",
+        "featuredLabel": "Cena del 30",
         "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
       },
       {
@@ -122,10 +122,10 @@
         "name": "Ristorante in un trullo ad Alberobello",
         "location": "Rione Monti o centro, Alberobello",
         "type": "Cucina pugliese sotto la volta in pietra",
-        "description": "Diversi trulli sono diventati ristoranti: si mangia sotto la cupola a secco. Orecchiette, carne alla brace, verdure. Domenica sera in alta stagione sono aperti, ma conviene prenotare nel pomeriggio.",
+        "description": "Diversi trulli sono diventati ristoranti: si mangia sotto la cupola a secco. Orecchiette, carne alla brace, verdure. È l'ultima cena pugliese del viaggio: prenotare nel pomeriggio.",
         "price": "25-35€/persona",
         "featured": true,
-        "featuredLabel": "Cena del 30, da prenotare",
+        "featuredLabel": "Cena del 31, da prenotare",
         "url": "https://maps.google.com/?q=ristorante+trullo+Alberobello"
       }
     ]

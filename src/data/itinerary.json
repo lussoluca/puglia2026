@@ -298,13 +298,13 @@
     "day": 8,
     "date": "2026-08-30",
     "weekday": "Domenica",
-    "title": "Mare a Ostuni e Alberobello di sera",
+    "title": "Mare a Ostuni e bombette a Cisternino",
     "tags": [
       "sea",
       "culture"
     ],
-    "travelInfo": "~80 km A/R - 40 minuti per Alberobello nel tardo pomeriggio",
-    "description": "Il compromesso col caldo: i trulli si vedono di sera, quando l'aria è respirabile, le vie sono illuminate e i pullman dei tour sono spariti da ore.",
+    "travelInfo": "~40 km A/R - 25 minuti per Cisternino la sera",
+    "description": "Giornata a raggio corto: mare la mattina, il centro storico di Ostuni a piedi quando cala il sole e la cena migliore del viaggio a un quarto d'ora di strada.",
     "activities": [
       {
         "icon": "🏖️",
@@ -313,10 +313,52 @@
         "url": "https://maps.google.com/?q=Lido+Morelli+Ostuni"
       },
       {
-        "icon": "😴",
-        "title": "Pomeriggio - Riposo",
-        "text": "Rientro nel primo pomeriggio, doccia e ore calde in casa. Serve, perché la sera si torna tardi.",
-        "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
+        "icon": "🏘️",
+        "title": "Tardo pomeriggio - La Città Bianca",
+        "text": "Salita nel centro storico quando il sole scende, tutto a piedi da casa: il labirinto di case imbiancate a calce, la Concattedrale gotico-romanica col rosone di 7 metri e i belvedere che guardano gli uliveti fino al mare. Bella anche solo per perdersi senza mappa.",
+        "url": "https://maps.google.com/?q=Cattedrale+di+Ostuni"
+      },
+      {
+        "icon": "🔥",
+        "title": "Sera - Fornelli pronti a Cisternino (25 min)",
+        "text": "L'esperienza da fare. Di giorno sono macellerie, la sera diventano braceria: si scelgono le bombette (involtini di capocollo ripieni di formaggio), le salsicce e gli spiedini al banco, e le grigliano davanti a voi mentre aspettate al tavolo. Si mangia con 15-20€ a testa. Aprono verso le 20, quindi non arrivate prima. Nel centro storico ce ne sono diversi a pochi metri l'uno dall'altro.",
+        "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
+      }
+    ],
+    "highlightsTitle": "Da sapere",
+    "highlights": [
+      {
+        "text": "Ogni fornello ha il suo giorno di chiusura e non sempre coincide: se il primo è chiuso, il secondo è a cinquanta metri. La domenica sera in alta stagione sono quasi tutti aperti",
+        "url": "https://maps.google.com/?q=Cisternino+centro+storico"
+      },
+      {
+        "text": "Si paga la carne al peso, scelta al banco: conviene ordinare poco alla volta e aggiungere, perché le porzioni ingannano",
+        "url": "https://maps.google.com/?q=Fornello+da+Ricci+Cisternino"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "date": "2026-08-31",
+    "weekday": "Lunedì",
+    "title": "Alberobello di sera",
+    "tags": [
+      "culture"
+    ],
+    "travelInfo": "~80 km A/R - 40 minuti per Alberobello nel tardo pomeriggio",
+    "description": "Ultimo giorno pieno, con le ore calde libere e i trulli lasciati per la sera: quando l'aria è respirabile, le vie sono illuminate e i pullman dei tour sono spariti da ore.",
+    "activities": [
+      {
+        "icon": "🌊",
+        "title": "Mattina - Come volete",
+        "text": "Ultimo bagno sulla costa di Ostuni, oppure niente: dopo la serata a Cisternino una mattina lenta ci sta tutta.",
+        "url": "https://maps.google.com/?q=Rosa+Marina+Ostuni"
+      },
+      {
+        "icon": "🛒",
+        "title": "Pomeriggio - Spesa pugliese e valigie",
+        "text": "È il momento di fare scorta: olio extravergine, taralli, capocollo, vino Primitivo, e la burrata solo se avete la borsa termica, perché il rientro dura quattro giorni. Valigie pronte prima di uscire, così domani si parte senza pensieri.",
+        "url": "https://maps.google.com/?q=Ostuni+centro"
       },
       {
         "icon": "🏘️",
@@ -327,7 +369,7 @@
       {
         "icon": "🍽️",
         "title": "Cena - In un trullo",
-        "text": "Diversi trulli di Alberobello sono diventati ristoranti: si mangia sotto la volta di pietra a secco. Domenica sera in alta stagione sono aperti, ma conviene prenotare nel pomeriggio. Rientro a Ostuni verso le 23.",
+        "text": "Diversi trulli di Alberobello sono diventati ristoranti: si mangia sotto la volta di pietra a secco. Ultima cena pugliese del viaggio, da prenotare nel pomeriggio. Rientro a Ostuni verso le 23: domani la tappa è corta, solo 1h20 fino a Matera.",
         "url": "https://maps.google.com/?q=ristorante+trullo+Alberobello"
       }
     ],
@@ -340,54 +382,10 @@
       {
         "text": "Il belvedere di Santa Lucia guarda Rione Monti dall'alto: con le luci accese è il punto da cui si capisce la forma del paese",
         "url": "https://maps.google.com/?q=Belvedere+Santa+Lucia+Alberobello"
-      }
-    ]
-  },
-  {
-    "day": 9,
-    "date": "2026-08-31",
-    "weekday": "Lunedì",
-    "title": "Ostuni a piedi e bombette a Cisternino",
-    "tags": [
-      "culture"
-    ],
-    "travelInfo": "~40 km A/R - 25 minuti per Cisternino la sera",
-    "description": "Ultimo giorno pieno, tenuto leggero perché domani si riparte. Finalmente il tempo di guardarsi Ostuni per bene, e la cena migliore del viaggio.",
-    "activities": [
-      {
-        "icon": "🌊",
-        "title": "Mattina - Come volete",
-        "text": "Ultimo bagno sulla costa di Ostuni, oppure niente: dopo due serate lunghe una mattina lenta ci sta tutta.",
-        "url": "https://maps.google.com/?q=Rosa+Marina+Ostuni"
       },
       {
-        "icon": "🛒",
-        "title": "Pomeriggio - Spesa pugliese",
-        "text": "È il momento di fare scorta: olio extravergine, taralli, capocollo, vino Primitivo, e la burrata solo se avete la borsa termica, perché il rientro dura quattro giorni. Poi si preparano le valigie.",
-        "url": "https://maps.google.com/?q=Ostuni+centro"
-      },
-      {
-        "icon": "🏘️",
-        "title": "Tardo pomeriggio - La Città Bianca",
-        "text": "Salita nel centro storico quando il sole scende, tutto a piedi da casa: il labirinto di case imbiancate a calce, la Concattedrale gotico-romanica col rosone di 7 metri e i belvedere che guardano gli uliveti fino al mare. Bella anche solo per perdersi senza mappa.",
-        "url": "https://maps.google.com/?q=Cattedrale+di+Ostuni"
-      },
-      {
-        "icon": "🔥",
-        "title": "Sera - Fornelli pronti a Cisternino (25 min)",
-        "text": "L'esperienza da fare: si scende in macelleria, si scelgono le bombette (involtini di capocollo ripieni di formaggio), le salsicce e gli spiedini al banco, e le grigliano davanti a voi mentre aspettate al tavolo. Si mangia con 15-20€ a testa. Il centro storico di Cisternino ne ha diversi, tutti a pochi metri l'uno dall'altro.",
-        "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
-      }
-    ],
-    "highlightsTitle": "In alternativa",
-    "highlights": [
-      {
-        "text": "Martina Franca, 40 minuti: più grande e barocca, con il Palazzo Ducale e il capocollo presidio Slow Food. Da fare solo se avete ancora voglia di muovervi",
+        "text": "Locorotondo è a 10 minuti da Alberobello, ma l'abbiamo già fatta sabato per l'aperitivo. Martina Franca, più grande e barocca, è a 20 minuti se volete aggiungere qualcosa",
         "url": "https://maps.google.com/?q=Martina+Franca+centro+storico"
-      },
-      {
-        "text": "Lecce è a 50 minuti: il barocco leccese, Santa Croce e l'anfiteatro romano. È l'unica città importante che questo itinerario si lascia fuori, ma è una giornata intera",
-        "url": "https://maps.google.com/?q=Basilica+di+Santa+Croce+Lecce"
       }
     ]
   },
