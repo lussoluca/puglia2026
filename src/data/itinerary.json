@@ -1,422 +1,436 @@
 [
   {
     "day": 1,
-    "date": "2026-08-24",
-    "weekday": "Lunedi",
-    "title": "Torino → Senigallia (Marche)",
+    "date": "2026-08-23",
+    "weekday": "Domenica",
+    "title": "Alessandria → Montemarciano (Marche)",
     "tags": ["travel"],
-    "travelInfo": "~450 km - circa 4h30 di guida (A21 + A14)",
-    "description": "Ritiro camper a Torino la mattina presto. Viaggio tranquillo verso le Marche con sosta pranzo lungo il percorso (autogrill o area di sosta). Arrivo a Senigallia nel primo pomeriggio.",
+    "travelInfo": "~450 km - circa 4h30 di guida (A21 + A1 + A14)",
+    "description": "Prima tappa di trasferimento: si spezza il viaggio in due per non arrivare al Gargano distrutti. Partenza la mattina, sosta pranzo lungo la A14, arrivo a Montemarciano nel pomeriggio.",
     "activities": [
       {
+        "icon": "🚗",
+        "title": "Mattina - Viaggio",
+        "text": "Partenza da Alessandria verso le 8:30. A21 fino a Piacenza, A1 fino a Bologna, poi A14 lungo l'Adriatico. Sosta pranzo in autogrill o, meglio, uscita a Cesena/Rimini per mangiare qualcosa di decente.",
+        "url": "https://maps.google.com/?q=Via+Casino+Pulini+5+Montemarciano"
+      },
+      {
         "icon": "🏖️",
-        "title": "Senigallia",
-        "text": "Passeggiata serale sulla Rotonda a Mare e sul lungomare. Cena in una delle trattorie del centro o al camper.",
+        "title": "Pomeriggio - Primo bagno",
+        "text": "Check-in a Montemarciano, poi giù al mare: Marina di Montemarciano è a 4 km, spiaggia di sabbia e ghiaia con stabilimenti e tratti liberi. Se avete voglia di fare due passi in più, Senigallia è a 10 km.",
+        "url": "https://maps.google.com/?q=Marina+di+Montemarciano+spiaggia"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Sera - Senigallia",
+        "text": "Passeggiata sul lungomare di Senigallia e alla Rotonda a Mare, il padiglione sull'acqua simbolo della città. Cena di pesce dell'Adriatico in una trattoria del centro: qui si mangia bene e si spende meno che in Puglia.",
         "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
       }
     ],
-    "campsite": {
-      "name": "Centro Vacanze Summerland",
-      "location": "Senigallia",
+    "accommodation": {
+      "name": "Casa a Montemarciano",
+      "location": "Via Casino Pulini 5, Montemarciano (AN)",
       "nights": 1,
-      "nightsLabel": "1 notte: 24 Agosto",
-      "detail": "3 piscine, vicino alla spiaggia, animazione, ideale per famiglie. Piazzola camper: ~30-45€/notte.",
-      "alternative": "Camping delle Rose - Martinsicuro (TE), sulla costa abruzzese.",
-      "url": "https://www.campingsummerland.it/",
-      "alternativeUrl": "https://www.campingdellerose.it/"
+      "nightsLabel": "1 notte: 23 Agosto",
+      "detail": "Tappa intermedia sulle colline sopra la costa. Marina di Montemarciano a 4 km, Senigallia a 10 km.",
+      "url": "https://maps.google.com/?q=Via+Casino+Pulini+5+Montemarciano"
     }
   },
   {
     "day": 2,
-    "date": "2026-08-25",
-    "weekday": "Martedi",
-    "title": "Senigallia → Vieste (Gargano)",
-    "tags": ["travel", "sea"],
-    "travelInfo": "~380 km - circa 4h di guida (A14 + SS89)",
-    "description": "Partenza mattina, arrivo a Vieste nel primo pomeriggio. Primo impatto con il Gargano: mare turchese e scogliere bianche.",
+    "date": "2026-08-24",
+    "weekday": "Lunedì",
+    "title": "Montemarciano → Vieste (Gargano)",
+    "tags": ["travel"],
+    "travelInfo": "~390 km - circa 4h15 di guida (A14 fino a Poggio Imperiale, poi SS693 e SS89)",
+    "description": "Seconda e ultima mezza giornata di autostrada. L'ultimo pezzo, dalla piana di Foggia al promontorio del Gargano, è il più bello: la strada sale, gira e all'improvviso c'è il mare.",
     "activities": [
       {
-        "icon": "🏖️",
-        "title": "Pomeriggio al mare",
-        "text": "Relax alla Spiaggia di Scialmarino (sabbia, fondale basso, raggiungibile in bici dal centro ~3 km).",
-        "url": "https://maps.google.com/?q=Spiaggia+di+Scialmarino+Vieste"
+        "icon": "🚗",
+        "title": "Mattina - Viaggio",
+        "text": "Partenza dopo colazione, verso le 8:30. A14 fino all'uscita Poggio Imperiale, poi SS693 lungo la costa passando per Lesina e Rodi Garganico. Attenzione: l'ultimo tratto è una strada panoramica a curve, mettete in conto tempi larghi.",
+        "url": "https://maps.google.com/?q=Localit%C3%A0+Macchia+di+Mauro+7+Vieste"
       },
       {
-        "icon": "🏡",
-        "title": "Sera",
-        "text": "Passeggiata nel centro storico di Vieste, gelato con vista sul Pizzomunno (il monolite sulla spiaggia), cena all'Osteria degli Archi o al camper.",
+        "icon": "🏠",
+        "title": "Pomeriggio - Arrivo e check-in",
+        "text": "Arrivo a Macchia di Mauro nel primo pomeriggio. Scarico bagagli, spesa veloce per la colazione e le cene in casa, poi mezz'ora di mare per togliersi il viaggio di dosso.",
+        "url": "https://maps.google.com/?q=Localit%C3%A0+Macchia+di+Mauro+7+Vieste"
+      },
+      {
+        "icon": "🌆",
+        "title": "Sera - Vieste centro storico",
+        "text": "Prima passeggiata nel dedalo di vicoli bianchi, fino alla terrazza sul Pizzomunno, il monolite di calcare alto 25 metri piantato sulla spiaggia. Gelato e cena in centro. In questi giorni a Vieste c'è la Settimana dell'Olio (23-27 agosto): bancarelle e degustazioni in giro per il paese.",
         "url": "https://maps.google.com/?q=Pizzomunno+Vieste"
       }
     ],
-    "campsite": {
-      "name": "Molinella Vacanze",
-      "location": "Vieste",
+    "accommodation": {
+      "name": "Casa a Vieste",
+      "location": "Località Macchia di Mauro 7, Vieste (FG)",
       "nights": 2,
-      "nightsLabel": "2 notti: 25-26 Agosto",
-      "detail": "Direttamente sulla spiaggia, campeggio storico dal 1975, area camper service, ristorante, mini market. Piazzola: ~35-55€/notte.",
-      "alternative": "Baia di Manaccora - Peschici. Piscina, padel, dal 1970.",
-      "url": "https://www.molinellavacanze.it/",
-      "alternativeUrl": "https://www.baiadimanaccora.it/"
+      "nightsLabel": "2 notti: 24 e 25 Agosto",
+      "detail": "Nel verde a pochi minuti dal centro di Vieste e dal porto. Base per la giornata di grotte marine e mare.",
+      "url": "https://maps.google.com/?q=Localit%C3%A0+Macchia+di+Mauro+7+Vieste"
     }
   },
   {
     "day": 3,
-    "date": "2026-08-26",
-    "weekday": "Mercoledi",
-    "title": "Gargano - Giornata piena",
-    "tags": ["nature", "sea"],
-    "description": "",
+    "date": "2026-08-25",
+    "weekday": "Martedì",
+    "title": "Vieste - Grotte marine e mare",
+    "tags": ["sea", "nature"],
+    "travelInfo": "Pochi km: solo spostamenti locali dentro Vieste",
+    "description": "L'unica giornata piena sul Gargano, quindi una cosa sola fatta bene: il giro in barca lungo la costa. Il resto è mare.",
     "activities": [
       {
-        "icon": "🌳",
-        "title": "Mattina - Foresta Umbra (UNESCO)",
-        "text": "Trekking tra faggi millenari. Sentiero dei Tassi Giganti (~5 km, 2h) o Sentiero del Laghetto (facile, 1 km). Picnic al laghetto. Temperatura ~15-20°C - refrigerio dal caldo! Cercate i daini.",
-        "url": "https://maps.google.com/?q=Foresta+Umbra+Gargano"
+        "icon": "🚤",
+        "title": "Mattina - Escursione alle grotte marine",
+        "text": "Giro in barca di circa 3 ore (9:00-12:00) lungo la costa a sud di Vieste: una dozzina di grotte marine, tra cui la Grotta dei Due Occhi, la Campana e quella dei Contrabbandieri, con sosta bagno. Da 25€ a persona. Si prenota il giorno prima al Molo Sud del porto, dove ci sono tre biglietterie, oppure per telefono.",
+        "url": "https://maps.google.com/?q=Molo+Sud+Porto+di+Vieste"
       },
       {
-        "icon": "🌊",
-        "title": "Pomeriggio - Baia delle Zagare",
-        "text": "La spiaggia piu scenografica del Gargano. Due faraglioni spettacolari, acqua cristallina, snorkeling. Accesso dal sentiero pubblico (~300 gradini) - portate scarpe da scoglio.",
-        "url": "https://maps.google.com/?q=Baia+delle+Zagare+Gargano"
+        "icon": "🏖️",
+        "title": "Pomeriggio - Spiaggia di Scialmarino",
+        "text": "Tre km a nord di Vieste, un chilometro e mezzo di sabbia con fondale che scende piano: la spiaggia più comoda della zona, con parcheggi e lidi ma anche tratti liberi. Alternativa a due passi dal centro: la spiaggia del Castello, sotto il Pizzomunno.",
+        "url": "https://maps.google.com/?q=Spiaggia+di+Scialmarino+Vieste"
       },
       {
         "icon": "🍽️",
-        "title": "Sera",
-        "text": "Cena Al Dragone (terrazza panoramica, pesce fresco) o a Peschici su un trabucco (antica macchina da pesca convertita in ristorante). Prenotate con anticipo!"
+        "title": "Sera - Cena di pesce a Vieste",
+        "text": "Ultima serata garganica: troccoli ai frutti di mare, frittura di paranza o la tiella di patate, riso e cozze. Osteria degli Archi o Al Dragone nel centro storico, La Vecchia Vieste se serve mettere d'accordo pesce e pizza. Prenotate nel pomeriggio.",
+        "url": "https://maps.google.com/?q=Osteria+degli+Archi+Vieste"
       }
     ],
-    "highlightsTitle": "Da non perdere al Gargano",
+    "highlightsTitle": "Se preferite cambiare programma",
     "highlights": [
       {
-        "text": "Escursione grotte marine in barca (3h, ~15-20€/adulto, ~10€/ragazzo) - Partenza dal porto di Vieste",
-        "url": "https://maps.google.com/?q=Porto+di+Vieste"
+        "text": "Baia delle Zagare - Due faraglioni e acqua turchese, la spiaggia più fotografata del Gargano. Accesso dal sentiero pubblico, circa 300 gradini: scarpe da scoglio e arrivo entro le 9:00",
+        "url": "https://maps.google.com/?q=Baia+delle+Zagare+Gargano"
       },
       {
-        "text": "Monte Sant'Angelo - Santuario UNESCO con grotta sotterranea \"stile Indiana Jones\"",
-        "url": "https://www.santuariosanmichele.it/"
-      },
-      {
-        "text": "Peschici - Borgo medievale sulla rupe, trabucchi",
-        "url": "https://maps.google.com/?q=Peschici+centro+storico"
-      },
-      {
-        "text": "Spiaggia di Vignanotica - Spiaggia selvaggia sotto falesie di 30m, sentiero avventuroso (20 min nel bosco)",
+        "text": "Vignanotica - Ghiaia bianca sotto falesie di 30 metri, si arriva solo a piedi (20 minuti nel bosco). Nessun servizio: acqua e pranzo da casa",
         "url": "https://maps.google.com/?q=Spiaggia+di+Vignanotica+Gargano"
       },
       {
-        "text": "Museo Malacologico - 15.000 conchiglie da tutto il mondo (~3€, 45 min)",
-        "url": "https://maps.google.com/?q=Museo+Malacologico+Vieste"
+        "text": "Foresta Umbra (UNESCO) - Faggeta vetusta a 800 m di quota, 15-22°C anche ad agosto. Il Sentiero del Laghetto è facile e corto: mezz'ora di auto dal mare e cambia il clima",
+        "url": "https://maps.google.com/?q=Foresta+Umbra+Gargano"
+      },
+      {
+        "text": "Peschici - Borgo bianco su una rupe a 20 minuti, con i trabucchi: le antiche macchine da pesca in legno, alcune diventate ristoranti. Bella alternativa per la cena",
+        "url": "https://maps.google.com/?q=Peschici+centro+storico"
       }
     ]
   },
   {
     "day": 4,
-    "date": "2026-08-27",
-    "weekday": "Giovedi",
-    "title": "Vieste → Trani → Ostuni",
+    "date": "2026-08-26",
+    "weekday": "Mercoledì",
+    "title": "Vieste → Ostuni: arrivo nel giorno di Sant'Oronzo",
     "tags": ["travel", "culture"],
-    "travelInfo": "~320 km totali - viaggio spezzato con soste culturali (strade garganiche lente, prevedere 5-6h)",
-    "description": "",
+    "travelInfo": "~290 km - circa 3h15 di guida (SS89 + SS16 + A14)",
+    "description": "Trasferimento verso la base principale del viaggio. Arriviamo a Ostuni proprio nel giorno centrale della festa patronale: la sera non serve prendere l'auto, la città fa tutto da sola.",
     "activities": [
       {
-        "icon": "🏰",
-        "title": "Mattina - Castel del Monte (UNESCO)",
-        "text": "Il misterioso castello ottagonale di Federico II. Perche ottagono? A cosa serviva? Un enigma da risolvere. 10€/adulto, gratis under 18. Navetta dal parcheggio.",
-        "url": "https://www.casteldelmonte.beniculturali.it/"
-      },
-      {
-        "icon": "⛪",
-        "title": "Pranzo a Trani",
-        "text": "Cattedrale romanica \"che galleggia sul mare\" (imperdibile!). Sinagoga medievale (3€). Pranzo sul porto: La Banchina o Corteinfiore.",
+        "icon": "🌊",
+        "title": "Mattina - Ultimo bagno e partenza",
+        "text": "Bagno veloce, carico bagagli e via verso le 10. Il percorso scende dal Gargano, attraversa il Tavoliere e poi corre lungo la costa: se vi va una sosta, Trani con la sua cattedrale romanica sul mare è quasi esattamente a metà strada.",
         "url": "https://maps.google.com/?q=Cattedrale+di+Trani"
       },
       {
-        "icon": "🚐",
-        "title": "Pomeriggio",
-        "text": "Sosta facoltativa a Barletta: Colosso di Barletta (statua bronzea di 5m, gratuita) e Castello Svevo. Poi proseguimento verso Ostuni (~1h).",
-        "url": "https://maps.google.com/?q=Colosso+di+Barletta"
+        "icon": "🏠",
+        "title": "Pomeriggio - Check-in a Ostuni",
+        "text": "Arrivo in Corso Garibaldi nel primo pomeriggio. Sistemazione, spesa e un giro d'orientamento a piedi: da qui il centro storico si raggiunge in pochi minuti in salita.",
+        "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
+      },
+      {
+        "icon": "🐴",
+        "title": "Sera - Festa di Sant'Oronzo, giorno principale",
+        "text": "Il momento più bello dell'anno a Ostuni. Nel pomeriggio la processione e la Cavalcata: decine di cavalieri in casacca rossa, pantaloni bianchi e cilindro con pennacchio scortano la statua d'argento del santo per i vicoli della Città Bianca, tradizione ininterrotta dal 1793. Alle 21 concerto gratuito in Piazza della Libertà e in serata i fuochi barocchi su viale Oronzo Quaranta.",
+        "url": "https://maps.google.com/?q=Piazza+della+Liberta+Ostuni"
       }
     ],
-    "campsite": {
-      "name": "Campeggio Lamaforca",
-      "location": "Carovigno",
-      "nights": 3,
-      "nightsLabel": "3 notti: 27-28-29 Agosto",
-      "detail": "Immerso tra gli ulivi, vicino alla Riserva di Torre Guaceto. Area camper service, tranquillo e in posizione strategica per visitare sia Ostuni che Polignano/Monopoli. Piazzola: ~30-45€/notte.",
-      "alternative": "Camping Il Pilone - Ostuni. Direttamente sul mare.",
-      "url": "https://www.lamaforca.it/",
-      "alternativeUrl": "https://maps.google.com/?q=Camping+Il+Pilone+Ostuni"
+    "accommodation": {
+      "name": "Casa a Ostuni",
+      "location": "Corso Garibaldi 138-140, Ostuni (BR)",
+      "nights": 6,
+      "nightsLabel": "6 notti: dal 26 Agosto al 1 Settembre",
+      "detail": "Base per tutta la seconda metà del viaggio, a piedi dal centro storico. Torre Guaceto 30 minuti, Savelletri 30, Alberobello 40, Castellana Grotte 60.",
+      "warning": "Nei giorni della festa (25-27 agosto) molte strade del centro sono chiuse: chiedete al proprietario come arrivare e dove lasciare l'auto.",
+      "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
     }
   },
   {
     "day": 5,
-    "date": "2026-08-28",
-    "weekday": "Venerdi",
-    "title": "Ostuni + Torre Guaceto",
-    "tags": ["culture", "nature"],
-    "description": "",
+    "date": "2026-08-27",
+    "weekday": "Giovedì",
+    "title": "Mare a Torre Guaceto",
+    "tags": ["sea", "nature"],
+    "travelInfo": "~20 km all'andata - circa 30 minuti",
+    "description": "Prima giornata di mare vero: area marina protetta la mattina, concerto di chiusura della festa la sera. Zero corse.",
     "activities": [
       {
-        "icon": "🏘️",
-        "title": "Mattina - Ostuni, la Citta Bianca",
-        "text": "Perdetevi nel labirinto di vicoli bianchi. Cattedrale con rosone di 7m di diametro. Museo con \"Delia\" - scheletro di donna incinta di 25.000 anni fa (5€, imperdibile!).",
-        "url": "https://maps.google.com/?q=Cattedrale+di+Ostuni"
-      },
-      {
         "icon": "🌊",
-        "title": "Pomeriggio - Riserva di Torre Guaceto",
-        "text": "Area marina protetta. Snorkeling in fondali protetti con Posidonia, stelle marine, cavallucci marini. Accesso con navetta dal parcheggio. Ciclabile di 6 km tra uliveti fino al mare.",
+        "title": "Giornata - Riserva di Torre Guaceto",
+        "text": "Area marina protetta tra Carovigno e Ostuni: sabbia, acqua bassissima e praterie di Posidonia dove con maschera e boccaglio si vedono stelle marine e pesci. Dentro la riserva non si entra in auto: si lascia la macchina nei parcheggi a pagamento (aperti 8:00-20:00) e si prende il trenino navetta, gratuito per chi paga il parcheggio, altrimenti sono 1,4 km a piedi. Ultima corsa di rientro alle 19:20. Pranzo al sacco: i servizi sono minimi.",
         "url": "https://www.riservaditorreguaceto.it/"
       },
       {
-        "icon": "🍽️",
-        "title": "Sera",
-        "text": "Cena a Cisternino: esperienza dei fornelli pronti! Scegliete la carne cruda al banco, la grigliano davanti a voi. Le bombette (involtini ripieni di formaggio) sono irresistibili. ~10-15€/persona. Fornello da Ricci o altri nel centro storico.",
-        "url": "https://maps.google.com/?q=Fornello+da+Ricci+Cisternino"
+        "icon": "🥽",
+        "title": "Extra - Snorkeling guidato",
+        "text": "La riserva organizza seawatching con guida, trekking e ciclotrekking. Vanno prenotati in anticipo sul sito: se l'idea piace, muovetevi qualche giorno prima.",
+        "url": "https://www.riservaditorreguaceto.it/index.php/it/turismo/visitare-torre-guaceto/prenota-i-servizi-turistici-estivi"
+      },
+      {
+        "icon": "🎤",
+        "title": "Sera - Chiusura di Sant'Oronzo",
+        "text": "Concerto gratuito di chiusura della festa al Foro Boario, ore 21. Si va a piedi. Cena prima in centro: l'Osteria del Tempo Perso, ricavata in una grotta, è quella che diverte più i ragazzi (prenotare).",
+        "url": "https://maps.google.com/?q=Osteria+del+Tempo+Perso+Ostuni"
       }
     ]
   },
   {
     "day": 6,
-    "date": "2026-08-29",
-    "weekday": "Sabato",
-    "title": "Polignano a Mare + Monopoli + Grotte di Castellana",
+    "date": "2026-08-28",
+    "weekday": "Venerdì",
+    "title": "Savelletri, Monopoli e Polignano",
     "tags": ["culture", "sea"],
-    "travelInfo": "Gita giornaliera dalla base di Ostuni (~30 min)",
-    "description": "",
+    "travelInfo": "~110 km in tutta la giornata - circa 2h di guida spalmate su tre tappe",
+    "description": "Il giro consigliato dagli amici, fatto in un'unica direzione: si sale lungo la costa adriatica fermandosi tre volte e si torna dopo il tramonto. Tanti chilometri ma nessuno tutto d'un fiato.",
     "activities": [
       {
-        "icon": "💎",
-        "title": "Mattina - Grotte di Castellana",
-        "text": "Il complesso carsico piu grande d'Italia. Percorso completo 3 km, 2h: la Grotta Bianca e mozzafiato (alabastro bianchissimo). 20€/adulto, 16€ ridotto (6-14 anni). Portate felpe: 16°C!",
-        "url": "https://www.grottedicastellana.it/"
+        "icon": "🏛️",
+        "title": "Mattina - Egnazia a Savelletri (30 min)",
+        "text": "Il parco archeologico di Egnazia è letteralmente a Savelletri: una città messapica e poi romana affacciata sul mare, con la via Traiana, le mura, il foro e un museo. Ingresso 6€. In estate il parco chiude alle 13:30 (ultimo ingresso 12:30), quindi va fatto la mattina; il museo resta aperto fino alle 19:30.",
+        "url": "https://museipuglia.cultura.gov.it/musei-puglia/museo-archeologico-nazionale-e-parco-archeologico-di-egnazia/"
       },
       {
-        "icon": "🏡",
-        "title": "Pranzo a Polignano a Mare",
-        "text": "Centro storico su scogliere a strapiombo. Lama Monachile (la famosa spiaggetta col ponte). Statua di Domenico Modugno. Poesie sulle scalinate. Pranzo da Pescaria (panini di pesce gourmet, 8-15€/persona).",
-        "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare"
+        "icon": "🐙",
+        "title": "Pranzo - Panino col polpo da Mareducato",
+        "text": "Il consiglio degli amici: chiringuito sugli scogli di Savelletri, il panino con polpo fritto, zucchine alla poverella e stracciatella. Aperto tutti i giorni tranne il giovedì, dalle 12 a tarda notte. Non prende prenotazioni per i tavoli sugli scogli: si arriva e si aspetta. Tel. 348 4631322.",
+        "url": "https://maps.google.com/?q=Mareducato+Savelletri"
       },
       {
         "icon": "🏖️",
-        "title": "Pomeriggio - Monopoli",
-        "text": "Porto pittoresco con barche colorate, Cattedrale barocca. Bagno a Cala Porta Vecchia (spiaggia dentro le mura!) o a Porto Ghiacciolo (acqua cosi trasparente che sembra di galleggiare).",
-        "url": "https://maps.google.com/?q=Porto+Ghiacciolo+Monopoli"
+        "title": "Pomeriggio - Monopoli (+20 min)",
+        "text": "Porto vecchio con le barche azzurre, castello di Carlo V e centro storico compatto e vivo. Per il bagno: Cala Porta Vecchia è dentro le mura, Porto Ghiacciolo è una caletta sotto l'abbazia di Santo Stefano, 4 km a nord. Nota: il martedì e il mercoledì di agosto ci sono visite guidate del centro alle 17:30 dal Museo Diocesano — oggi è venerdì, quindi si gira liberi.",
+        "url": "https://maps.google.com/?q=Monopoli+porto+vecchio"
+      },
+      {
+        "icon": "🌅",
+        "title": "Sera - Polignano a Mare (+10 min)",
+        "text": "Ultima tappa al tramonto, quando la luce sulle falesie è la migliore e il caldo è passato. Lama Monachile, la spiaggetta di ciottoli nell'insenatura sotto il ponte borbonico, si raggiunge dalla scalinata sotto il ponte della via Traiana. Poi giro nel centro storico tra le terrazze sul mare e cena leggera: i panini di pesce di Pescaria sono il classico. Rientro a Ostuni in circa 50 minuti.",
+        "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare"
+      }
+    ],
+    "highlightsTitle": "Da sapere",
+    "highlights": [
+      {
+        "text": "Alternativa serale: stasera a Castellana Grotte c'è \"Alice nelle Grotte delle Meraviglie\", spettacolo teatrale itinerante dentro la grotta alle 19:00 e alle 20:00 (22€ adulti, 19€ dai 6 ai 14 anni). Se lo preferite a Hell in the Cave, fatelo oggi e spostate il giro Savelletri-Monopoli-Polignano a sabato",
+        "url": "https://www.grottedicastellana.it/esperienze/alice/"
+      },
+      {
+        "text": "Lama Monachile è piccola e ad agosto si riempie: se la trovate impraticabile, il bagno si fa a Monopoli nel pomeriggio e a Polignano si resta sopra, sulle terrazze",
+        "url": "https://maps.google.com/?q=Polignano+a+Mare+centro+storico"
       }
     ]
   },
   {
     "day": 7,
-    "date": "2026-08-30",
-    "weekday": "Domenica",
-    "title": "Valle d'Itria → Salento",
-    "tags": ["culture", "travel"],
-    "description": "",
+    "date": "2026-08-29",
+    "weekday": "Sabato",
+    "title": "Alberobello, Grotte di Castellana e Hell in the Cave",
+    "tags": ["culture", "nature"],
+    "travelInfo": "~110 km A/R - circa 1h all'andata, rientro in tarda serata",
+    "description": "La giornata più piena del viaggio, ma tutta in una direzione: mattina lenta a Ostuni, pomeriggio tra trulli e grotte, sera lo spettacolo sotto terra. Si rientra tardi, però domani non c'è niente da fare.",
     "activities": [
       {
+        "icon": "😎",
+        "title": "Mattina - Piano",
+        "text": "Colazione con pasticciotto e mattinata libera: mare a due passi (Lido Morelli o Pilone, 10-15 minuti) oppure semplicemente niente, per arrivare freschi alla sera. Si parte nel primo pomeriggio.",
+        "url": "https://maps.google.com/?q=Lido+Morelli+Ostuni"
+      },
+      {
         "icon": "🏘️",
-        "title": "Mattina - Alberobello (UNESCO)",
-        "text": "1.500 trulli, costruzioni coniche uniche al mondo. Sembrano usciti da Star Wars (Tatooine!). Rione Monti + Trullo Sovrano (3€). Arrivate entro le 9:30 per evitare la folla.",
+        "title": "Pomeriggio - Alberobello (40 min)",
+        "text": "1.500 trulli, patrimonio UNESCO. Nel tardo pomeriggio la luce è bella e i pullman dei tour sono già andati via. Rione Monti è il quartiere da girare; il Trullo Sovrano, l'unico a due piani, costa pochi euro. Serve un'ora e mezza, non di più.",
         "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
       },
       {
-        "icon": "🏡",
-        "title": "Locorotondo",
-        "text": "Borgo circolare con vista sulla Valle d'Itria. Balconcini fioriti, atmosfera rilassata, ottimo gelato.",
-        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
+        "icon": "🕳️",
+        "title": "Sera - Grotte di Castellana (+20 min)",
+        "text": "Il percorso completo è 3 km e 100 minuti, l'ultima partenza di agosto è alle 18:00; il parziale è 1 km in 50 minuti (partenze anche alle 18:15 e 19:15). Prezzi in biglietteria: completo 25€ (22€ dai 6 ai 14 anni), parziale 22€ (19€). Dentro ci sono 16-18°C con umidità alta: felpa leggera e scarpe chiuse, anche se fuori ce ne sono 35. Meglio comprare online il giorno prima.",
+        "url": "https://www.grottedicastellana.it/informazioni-utili/orari-e-prezzi/"
       },
       {
-        "icon": "🍽️",
-        "title": "Pranzo a Cisternino",
-        "text": "Ancora fornelli pronti! Bombette, salsiccia, involtini. Uno dei \"borghi piu belli d'Italia\".",
-        "url": "https://maps.google.com/?q=Cisternino+centro+storico"
-      },
-      {
-        "icon": "🚐",
-        "title": "Pomeriggio",
-        "text": "Trasferimento verso il Salento. Sosta facoltativa a Martina Franca (centro barocco elegante, capocollo DOP). Arrivo al campeggio in zona Gallipoli.",
-        "url": "https://maps.google.com/?q=Martina+Franca+centro+storico"
+        "icon": "🔥",
+        "title": "21:00 - Hell in the Cave",
+        "text": "L'Inferno di Dante messo in scena nella Grave, la caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni. Sabato 29 agosto alle 21:00. Biglietti 25€ adulti, 20€ fino a 17 anni; il combinato grotta + spettacolo costa 42€ ed è la scelta furba se fate anche la visita. Età consigliata dagli 8 anni, in biglietteria 30 minuti prima. Cena veloce in centro a Castellana tra visita e spettacolo. Rientro a Ostuni verso le 23:30.",
+        "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
       }
     ],
-    "campsite": {
-      "name": "Baia di Gallipoli Camping Village",
-      "location": "Gallipoli",
-      "nights": 4,
-      "nightsLabel": "4 notti: 30-31 Ago, 1-2 Set",
-      "detail": "Nel Parco Naturale di Punta Pizzo, animazione attiva fino all'11 settembre, piscina, accesso diretto alla spiaggia, area camper service. Piazzola: ~35-60€/notte.",
-      "alternative": "Camping Torre Castiglione - Torre Lapillo. Accesso diretto al mare, piu tranquillo.",
-      "url": "https://www.baiadigallipoli.com/",
-      "alternativeUrl": "https://maps.google.com/?q=Camping+Torre+Castiglione+Torre+Lapillo"
-    }
+    "highlightsTitle": "Prenotazioni e alternative",
+    "highlights": [
+      {
+        "text": "Biglietti grotte e spettacolo: shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722. Hell in the Cave ad agosto va spesso sold out: prenotate appena decidete",
+        "url": "https://shop.grottedicastellana.it/"
+      },
+      {
+        "text": "Se Hell in the Cave sembra troppo per la sera (o è esaurito), l'alternativa è \"Alice nelle Grotte delle Meraviglie\" venerdì 28 alle 19:00 o 20:00: più giocosa, si segue il Bianconiglio lungo il percorso breve e si finisce con tè e biscotti",
+        "url": "https://www.grottedicastellana.it/esperienze/alice/"
+      },
+      {
+        "text": "Sulla strada, a 10 minuti da Alberobello, c'è Locorotondo: uno dei Borghi più Belli d'Italia, vicoli circolari e balconi fioriti. Ottimo per un aperitivo prima di scendere a Castellana",
+        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
+      }
+    ]
   },
   {
     "day": 8,
-    "date": "2026-08-31",
-    "weekday": "Lunedi",
-    "title": "Lecce - La \"Firenze del Sud\"",
-    "tags": ["culture"],
-    "travelInfo": "~40 km dal campeggio - circa 40 min",
-    "description": "",
+    "date": "2026-08-30",
+    "weekday": "Domenica",
+    "title": "Mare vicino casa e Ostuni con calma",
+    "tags": ["sea", "culture"],
+    "travelInfo": "~25 km A/R - 15/20 minuti per la spiaggia",
+    "description": "Giornata di recupero dopo la serata a Castellana. Mare a un quarto d'ora da casa e finalmente il tempo di guardarsi Ostuni per bene, senza la folla della festa.",
     "activities": [
       {
-        "icon": "🥐",
-        "title": "Colazione con pasticciotto!",
-        "text": "Da Alvino (Piazza Sant'Oronzo) o Natale (Via Trinchese). Il pasticciotto leccese e pasta frolla ripiena di crema: la colazione pugliese per eccellenza. ~2€.",
-        "url": "https://maps.google.com/?q=Bar+Alvino+Lecce"
+        "icon": "🏖️",
+        "title": "Giornata - Le spiagge di Ostuni",
+        "text": "La costa di Ostuni è a 10-15 minuti: Lido Morelli e Pilone hanno sabbia, acqua bassa e lidi attrezzati con noleggio canoe e SUP; Rosa Marina alterna sabbia e scogli piatti; Costa Merlata, verso Carovigno, è una serie di calette rocciose con acqua bassa e trasparente, la più bella da vedere ma la meno comoda. Le domeniche di fine agosto sono le più affollate: arrivate entro le 9:30.",
+        "url": "https://maps.google.com/?q=Lido+Morelli+Ostuni"
       },
       {
-        "icon": "⛪",
-        "title": "Mattina - Centro storico barocco",
-        "text": "Basilica di Santa Croce (facciata delirante: putti, animali, frutta scolpiti nella pietra). Piazza del Duomo (ci si entra da un unico arco). Anfiteatro Romano (II sec., in mezzo alla piazza moderna!).",
-        "url": "https://maps.google.com/?q=Basilica+di+Santa+Croce+Lecce"
-      },
-      {
-        "icon": "🔍",
-        "title": "Museo Faggiano",
-        "text": "Una casa dove il proprietario, riparando un tubo, ha scoperto 5 livelli archeologici sotto il pavimento: messapico, romano, medievale, templare. Viaggio nel tempo verticale! 5€.",
-        "url": "https://www.museofaggiano.it/"
-      },
-      {
-        "icon": "🎨",
-        "title": "Laboratorio di cartapesta",
-        "text": "Lecce e la capitale della cartapesta. I ragazzi possono partecipare a un laboratorio pratico (~10-15€, 1h) e creare una scultura da portare a casa.",
-        "url": "https://maps.google.com/?q=Cartapesta+Lecce"
+        "icon": "🏘️",
+        "title": "Tardo pomeriggio - Città Bianca",
+        "text": "Salita nel centro storico quando il sole scende: il labirinto di case imbiancate a calce, la Concattedrale gotico-romanica con il rosone di 7 metri e i belvedere che guardano gli uliveti fino al mare. Bella anche solo per perdersi senza mappa.",
+        "url": "https://maps.google.com/?q=Cattedrale+di+Ostuni"
       },
       {
         "icon": "🍽️",
-        "title": "Cena",
-        "text": "Alle Due Corti (ciceri e tria, polpette al sugo, cucina salentina autentica) o Trattoria Nonna Tetti (cucina della nonna, prezzi accessibili).",
-        "url": "https://maps.google.com/?q=Alle+Due+Corti+Lecce"
+        "title": "Sera - Cena a Ostuni",
+        "text": "Serata a piedi da casa. Orecchiette con le cime di rapa, purè di fave, burrata di Andria, e per i ragazzi la puccia farcita. Poi gelato in Piazza della Libertà.",
+        "url": "https://maps.google.com/?q=Ostuni+centro+storico"
       }
     ]
   },
   {
     "day": 9,
-    "date": "2026-09-01",
-    "weekday": "Martedi",
-    "title": "Otranto + Spiagge del Salento",
-    "tags": ["culture", "sea"],
-    "description": "",
+    "date": "2026-08-31",
+    "weekday": "Lunedì",
+    "title": "Valle d'Itria: Locorotondo e bombette a Cisternino",
+    "tags": ["culture"],
+    "travelInfo": "~70 km A/R - 35 minuti per Locorotondo, 25 per Cisternino",
+    "description": "Ultimo giorno pieno, tenuto leggero perché domani si guida tanto. Un borgo la mattina, la spesa di prodotti pugliesi nel pomeriggio, la cena migliore del viaggio la sera.",
     "activities": [
       {
-        "icon": "⛪",
-        "title": "Mattina - Otranto",
-        "text": "La Cattedrale con il mosaico di Pantaleone (1163): 600 m² con Albero della Vita, Re Artu, Alessandro Magno, lo zodiaco. I ragazzi possono fare una caccia ai personaggi! Cappella dei Martiri (813 teschi). Castello Aragonese. Centro storico.",
-        "url": "https://maps.google.com/?q=Cattedrale+di+Otranto"
+        "icon": "🏘️",
+        "title": "Mattina - Locorotondo (35 min)",
+        "text": "Centro storico a pianta circolare, case bianche con i tetti aguzzi a cummerse, gerani su ogni balcone e vista aperta sulla Valle d'Itria coperta di trulli. Si gira in un'ora, colazione con pasticciotto in piazza compresa. È anche zona di vino bianco: qualche cantina fa degustazioni.",
+        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
       },
       {
-        "icon": "🏖️",
-        "title": "Pomeriggio - Baia dei Turchi",
-        "text": "Spiaggia caraibica dove sbarcarono i turchi nel 1480. Sabbia bianca, acqua bassa per decine di metri. Sentiero nel bosco per arrivarci (10 min). Parcheggio 5€.",
-        "url": "https://maps.google.com/?q=Baia+dei+Turchi+Otranto"
+        "icon": "🛒",
+        "title": "Pomeriggio - Spesa e valigie",
+        "text": "Rientro a Ostuni, pomeriggio tranquillo o ultimo bagno. È il momento di fare scorta: olio extravergine, taralli, capocollo, vino Primitivo, e la burrata solo se avete la borsa termica. Poi valigie pronte, perché domani si parte all'alba.",
+        "url": "https://maps.google.com/?q=Ostuni+centro"
       },
       {
-        "icon": "🌊",
-        "title": "Alternativa spiaggia",
-        "text": "Torre dell'Orso: baia a mezzaluna con i faraglioni \"Due Sorelle\" (nuotabili, ~50m dalla riva). Leggenda delle due sorelle trasformate in roccia.",
-        "url": "https://maps.google.com/?q=Torre+dell+Orso+spiaggia"
+        "icon": "🔥",
+        "title": "Sera - Fornelli pronti a Cisternino (25 min)",
+        "text": "L'esperienza da fare: si scende in macelleria, si scelgono le bombette (involtini di capocollo ripieni di formaggio), le salsicce e gli spiedini al banco, e le grigliano davanti a voi mentre aspettate al tavolo. Si mangia con 15-20€ a testa. Il centro storico di Cisternino ne ha diversi, tutti a pochi metri l'uno dall'altro.",
+        "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
+      }
+    ],
+    "highlightsTitle": "In alternativa",
+    "highlights": [
+      {
+        "text": "Se preferite un'altra giornata di mare, salta Locorotondo e resta la sera a Cisternino: le bombette valgono lo spostamento",
+        "url": "https://maps.google.com/?q=Cisternino+centro+storico"
       },
       {
-        "icon": "🍽️",
-        "title": "Cena a Otranto",
-        "text": "L'Altro Baffo (pesce fresco, nel centro storico, 22-30€/persona).",
-        "url": "https://maps.google.com/?q=L+Altro+Baffo+Otranto"
+        "text": "Martina Franca, 10 minuti dopo Locorotondo, è più grande e barocca, con il Palazzo Ducale e il capocollo presidio Slow Food. Da aggiungere solo se la mattina non vi basta",
+        "url": "https://maps.google.com/?q=Martina+Franca+centro+storico"
+      },
+      {
+        "text": "Lecce è a 50 minuti: il barocco leccese, Santa Croce e l'anfiteatro romano. È l'unica città importante che questo itinerario si lascia fuori — recuperabile oggi al posto della Valle d'Itria, ma è una giornata intera",
+        "url": "https://maps.google.com/?q=Basilica+di+Santa+Croce+Lecce"
       }
     ]
   },
   {
     "day": 10,
-    "date": "2026-09-02",
-    "weekday": "Mercoledi",
-    "title": "Gallipoli + Santa Maria di Leuca",
-    "tags": ["sea", "culture"],
-    "description": "",
+    "date": "2026-09-01",
+    "weekday": "Martedì",
+    "title": "Ostuni → Grottammare (Marche)",
+    "tags": ["travel", "sea"],
+    "travelInfo": "~470 km - circa 5h di guida (A14). Metà esatta del rientro",
+    "description": "Il rientro spezzato in due giornate ragionevoli invece di una da dieci ore. Cinque ore di A14 la mattina e si arriva in tempo per l'ultimo bagno del viaggio.",
     "activities": [
       {
-        "icon": "🏡",
-        "title": "Mattina - Gallipoli Citta Vecchia",
-        "text": "Isola collegata da un ponte. Cattedrale barocca, Frantoio Ipogeo (oleificio sotterraneo, 3-5€), Castello Angioino. Spiaggia della Purita dentro le mura.",
-        "url": "https://maps.google.com/?q=Gallipoli+citta+vecchia"
+        "icon": "🧳",
+        "title": "Mattina - Check-out e partenza",
+        "text": "Sveglia con calma, carico bagagli, partenza verso le 9. Giro di controllo prima di chiudere la porta: caricabatterie nelle prese, costumi stesi sul balcone, roba nel frigo, ciabatte sotto il letto. Rifornimento fatto la sera prima.",
+        "url": "https://maps.google.com/?q=Ostuni"
       },
       {
-        "icon": "📍",
-        "title": "Pomeriggio - Santa Maria di Leuca",
-        "text": "Il \"tacco dello stivale\", dove finisce la terra. Basilica De Finibus Terrae, faro, ville in stili esotici (arabi, cinesi, pompeiani). Giro in barca alle grotte costiere (~10-15€, 1h).",
-        "url": "https://maps.google.com/?q=Santa+Maria+di+Leuca+faro"
+        "icon": "🚗",
+        "title": "Durante - A14 verso nord",
+        "text": "Cinque ore filate lungo l'Adriatico, con una sosta pranzo dopo Vasto. Con due che guidano basta un cambio a metà. Arrivo a Grottammare nel primo pomeriggio.",
+        "url": "https://maps.google.com/?q=A14+Vasto+area+di+servizio"
       },
       {
-        "icon": "🌅",
-        "title": "Sera",
-        "text": "Tramonto dal bastione di Gallipoli (guarda a ovest, imperdibile!). Cena alla Trattoria La Puritate (scapece gallipolina, pesce fresco).",
-        "url": "https://maps.google.com/?q=Trattoria+La+Puritate+Gallipoli"
+        "icon": "🏖️",
+        "title": "Pomeriggio - Ultimo bagno",
+        "text": "Grottammare è Bandiera Blu: sabbia finissima, fondale che scende piano e cinque chilometri di lungomare orlato di palme. A settembre le spiagge si svuotano e l'acqua è al massimo della temperatura: l'ultimo bagno del viaggio si fa qui.",
+        "url": "https://maps.google.com/?q=Spiaggia+di+Grottammare"
+      },
+      {
+        "icon": "🏘️",
+        "title": "Sera - Grottammare Alta",
+        "text": "Il borgo medievale è arroccato sulla collina sopra la spiaggia ed è uno dei Borghi più Belli d'Italia: Piazza Peretti, il Teatro dell'Arancio e un belvedere che guarda tutta la costa. Qui è nato Papa Sisto V. Cena di pesce in paese: il piatto locale è il brodetto alla sambenedettese.",
+        "url": "https://maps.google.com/?q=Grottammare+Alta+Piazza+Peretti"
+      }
+    ],
+    "accommodation": {
+      "name": "Tappa a Grottammare",
+      "location": "Grottammare (AP), Marche",
+      "nights": 1,
+      "nightsLabel": "1 notte: 1 Settembre",
+      "detail": "Tappa intermedia del rientro, ancora da prenotare. A settembre nelle Marche è bassa stagione: hotel e B&B sul lungomare si trovano facilmente anche per una notte sola.",
+      "warning": "È l'unica prenotazione che manca. Cercate sul lungomare di Grottammare o di San Benedetto, così la spiaggia è a piedi e non serve rispostare l'auto.",
+      "url": "https://maps.google.com/?q=Grottammare+lungomare"
+    },
+    "highlightsTitle": "Se avanza tempo o voglia",
+    "highlights": [
+      {
+        "text": "San Benedetto del Tronto, 5 km a sud: il lungomare delle palme (settemila piante), il porto peschereccio e il Molo Sud. Collegata a Grottammare da una ciclopedonale di 8 km lungo il mare",
+        "url": "https://maps.google.com/?q=Lungomare+San+Benedetto+del+Tronto"
+      },
+      {
+        "text": "Ascoli Piceno, 35 minuti nell'interno: Piazza del Popolo in travertino è una delle più belle d'Italia. Alternativa alla spiaggia se il tempo gira male",
+        "url": "https://maps.google.com/?q=Piazza+del+Popolo+Ascoli+Piceno"
       }
     ]
   },
   {
     "day": 11,
-    "date": "2026-09-03",
-    "weekday": "Giovedi",
-    "title": "Ultimo mare + Risalita",
-    "tags": ["sea", "travel"],
-    "description": "",
-    "activities": [
-      {
-        "icon": "🏖️",
-        "title": "Mattina - Ultima spiaggia!",
-        "text": "Scelta tra: Punta Prosciutto (acqua bassa per 100m, sabbia bianchissima), Porto Selvaggio (caletta rocciosa in pineta, snorkeling straordinario), Pescoluse (\"Maldive del Salento\").",
-        "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia"
-      },
-      {
-        "icon": "🚐",
-        "title": "Pomeriggio",
-        "text": "Risalita verso l'Abruzzo. ~480 km, circa 5h. Arrivo in serata."
-      }
-    ],
-    "campsite": {
-      "name": "Camping delle Rose",
-      "location": "Martinsicuro (TE)",
-      "nights": 2,
-      "nightsLabel": "2 notti: 3-4 Settembre",
-      "detail": "Spiaggia sabbiosa, fondale basso, ideale per le ultime notti di relax. Piazzola: ~25-35€/notte.",
-      "alternative": "Centro Vacanze Summerland - Senigallia (se preferite le Marche).",
-      "url": "https://www.campingdellerose.it/",
-      "alternativeUrl": "https://www.campingsummerland.it/"
-    }
-  },
-  {
-    "day": 12,
-    "date": "2026-09-04",
-    "weekday": "Venerdi",
-    "title": "Giornata libera in Abruzzo",
-    "tags": ["sea"],
-    "description": "",
-    "activities": [
-      {
-        "icon": "🏖️",
-        "title": "Relax",
-        "text": "Giornata di mare e riposo prima del rientro. Spiaggia sabbiosa con fondale basso, perfetta per i ragazzi. Ultimo bagno dell'estate!",
-        "url": "https://maps.google.com/?q=Spiaggia+Martinsicuro"
-      },
-      {
-        "icon": "🍽️",
-        "title": "Ultima cena di viaggio",
-        "text": "Pesce fresco adriatico in una trattoria locale o cena speciale al camper con prodotti pugliesi comprati durante il viaggio."
-      }
-    ]
-  },
-  {
-    "day": 13,
-    "date": "2026-09-05",
-    "weekday": "Sabato",
-    "title": "Martinsicuro → Torino",
+    "date": "2026-09-02",
+    "weekday": "Mercoledì",
+    "title": "Grottammare → Alessandria",
     "tags": ["travel"],
-    "travelInfo": "~580 km - circa 5h30 di guida (A14 + A1 + A21)",
-    "description": "Partenza mattina presto. Viaggio di ritorno con sosta pranzo lungo il percorso. Arrivo a Torino nel primo pomeriggio. Restituzione del camper.",
+    "travelInfo": "~555 km - circa 5h30 di guida (A14 + A1 + A21)",
+    "description": "Seconda metà del rientro. Partendo la mattina si è ad Alessandria nel primo pomeriggio, con il resto della giornata per disfare le valigie.",
     "activities": [
       {
-        "icon": "💦",
-        "title": "Ricordatevi",
-        "text": "Svuotare le acque grigie e il WC prima della riconsegna. Fare il pieno di gasolio. Controllare che non dimentichiate nulla!"
+        "icon": "🚗",
+        "title": "Mattina - Rientro",
+        "text": "Colazione e via verso le 8:30. A14 fino a Bologna, poi A1 e A21. Sosta pranzo dopo Bologna. Arrivo ad Alessandria nel primo pomeriggio.",
+        "url": "https://maps.google.com/?q=Alessandria"
+      },
+      {
+        "icon": "🛒",
+        "title": "Prima di partire",
+        "text": "Ultimo controllo alla borsa termica: la burrata e i formaggi comprati a Ostuni hanno passato una notte in più, quindi vanno messi in frigo appena arrivati. Taralli, olio e vino invece aspettano tranquilli."
       }
     ]
   }

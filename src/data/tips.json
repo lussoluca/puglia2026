@@ -1,10 +1,57 @@
 [
-  { "icon": "💧", "title": "Acqua", "text": "Riempite il serbatoio ogni volta che potete. In Puglia fa caldo e ne consumate molta. Non viaggiate con il serbatoio pieno per non superare il peso massimo." },
-  { "icon": "🚲", "title": "Bici", "text": "Il camper ha il portabici. Se noleggiate bici, le migliori ciclabili sono: Torre Guaceto (6 km), lungomare Vieste (15 km A/R), Acquedotto Pugliese Ostuni-Ceglie (14 km)." },
-  { "icon": "🌞", "title": "Caldo", "text": "Fine agosto in Puglia: 30-37°C. Visitate citta e musei la mattina presto o nel tardo pomeriggio. Spiaggia nelle ore centrali. Portate cappelli, crema solare, tanta acqua." },
-  { "icon": "🛎️", "title": "Prenotazioni", "text": "Prenotate SEMPRE i ristoranti in agosto (almeno 1-2 giorni prima). Prenotate i campeggi con largo anticipo. Le Grotte di Castellana online per evitare code." },
-  { "icon": "🥖", "title": "Street food", "text": "Per i pranzi, optate per panzerotti, focaccia, pucce salentine, frise. Costa poco ed e ottimo. Il pasticciotto al bar e la colazione pugliese per eccellenza (~2€)." },
-  { "icon": "🛒", "title": "Supermercati", "text": "Eurospin, Famila, Conad hanno banchi gastronomia con piatti pugliesi pronti eccellenti: orecchiette, melanzane alla parmigiana, focaccia. Perfetti per le sere al camper." },
-  { "icon": "🚐", "title": "Strade Gargano", "text": "Le strade del Gargano sono strette e tortuose. Il Family Finca e lungo 6 metri: fattibile ma guidate con calma, soprattutto sulla litoranea Vieste-Mattinata." },
-  { "icon": "🩴", "title": "Scarpe da scoglio", "text": "Indispensabili! Molte spiagge pugliesi sono rocciose (Porto Ghiacciolo, Porto Selvaggio, Vignanotica). Portatele sempre nello zaino da spiaggia." }
+  {
+    "icon": "🗓️",
+    "title": "Il ritmo",
+    "text": "Una cosa al giorno: o il mare, o una visita. Le giornate piene sono solo due, il 28 e il 29 agosto, e sono di seguito solo perché la sera del 29 c'è lo spettacolo alle grotte. Il 30 è tenuto libero di proposito."
+  },
+  {
+    "icon": "🚗",
+    "title": "Chilometri",
+    "text": "Con la base fissa a Ostuni nessuna gita supera l'ora di strada. Il rientro è spezzato in due: ~470 km il 1 settembre fino a Grottammare, ~555 km il 2 fino ad Alessandria. Cinque ore al giorno invece di dieci in una volta."
+  },
+  {
+    "icon": "🎟️",
+    "title": "Cosa prenotare subito",
+    "text": "Hell in the Cave del 29 agosto (o Alice del 28): ad agosto si esaurisce. Poi la cena all'Osteria del Tempo Perso e, se vi va, il trabucco a Peschici. Le grotte marine di Vieste si prenotano al porto il giorno prima."
+  },
+  {
+    "icon": "🌞",
+    "title": "Caldo",
+    "text": "Fine agosto in Puglia: 30-33°C, con punte più alte nell'entroterra. Borghi e centri storici la mattina presto o dopo le 17, mare nelle ore centrali. Ostuni è in collina e la sera è ventilata."
+  },
+  {
+    "icon": "🧥",
+    "title": "Felpa per le grotte",
+    "text": "Nelle Grotte di Castellana ci sono 16-18°C fissi con umidità alta, e il percorso completo dura 100 minuti. Felpa vera e scarpe chiuse, anche se fuori ce ne sono 35."
+  },
+  {
+    "icon": "🅿️",
+    "title": "Parcheggi",
+    "text": "A Ostuni siamo in centro: chiarite subito col proprietario dove lasciare l'auto, e ricordate che dal 25 al 27 agosto molte strade sono chiuse per la festa. A Torre Guaceto in riserva non si entra: parcheggio a pagamento più trenino navetta."
+  },
+  {
+    "icon": "🩴",
+    "title": "Scarpe da scoglio",
+    "text": "Indispensabili. Costa Merlata, le Zagare e Vignanotica sono di roccia o ciottoli. Tenetele sempre nella borsa da spiaggia."
+  },
+  {
+    "icon": "🥖",
+    "title": "Pranzi veloci",
+    "text": "Panzerotti, focaccia barese, puccia salentina, frise. Costano poco e si mangiano in piedi. Il pasticciotto al bar è la colazione locale, circa 2€."
+  },
+  {
+    "icon": "🛒",
+    "title": "Cene in casa",
+    "text": "Le gastronomie dei supermercati pugliesi hanno banchi con orecchiette, parmigiana e verdure già pronte, ottime. Con sei notti a Ostuni conviene alternare: due cene fuori e una in casa."
+  },
+  {
+    "icon": "🐙",
+    "title": "Mareducato",
+    "text": "Chiuso il giovedì e senza prenotazioni sui tavoli fronte scogli: si arriva e si aspetta. Il 28 agosto è venerdì, quindi è aperto — ma andateci a pranzo, la sera la coda è peggio."
+  },
+  {
+    "icon": "😎",
+    "title": "Niente sensi di colpa",
+    "text": "Se un giorno non avete voglia di muovervi, restate a Ostuni. Il centro storico si gira a piedi e la spiaggia è a un quarto d'ora: il programma è una proposta, non un obbligo."
+  }
 ]

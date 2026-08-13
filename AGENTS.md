@@ -2,12 +2,7 @@
 
 ## Project Overview
 
-Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026. The app has **two variants**:
-
-- **Camper variant** (root `/puglia2026/`): 13-day trip from Torino with a rented Roadsurfer Family Finca camper van
-- **Auto/B&B variant** (`/puglia2026/auto/`): 13-day trip from Alessandria by car, staying in B&Bs and bungalows
-
-Each variant has its own data files, day-by-day itinerary pages, and components. The site is a PWA (Progressive Web App) with offline support via Service Worker.
+Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026: 11 days by car from Alessandria, 10 nights across four stops (Montemarciano in the Marche, Vieste on the Gargano, Ostuni as the main base for six nights, Grottammare in the Marche on the way home). The site is a PWA (Progressive Web App) with offline support via Service Worker.
 
 **Tech stack:** Astro 6.x · TypeScript (strict) · Plain CSS · Leaflet.js (maps, CDN) · Static JSON data layer  
 **Deployment:** GitHub Pages at `https://lussoluca.github.io/puglia2026/`
@@ -37,7 +32,7 @@ There are no environment variables required for local development. No `.env` fil
 # Start dev server with hot reload at http://localhost:4321
 npm run dev
 
-# Type-check all .astro and .ts files
+# Type-check all .astro and .ts files (installs @astrojs/check on first run)
 npm run astro check
 
 # Preview the production build locally
@@ -73,24 +68,22 @@ puglia2026/
 │   ├── layouts/
 │   │   └── Layout.astro       # HTML shell: navbar, footer, Leaflet CDN, SW registration
 │   ├── pages/
-│   │   ├── index.astro        # Camper variant — main page
-│   │   ├── day/
-│   │   │   └── [day].astro    # Dynamic day detail pages (camper) via getStaticPaths()
-│   │   └── auto/
-│   │       ├── index.astro    # Auto/B&B variant — main page
-│   │       └── day/
-│   │           └── [day].astro  # Dynamic day detail pages (auto)
-│   ├── components/            # 14 Astro components, one per content section
+│   │   ├── index.astro        # Single-page site, one section per component
+│   │   └── day/
+│   │       └── [day].astro    # Day detail pages 1-11, generated via getStaticPaths()
+│   ├── components/            # One component per content section
 │   │   ├── Hero.astro
 │   │   ├── Overview.astro
-│   │   ├── Camper.astro           # Camper-only
-│   │   ├── Accommodation.astro    # Auto-only
+│   │   ├── DailyLocation.astro    # Table: where we sleep and what we do each day
+│   │   ├── Accommodation.astro    # The four stops
 │   │   ├── Itinerary.astro
+│   │   ├── Suggestions.astro      # Friend-recommended places, grouped by direction
+│   │   ├── Contacts.astro         # Addresses and useful phone numbers
 │   │   ├── Map.astro              # Interactive Leaflet map
 │   │   ├── Beaches.astro
 │   │   ├── Restaurants.astro
 │   │   ├── Events.astro
-│   │   ├── Budget.astro           # Shows live diesel price from MIMIT
+│   │   ├── Budget.astro           # Shows live GPL price from MIMIT
 │   │   ├── Weather.astro
 │   │   ├── Gallery.astro          # Lightbox gallery with filters
 │   │   ├── Checklist.astro        # LocalStorage-backed packing checklist
@@ -99,8 +92,12 @@ puglia2026/
 │   │   └── global.css             # Single global CSS file — no preprocessor, no Tailwind
 │   └── data/                      # All app content as static JSON (no database, no API)
 │       ├── trip.json
-│       ├── itinerary.json         # 13-day camper itinerary
-│       ├── budget.json            # Budget; fuel price updated automatically by CI
+│       ├── itinerary.json         # 11-day itinerary, one entry per day page
+│       ├── daily-locations.json   # Rows of the "Dove Saremo Ogni Giorno" table
+│       ├── accommodation.json     # The four stops
+│       ├── suggestions.json       # Friend recommendations + Castellana experiences
+│       ├── contacts.json
+│       ├── budget.json            # Budget; GPL price updated automatically by CI
 │       ├── map-points.json
 │       ├── beaches.json
 │       ├── restaurants.json
@@ -109,16 +106,7 @@ puglia2026/
 │       ├── weather.json
 │       ├── checklist.json
 │       ├── tips.json
-│       ├── food-tips.json
-│       ├── camper.json            # Roadsurfer Family Finca specs
-│       └── auto/                  # Auto variant data (mirrors structure above)
-│           ├── trip.json
-│           ├── itinerary.json
-│           ├── budget.json
-│           ├── map-points.json
-│           ├── accommodation.json
-│           ├── checklist.json
-│           └── tips.json
+│       └── food-tips.json
 │
 ├── public/
 │   ├── manifest.json          # PWA Web App Manifest
@@ -129,11 +117,11 @@ puglia2026/
 │   └── gallery/               # Static images (JPG) + thumbnails in thumb/
 │
 ├── scripts/
-│   └── update-fuel-price.sh   # Fetches live diesel price from MIMIT, patches budget.json
+│   └── update-fuel-price.sh   # Fetches live GPL price from MIMIT, patches budget.json
 │
 ├── .github/workflows/
 │   ├── deploy.yml             # Deploy to GitHub Pages on push to main
-│   └── update-fuel-price.yml  # Daily cron: auto-update diesel price and commit
+│   └── update-fuel-price.yml  # Daily cron: auto-update GPL price and commit
 │
 └── .agents/skills/
     ├── travel-verify/         # AI skill: systematic travel plan fact-checking
@@ -144,36 +132,38 @@ puglia2026/
 
 | URL | Page |
 |-----|------|
-| `/puglia2026/` | Camper trip main page |
-| `/puglia2026/day/1/` … `/puglia2026/day/13/` | Camper day detail pages (static, generated from `itinerary.json`) |
-| `/puglia2026/auto/` | Auto/B&B trip main page |
-| `/puglia2026/auto/day/1/` … `/puglia2026/auto/day/10/` | Auto day detail pages |
+| `/puglia2026/` | Main page |
+| `/puglia2026/day/1/` … `/puglia2026/day/11/` | Day detail pages (static, generated from `itinerary.json`) |
 
-### Component Reuse Pattern
+### Component Props Pattern
 
-Components that differ between variants accept props with JSON data and option flags. When props are omitted the component loads its own JSON defaults. Examples:
+Components accept optional props with JSON data and option flags. When props are omitted the component loads its own JSON defaults, so every section also works standalone. Examples:
 
 ```astro
-<Budget budgetData={budget} hideCamperLink={true} summaryTitle="Riepilogo auto" />
-<Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9, 8.6]} />
-<Checklist checklistData={checklist} storageKey="puglia2026-auto-checklist" />
+<Budget budgetData={budget} summaryTitle="Totale stimato (alloggi esclusi)" />
+<Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9122, 8.6152]} />
+<Checklist checklistData={checklist} storageKey="puglia2026-checklist" />
 ```
 
 ### Data Layer
 
 All app content lives in `src/data/` as static JSON files. There is no external API or database. When adding or updating content, edit the appropriate JSON file directly. The `budget.json` fuel price is updated automatically by the daily GitHub Actions workflow.
 
+Two files must stay consistent with each other when the plan changes: `itinerary.json` (one entry per day, drives the day pages) and `daily-locations.json` (one row per day in the overview table). `suggestions.json` references day numbers through `plannedDay`.
+
+### Inline Scripts
+
+`Layout.astro` and `Map.astro` use `is:inline` / `define:vars` scripts. These are **not** transpiled by Astro, so they must be plain JavaScript: no type annotations, no non-null assertions (`!`), no `as` casts. TypeScript syntax there throws a `SyntaxError` at runtime.
+
 ### PWA
 
-- Cache name: `puglia2026-v2` (bump this in `public/sw.js` when making breaking changes to cached assets)
+- Cache name: `puglia2026-v3` (bump this in `public/sw.js` when making breaking changes to cached assets)
 - Strategy: network-first for HTML navigation, stale-while-revalidate for same-origin assets, network-then-cache for CDN resources (Leaflet tiles, Google Fonts)
 - The Service Worker hardcodes `/puglia2026` as the base path — update `sw.js` if the deployment path changes
 
 ### Checklist Persistence
 
-Packing checklist state is stored in `localStorage`:
-- Camper: `puglia2026-camper-checklist`
-- Auto: `puglia2026-auto-checklist`
+Packing checklist state is stored in `localStorage` under `puglia2026-checklist`.
 
 ---
 
@@ -182,8 +172,10 @@ Packing checklist state is stored in `localStorage`:
 ### `deploy.yml` — Deploy on push to `main`
 Triggers on push to `main` or manual dispatch. Runs `npm ci` → `npm run build` → deploys `./dist/` to GitHub Pages.
 
-### `update-fuel-price.yml` — Daily diesel price update
-Runs daily at 09:00 UTC (after MIMIT publishes at ~08:30 Italian time). Downloads the MIMIT national fuel price CSV, computes the national average for diesel self-service, patches `src/data/budget.json`, and commits the change with a bot identity if the value changed.
+### `update-fuel-price.yml` — Daily GPL price update
+Runs daily at 09:00 UTC (after MIMIT publishes at ~08:30 Italian time). Downloads the MIMIT national fuel price CSV, computes the national average for GPL self-service, patches `src/data/budget.json`, and commits the change with a bot identity if the value changed.
+
+The script recomputes `grandTotal` by summing the numeric part of every category total, so any category whose total is not a number is skipped by design.
 
 To run this manually:
 ```bash
@@ -196,9 +188,8 @@ bash scripts/update-fuel-price.sh
 
 - **No linter or formatter is configured.** There is no ESLint, Prettier, or Stylelint setup.
 - TypeScript strict mode (via `astro/tsconfigs/strict`) provides type safety for `.astro` and `.ts` files.
-- Styling lives in a single `src/styles/global.css` — no CSS modules, no preprocessor, no utility framework.
-- Keep all CSS in `global.css`. Do not introduce Tailwind, SCSS, or CSS Modules without discussion.
-- Follow existing naming and structure conventions visible in the codebase.
+- Styling lives in `src/styles/global.css` plus scoped `<style>` blocks in the newer components. Do not introduce Tailwind, SCSS, or CSS Modules without discussion.
+- Content is written in Italian. Keep place names, opening hours and prices verifiable, and mark anything uncertain as such in the copy itself.
 
 ---
 
@@ -224,7 +215,8 @@ This project includes two AI agent skill definitions in `.agents/skills/`:
 ## Common Gotchas
 
 - Always use `import.meta.env.BASE_URL` for internal links and asset paths, not hardcoded `/puglia2026/`.
+- Inline scripts (`is:inline`, `define:vars`) must be plain JavaScript — see **Inline Scripts** above.
 - The Service Worker (`public/sw.js`) hardcodes the base path — it must be updated manually if the deployment path changes.
 - Node.js >= 22.12.0 is required. Older versions will fail.
 - There is only one npm dependency (`astro`). Do not add dependencies without good reason.
-- The camper variant and auto variant share component code but have separate JSON data files under `src/data/` and `src/data/auto/`.
+- Some images under `public/gallery/` are no longer referenced by `gallery.json` (leftovers from the earlier Salento itinerary). They are harmless but are not shipped in any page.

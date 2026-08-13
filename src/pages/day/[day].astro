@@ -1,8 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import itinerary from '../../data/itinerary.json';
-import beaches from '../../data/beaches.json';
-import restaurants from '../../data/restaurants.json';
 import gallery from '../../data/gallery.json';
 
 export function getStaticPaths() {
@@ -46,9 +44,11 @@ const tagClasses: Record<string, string> = {
     nature: 'tag-nature',
     culture: 'tag-culture'
 };
+
+const lodging = dayData.accommodation;
 ---
 
-<Layout title={`Giorno ${dayNum} - ${dayData.title} | Puglia 2026`} variant="camper">
+<Layout title={`Giorno ${dayNum} - ${dayData.title} | Puglia 2026`}>
     <div class="day-page">
         <!-- Day Hero -->
         <div class="day-hero">
@@ -79,7 +79,7 @@ const tagClasses: Record<string, string> = {
             <!-- Travel info -->
             {dayData.travelInfo && (
                 <div class="day-travel-banner">
-                    <span class="day-travel-icon">🚐</span>
+                    <span class="day-travel-icon">🚗</span>
                     <span>{dayData.travelInfo}</span>
                 </div>
             )}
@@ -131,30 +131,35 @@ const tagClasses: Record<string, string> = {
                 </div>
             )}
 
-            <!-- Campsite -->
-            {dayData.campsite && (
+            <!-- Accommodation -->
+            {lodging && (
                 <div class="day-campsite">
                     <h2 class="day-section-title">Dove dormiamo</h2>
                     <div class="day-campsite-card">
                         <div class="day-campsite-main">
                             <h3>
-                                <span class="day-campsite-icon">⛺</span>
-                                {dayData.campsite.name}
+                                <span class="day-campsite-icon">🏠</span>
+                                {lodging.name}
                             </h3>
-                            <p class="day-campsite-location">📍 {dayData.campsite.location}</p>
-                            <p class="day-campsite-nights">🌙 {dayData.campsite.nightsLabel}</p>
-                            <p class="day-campsite-detail">{dayData.campsite.detail}</p>
-                            {dayData.campsite.url && (
-                                <a href={dayData.campsite.url} target="_blank" rel="noopener" class="day-campsite-link">
-                                    Sito web campeggio &rarr;
+                            <p class="day-campsite-location">📍 {lodging.location}</p>
+                            <p class="day-campsite-nights">🌙 {lodging.nightsLabel}</p>
+                            <p class="day-campsite-detail">{lodging.detail}</p>
+                            {lodging.warning && (
+                                <div class="day-campsite-warning">
+                                    <strong>Attenzione:</strong> {lodging.warning}
+                                </div>
+                            )}
+                            {lodging.url && (
+                                <a href={lodging.url} target="_blank" rel="noopener" class="day-campsite-link">
+                                    Sito web &rarr;
                                 </a>
                             )}
                         </div>
-                        {dayData.campsite.alternative && (
+                        {lodging.alternative && (
                             <div class="day-campsite-alt">
-                                <p><strong>Alternativa:</strong> {dayData.campsite.alternative}</p>
-                                {dayData.campsite.alternativeUrl && (
-                                    <a href={dayData.campsite.alternativeUrl} target="_blank" rel="noopener" class="day-activity-link">
+                                <p><strong>Alternativa:</strong> {lodging.alternative}</p>
+                                {lodging.alternativeUrl && (
+                                    <a href={lodging.alternativeUrl} target="_blank" rel="noopener" class="day-activity-link">
                                         Vedi alternativa &rarr;
                                     </a>
                                 )}

@@ -25,9 +25,9 @@ import weather from '../data/weather.json';
                             <span class="stat-label">Min / Max</span>
                         </div>
                         <div class="weather-stat">
-                            <span class="stat-icon">🌊</span>
-                            <span class="stat-value">{zone.seaTemp}°C</span>
-                            <span class="stat-label">Mare</span>
+                            <span class="stat-icon">{zone.seaTemp ? '🌊' : '💧'}</span>
+                            <span class="stat-value">{zone.seaTemp ? `${zone.seaTemp}°C` : zone.humidity}</span>
+                            <span class="stat-label">{zone.seaTemp ? 'Mare' : 'Umidità'}</span>
                         </div>
                         <div class="weather-stat">
                             <span class="stat-icon">☀️</span>

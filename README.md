@@ -1,43 +1,32 @@
-# Astro Starter Kit: Minimal
+# Puglia 2026
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Sito statico per pianificare la vacanza in Puglia dal 23 agosto al 2 settembre 2026: 11 giorni in auto da Alessandria, 10 notti in quattro tappe (Montemarciano, Vieste, Ostuni per sei notti, Grottammare al rientro).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Pubblicato su GitHub Pages: <https://lussoluca.github.io/puglia2026/>
 
-## 🚀 Project Structure
+## Cosa contiene
 
-Inside of your Astro project, you'll see the following folders and files:
+- Itinerario giorno per giorno con una pagina di dettaglio per ciascuno degli 11 giorni
+- Tabella riassuntiva di dove si dorme e cosa si fa ogni giorno
+- Consigli degli amici raggruppati per direzione, con i tempi reali di percorrenza da Ostuni
+- Mappa interattiva con alloggi, spiagge, borghi, ristoranti e punti naturali
+- Spiagge, ristoranti, eventi, meteo tipico, budget e checklist bagagli
+- Funziona offline: è una PWA installabile su telefono
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Comandi
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+| Comando | Cosa fa |
+| :--- | :--- |
+| `npm install` | Installa le dipendenze |
+| `npm run dev` | Server di sviluppo su <http://localhost:4321> |
+| `npm run build` | Build di produzione in `./dist/` |
+| `npm run preview` | Anteprima della build di produzione |
+| `bash scripts/update-fuel-price.sh` | Aggiorna il prezzo del GPL dai dati aperti MIMIT |
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Serve Node.js >= 22.12.0.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Come modificare i contenuti
 
-## 🧞 Commands
+Tutti i testi stanno in `src/data/*.json`: non c'è database né API. Il file `itinerary.json` guida le pagine dei singoli giorni, `daily-locations.json` la tabella riassuntiva: quando cambia il programma vanno aggiornati entrambi.
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Dettagli su architettura, workflow e trappole note in [AGENTS.md](AGENTS.md).

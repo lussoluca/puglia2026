@@ -1,10 +1,8 @@
 ---
 import defaultBudget from '../data/budget.json';
-import defaultCamper from '../data/camper.json';
 
 const budget = Astro.props.budgetData || defaultBudget;
-const camper = Astro.props.hideCamperLink ? null : defaultCamper;
-const summaryTitle = Astro.props.summaryTitle || 'Totale stimato (escluso noleggio camper)';
+const summaryTitle = Astro.props.summaryTitle || 'Totale stimato del viaggio';
 
 const fuelDate = budget.fuelPrice?.date
     ? new Date(budget.fuelPrice.date).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
@@ -43,17 +41,7 @@ const fuelLabel = budget.fuelPrice?.fuelLabel || 'Diesel';
         <div class="budget-summary">
             <h3>{summaryTitle}</h3>
             <p class="budget-grand-total">{budget.grandTotal}</p>
-            <p class="budget-note">
-                {camper ? (
-                    <Fragment>
-                        {budget.grandTotalNotePre ?? budget.grandTotalNote.split('Roadsurfer')[0]}
-                        <a href={camper.url} target="_blank">{budget.grandTotalNoteLink ?? 'Roadsurfer'}</a>
-                        {budget.grandTotalNotePost ?? budget.grandTotalNote.split('Roadsurfer').slice(1).join('Roadsurfer')}
-                    </Fragment>
-                ) : (
-                    budget.grandTotalNote
-                )}
-            </p>
+            <p class="budget-note">{budget.grandTotalNote}</p>
         </div>
     </div>
 </section>

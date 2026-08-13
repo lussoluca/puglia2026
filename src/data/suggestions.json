@@ -1,0 +1,93 @@
+{
+  "title": "I Consigli degli Amici",
+  "intro": "I posti che ci hanno segnalato come \"assolutamente da vedere\", con i tempi reali di percorrenza da Ostuni. Sono raggruppati per direzione: fatti in catena costano poca strada, fatti singolarmente diventano tre giornate di auto.",
+  "routes": [
+    {
+      "name": "Costa adriatica",
+      "direction": "Verso nord, lungo il mare",
+      "plannedDay": 6,
+      "plannedLabel": "Pianificato: Venerdì 28 Agosto",
+      "totalTime": "~2h di guida in tutta la giornata",
+      "legs": [
+        {
+          "place": "Savelletri",
+          "time": "30 min da Ostuni",
+          "note": "Panino col polpo da Mareducato, da decidere se a pranzo o a cena. Chiuso il giovedì. Accanto c'è il parco archeologico di Egnazia, aperto solo la mattina (chiude alle 13:30).",
+          "url": "https://maps.google.com/?q=Mareducato+Savelletri"
+        },
+        {
+          "place": "Monopoli",
+          "time": "+20 min",
+          "note": "Porto vecchio, castello di Carlo V, centro storico. Bagno a Cala Porta Vecchia dentro le mura o a Porto Ghiacciolo.",
+          "url": "https://maps.google.com/?q=Monopoli+porto+vecchio"
+        },
+        {
+          "place": "Polignano a Mare",
+          "time": "+10 min",
+          "note": "Lama Monachile e le terrazze sulle falesie. Da fare al tramonto: meno caldo, meno gente, luce migliore. Rientro a Ostuni in ~50 min.",
+          "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare"
+        }
+      ]
+    },
+    {
+      "name": "Valle d'Itria",
+      "direction": "Verso l'interno, tra trulli e grotte",
+      "plannedDay": 7,
+      "plannedLabel": "Pianificato: Sabato 29 Agosto",
+      "totalTime": "~1h all'andata",
+      "legs": [
+        {
+          "place": "Alberobello",
+          "time": "40 min da Ostuni",
+          "note": "1.500 trulli UNESCO. Tardo pomeriggio: i tour organizzati sono già andati via e la luce è la migliore.",
+          "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
+        },
+        {
+          "place": "Castellana Grotte",
+          "time": "+20 min",
+          "note": "Il complesso carsico più famoso d'Italia, e la sede dei due spettacoli che vogliamo vedere. Dentro 16-18°C: felpa obbligatoria.",
+          "url": "https://www.grottedicastellana.it/"
+        }
+      ]
+    },
+    {
+      "name": "Torre Guaceto",
+      "direction": "Verso sud, area marina protetta",
+      "plannedDay": 5,
+      "plannedLabel": "Pianificato: Giovedì 27 Agosto",
+      "totalTime": "~30 min all'andata",
+      "legs": [
+        {
+          "place": "Riserva di Torre Guaceto",
+          "time": "30 min da Ostuni",
+          "note": "C'è anche la spiaggia, ed è il posto migliore della zona per lo snorkeling. In auto non si entra: parcheggio a pagamento e trenino navetta gratuito, ultima corsa di rientro alle 19:20.",
+          "url": "https://www.riservaditorreguaceto.it/"
+        }
+      ]
+    }
+  ],
+  "wishlistTitle": "Le due esperienze nelle Grotte di Castellana",
+  "wishlistIntro": "Vogliamo vederne almeno una. Sono nello stesso posto ma in serate diverse, quindi la scelta condiziona l'ordine delle giornate.",
+  "wishlist": [
+    {
+      "name": "Hell in the Cave",
+      "status": "primary",
+      "statusLabel": "Prima scelta",
+      "when": "Sabato 29 Agosto, ore 21:00",
+      "price": "25€ adulti · 20€ fino a 17 anni · 42€ combinato con la visita alla grotta",
+      "description": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni sulla roccia. Durata circa 1h15, età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Ad agosto va sold out: da prenotare appena decidiamo.",
+      "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
+    },
+    {
+      "name": "Alice nelle Grotte delle Meraviglie",
+      "status": "alt",
+      "statusLabel": "Alternativa",
+      "when": "Venerdì 28 Agosto, ore 19:00 e 20:00",
+      "price": "22€ dai 15 anni · 19€ dai 6 ai 14 anni",
+      "description": "Spettacolo teatrale itinerante lungo il percorso breve della grotta: si segue il Bianconiglio incontrando i personaggi di Carroll, e il finale si scrive insieme al pubblico davanti a tè e biscotti. Più giocoso e in orario più umano. Se scegliamo questo, va invertito con il giro Savelletri-Monopoli-Polignano.",
+      "url": "https://www.grottedicastellana.it/esperienze/alice/"
+    }
+  ],
+  "bookingNote": "Biglietti online su shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722 (segreteria@grottedicastellana.it).",
+  "bookingUrl": "https://shop.grottedicastellana.it/"
+}

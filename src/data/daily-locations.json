@@ -1,0 +1,135 @@
+{
+  "title": "Dove Saremo Ogni Giorno",
+  "intro": "La griglia di riferimento per pianificare: dove si dorme, in che zona si passa la giornata, che tipo di giornata è e quanti chilometri comporta. Il criterio è uno: mai due giornate impegnative di fila, e in una giornata o il mare o una visita, non entrambi.",
+  "days": [
+    {
+      "day": 1,
+      "date": "Dom 23 Ago",
+      "base": "Montemarciano (AN)",
+      "zone": "Marche",
+      "type": "travel",
+      "plan": "Trasferimento + bagno a Senigallia",
+      "km": "~450 km"
+    },
+    {
+      "day": 2,
+      "date": "Lun 24 Ago",
+      "base": "Vieste (FG)",
+      "zone": "Gargano",
+      "type": "travel",
+      "plan": "Trasferimento + sera in centro a Vieste",
+      "km": "~390 km"
+    },
+    {
+      "day": 3,
+      "date": "Mar 25 Ago",
+      "base": "Vieste (FG)",
+      "zone": "Gargano",
+      "type": "sea",
+      "plan": "Grotte marine in barca + Scialmarino",
+      "km": "locali"
+    },
+    {
+      "day": 4,
+      "date": "Mer 26 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Alto Salento",
+      "type": "travel",
+      "plan": "Trasferimento + Cavalcata di Sant'Oronzo",
+      "km": "~290 km"
+    },
+    {
+      "day": 5,
+      "date": "Gio 27 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Torre Guaceto",
+      "type": "sea",
+      "plan": "Mare in riserva + concerto di chiusura",
+      "km": "~40 km A/R"
+    },
+    {
+      "day": 6,
+      "date": "Ven 28 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Costa adriatica",
+      "type": "visit",
+      "plan": "Egnazia, Savelletri, Monopoli, Polignano",
+      "km": "~110 km"
+    },
+    {
+      "day": 7,
+      "date": "Sab 29 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Valle d'Itria",
+      "type": "visit",
+      "plan": "Alberobello, Grotte + Hell in the Cave",
+      "km": "~110 km A/R"
+    },
+    {
+      "day": 8,
+      "date": "Dom 30 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Ostuni",
+      "type": "sea",
+      "plan": "Spiagge di Ostuni + Città Bianca",
+      "km": "~25 km A/R"
+    },
+    {
+      "day": 9,
+      "date": "Lun 31 Ago",
+      "base": "Ostuni (BR)",
+      "zone": "Valle d'Itria",
+      "type": "visit",
+      "plan": "Locorotondo + bombette a Cisternino",
+      "km": "~70 km A/R"
+    },
+    {
+      "day": 10,
+      "date": "Mar 1 Set",
+      "base": "Grottammare (AP)",
+      "zone": "Marche",
+      "type": "travel",
+      "plan": "Rientro, prima metà + ultimo bagno",
+      "km": "~470 km"
+    },
+    {
+      "day": 11,
+      "date": "Mer 2 Set",
+      "base": "Rientro",
+      "zone": "Autostrada",
+      "type": "travel",
+      "plan": "Grottammare → Alessandria",
+      "km": "~555 km"
+    }
+  ],
+  "summary": [
+    {
+      "label": "Notti a Montemarciano",
+      "value": "1"
+    },
+    {
+      "label": "Notti a Vieste",
+      "value": "2"
+    },
+    {
+      "label": "Notti a Ostuni",
+      "value": "6"
+    },
+    {
+      "label": "Notti a Grottammare",
+      "value": "1"
+    },
+    {
+      "label": "Giornate di mare",
+      "value": "3"
+    },
+    {
+      "label": "Giornate di visita",
+      "value": "3"
+    },
+    {
+      "label": "Giornate di trasferimento",
+      "value": "5"
+    }
+  ]
+}

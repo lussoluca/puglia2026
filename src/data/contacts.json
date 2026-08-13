@@ -1,0 +1,77 @@
+{
+  "title": "Indirizzi e Numeri Utili",
+  "intro": "Gli indirizzi delle case dove dormiamo e i contatti da avere sotto mano per prenotare biglietti, tavoli ed escursioni.",
+  "structures": [
+    {
+      "name": "Casa a Montemarciano",
+      "location": "Via Casino Pulini 5, 60018 Montemarciano (AN)",
+      "role": "Alloggio 23 Agosto - prenotato",
+      "url": "https://maps.google.com/?q=Via+Casino+Pulini+5+Montemarciano",
+      "note": "Tappa intermedia dell'andata. Marina di Montemarciano a 4 km, Senigallia a 10 km."
+    },
+    {
+      "name": "Casa a Vieste",
+      "location": "Località Macchia di Mauro 7, 71019 Vieste (FG)",
+      "role": "Alloggio 24-26 Agosto - prenotato",
+      "url": "https://maps.google.com/?q=Localit%C3%A0+Macchia+di+Mauro+7+Vieste",
+      "note": "Due notti sul Gargano. Centro di Vieste e porto a pochi minuti di auto."
+    },
+    {
+      "name": "Casa a Ostuni",
+      "location": "Corso Garibaldi 138-140, 72017 Ostuni (BR)",
+      "role": "Alloggio 26 Agosto - 1 Settembre - prenotato",
+      "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni",
+      "note": "Base per sei notti, a piedi dal centro storico. Chiedere al proprietario dove lasciare l'auto, soprattutto nei giorni della festa di Sant'Oronzo (25-27 agosto)."
+    },
+    {
+      "name": "Tappa a Grottammare",
+      "location": "Grottammare (AP), Marche",
+      "role": "Alloggio 1 Settembre - DA PRENOTARE",
+      "status": "toVerify",
+      "url": "https://maps.google.com/?q=Grottammare+lungomare",
+      "note": "L'unica prenotazione che manca. Cercare sul lungomare di Grottammare o di San Benedetto del Tronto: a settembre è bassa stagione e una notte sola si trova senza problemi."
+    },
+    {
+      "name": "Grotte di Castellana",
+      "location": "Piazzale Anelli, 70013 Castellana Grotte (BA)",
+      "role": "Visite, Hell in the Cave e Alice",
+      "status": "toVerify",
+      "phone": "+39 080 4998221",
+      "whatsapp": "+39 339 1176722",
+      "email": "segreteria@grottedicastellana.it",
+      "url": "https://www.grottedicastellana.it/",
+      "booking": "https://shop.grottedicastellana.it/",
+      "note": "Da prenotare per tempo: Hell in the Cave del 29 agosto ad agosto va esaurito. Biglietto combinato grotta + spettacolo 42€."
+    },
+    {
+      "name": "Mareducato",
+      "location": "Savelletri, Fasano (BR)",
+      "role": "Il panino col polpo consigliato dagli amici",
+      "phone": "+39 348 4631322",
+      "url": "https://maps.google.com/?q=Mareducato+Savelletri",
+      "note": "Aperto dalle 12 a tarda notte, chiuso il giovedì. Sui tavoli fronte scogli non prendono prenotazioni: si arriva e si aspetta."
+    },
+    {
+      "name": "Riserva di Torre Guaceto",
+      "location": "Carovigno (BR)",
+      "role": "Area marina protetta - giornata di mare",
+      "url": "https://www.riservaditorreguaceto.it/",
+      "booking": "https://www.riservaditorreguaceto.it/index.php/it/turismo/visitare-torre-guaceto/prenota-i-servizi-turistici-estivi",
+      "note": "Parcheggi aperti 8:00-20:00, trenino navetta gratuito per chi paga il parcheggio, ultima corsa 19:20. Snorkeling guidato e trekking su prenotazione."
+    },
+    {
+      "name": "Porto Turistico di Vieste",
+      "location": "Molo Sud, Vieste (FG)",
+      "role": "Escursione alle grotte marine",
+      "url": "https://www.portodivieste.it/attivita/escursioni/escursioni-alle-grotte-marine-vieste-in-barca.html",
+      "note": "Tre biglietterie sul Molo Sud, gestite dagli armatori. Giri di 3 ore: 9:00-12:00 o 14:30-17:30, da 25€ a persona. Prenotare il giorno prima."
+    },
+    {
+      "name": "Numeri di emergenza",
+      "location": "Validi in tutta Italia",
+      "role": "Da tenere in auto",
+      "phone": "112",
+      "note": "112 emergenza unica, 118 sanitaria, 1530 emergenza in mare (Guardia Costiera), 803116 soccorso stradale ACI, 1515 incendi boschivi."
+    }
+  ]
+}

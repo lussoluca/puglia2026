@@ -1,84 +1,84 @@
 {
   "categories": [
     {
-      "title": "Campeggi",
-      "detail": "12 notti in 5 campeggi diversi",
+      "title": "Alloggi",
+      "detail": "10 notti in 4 strutture: 3 già prenotate, resta Grottammare",
       "items": [
-        "Senigallia: 1 notte ~ 35€",
-        "Vieste: 2 notti ~ 90€",
-        "Ostuni: 3 notti ~ 120€",
-        "Gallipoli: 4 notti ~ 200€",
-        "Martinsicuro: 2 notti ~ 60€"
+        "Montemarciano: 1 notte - prenotata",
+        "Vieste: 2 notti - prenotate",
+        "Ostuni: 6 notti - prenotate",
+        "Grottammare: 1 notte - da prenotare, ~80-120€"
       ],
-      "total": "~505€"
+      "total": "~100€"
     },
     {
       "title": "Ristoranti",
-      "detail": "8-10 pasti fuori su 13 giorni",
+      "detail": "9-10 pasti fuori su 11 giorni",
       "items": [
-        "Gargano: 2-3 cene ~ 200€",
-        "Trani: 1 pranzo ~ 80€",
-        "Cisternino/Ostuni: 2 cene ~ 120€",
-        "Polignano: 1 pranzo ~ 50€",
-        "Salento: 2-3 cene ~ 200€"
+        "Senigallia: 1 cena ~ 90€",
+        "Vieste: 2 cene ~ 150€",
+        "Savelletri (panino col polpo): 1 pranzo ~ 70€",
+        "Polignano: 1 cena leggera ~ 50€",
+        "Ostuni: 2 cene ~ 130€",
+        "Cisternino (bombette): 1 cena ~ 70€",
+        "Locorotondo: 1 pranzo ~ 90€",
+        "Grottammare: 1 cena ~ 90€"
       ],
-      "total": "~650€"
+      "total": "~740€"
     },
     {
-      "title": "Attivita e Ingressi",
-      "detail": "Musei, grotte, barche, bici",
+      "title": "Attività e Ingressi",
+      "detail": "Le uscite prenotabili, per 4 persone",
       "items": [
-        "Castel del Monte: ~20€",
-        "Grotte Castellana: ~80€",
-        "Grotte marine Vieste: ~55€",
-        "Musei vari: ~50€",
-        "Noleggio bici: ~100€",
-        "Parcheggi: ~50€"
+        "Grotte marine di Vieste in barca: ~100€",
+        "Hell in the Cave + visita grotta (combinato 42€): ~168€",
+        "Egnazia (6€ a testa): ~24€",
+        "Trullo Sovrano e ingressi minori: ~25€",
+        "Parcheggi spiagge e Torre Guaceto: ~60€"
       ],
-      "total": "~358€"
+      "total": "~377€"
     },
     {
       "title": "Carburante",
-      "detail": "~2.800 km, consumo ~10-12 L/100km",
+      "detail": "~2.700 km, consumo ~11 L/100km (auto GPL)",
       "items": [
-        "Totale litri: ~310 L",
-        "Prezzo diesel: ~2.075€/L (media nazionale self)"
+        "Totale litri: ~297 L",
+        "Prezzo GPL: ~0.756€/L (media nazionale self)"
       ],
-      "total": "~643€"
+      "total": "~225€"
     },
     {
       "title": "Pedaggi autostradali",
-      "detail": "A21, A14, A1 - Classe B (camper altezza >3m)",
+      "detail": "A21, A1, A14 - Classe A",
       "items": [
-        "Torino-Senigallia: ~45€",
-        "Senigallia-Foggia: ~35€",
-        "Salento-Martinsicuro: ~40€",
-        "Martinsicuro-Torino: ~55€"
+        "Alessandria-Montemarciano: ~35€",
+        "Montemarciano-Vieste: ~25€",
+        "Vieste-Ostuni: ~15€",
+        "Ostuni-Grottammare: ~35€",
+        "Grottammare-Alessandria: ~45€"
       ],
-      "total": "~175€"
+      "total": "~155€"
     },
     {
       "title": "Spesa alimentare",
-      "detail": "Colazioni, pranzi e cene al camper",
+      "detail": "Colazioni, pranzi al sacco e cene in casa",
       "items": [
-        "~30-40€/giorno per 4 persone",
-        "13 giorni"
+        "~30€/giorno per 4 persone",
+        "11 giorni",
+        "Include la scorta di prodotti pugliesi da portare a casa"
       ],
-      "total": "~450€"
+      "total": "~330€"
     }
   ],
-  "grandTotal": "~2800€",
-  "grandTotalNote": "Il noleggio del camper Roadsurfer Family Finca va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
-  "grandTotalNotePre": "Il noleggio del camper ",
-  "grandTotalNoteLink": "Roadsurfer Family Finca",
-  "grandTotalNotePost": " va calcolato a parte sul sito Roadsurfer (a partire da 69€/notte, prezzo variabile in base al periodo).",
+  "grandTotal": "~1950€",
+  "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e la notte di Grottammare ancora da prenotare. Le tre strutture già prenotate sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
-    "price": 2.075,
-    "fuelType": "diesel",
-    "fuelLabel": "Diesel",
+    "price": 0.756,
+    "fuelType": "gpl",
+    "fuelLabel": "GPL",
     "date": "2026-08-11",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
-    "stations": 20278
+    "stations": 167
   }
 }

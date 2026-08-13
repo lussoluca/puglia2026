@@ -1,14 +1,39 @@
 [
   {
+    "zone": "Marche (Senigallia / Grottammare)",
+    "zoneIcon": "🌊",
+    "mealsAdvice": "2 cene: la prima e la penultima sera del viaggio",
+    "restaurants": [
+      {
+        "name": "Trattorie del centro di Senigallia",
+        "location": "Centro storico e lungomare, Senigallia",
+        "type": "Pesce dell'Adriatico",
+        "description": "Brodetto all'anconetana, moscioli, fritto misto. Qui si mangia bene e si spende meno che in Puglia: buona idea partire con una cena senza pretese ma solida.",
+        "price": "20-30€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=trattorie+centro+Senigallia"
+      },
+      {
+        "name": "Trattorie di Grottammare e San Benedetto",
+        "location": "Lungomare e borgo alto, Grottammare (AP)",
+        "type": "Brodetto e pesce dell'Adriatico",
+        "description": "Il piatto del posto è il brodetto alla sambenedettese, zuppa di pesce con pomodori verdi e peperone. Cena nel borgo alto per la vista, sul lungomare per la comodità.",
+        "price": "25-35€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=ristoranti+Grottammare+Alta"
+      }
+    ]
+  },
+  {
     "zone": "Gargano (Vieste / Peschici)",
     "zoneIcon": "⛰️",
-    "mealsAdvice": "2-3 cene consigliate",
+    "mealsAdvice": "2 cene: le sere del 24 e del 25",
     "restaurants": [
       {
         "name": "Osteria degli Archi",
         "location": "Via Ripe 2, Vieste centro storico",
         "type": "Pesce e cucina garganica",
-        "description": "Troccoli ai frutti di mare, frittura di paranza, tiella di patate riso e cozze. Porzioni generose.",
+        "description": "Troccoli ai frutti di mare, frittura di paranza, tiella di patate riso e cozze. Porzioni generose, dentro i vicoli bianchi.",
         "price": "18-25€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=Osteria+degli+Archi+Vieste"
@@ -16,8 +41,8 @@
       {
         "name": "Al Dragone",
         "location": "Via Duomo 8, Vieste",
-        "type": "Pesce fresco - terrazza panoramica",
-        "description": "Antipasto di mare, spaghetti ai ricci, grigliata. Terrazza con vista che entusiasma anche i ragazzi.",
+        "type": "Pesce fresco, terrazza panoramica",
+        "description": "Antipasto di mare, spaghetti ai ricci, grigliata. La terrazza con vista convince anche chi a tavola si annoia.",
         "price": "20-30€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=Ristorante+Al+Dragone+Vieste"
@@ -25,149 +50,117 @@
       {
         "name": "La Vecchia Vieste",
         "location": "Via Mafrolla 32, Vieste",
-        "type": "Misto: pesce, carne, pizza",
-        "description": "Perfetto se qualcuno vuole la pizza e qualcun altro il pesce. Panzerotti ottimi.",
+        "type": "Pesce, carne e pizza",
+        "description": "La soluzione quando in famiglia qualcuno vuole la pizza e qualcuno il pesce. Panzerotti ottimi.",
         "price": "12-20€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=La+Vecchia+Vieste+ristorante"
       },
       {
-        "name": "Trabucco (Peschici)",
-        "location": "Costa di Peschici",
-        "type": "Pesce fresco su struttura storica",
-        "description": "Cenare su un antico trabucco (macchina da pesca in legno a bilanciere) sul mare. Esperienza unica! Prenotate.",
-        "price": "25-35€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=Trabucco+Peschici"
-      }
-    ]
-  },
-  {
-    "zone": "Trani",
-    "zoneIcon": "⛪",
-    "mealsAdvice": "1 pranzo consigliato",
-    "restaurants": [
-      {
-        "name": "La Banchina",
-        "location": "Porto turistico, Lungomare di Trani",
-        "type": "Pesce fresco, vista porto",
-        "description": "Direttamente sul porto con vista cattedrale. Spaghetti allo scoglio, frittura, insalata di polpo.",
-        "price": "20-28€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=La+Banchina+ristorante+Trani"
-      },
-      {
-        "name": "Corteinfiore",
-        "location": "Via Ognissanti 18, Trani",
-        "type": "Pugliese rivisitata",
-        "description": "Burrata con pomodorini, orecchiette alle cime di rapa, dolci fatti in casa. Elegante ma accogliente.",
-        "price": "22-30€/persona",
-        "featured": false,
-        "url": "https://www.corteinfiore.it/"
-      }
-    ]
-  },
-  {
-    "zone": "Ostuni / Cisternino",
-    "zoneIcon": "🏘️",
-    "mealsAdvice": "2-3 cene consigliate",
-    "restaurants": [
-      {
-        "name": "Fornello da Ricci",
-        "location": "Centro storico, Cisternino",
-        "type": "Carne alla brace - fornello tipico",
-        "description": "Scegliete la carne cruda al banco, la grigliano davanti a voi. Le BOMBETTE sono obbligatorie! Non si prenota, si fa la fila (andate alle 19:30).",
-        "price": "10-15€/persona",
+        "name": "Cena su un trabucco a Peschici",
+        "location": "Costa di Peschici, 20 min da Vieste",
+        "type": "Pesce su palafitta di legno",
+        "description": "Alcuni trabucchi, le antiche macchine da pesca in legno sospese sul mare, sono diventati ristoranti: si mangia letteralmente sull'acqua. Esperienza da prenotare con qualche giorno di anticipo.",
+        "price": "35-50€/persona",
         "featured": true,
-        "featuredLabel": "Da non perdere!",
-        "url": "https://maps.google.com/?q=Fornello+da+Ricci+Cisternino"
-      },
+        "featuredLabel": "Da prenotare",
+        "url": "https://maps.google.com/?q=Trabucco+ristorante+Peschici"
+      }
+    ]
+  },
+  {
+    "zone": "Ostuni",
+    "zoneIcon": "🏘️",
+    "mealsAdvice": "2-3 cene, tutte raggiungibili a piedi da casa",
+    "restaurants": [
       {
         "name": "Osteria del Tempo Perso",
-        "location": "Via Tanzarella Vitale 47, Ostuni",
-        "type": "Pugliese tradizionale - in grotta",
-        "description": "Ambientazione in grotta/cantina che affascina i ragazzi. Orecchiette con sugo di braciole, fave e cicorie.",
-        "price": "20-28€/persona",
-        "featured": false,
+        "location": "Via Gaetano Tanzarella Vitale 47, Ostuni",
+        "type": "Cucina pugliese in grotta",
+        "description": "Due sale, una ricavata in una grotta nella roccia. Carne alla brace, orecchiette, verdure. È quello che diverte più i ragazzi: prenotare qualche giorno prima.",
+        "price": "25-35€/persona",
+        "featured": true,
+        "featuredLabel": "Da prenotare",
         "url": "https://maps.google.com/?q=Osteria+del+Tempo+Perso+Ostuni"
       },
       {
-        "name": "Gia Sotto l'Arco",
-        "location": "C.so Vittorio Emanuele 71, Carovigno",
-        "type": "Pugliese rivisitata",
-        "description": "Menu vario: antipasti della tradizione, polpette, verdure fritte, burrata, primi fatti in casa.",
-        "price": "22-30€/persona",
+        "name": "Già Sotto l'Arco",
+        "location": "Corso Vittorio Emanuele II 71, Ostuni",
+        "type": "Alta cucina pugliese",
+        "description": "Una stella Michelin in un palazzo del centro. Da tenere in lista se volete una cena speciale invece di due normali.",
+        "price": "60-90€/persona",
         "featured": false,
-        "url": "https://maps.google.com/?q=Gia+Sotto+Arco+Carovigno"
+        "url": "https://maps.google.com/?q=Gia+Sotto+l+Arco+Ostuni"
+      },
+      {
+        "name": "Puccerie e gastronomie del corso",
+        "location": "Corso Garibaldi e centro storico, Ostuni",
+        "type": "Street food e cena veloce",
+        "description": "Puccia farcita, focaccia, rustici e frittura da passeggio: la soluzione per le sere in cui si rientra tardi dal mare e non si vuole mettersi a tavola.",
+        "price": "8-15€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=puccia+Ostuni+centro"
       }
     ]
   },
   {
-    "zone": "Polignano / Monopoli",
-    "zoneIcon": "🏡",
-    "mealsAdvice": "1 pranzo consigliato",
+    "zone": "Valle d'Itria (Cisternino / Locorotondo)",
+    "zoneIcon": "🔥",
+    "mealsAdvice": "1 cena obbligatoria: i fornelli pronti",
     "restaurants": [
       {
-        "name": "Pescaria",
-        "location": "Via Marconi 56, Polignano a Mare",
-        "type": "Street food di pesce gourmet",
-        "description": "Panino con polpo e patate, panino con gambero crudo, frittura in cono. Si mangia passeggiando con vista mare.",
-        "price": "8-15€/persona",
+        "name": "Fornelli pronti di Cisternino",
+        "location": "Centro storico di Cisternino, 25 min da Ostuni",
+        "type": "Macelleria con griglia",
+        "description": "Si scelgono bombette, salsicce e spiedini al banco della macelleria e le grigliano davanti a voi mentre aspettate al tavolo. Fornello da Ricci è il più conosciuto, ma nel centro storico ce ne sono diversi a pochi metri l'uno dall'altro.",
+        "price": "15-20€/persona",
         "featured": true,
-        "featuredLabel": "Street food!",
+        "featuredLabel": "L'esperienza da fare",
+        "url": "https://maps.google.com/?q=Cisternino+centro+storico+fornelli"
+      },
+      {
+        "name": "Trattorie di Locorotondo",
+        "location": "Centro storico di Locorotondo",
+        "type": "Cucina della Valle d'Itria",
+        "description": "Orecchiette, gnumeredde, formaggi e il vino bianco locale. Buone per il pranzo della mattinata nel borgo.",
+        "price": "20-30€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=trattoria+Locorotondo+centro+storico"
+      }
+    ]
+  },
+  {
+    "zone": "Costa adriatica (Savelletri / Monopoli / Polignano)",
+    "zoneIcon": "🐙",
+    "mealsAdvice": "1 pranzo e 1 cena leggera, nella giornata del 28",
+    "restaurants": [
+      {
+        "name": "Mareducato",
+        "location": "Savelletri, Fasano (BR)",
+        "type": "Chiringuito sugli scogli",
+        "description": "Il consiglio degli amici: il panino con polpo fritto, zucchine alla poverella e stracciatella, mangiato su un tavolo a un metro dall'acqua. Aperto dalle 12 a tarda notte, chiuso il giovedì. Sui tavoli fronte mare non prenotano: si arriva e si aspetta.",
+        "price": "15-25€/persona",
+        "featured": true,
+        "featuredLabel": "Consigliato dagli amici",
+        "url": "https://maps.google.com/?q=Mareducato+Savelletri"
+      },
+      {
+        "name": "Pescaria",
+        "location": "Piazza Aldo Moro 6, Polignano a Mare",
+        "type": "Panini di pesce",
+        "description": "Panini gourmet di polpo, tonno o gamberi, e crudi. Si fa la coda ma scorre veloce: ottimo per una cena leggera prima di rientrare a Ostuni.",
+        "price": "10-18€/persona",
+        "featured": false,
         "url": "https://www.pescaria.it/"
       },
       {
         "name": "Osteria di Chichibio",
-        "location": "Largo Gelso 12, Polignano",
-        "type": "Pesce fresco, cucina marinara",
-        "description": "Riso patate e cozze, spaghetti ai frutti di mare, frittura di paranza.",
-        "price": "20-30€/persona",
+        "location": "Largo Gelso 12, Polignano a Mare",
+        "type": "Pesce, cucina di ricerca",
+        "description": "Se invece volete sedervi come si deve a Polignano: crudi, primi di mare e una carta dei vini seria. Prenotare.",
+        "price": "40-60€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=Osteria+di+Chichibio+Polignano"
-      }
-    ]
-  },
-  {
-    "zone": "Salento (Lecce / Otranto / Gallipoli)",
-    "zoneIcon": "☀️",
-    "mealsAdvice": "2-3 cene consigliate",
-    "restaurants": [
-      {
-        "name": "Alle Due Corti",
-        "location": "Corte dei Giugni 1, Lecce",
-        "type": "Salentina tradizionale",
-        "description": "Ciceri e tria (pasta e ceci con parte fritta), polpette al sugo, pure di fave. Trattoria storica in cortile.",
-        "price": "18-25€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=Alle+Due+Corti+Lecce"
-      },
-      {
-        "name": "Trattoria Nonna Tetti",
-        "location": "Via Matteotti, Lecce",
-        "type": "Casalinga salentina",
-        "description": "Sagne 'ncannulate, pittule, piatti del giorno. Cucina della nonna, prezzi accessibili.",
-        "price": "12-20€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=Trattoria+Nonna+Tetti+Lecce"
-      },
-      {
-        "name": "L'Altro Baffo",
-        "location": "Corso Garibaldi, Otranto",
-        "type": "Pesce di mare salentino",
-        "description": "Spaghetti ai ricci, frittura del golfo, polpo alla pignata. Nel cuore del centro storico.",
-        "price": "22-30€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=L+Altro+Baffo+Otranto"
-      },
-      {
-        "name": "Trattoria La Puritate",
-        "location": "Via Sant'Elia 18, Gallipoli vecchia",
-        "type": "Pesce, cucina gallipolina",
-        "description": "Scapece gallipolina (piatto storico), tubettini con le cozze. Vicina alla spiaggetta della Purita.",
-        "price": "18-28€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=Trattoria+La+Puritate+Gallipoli"
       }
     ]
   }

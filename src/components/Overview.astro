@@ -1,15 +1,14 @@
 ---
 const defaultStages = [
-    { icon: "📍", title: "Partenza", place: "Torino, Piemonte", date: "Lunedi 24 Agosto", highlight: false },
-    { icon: "🏡", title: "Tappa 1", place: "Senigallia (Marche)", date: "24 Agosto - 1 notte", highlight: false },
-    { icon: "⛰️", title: "Tappa 2", place: "Gargano (Vieste)", date: "25-27 Agosto - 2 notti", highlight: true },
-    { icon: "🏘️", title: "Tappa 3", place: "Ostuni / Valle d'Itria", date: "27-30 Agosto - 3 notti", highlight: true },
-    { icon: "☀️", title: "Tappa 4", place: "Salento (Lecce/Gallipoli)", date: "30 Ago - 3 Set - 4 notti", highlight: true },
-    { icon: "🏠", title: "Tappa 5", place: "Martinsicuro (Abruzzo)", date: "3-4 Settembre - 1 notte", highlight: false },
-    { icon: "📍", title: "Ritorno", place: "Torino", date: "Sabato 5 Settembre", highlight: false },
+    { icon: "📍", title: "Partenza", place: "Alessandria, Piemonte", date: "Domenica 23 Agosto", highlight: false },
+    { icon: "🌊", title: "Tappa 1", place: "Montemarciano (Marche)", date: "23 Agosto - 1 notte", highlight: false },
+    { icon: "⛰️", title: "Tappa 2", place: "Vieste (Gargano)", date: "24-26 Agosto - 2 notti", highlight: true },
+    { icon: "🏘️", title: "Tappa 3", place: "Ostuni (Alto Salento)", date: "26 Ago - 1 Set - 6 notti", highlight: true },
+    { icon: "🏖️", title: "Tappa 4", place: "Grottammare (Marche)", date: "1 Settembre - 1 notte", highlight: false },
+    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Mercoledì 2 Settembre", highlight: false },
 ];
 const stages = Astro.props.stagesData || defaultStages;
-const intro = Astro.props.introText || "13 giorni on the road, dal Gargano al Salento, passando per la Valle d'Itria. Un mix perfetto di cultura, mare, avventura e buon cibo.";
+const intro = Astro.props.introText || "Undici giorni in auto: il Gargano, poi Ostuni come campo base per mare, trulli e grotte.";
 ---
 
 <section id="overview" class="section">

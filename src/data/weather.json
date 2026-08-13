@@ -1,11 +1,24 @@
 {
-  "intro": "Fine agosto e inizio settembre in Puglia offrono condizioni ideali: caldo ma non estremo, pioggia rara, mare ancora caldo. Ecco cosa aspettarsi zona per zona.",
-  "period": "24 Agosto - 5 Settembre",
+  "intro": "Fine agosto in Puglia: caldo pieno, pioggia rara, mare ancora caldissimo. Ecco cosa aspettarsi zona per zona lungo l'itinerario.",
+  "period": "23 Agosto - 2 Settembre",
   "zones": [
     {
-      "name": "Gargano",
+      "name": "Marche (Montemarciano e Grottammare)",
+      "icon": "🌊",
+      "dates": "23 Agosto e 1-2 Settembre",
+      "tempMin": 19,
+      "tempMax": 29,
+      "seaTemp": 25,
+      "rainDays": 2,
+      "sunHours": 9,
+      "humidity": "70%",
+      "wind": "Brezza da nord-est sull'Adriatico",
+      "note": "Qualche grado in meno della Puglia. A inizio settembre le spiagge marchigiane si svuotano e l'acqua resta sui 25°C: l'ultimo bagno a Grottammare è più piacevole di quelli di agosto in mezzo alla folla."
+    },
+    {
+      "name": "Gargano (Vieste)",
       "icon": "⛰️",
-      "dates": "25-26 Agosto",
+      "dates": "24-26 Agosto",
       "tempMin": 21,
       "tempMax": 31,
       "seaTemp": 26,
@@ -13,91 +26,70 @@
       "sunHours": 10,
       "humidity": "65%",
       "wind": "Brezza da nord-ovest, moderata",
-      "note": "La Foresta Umbra e piu fresca: 15-22°C. Portate una felpa!"
+      "note": "La Foresta Umbra, a 800 m di quota, sta sui 15-22°C: se ci andate portate una felpa. In barca il vento asciuga in fretta: crema solare resistente all'acqua."
     },
     {
-      "name": "Trani / Bari",
-      "icon": "⛪",
-      "dates": "27 Agosto",
-      "tempMin": 22,
-      "tempMax": 32,
-      "seaTemp": 26,
-      "rainDays": 1,
-      "sunHours": 10,
-      "humidity": "60%",
-      "wind": "Brezza costiera da nord",
-      "note": "Zona tra le piu calde della Puglia. Visitare Castel del Monte la mattina presto."
-    },
-    {
-      "name": "Ostuni / Valle d'Itria",
+      "name": "Ostuni e costa adriatica",
       "icon": "🏘️",
-      "dates": "27-30 Agosto",
-      "tempMin": 20,
-      "tempMax": 31,
+      "dates": "26 Ago - 1 Set",
+      "tempMin": 21,
+      "tempMax": 33,
       "seaTemp": 26,
       "rainDays": 2,
       "sunHours": 10,
       "humidity": "60%",
-      "wind": "Brezza leggera, notti fresche nell'entroterra",
-      "note": "Nell'entroterra (Cisternino, Alberobello) le sere sono piu fresche: portate un maglioncino leggero."
+      "wind": "Brezza di mare nel pomeriggio",
+      "note": "Ostuni è su una collina a 200 m: le sere in centro storico sono ventilate e piacevoli. Le ore centrali sulla costa sono le più pesanti: meglio mare la mattina e borghi la sera."
     },
     {
-      "name": "Salento (Lecce / Otranto / Gallipoli)",
-      "icon": "☀️",
-      "dates": "31 Ago - 2 Set",
-      "tempMin": 22,
+      "name": "Valle d'Itria (Alberobello, Cisternino, Castellana)",
+      "icon": "🕳️",
+      "dates": "28-31 Agosto",
+      "tempMin": 18,
       "tempMax": 33,
-      "seaTemp": 27,
-      "rainDays": 1,
-      "sunHours": 11,
-      "humidity": "65%",
-      "wind": "Scirocco occasionale da sud, afa possibile",
-      "note": "La zona piu calda del viaggio. Da inizio settembre le temperature iniziano a scendere leggermente. Mare ancora perfetto."
-    },
-    {
-      "name": "Abruzzo (ritorno)",
-      "icon": "🏖️",
-      "dates": "3-4 Settembre",
-      "tempMin": 19,
-      "tempMax": 29,
-      "seaTemp": 25,
-      "rainDays": 3,
-      "sunHours": 9,
-      "humidity": "65%",
-      "wind": "Brezza da nord, piu fresco della Puglia",
-      "note": "Temperature piu miti rispetto alla Puglia. Inizio settembre e la fine dell'estate adriatica, ma si sta ancora bene in spiaggia."
+      "seaTemp": null,
+      "rainDays": 2,
+      "sunHours": 10,
+      "humidity": "55%",
+      "wind": "Aria secca, notti fresche nell'entroterra",
+      "note": "Escursione termica forte: 33°C di giorno e 18°C di notte, quindi felpa leggera per le serate. Nelle Grotte di Castellana ci sono 16-18°C fissi con umidità alta: felpa e scarpe chiuse obbligatorie anche ad agosto."
     }
   ],
   "general": [
     {
       "icon": "🌡️",
       "title": "Temperature",
-      "text": "Medie 21-33°C. Il caldo picchia tra le 12 e le 16: programmate visite culturali al mattino e spiaggia dal primo pomeriggio."
+      "text": "Medie 20-33°C. Il caldo picchia tra le 12 e le 16: visite ai borghi la mattina presto o dopo le 17, mare nelle ore centrali."
     },
     {
       "icon": "🌧️",
       "title": "Pioggia",
-      "text": "Molto rara in questo periodo (1-3 giorni al mese). Quando piove sono temporali brevi e intensi, di solito nel tardo pomeriggio. Si asciuga tutto in fretta."
+      "text": "Molto rara in questo periodo (1-3 giorni al mese). Quando piove sono temporali brevi, spesso nel tardo pomeriggio, e si asciuga tutto in fretta."
     },
     {
       "icon": "🌊",
       "title": "Mare",
-      "text": "Temperatura dell'acqua 25-27°C: perfetta per fare il bagno tutto il giorno. Lo Ionio (Gallipoli) e leggermente piu caldo dell'Adriatico (Vieste)."
+      "text": "Acqua a 25-27°C: si fa il bagno a qualsiasi ora. L'Adriatico del Gargano è leggermente più fresco della costa di Ostuni."
     },
     {
       "icon": "☀️",
       "title": "Sole e UV",
-      "text": "9-11 ore di sole al giorno. Indice UV alto (7-9): crema solare 50+, cappello e occhiali indispensabili, soprattutto per i ragazzi."
+      "text": "9-11 ore di sole al giorno, indice UV 7-9. Crema 50+, cappello e occhiali, soprattutto durante il giro in barca alle grotte marine."
     },
     {
       "icon": "💨",
       "title": "Vento",
-      "text": "In Puglia il vento e frequente, soprattutto nel Salento. Maestrale e Tramontana rinfrescano, lo Scirocco porta afa. Il vento puo creare correnti in mare: attenzione nelle calette esposte."
+      "text": "Maestrale e Tramontana rinfrescano, lo Scirocco porta afa. Il vento può creare corrente nelle calette esposte del Gargano: occhio ai ragazzi a Vignanotica e alle Zagare."
     },
     {
       "icon": "🌅",
       "title": "Ore di luce",
-      "text": "Alba ~6:15, tramonto ~19:30. A inizio settembre si perdono circa 3 minuti al giorno. Sfruttatele per cene all'aperto!"
+      "text": "Alba verso le 6:15, tramonto verso le 19:45 a fine agosto. Il tramonto a Polignano cade quindi intorno alle 19:40: regolate la partenza da Monopoli."
+    },
+    {
+      "icon": "🥶",
+      "title": "Sotto terra",
+      "text": "Grotte di Castellana e Grotta di San Michele: 16-18°C con umidità altissima. Sembra poco, ma dopo due ore di 33°C fuori il contrasto si sente: portate una felpa vera, non un velo."
     }
   ],
   "packing": [

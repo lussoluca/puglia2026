@@ -8,11 +8,11 @@ const homeCoords = Astro.props.homeCoords || [45.0703, 7.6869];
 <section id="map" class="section section-alt">
     <div class="container">
         <h2 class="section-title">Mappa del Viaggio</h2>
-        <p class="section-intro">Tutti i punti di interesse, campeggi, spiagge e ristoranti sulla mappa interattiva. Usa i filtri per esplorare.</p>
+        <p class="section-intro">Alloggi, spiagge, borghi e ristoranti dell'itinerario sulla mappa interattiva. Usa i filtri per esplorare.</p>
         
         <div class="map-filters">
             <button class="map-filter active" data-filter="all">Tutti</button>
-            <button class="map-filter" data-filter="campsites">Campeggi</button>
+            <button class="map-filter" data-filter="campsites">Alloggi</button>
             <button class="map-filter" data-filter="beaches">Spiagge</button>
             <button class="map-filter" data-filter="culture">Cultura</button>
             <button class="map-filter" data-filter="restaurants">Ristoranti</button>
@@ -22,7 +22,7 @@ const homeCoords = Astro.props.homeCoords || [45.0703, 7.6869];
         <div id="travel-map"></div>
         
         <div class="map-legend">
-            <div class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span> Campeggi</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span> Alloggi</div>
             <div class="legend-item"><span class="legend-dot" style="background:#3498db"></span> Spiagge</div>
             <div class="legend-item"><span class="legend-dot" style="background:#9b59b6"></span> Cultura</div>
             <div class="legend-item"><span class="legend-dot" style="background:#e67e22"></span> Ristoranti</div>
@@ -62,7 +62,7 @@ const homeCoords = Astro.props.homeCoords || [45.0703, 7.6869];
             restaurants: '#e67e22', nature: '#27ae60'
         };
         const categoryIcons = {
-            campsites: '\u26FA', beaches: '\uD83C\uDFD6', culture: '\uD83C\uDFDB',
+            campsites: '\uD83C\uDFE0', beaches: '\uD83C\uDFD6', culture: '\uD83C\uDFDB',
             restaurants: '\uD83C\uDF7D', nature: '\uD83C\uDF33'
         };
 

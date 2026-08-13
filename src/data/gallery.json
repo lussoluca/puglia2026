@@ -1,5 +1,5 @@
 {
-  "intro": "Scorci e ispirazioni dai luoghi che visiteremo. Foto per sognare la Puglia prima di partire!",
+  "intro": "Scorci dei luoghi dell'itinerario. Foto per farsi venire voglia di partire.",
   "categories": [
     {
       "id": "gargano",
@@ -15,27 +15,42 @@
           "day": 2
         },
         {
-          "src": "gallery/foresta-umbra.jpg",
-          "thumb": "gallery/thumb/foresta-umbra.jpg",
-          "alt": "Foresta Umbra - Laghetto nel bosco",
-          "caption": "Foresta Umbra, il laghetto tra i faggi millenari",
-          "location": "Foresta Umbra",
-          "day": 3
-        },
-        {
           "src": "gallery/trabucco.jpg",
           "thumb": "gallery/thumb/trabucco.jpg",
           "alt": "Trabucco a Peschici",
           "caption": "Un trabucco a Peschici, antica macchina da pesca del Gargano",
           "location": "Peschici",
           "day": 3
+        },
+        {
+          "src": "gallery/foresta-umbra.jpg",
+          "thumb": "gallery/thumb/foresta-umbra.jpg",
+          "alt": "Foresta Umbra - Laghetto nel bosco",
+          "caption": "Foresta Umbra, il laghetto tra i faggi secolari",
+          "location": "Foresta Umbra",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "id": "ostuni",
+      "title": "Ostuni",
+      "icon": "🏘️",
+      "photos": [
+        {
+          "src": "gallery/ostuni.jpg",
+          "thumb": "gallery/thumb/ostuni.jpg",
+          "alt": "Ostuni - La Città Bianca",
+          "caption": "Ostuni, la Città Bianca vista dagli uliveti",
+          "location": "Ostuni",
+          "day": 4
         }
       ]
     },
     {
       "id": "valle-ditria",
       "title": "Valle d'Itria",
-      "icon": "🏘️",
+      "icon": "🕳️",
       "photos": [
         {
           "src": "gallery/alberobello.jpg",
@@ -46,82 +61,27 @@
           "day": 7
         },
         {
-          "src": "gallery/ostuni.jpg",
-          "thumb": "gallery/thumb/ostuni.jpg",
-          "alt": "Ostuni - La citta bianca panorama",
-          "caption": "Ostuni, la citta bianca che brilla al sole",
-          "location": "Ostuni",
-          "day": 5
-        },
-        {
           "src": "gallery/locorotondo.jpg",
           "thumb": "gallery/thumb/locorotondo.jpg",
-          "alt": "Locorotondo vista panoramica",
-          "caption": "Locorotondo, il borgo circolare con vista sulla valle",
+          "alt": "Locorotondo - Vicoli e case bianche",
+          "caption": "Locorotondo, vicoli circolari e balconi fioriti",
           "location": "Locorotondo",
-          "day": 7
+          "day": 9
         }
       ]
     },
     {
       "id": "costa",
-      "title": "Costa & Spiagge",
-      "icon": "🏖️",
+      "title": "Costa adriatica",
+      "icon": "🌊",
       "photos": [
         {
           "src": "gallery/polignano.jpg",
           "thumb": "gallery/thumb/polignano.jpg",
           "alt": "Polignano a Mare - Lama Monachile",
-          "caption": "Polignano a Mare, la celebre Lama Monachile",
+          "caption": "Polignano a Mare, l'insenatura di Lama Monachile",
           "location": "Polignano a Mare",
           "day": 6
-        },
-        {
-          "src": "gallery/baia-turchi.jpg",
-          "thumb": "gallery/thumb/baia-turchi.jpg",
-          "alt": "Baia dei Turchi - Otranto",
-          "caption": "Baia dei Turchi, acque caraibiche a Otranto",
-          "location": "Otranto",
-          "day": 9
-        },
-        {
-          "src": "gallery/due-sorelle.jpg",
-          "thumb": "gallery/thumb/due-sorelle.jpg",
-          "alt": "Faraglioni Due Sorelle a Torre dell'Orso",
-          "caption": "I faraglioni 'Due Sorelle' a Torre dell'Orso",
-          "location": "Torre dell'Orso",
-          "day": 9
-        }
-      ]
-    },
-    {
-      "id": "salento",
-      "title": "Salento & Barocco",
-      "icon": "⛪",
-      "photos": [
-        {
-          "src": "gallery/lecce.jpg",
-          "thumb": "gallery/thumb/lecce.jpg",
-          "alt": "Lecce - Basilica di Santa Croce facciata barocca",
-          "caption": "Lecce, la facciata barocca della Basilica di Santa Croce",
-          "location": "Lecce",
-          "day": 8
-        },
-        {
-          "src": "gallery/gallipoli.jpg",
-          "thumb": "gallery/thumb/gallipoli.jpg",
-          "alt": "Gallipoli citta vecchia dal mare",
-          "caption": "Gallipoli, la citta vecchia vista dal mare",
-          "location": "Gallipoli",
-          "day": 10
-        },
-        {
-          "src": "gallery/otranto.jpg",
-          "thumb": "gallery/thumb/otranto.jpg",
-          "alt": "Otranto - Cattedrale dell'Annunziata",
-          "caption": "Otranto, la Cattedrale dell'Annunziata",
-          "location": "Otranto",
-          "day": 9
         }
       ]
     },
@@ -133,24 +93,16 @@
         {
           "src": "gallery/focaccia.jpg",
           "thumb": "gallery/thumb/focaccia.jpg",
-          "alt": "Focaccia barese con pomodorini e olive",
-          "caption": "La focaccia barese, croccante e irresistibile",
+          "alt": "Focaccia barese",
+          "caption": "Focaccia barese con pomodorini e olive",
           "location": "Puglia"
         },
         {
           "src": "gallery/orecchiette.jpg",
           "thumb": "gallery/thumb/orecchiette.jpg",
           "alt": "Orecchiette con le cime di rapa",
-          "caption": "Orecchiette con le cime di rapa, il piatto simbolo della Puglia",
+          "caption": "Orecchiette con le cime di rapa, il piatto simbolo",
           "location": "Puglia"
-        },
-        {
-          "src": "gallery/porto-selvaggio.jpg",
-          "thumb": "gallery/thumb/porto-selvaggio.jpg",
-          "alt": "Porto Selvaggio - caletta nella pineta",
-          "caption": "Porto Selvaggio, la caletta nascosta nella pineta",
-          "location": "Porto Selvaggio",
-          "day": 11
         }
       ]
     }

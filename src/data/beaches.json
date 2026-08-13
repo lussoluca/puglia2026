@@ -1,11 +1,45 @@
 [
   {
+    "name": "Scialmarino",
+    "zone": "Gargano",
+    "zoneColor": "gargano",
+    "description": "Un chilometro e mezzo di sabbia a 3 km da Vieste, con il fondale che scende piano. La spiaggia più comoda della zona: parcheggi, lidi e tratti liberi.",
+    "tags": [
+      "Sabbia",
+      "Fondale basso",
+      "Famiglie"
+    ],
+    "tip": "La scelta giusta per il pomeriggio del 25, dopo il giro in barca.",
+    "lat": 41.897,
+    "lng": 16.164,
+    "url": "https://maps.google.com/?q=Spiaggia+di+Scialmarino+Vieste"
+  },
+  {
+    "name": "Spiaggia del Castello",
+    "zone": "Gargano",
+    "zoneColor": "gargano",
+    "description": "La spiaggia sotto il Pizzomunno, a due passi dal centro storico di Vieste. Sabbia chiara e il monolite di 25 metri come sfondo.",
+    "tags": [
+      "A piedi dal centro",
+      "Sabbia",
+      "Servizi"
+    ],
+    "tip": "Perfetta per il bagno veloce dell'arrivo o della mattina della partenza.",
+    "lat": 41.8798,
+    "lng": 16.1739,
+    "url": "https://maps.google.com/?q=Spiaggia+del+Castello+Vieste"
+  },
+  {
     "name": "Baia delle Zagare",
     "zone": "Gargano",
     "zoneColor": "gargano",
-    "description": "Due faraglioni spettacolari, acqua turchese, falesie bianche. La spiaggia piu scenografica del Gargano.",
-    "tags": ["Ciottoli", "Snorkeling", "300 gradini"],
-    "tip": "Arrivate entro le 9:00. Scarpe da scoglio necessarie.",
+    "description": "Due faraglioni piantati nell'acqua turchese sotto falesie bianche: la spiaggia più fotografata del Gargano.",
+    "tags": [
+      "Ciottoli",
+      "Snorkeling",
+      "300 gradini"
+    ],
+    "tip": "Accesso dal sentiero pubblico, scarpe da scoglio e arrivo entro le 9:00.",
     "lat": 41.8328,
     "lng": 16.1842,
     "url": "https://maps.google.com/?q=Baia+delle+Zagare+Gargano"
@@ -14,121 +48,180 @@
     "name": "Vignanotica",
     "zone": "Gargano",
     "zoneColor": "gargano",
-    "description": "Spiaggia selvaggia sotto falesie di 30m, raggiungibile solo a piedi (20 min nel bosco).",
-    "tags": ["Avventura", "Selvaggia", "No servizi"],
-    "tip": "Portate acqua e cibo. Sentiero non adatto a passeggini.",
+    "description": "Ghiaia bianca sotto pareti di roccia di 30 metri, raggiungibile solo a piedi con venti minuti di sentiero nel bosco.",
+    "tags": [
+      "Avventura",
+      "Selvaggia",
+      "Pochi servizi"
+    ],
+    "tip": "Portate acqua e pranzo. Il sentiero è in discesa all'andata: tenete energia per il ritorno.",
     "lat": 41.8147,
-    "lng": 16.1890,
+    "lng": 16.189,
     "url": "https://maps.google.com/?q=Spiaggia+di+Vignanotica+Gargano"
-  },
-  {
-    "name": "Scialmarino",
-    "zone": "Gargano",
-    "zoneColor": "gargano",
-    "description": "Lunga spiaggia sabbiosa, raggiungibile in bici da Vieste (~3 km). Fondale basso e dolce.",
-    "tags": ["Sabbia", "Bici", "Famiglie"],
-    "tip": "Perfetta per combinare bici + mare.",
-    "lat": 41.8970,
-    "lng": 16.1640,
-    "url": "https://maps.google.com/?q=Spiaggia+di+Scialmarino+Vieste"
   },
   {
     "name": "Torre Guaceto",
     "zone": "Ostuni",
     "zoneColor": "ostuni",
-    "description": "Area marina protetta con dune, snorkeling eccezionale. Praterie di Posidonia, stelle marine, cavallucci.",
-    "tags": ["Protetta", "Snorkeling", "Ciclabile"],
-    "tip": "Navetta obbligatoria. Arrivate entro le 9:00 in agosto.",
-    "lat": 40.7160,
-    "lng": 17.7920,
+    "description": "Area marina protetta tra Carovigno e Ostuni: sabbia, acqua bassissima e praterie di Posidonia piene di vita. Il posto migliore della zona per lo snorkeling.",
+    "tags": [
+      "Riserva",
+      "Snorkeling",
+      "Navetta"
+    ],
+    "tip": "In auto non si entra: parcheggio a pagamento (8:00-20:00) e trenino gratuito, ultima corsa alle 19:20. Pranzo al sacco.",
+    "lat": 40.716,
+    "lng": 17.792,
     "url": "https://www.riservaditorreguaceto.it/"
   },
   {
-    "name": "Lama Monachile",
-    "zone": "Polignano",
-    "zoneColor": "polignano",
-    "description": "L'iconica spiaggetta di ciottoli incorniciata dal ponte. L'immagine piu fotografata di Puglia.",
-    "tags": ["Iconica", "Ciottoli", "Centro storico"],
-    "tip": "Affollatissima in agosto. Mattina presto o tardo pomeriggio.",
-    "lat": 40.9942,
-    "lng": 17.2212,
-    "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare"
+    "name": "Lido Morelli",
+    "zone": "Ostuni",
+    "zoneColor": "ostuni",
+    "description": "La spiaggia di riferimento di Ostuni: sabbia, acqua trasparente e poco profonda, macchia mediterranea alle spalle. Piena di famiglie.",
+    "tags": [
+      "Sabbia",
+      "Fondale basso",
+      "Lidi"
+    ],
+    "tip": "A 15 minuti da casa: la scelta ovvia per le mattine di mare senza programmi.",
+    "lat": 40.7625,
+    "lng": 17.6208,
+    "url": "https://maps.google.com/?q=Lido+Morelli+Ostuni"
   },
   {
-    "name": "Porto Ghiacciolo",
-    "zone": "Monopoli",
-    "zoneColor": "polignano",
-    "description": "Acqua gelida e trasparente da sorgenti sottomarine. Sembra di galleggiare nel vuoto.",
-    "tags": ["Snorkeling", "Scogli", "Avventura"],
-    "tip": "Scarpe da scoglio indispensabili. Sentiero tra gli scogli.",
-    "lat": 40.9588,
-    "lng": 17.3150,
-    "url": "https://maps.google.com/?q=Porto+Ghiacciolo+Monopoli"
+    "name": "Pilone",
+    "zone": "Ostuni",
+    "zoneColor": "ostuni",
+    "description": "Baie riparate dove l'acqua si scalda in fretta e resta calma anche col vento. Stabilimenti moderni con aree family, bar, noleggio canoe e SUP.",
+    "tags": [
+      "Baie",
+      "Servizi",
+      "Canoe e SUP"
+    ],
+    "tip": "Il più attrezzato della costa di Ostuni: buono se qualcuno vuole fare qualcosa oltre a stare steso.",
+    "lat": 40.7735,
+    "lng": 17.6021,
+    "url": "https://maps.google.com/?q=Pilone+Ostuni+spiaggia"
+  },
+  {
+    "name": "Costa Merlata",
+    "zone": "Ostuni",
+    "zoneColor": "ostuni",
+    "description": "Una successione di calette rocciose dal profilo dentellato, con acqua bassa e trasparentissima. Da vedere più che da vivere in comodità.",
+    "tags": [
+      "Scogli",
+      "Calette",
+      "Acqua bassa"
+    ],
+    "tip": "Scarpe da scoglio necessarie. La Darsena Beach è accessibile con rampe.",
+    "lat": 40.7515,
+    "lng": 17.6555,
+    "url": "https://maps.google.com/?q=Costa+Merlata+Ostuni"
+  },
+  {
+    "name": "Rosa Marina",
+    "zone": "Ostuni",
+    "zoneColor": "ostuni",
+    "description": "Alterna tratti di sabbia e scogli piatti su cui si sta comodi. Zona residenziale ordinata, con pineta e parcheggi.",
+    "tags": [
+      "Misto",
+      "Pineta",
+      "Tranquilla"
+    ],
+    "tip": "Buon compromesso quando Lido Morelli è troppo pieno.",
+    "lat": 40.7455,
+    "lng": 17.6753,
+    "url": "https://maps.google.com/?q=Rosa+Marina+Ostuni"
   },
   {
     "name": "Cala Porta Vecchia",
     "zone": "Monopoli",
     "zoneColor": "polignano",
-    "description": "Spiaggia di sabbia dentro le mura del centro storico di Monopoli. Bagno ai piedi della citta medievale.",
-    "tags": ["Sabbia", "Centro storico", "Unica"],
-    "tip": "Molto piccola, si riempie presto.",
-    "lat": 40.9503,
-    "lng": 17.3040,
+    "description": "Una spiaggetta di sabbia incastrata sotto le mura del centro storico di Monopoli: si esce dal vicolo e si è in acqua.",
+    "tags": [
+      "In città",
+      "Sabbia",
+      "Piccola"
+    ],
+    "tip": "Il bagno da fare nel pomeriggio del giro sulla costa adriatica, senza spostare l'auto.",
+    "lat": 40.9539,
+    "lng": 17.3011,
     "url": "https://maps.google.com/?q=Cala+Porta+Vecchia+Monopoli"
   },
   {
-    "name": "Baia dei Turchi",
-    "zone": "Salento",
-    "zoneColor": "salento",
-    "description": "Sabbia bianca, acqua caraibica. Dove sbarcarono i turchi nel 1480. Sentiero nel bosco.",
-    "tags": ["Sabbia", "Bassa", "Famiglie"],
-    "tip": "Parcheggio 5€ + 10 min a piedi nel bosco.",
-    "lat": 40.1760,
-    "lng": 18.4827,
-    "url": "https://maps.google.com/?q=Baia+dei+Turchi+Otranto"
+    "name": "Porto Ghiacciolo",
+    "zone": "Monopoli",
+    "zoneColor": "polignano",
+    "description": "Caletta di sabbia e roccia sotto l'abbazia di Santo Stefano, 4 km a nord di Monopoli. Acqua fredda e limpidissima, da cui il nome.",
+    "tags": [
+      "Caletta",
+      "Scenografica",
+      "Scogli"
+    ],
+    "tip": "Piccola e molto frequentata: funziona meglio nel tardo pomeriggio.",
+    "lat": 40.9722,
+    "lng": 17.2761,
+    "url": "https://maps.google.com/?q=Porto+Ghiacciolo+Monopoli"
   },
   {
-    "name": "Torre dell'Orso",
-    "zone": "Salento",
-    "zoneColor": "salento",
-    "description": "Baia a mezzaluna con i faraglioni \"Due Sorelle\". Sabbia argento, acqua turchese.",
-    "tags": ["Sabbia", "Faraglioni", "Bandiera Blu"],
-    "tip": "I faraglioni sono nuotabili (~50m). Leggenda delle due sorelle.",
-    "lat": 40.2724,
-    "lng": 18.4413,
-    "url": "https://maps.google.com/?q=Torre+dell+Orso+spiaggia+Salento"
+    "name": "Lama Monachile",
+    "zone": "Polignano",
+    "zoneColor": "polignano",
+    "description": "L'insenatura di ciottoli tra le falesie sotto il ponte borbonico: l'immagine più conosciuta della Puglia.",
+    "tags": [
+      "Ciottoli",
+      "Iconica",
+      "Affollata"
+    ],
+    "tip": "Si scende dalla scalinata sotto il ponte della via Traiana. Ad agosto conviene al tramonto, o solo da guardare dall'alto.",
+    "lat": 40.9942,
+    "lng": 17.2212,
+    "url": "https://maps.google.com/?q=Lama+Monachile+Polignano+a+Mare"
   },
   {
-    "name": "Punta Prosciutto",
-    "zone": "Salento",
+    "name": "Marina di Montemarciano",
+    "zone": "Marche",
     "zoneColor": "salento",
-    "description": "Acqua bassa per 100 metri, sabbia bianchissima. \"I Caraibi della Puglia\".",
-    "tags": ["Sabbia", "Acqua bassa", "Dune"],
-    "tip": "Lato sinistro piu selvaggio, lato destro attrezzato.",
-    "lat": 40.2863,
-    "lng": 17.7615,
-    "url": "https://maps.google.com/?q=Punta+Prosciutto+Puglia"
+    "description": "Sabbia e ghiaia sull'Adriatico a 4 km dalla casa della prima notte, con stabilimenti e tratti liberi.",
+    "tags": [
+      "Tappa",
+      "Comoda",
+      "Adriatico"
+    ],
+    "tip": "Il primo bagno del viaggio, appena scaricati i bagagli il 23.",
+    "lat": 43.7013,
+    "lng": 13.2884,
+    "url": "https://maps.google.com/?q=Marina+di+Montemarciano+spiaggia"
   },
   {
-    "name": "Porto Selvaggio",
-    "zone": "Salento",
+    "name": "Spiaggia di Velluto",
+    "zone": "Marche",
     "zoneColor": "salento",
-    "description": "Caletta in pineta, solo scogli. Acqua gelida da sorgenti. Snorkeling straordinario. Natura pura.",
-    "tags": ["Scogli", "Selvaggia", "Snorkeling"],
-    "tip": "15 min di sentiero nella pineta. Nessun servizio.",
-    "lat": 40.1536,
-    "lng": 17.9750,
-    "url": "https://maps.google.com/?q=Porto+Selvaggio+Nardo"
+    "description": "I 13 km di sabbia finissima di Senigallia, con la Rotonda a Mare che entra nell'acqua. A 10 km dalla prima tappa.",
+    "tags": [
+      "Sabbia fine",
+      "Lungomare",
+      "Cena"
+    ],
+    "tip": "Da abbinare alla passeggiata e alla cena della prima sera.",
+    "lat": 43.7168,
+    "lng": 13.2164,
+    "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
   },
   {
-    "name": "Spiaggia della Purita",
-    "zone": "Salento",
+    "name": "Grottammare",
+    "zone": "Marche",
     "zoneColor": "salento",
-    "description": "Spiaggetta dentro le mura della citta vecchia di Gallipoli. Tramonto imperdibile.",
-    "tags": ["Centro storico", "Tramonto", "Piccola"],
-    "tip": "Tramonto dal bastione di Gallipoli e obbligatorio.",
-    "lat": 40.0540,
-    "lng": 17.9905,
-    "url": "https://maps.google.com/?q=Spiaggia+della+Purita+Gallipoli"
+    "description": "Sabbia finissima, fondale che scende piano e cinque chilometri di lungomare orlato di palme, sotto il borgo medievale. Bandiera Blu.",
+    "tags": [
+      "Sabbia fine",
+      "Fondale basso",
+      "Bandiera Blu"
+    ],
+    "tip": "L'ultimo bagno del viaggio, il 1 settembre. A settembre le spiagge sono vuote e l'acqua è al massimo.",
+    "lat": 42.9905,
+    "lng": 13.8683,
+    "url": "https://maps.google.com/?q=Spiaggia+di+Grottammare"
   }
 ]

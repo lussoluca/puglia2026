@@ -1,19 +1,19 @@
 {
-  "intro": "Checklist interattiva per preparare la valigia. I tuoi progressi vengono salvati automaticamente sul dispositivo!",
+  "intro": "Checklist interattiva per preparare la valigia: 10 notti in quattro tappe, dal 23 agosto al 2 settembre. I progressi vengono salvati sul dispositivo.",
   "categories": [
     {
       "id": "documenti",
       "title": "Documenti & Soldi",
       "icon": "📄",
       "items": [
-        "Carte d'identita (tutti e 4)",
+        "Carte d'identità (tutti e 4)",
         "Tessere sanitarie",
         "Patente di guida",
-        "Documenti noleggio camper (conferma Roadsurfer)",
-        "Assicurazione viaggio",
-        "Contanti + carte di credito/debito",
-        "Tessere campeggio (ACSI/CCI se disponibili)",
-        "Numeri emergenza stampati"
+        "Libretto e assicurazione auto",
+        "Conferme delle 3 prenotazioni (stampate o offline)",
+        "Biglietti Grotte di Castellana / Hell in the Cave",
+        "Contanti + carte di credito e debito",
+        "Numeri di emergenza stampati"
       ]
     },
     {
@@ -21,19 +21,19 @@
       "title": "Abbigliamento",
       "icon": "👕",
       "items": [
-        "Magliette / T-shirt (7-8 a testa)",
+        "Magliette / T-shirt (6-7 a testa)",
         "Pantaloncini corti (3-4 a testa)",
-        "Pantaloni leggeri lunghi (2 a testa)",
+        "Pantaloni leggeri lunghi (1-2 a testa)",
         "Costume da bagno (2 a testa)",
-        "Felpa / giacca leggera per la sera",
-        "K-way / giacca antipioggia",
+        "Felpa o giacca leggera per le sere in Valle d'Itria",
+        "K-way per i temporali di fine agosto",
         "Pigiama leggero",
-        "Biancheria intima (10+ giorni)",
-        "Calzini (inclusi corti per scarpe da ginnastica)",
-        "Cappello / bandana per il sole",
-        "Scarpe da ginnastica / trekking",
+        "Biancheria intima (10 giorni)",
+        "Calzini",
+        "Cappello o bandana per il sole",
+        "Scarpe da ginnastica",
         "Ciabatte / sandali",
-        "Scarpe da scoglio (per spiagge rocciose!)"
+        "Qualcosa di decente per le cene fuori"
       ]
     },
     {
@@ -43,14 +43,14 @@
       "items": [
         "Teli mare grandi (4)",
         "Crema solare SPF 50+ e SPF 30",
-        "Doposole / aloe vera",
-        "Maschera + boccaglio snorkeling (2 set)",
-        "Gonfiabili / materassino",
-        "Borsa termica per la spiaggia",
-        "Bottiglia acqua termica",
-        "Ombrellone da spiaggia (portatile)",
+        "Doposole o aloe vera",
+        "Maschera e boccaglio per lo snorkeling a Torre Guaceto (2 set)",
+        "Scarpe da scoglio (obbligatorie a Costa Merlata e alle Zagare)",
+        "Borsa termica da spiaggia",
+        "Bottiglia termica",
+        "Ombrellone portatile",
         "Giochi da spiaggia (racchettoni, frisbee)",
-        "Sacchetto impermeabile per telefono"
+        "Sacchetto impermeabile per il telefono (per il giro in barca)"
       ]
     },
     {
@@ -59,9 +59,9 @@
       "icon": "🧴",
       "items": [
         "Spazzolini e dentifricio",
-        "Shampoo e bagnoschiuma (biodegradabile)",
+        "Shampoo e bagnoschiuma",
         "Deodorante",
-        "Asciugamani (se non forniti dal camper)",
+        "Asciugamani mare",
         "Farmaci personali",
         "Kit pronto soccorso (cerotti, disinfettante, Imodium, Moment)",
         "Antizanzare (spray + piastrine)",
@@ -77,30 +77,25 @@
         "Telefoni + caricabatterie",
         "Powerbank (almeno 10.000 mAh)",
         "Cavo USB-C / Lightning",
-        "Adattatore multipresa (poche prese nel camper!)",
+        "Caricatore auto USB",
         "Cuffie / auricolari",
         "E-reader / tablet per i ragazzi",
         "Macchina fotografica + schede SD",
-        "Cavetto AUX o Bluetooth per musica in camper"
+        "Supporto telefono per auto (navigatore)"
       ]
     },
     {
-      "id": "camper",
-      "title": "Vita in Camper",
-      "icon": "🚐",
+      "id": "auto",
+      "title": "Per l'Auto",
+      "icon": "🚗",
       "items": [
-        "Detersivo piatti biodegradabile",
-        "Spugne e strofinacci",
-        "Sacchetti spazzatura",
-        "Carta igienica (speciale per camper se possibile)",
-        "Prodotto WC chimico (Aqua Kem Blue)",
-        "Torcia elettrica / lampada frontale",
-        "Prolunga elettrica (25m) per campeggio",
-        "Zeppe / cunei per livellamento",
-        "Tavolino e sedie pieghevoli (se non inclusi)",
-        "Set pentole leggero (se non incluso)",
-        "Apribottiglie / cavatappi",
-        "Giochi da tavolo per le sere"
+        "Triangolo e gilet catarifrangente",
+        "Borsa termica grande (per il viaggio)",
+        "Cuscini e coperte per i ragazzi (viaggio lungo)",
+        "Sacchetti per l'immondizia",
+        "Parasole per parabrezza",
+        "Tendine parasole per finestrini posteriori",
+        "Cavo AUX / Bluetooth per musica"
       ]
     },
     {
@@ -110,11 +105,10 @@
       "items": [
         "Zaino da giorno",
         "Borraccia riutilizzabile (1 a testa)",
-        "Guida Puglia (cartacea o ebook)",
-        "Binocolo (per la Foresta Umbra)",
-        "Lucchetti per bici (se noleggio)",
-        "Biglietti / prenotazioni stampati",
-        "Quaderno + penne per diario di viaggio"
+        "Felpa leggera per le grotte (16-18°C)",
+        "Scarpe chiuse per il percorso nelle grotte",
+        "Biglietti e prenotazioni salvati sul telefono",
+        "Powerbank carico per le giornate lunghe"
       ]
     },
     {
@@ -122,15 +116,11 @@
       "title": "Scorte Alimentari Partenza",
       "icon": "🛒",
       "items": [
-        "Acqua (scorta iniziale 6L)",
-        "Caffe / moka + caffe macinato",
-        "Latte UHT",
-        "Biscotti / cereali colazione",
-        "Pasta + riso",
-        "Olio extravergine",
-        "Sale, pepe, spezie base",
-        "Frutta e snack per il viaggio",
-        "Pane / crackers"
+        "Acqua (scorta per il viaggio di andata)",
+        "Frutta e snack per l'auto",
+        "Panini o crackers per le soste",
+        "Caffè per la moka",
+        "Borsa termica (serve anche al ritorno per la burrata)"
       ]
     }
   ]

@@ -3,55 +3,28 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
-  variant: 'camper' | 'auto';
 }
 
-const { title, variant } = Astro.props;
+const { title } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const isCamper = variant === 'camper';
+const navLinks = [
+  { href: `${base}#hero`,          label: 'Home' },
+  { href: `${base}#overview`,      label: 'Panoramica' },
+  { href: `${base}#where`,         label: 'Dove saremo' },
+  { href: `${base}#itinerary`,     label: 'Itinerario' },
+  { href: `${base}#suggestions`,   label: 'Consigli' },
+  { href: `${base}#map`,           label: 'Mappa' },
+  { href: `${base}#beaches`,       label: 'Spiagge' },
+  { href: `${base}#restaurants`,   label: 'Ristoranti' },
+  { href: `${base}#events`,        label: 'Eventi' },
+  { href: `${base}#gallery`,       label: 'Galleria' },
+  { href: `${base}#budget`,        label: 'Budget' },
+  { href: `${base}#checklist`,     label: 'Checklist' },
+];
 
-// Nav links differ by variant
-const navLinks = isCamper
-  ? [
-      { href: `${base}#hero`,        label: 'Home' },
-      { href: `${base}#overview`,    label: 'Panoramica' },
-      { href: `${base}#camper`,      label: 'Camper' },
-      { href: `${base}#itinerary`,   label: 'Itinerario' },
-      { href: `${base}#map`,         label: 'Mappa' },
-      { href: `${base}#beaches`,     label: 'Spiagge' },
-      { href: `${base}#restaurants`, label: 'Ristoranti' },
-      { href: `${base}#events`,      label: 'Eventi' },
-      { href: `${base}#gallery`,     label: 'Galleria' },
-      { href: `${base}#budget`,      label: 'Budget' },
-      { href: `${base}#weather`,     label: 'Meteo' },
-      { href: `${base}#checklist`,   label: 'Checklist' },
-    ]
-  : [
-      { href: `${base}auto/#hero`,          label: 'Home' },
-      { href: `${base}auto/#overview`,      label: 'Panoramica' },
-      { href: `${base}auto/#accommodation`, label: 'Alloggi' },
-      { href: `${base}auto/#itinerary`,     label: 'Itinerario' },
-      { href: `${base}auto/#map`,           label: 'Mappa' },
-      { href: `${base}auto/#beaches`,       label: 'Spiagge' },
-      { href: `${base}auto/#restaurants`,   label: 'Ristoranti' },
-      { href: `${base}auto/#events`,        label: 'Eventi' },
-      { href: `${base}auto/#gallery`,       label: 'Galleria' },
-      { href: `${base}auto/#budget`,        label: 'Budget' },
-      { href: `${base}auto/#weather`,       label: 'Meteo' },
-      { href: `${base}auto/#checklist`,     label: 'Checklist' },
-    ];
-
-// Variant switch shown in the navbar
-const switchHref  = isCamper ? `${base}auto/` : `${base}`;
-const switchLabel = isCamper ? '🚗 Auto' : '🚐 Camper';
-const switchTitle = isCamper ? 'Vedi versione Auto (B&B)' : 'Vedi versione Camper';
-
-// Footer
-const footerText  = isCamper
-  ? 'Puglia 2026 · Vacanza in Camper'
-  : 'Puglia 2026 · Vacanza in Auto (B&B)';
-const footerDates = '24 Agosto / 5 Settembre 2026';
+const footerText  = 'Puglia 2026 · Gargano e Valle d\'Itria in auto';
+const footerDates = '23 Agosto / 2 Settembre 2026';
 ---
 
 <!DOCTYPE html>
@@ -60,8 +33,8 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <meta name="description" content="Itinerario, spiagge, ristoranti, mappa e budget per la vacanza in Puglia - Agosto/Settembre 2026">
-    <meta name="theme-color" content={isCamper ? '#1a5276' : '#27ae60'}>
+    <meta name="description" content="Itinerario, spiagge, ristoranti, mappa e budget della vacanza in Puglia - dal 23 agosto al 1 settembre 2026">
+    <meta name="theme-color" content="#1a5276">
 
     <!-- PWA -->
     <link rel="manifest" href={`${base}manifest.json`}>
@@ -80,9 +53,9 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="navbar" class={isCamper ? 'variant-camper' : 'variant-auto'}>
+    <nav id="navbar">
         <div class="nav-brand">
-            <a href={isCamper ? base : `${base}auto/`} style="text-decoration:none;color:inherit;">Puglia 2026</a>
+            <a href={base} style="text-decoration:none;color:inherit;">Puglia 2026</a>
         </div>
 
         <ul class="nav-links" id="navLinks">
@@ -90,11 +63,6 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
                 <li><a href={link.href}>{link.label}</a></li>
             ))}
         </ul>
-
-        <!-- Variant switch — always visible, right side of navbar, left of hamburger on mobile -->
-        <a href={switchHref} class="nav-variant-switch" title={switchTitle} aria-label={switchTitle}>
-            {switchLabel}
-        </a>
 
         <button class="nav-toggle" id="navToggle" aria-label="Menu">
             <span></span><span></span><span></span>
@@ -113,9 +81,9 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
     <script define:vars={{ base }}>
         // Navbar
-        const navbar = document.getElementById('navbar')!;
-        const toggle = document.getElementById('navToggle')!;
-        const links = document.getElementById('navLinks')!;
+        const navbar = document.getElementById('navbar');
+        const toggle = document.getElementById('navToggle');
+        const links = document.getElementById('navLinks');
         const navItems = document.querySelectorAll('.nav-links a');
 
         window.addEventListener('scroll', () => {
@@ -130,8 +98,8 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
         window.addEventListener('scroll', () => {
             const scrollPos = window.scrollY + 100;
             sections.forEach(section => {
-                const top = (section as HTMLElement).offsetTop;
-                const height = (section as HTMLElement).offsetHeight;
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
                 const id = section.getAttribute('id');
                 const link = document.querySelector(`.nav-links a[href$="#${id}"]`);
                 if (link) {
@@ -154,45 +122,3 @@ const footerDates = '24 Agosto / 5 Settembre 2026';
     </script>
 </body>
 </html>
-
-<style>
-    /* Variant switch pill — always visible in the navbar */
-    .nav-variant-switch {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.3rem;
-        padding: 6px 14px;
-        border-radius: 20px;
-        font-size: 0.82rem;
-        font-weight: 700;
-        text-decoration: none;
-        white-space: nowrap;
-        transition: opacity 0.2s, transform 0.15s;
-        margin-left: auto; /* push to right before hamburger */
-        flex-shrink: 0;
-    }
-    .nav-variant-switch:hover {
-        opacity: 0.85;
-        transform: scale(1.04);
-    }
-
-    /* Camper variant → show blue pill pointing to auto */
-    #navbar.variant-camper .nav-variant-switch {
-        background: linear-gradient(135deg, #27ae60, #2ecc71);
-        color: #fff;
-    }
-
-    /* Auto variant → show green pill pointing to camper */
-    #navbar.variant-auto .nav-variant-switch {
-        background: linear-gradient(135deg, #1a5276, #2980b9);
-        color: #fff;
-    }
-
-    /* Mobile: push switch before hamburger, keep it visible */
-    @media (max-width: 768px) {
-        .nav-variant-switch {
-            margin-left: auto;
-            margin-right: 0.5rem;
-        }
-    }
-</style>

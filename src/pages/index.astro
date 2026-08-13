@@ -2,8 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
 import Overview from '../components/Overview.astro';
-import Camper from '../components/Camper.astro';
+import DailyLocation from '../components/DailyLocation.astro';
+import Accommodation from '../components/Accommodation.astro';
 import Itinerary from '../components/Itinerary.astro';
+import Suggestions from '../components/Suggestions.astro';
 import Map from '../components/Map.astro';
 import Beaches from '../components/Beaches.astro';
 import Restaurants from '../components/Restaurants.astro';
@@ -13,20 +15,45 @@ import Weather from '../components/Weather.astro';
 import Gallery from '../components/Gallery.astro';
 import Checklist from '../components/Checklist.astro';
 import Tips from '../components/Tips.astro';
+import Contacts from '../components/Contacts.astro';
+
+import trip from '../data/trip.json';
+import itinerary from '../data/itinerary.json';
+import accommodation from '../data/accommodation.json';
+import contacts from '../data/contacts.json';
+import budget from '../data/budget.json';
+import checklist from '../data/checklist.json';
+import tips from '../data/tips.json';
+import mapPoints from '../data/map-points.json';
+
+const stages = [
+    { icon: "📍", title: "Partenza", place: "Alessandria, Piemonte", date: "Domenica 23 Agosto", highlight: false },
+    { icon: "🌊", title: "Tappa 1", place: "Montemarciano (Marche)", date: "23 Agosto - 1 notte", highlight: false },
+    { icon: "⛰️", title: "Tappa 2", place: "Vieste (Gargano)", date: "24-26 Agosto - 2 notti", highlight: true },
+    { icon: "🏘️", title: "Tappa 3", place: "Ostuni (Alto Salento)", date: "26 Ago - 1 Set - 6 notti", highlight: true },
+    { icon: "🏖️", title: "Tappa 4", place: "Grottammare (Marche)", date: "1 Settembre - 1 notte", highlight: false },
+    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Mercoledì 2 Settembre", highlight: false },
+];
 ---
 
-<Layout title="Puglia 2026 - Vacanza in Camper" variant="camper">
-    <Hero />
-    <Overview />
-    <Camper />
-    <Itinerary />
-    <Map />
+<Layout title="Puglia 2026 - Gargano e Valle d'Itria in auto">
+    <Hero tripData={trip} />
+    <Overview
+        stagesData={stages}
+        introText="Undici giorni in auto, con Ostuni come vera base: sei notti nello stesso posto e tutto a meno di un'ora di strada. Andata e ritorno spezzati da una notte nelle Marche, così nessuna giornata al volante supera le cinque ore."
+    />
+    <DailyLocation />
+    <Accommodation accommodationData={accommodation} />
+    <Itinerary itineraryData={itinerary} />
+    <Suggestions />
+    <Contacts contactsData={contacts} />
+    <Map mapData={mapPoints} homeLabel="Alessandria" homeCoords={[44.9122, 8.6152]} />
     <Beaches />
     <Restaurants />
     <Events />
     <Gallery />
-    <Budget />
+    <Budget budgetData={budget} summaryTitle="Totale stimato (alloggi esclusi)" />
     <Weather />
-    <Checklist />
-    <Tips />
+    <Checklist checklistData={checklist} storageKey="puglia2026-checklist" />
+    <Tips tipsData={tips} />
 </Layout>

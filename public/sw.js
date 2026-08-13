@@ -1,4 +1,4 @@
-const CACHE_NAME = 'puglia2026-v2';
+const CACHE_NAME = 'puglia2026-v3';
 const BASE = '/puglia2026';
 
 // Files to cache on install (app shell)

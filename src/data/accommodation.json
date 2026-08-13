@@ -1,0 +1,46 @@
+{
+  "title": "Dove Dormiamo",
+  "intro": "Le tre case del viaggio di andata e del soggiorno sono già prenotate. Il grosso della vacanza è a Ostuni: sei notti nello stesso appartamento, in pieno centro, così le giornate si costruiscono partendo sempre dallo stesso punto. Resta da prenotare solo la tappa del rientro.",
+  "stays": [
+    {
+      "name": "Casa a Montemarciano",
+      "location": "Via Casino Pulini 5, 60018 Montemarciano (AN), Marche",
+      "nights": 1,
+      "nightsLabel": "1 notte: 23 Agosto",
+      "type": "Tappa intermedia andata",
+      "detail": "Sosta per spezzare il viaggio verso il Gargano. Montemarciano è sulle prime colline sopra la costa: la Marina di Montemarciano è a circa 4 km e Senigallia, con la Rotonda a Mare e la Spiaggia di Velluto, a una decina di km. Perfetta per arrivare nel pomeriggio, fare un bagno e cenare senza fretta.",
+      "url": "https://maps.google.com/?q=Via+Casino+Pulini+5+Montemarciano"
+    },
+    {
+      "name": "Casa a Vieste",
+      "location": "Località Macchia di Mauro 7, 71019 Vieste (FG), Gargano",
+      "nights": 2,
+      "nightsLabel": "2 notti: 24 e 25 Agosto",
+      "type": "Base sul Gargano",
+      "detail": "Fuori dal centro di Vieste, nel verde della macchia garganica, a pochi minuti di auto dal porto e dalle spiagge. Due notti piene: una serata in centro storico e una giornata intera tra grotte marine e mare.",
+      "url": "https://maps.google.com/?q=Localit%C3%A0+Macchia+di+Mauro+7+Vieste"
+    },
+    {
+      "name": "Casa a Ostuni",
+      "location": "Corso Garibaldi 138-140, 72017 Ostuni (BR)",
+      "nights": 6,
+      "nightsLabel": "6 notti: dal 26 Agosto al 1 Settembre",
+      "type": "Base per Valle d'Itria e costa adriatica",
+      "detail": "Corso Garibaldi è la strada principale appena sotto il centro storico: bar, gastronomie e supermercato a piedi, e la Città Bianca raggiungibile senza auto. Da qui tutto è vicino: Torre Guaceto 30 minuti, Savelletri 30, Alberobello 40, Castellana Grotte 60. Arriviamo il 26, il giorno più importante della Festa di Sant'Oronzo, e la festa ci passa praticamente sotto casa.",
+      "warning": "In centro il parcheggio è il punto debole: informarsi con il proprietario sul posto auto o sulle strisce blu/parcheggi liberi più vicini. Nei giorni della festa (25-27 agosto) molte strade del centro sono chiuse al traffico.",
+      "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
+    },
+    {
+      "name": "Tappa a Grottammare",
+      "location": "Grottammare (AP), Marche",
+      "nights": 1,
+      "nightsLabel": "1 notte: 1 Settembre",
+      "type": "Tappa intermedia ritorno - da prenotare",
+      "detail": "Spezza il rientro in due giornate da circa 5 ore invece di una da dieci. Grottammare è Bandiera Blu, con sabbia fine e fondale basso, e ha il borgo medievale sulla collina tra i Borghi più Belli d'Italia. A settembre nelle Marche è bassa stagione: si trova facilmente anche per una notte sola.",
+      "warning": "È l'unica prenotazione che manca. Cercate sul lungomare di Grottammare o di San Benedetto del Tronto, così la spiaggia è a piedi e l'auto resta ferma.",
+      "alternative": "San Benedetto del Tronto, 5 km a sud: più grande e più servita, con il lungomare delle palme. Collegata a Grottammare da una ciclopedonale di 8 km.",
+      "url": "https://maps.google.com/?q=Grottammare+lungomare",
+      "alternativeUrl": "https://maps.google.com/?q=Lungomare+San+Benedetto+del+Tronto"
+    }
+  ]
+}

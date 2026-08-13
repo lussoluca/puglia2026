@@ -7,14 +7,14 @@ import events from '../data/events.json';
         <h2 class="section-title">Eventi e Sagre</h2>
         <p class="section-intro" set:html={events.intro} />
 
-        <!-- Taranta note -->
+        <!-- Headline event of the trip -->
         <div class="taranta-box">
             <div class="taranta-header">
-                <span class="taranta-icon">🎸</span>
-                <h3>La Notte della Taranta 2026</h3>
+                <span class="taranta-icon">{events.highlight.icon}</span>
+                <h3>{events.highlight.title}</h3>
             </div>
-            <p>{events.taranta.note}</p>
-            <a href={events.taranta.url} target="_blank" rel="noopener noreferrer" class="ext-link">Sito ufficiale &rarr;</a>
+            <p>{events.highlight.note}</p>
+            <a href={events.highlight.url} target="_blank" rel="noopener noreferrer" class="ext-link">Programma ufficiale &rarr;</a>
         </div>
 
         <!-- Confirmed events -->

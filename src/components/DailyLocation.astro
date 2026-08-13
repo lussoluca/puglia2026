@@ -1,0 +1,200 @@
+---
+import defaultData from '../data/daily-locations.json';
+
+interface Day {
+    day: number;
+    date: string;
+    base: string;
+    zone: string;
+    type: string;
+    plan: string;
+    km: string;
+}
+
+const data = Astro.props.dailyData || defaultData;
+const base = import.meta.env.BASE_URL;
+
+const typeLabels: Record<string, string> = {
+    travel: 'Viaggio',
+    sea: 'Mare',
+    visit: 'Visita',
+};
+
+const typeIcons: Record<string, string> = {
+    travel: '🚗',
+    sea: '🏖️',
+    visit: '🏘️',
+};
+---
+
+<section id="where" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">{data.title}</h2>
+        <p class="section-intro">{data.intro}</p>
+
+        <div class="where-table-wrap">
+            <table class="where-table">
+                <thead>
+                    <tr>
+                        <th>Giorno</th>
+                        <th>Data</th>
+                        <th>Dormiamo a</th>
+                        <th>Zona</th>
+                        <th>Tipo</th>
+                        <th>Programma</th>
+                        <th>Km</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {data.days.map((d: Day) => (
+                        <tr class={`where-row-${d.type}`}>
+                            <td class="where-day"><a href={`${base}day/${d.day}/`}>G{d.day}</a></td>
+                            <td class="where-date">{d.date}</td>
+                            <td class="where-base"><strong>{d.base}</strong></td>
+                            <td class="where-zone">{d.zone}</td>
+                            <td>
+                                <span class={`where-badge where-badge-${d.type}`}>
+                                    {typeIcons[d.type]} {typeLabels[d.type]}
+                                </span>
+                            </td>
+                            <td class="where-plan">{d.plan}</td>
+                            <td class="where-km">{d.km}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="where-summary">
+            {data.summary.map((s: { label: string; value: string }) => (
+                <div class="where-summary-item">
+                    <span class="where-summary-value">{s.value}</span>
+                    <span class="where-summary-label">{s.label}</span>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>
+
+<style>
+    .where-table-wrap {
+        margin-top: 2rem;
+        overflow-x: auto;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        background: #fff;
+    }
+
+    .where-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.92rem;
+        min-width: 760px;
+    }
+
+    .where-table thead th {
+        background: linear-gradient(135deg, var(--color-primary, #1a5276), var(--color-primary-light, #2980b9));
+        color: #fff;
+        text-align: left;
+        padding: 0.9rem 1rem;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .where-table tbody td {
+        padding: 0.85rem 1rem;
+        border-bottom: 1px solid #eef1f4;
+        vertical-align: middle;
+    }
+
+    .where-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    .where-table tbody tr:hover {
+        background: #f7fbfd;
+    }
+
+    .where-day a {
+        display: inline-block;
+        min-width: 2.1rem;
+        text-align: center;
+        padding: 0.15rem 0.4rem;
+        border-radius: 6px;
+        background: var(--color-primary, #1a5276);
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.82rem;
+        text-decoration: none;
+    }
+
+    .where-day a:hover {
+        background: var(--color-primary-light, #2980b9);
+    }
+
+    .where-date,
+    .where-zone,
+    .where-km {
+        color: var(--color-text-light, #55636d);
+        white-space: nowrap;
+    }
+
+    .where-plan {
+        color: var(--color-text-light, #55636d);
+    }
+
+    .where-badge {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        border-radius: 20px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .where-badge-travel { background: #eaf1f7; color: #1a5276; }
+    .where-badge-sea    { background: #e4f6f8; color: #117a8b; }
+    .where-badge-visit  { background: #fdf1e3; color: #b8651b; }
+
+    /* Ostuni block: the long stay reads as one visual group */
+    .where-row-sea   td:first-child,
+    .where-row-visit td:first-child { border-left: 3px solid transparent; }
+
+    .where-summary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+        margin-top: 1.8rem;
+    }
+
+    .where-summary-item {
+        background: #fff;
+        border-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .where-summary-value {
+        display: block;
+        font-family: var(--font-display, Georgia, serif);
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: var(--color-primary, #1a5276);
+        line-height: 1.1;
+    }
+
+    .where-summary-label {
+        display: block;
+        margin-top: 0.3rem;
+        font-size: 0.82rem;
+        color: var(--color-text-light, #7f8c8d);
+    }
+
+    @media (max-width: 768px) {
+        .where-table { font-size: 0.86rem; }
+        .where-table tbody td { padding: 0.7rem 0.8rem; }
+    }
+</style>
