@@ -33,16 +33,16 @@
       "detail": "Le uscite prenotabili, per 4 persone",
       "items": [
         "Grotte marine di Vieste in barca: ~100€",
-        "Hell in the Cave + visita grotta (combinato 42€): ~168€",
+        "Hell in the Cave (25€ adulti, 20€ ragazzi): ~90€",
         "Egnazia (6€ a testa): ~24€",
-        "Trullo Sovrano e ingressi minori: ~25€",
+        "Alberobello, Trullo Sovrano e ingressi minori: ~25€",
         "Parcheggi spiagge e Torre Guaceto: ~60€",
         "Matera: Belvedere Murgia Timone 10€ + Casa Grotta 5€ a testa: ~60€",
         "Noleggio bici sulla Via Verde: ~60€",
         "Barca nelle Valli di Comacchio: ~60€ (prezzo da confermare)",
         "MUSA e ingressi minori in Romagna: ~20€"
       ],
-      "total": "~577€"
+      "total": "~499€"
     },
     {
       "title": "Carburante",
@@ -78,7 +78,7 @@
       "total": "~390€"
     }
   ],
-  "grandTotal": "~2700€",
+  "grandTotal": "~2650€",
   "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e le tre notti del rientro ancora da prenotare. Le nove notti pugliesi, già prenotate, sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 0.757,

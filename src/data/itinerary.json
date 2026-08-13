@@ -241,10 +241,6 @@
     "highlightsTitle": "Da sapere",
     "highlights": [
       {
-        "text": "Alternativa serale: stasera a Castellana Grotte c'è \"Alice nelle Grotte delle Meraviglie\", spettacolo teatrale itinerante dentro la grotta alle 19:00 e alle 20:00 (22€ adulti, 19€ dai 6 ai 14 anni). Se lo preferite a Hell in the Cave, fatelo oggi e spostate il giro Savelletri-Monopoli-Polignano a sabato",
-        "url": "https://www.grottedicastellana.it/esperienze/alice/"
-      },
-      {
         "text": "Lama Monachile è piccola e ad agosto si riempie: se la trovate impraticabile, il bagno si fa a Monopoli nel pomeriggio e a Polignano si resta sopra, sulle terrazze",
         "url": "https://maps.google.com/?q=Polignano+a+Mare+centro+storico"
       }
@@ -254,52 +250,51 @@
     "day": 7,
     "date": "2026-08-29",
     "weekday": "Sabato",
-    "title": "Alberobello, Grotte di Castellana e Hell in the Cave",
+    "title": "Alberobello e Hell in the Cave",
     "tags": [
-      "culture",
-      "nature"
+      "culture"
     ],
-    "travelInfo": "~110 km A/R - circa 1h all'andata, rientro in tarda serata",
-    "description": "La giornata più piena del viaggio, ma tutta in una direzione: mattina lenta a Ostuni, pomeriggio tra trulli e grotte, sera lo spettacolo sotto terra. Si rientra tardi, però domani non c'è niente da fare.",
+    "travelInfo": "~110 km A/R - 40 minuti fino ad Alberobello, 20 da lì a Castellana. Rientro in tarda serata",
+    "description": "Un pomeriggio lungo tra i trulli, senza guardare l'orologio, e la sera lo spettacolo dentro la grotta. Una sola direzione, due tappe, si rientra tardi ma domani non c'è niente da fare.",
     "activities": [
       {
         "icon": "😎",
         "title": "Mattina - Piano",
-        "text": "Colazione con pasticciotto e mattinata libera: mare a due passi (Lido Morelli o Pilone, 10-15 minuti) oppure semplicemente niente, per arrivare freschi alla sera. Si parte nel primo pomeriggio.",
+        "text": "Colazione con pasticciotto e mattinata libera: mare a due passi (Lido Morelli o Pilone, 10-15 minuti) oppure semplicemente niente, per arrivare freschi alla sera. Si parte verso le 15.",
         "url": "https://maps.google.com/?q=Lido+Morelli+Ostuni"
       },
       {
         "icon": "🏘️",
-        "title": "Pomeriggio - Alberobello (40 min)",
-        "text": "1.500 trulli, patrimonio UNESCO. Nel tardo pomeriggio la luce è bella e i pullman dei tour sono già andati via. Rione Monti è il quartiere da girare; il Trullo Sovrano, l'unico a due piani, costa pochi euro. Serve un'ora e mezza, non di più.",
+        "title": "Pomeriggio lungo - Alberobello (40 min)",
+        "text": "1.500 trulli, patrimonio UNESCO, e stavolta con il tempo di girarli davvero. Rione Monti è il quartiere più conosciuto, ma il Rione Aia Piccola dall'altra parte è ancora abitato e molto più tranquillo. Da vedere anche il Trullo Sovrano, l'unico a due piani, e Casa d'Amore. Dal belvedere di Santa Lucia si vedono i tetti tutti insieme. Nel tardo pomeriggio i pullman dei tour sono già andati via e la luce è la migliore della giornata.",
         "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
       },
       {
-        "icon": "🕳️",
-        "title": "Sera - Grotte di Castellana (+20 min)",
-        "text": "Il percorso completo è 3 km e 100 minuti, l'ultima partenza di agosto è alle 18:00; il parziale è 1 km in 50 minuti (partenze anche alle 18:15 e 19:15). Prezzi in biglietteria: completo 25€ (22€ dai 6 ai 14 anni), parziale 22€ (19€). Dentro ci sono 16-18°C con umidità alta: felpa leggera e scarpe chiuse, anche se fuori ce ne sono 35. Meglio comprare online il giorno prima.",
-        "url": "https://www.grottedicastellana.it/informazioni-utili/orari-e-prezzi/"
+        "icon": "🍽️",
+        "title": "Cena - Ad Alberobello o a Castellana",
+        "text": "Si cena presto, verso le 19, per essere alla grotta senza corse: in un trullo ristorante ad Alberobello, oppure venti minuti dopo nel centro di Castellana Grotte, che è anche la scelta più comoda.",
+        "url": "https://maps.google.com/?q=ristoranti+Castellana+Grotte+centro"
       },
       {
         "icon": "🔥",
         "title": "21:00 - Hell in the Cave",
-        "text": "L'Inferno di Dante messo in scena nella Grave, la caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni. Sabato 29 agosto alle 21:00. Biglietti 25€ adulti, 20€ fino a 17 anni; il combinato grotta + spettacolo costa 42€ ed è la scelta furba se fate anche la visita. Età consigliata dagli 8 anni, in biglietteria 30 minuti prima. Cena veloce in centro a Castellana tra visita e spettacolo. Rientro a Ostuni verso le 23:30.",
+        "text": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso delle Grotte di Castellana: acrobati appesi alle pareti di roccia, musica dal vivo e proiezioni. Sabato 29 agosto alle 21:00, la serata che abbiamo scelto. Biglietti 25€ adulti e 20€ fino a 17 anni, quindi 90€ in quattro. Età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Dentro fa fresco anche ad agosto: felpa. Rientro a Ostuni verso le 23:30.",
         "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
       }
     ],
-    "highlightsTitle": "Prenotazioni e alternative",
+    "highlightsTitle": "Prenotazioni e dintorni",
     "highlights": [
       {
-        "text": "Biglietti grotte e spettacolo: shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722. Hell in the Cave ad agosto va spesso sold out: prenotate appena decidete",
+        "text": "Biglietti dello spettacolo: shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722. Ad agosto va spesso sold out e non ci sono altre date compatibili con il soggiorno: prenotate appena possibile",
         "url": "https://shop.grottedicastellana.it/"
       },
       {
-        "text": "Se Hell in the Cave sembra troppo per la sera (o è esaurito), l'alternativa è \"Alice nelle Grotte delle Meraviglie\" venerdì 28 alle 19:00 o 20:00: più giocosa, si segue il Bianconiglio lungo il percorso breve e si finisce con tè e biscotti",
-        "url": "https://www.grottedicastellana.it/esperienze/alice/"
+        "text": "Locorotondo è a 10 minuti da Alberobello: se il pomeriggio tra i trulli vi basta prima del previsto, è una bella aggiunta per l'aperitivo. Ma è anche il borgo della mattina del giorno 9, quindi senza fretta",
+        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
       },
       {
-        "text": "Sulla strada, a 10 minuti da Alberobello, c'è Locorotondo: uno dei Borghi più Belli d'Italia, vicoli circolari e balconi fioriti. Ottimo per un aperitivo prima di scendere a Castellana",
-        "url": "https://maps.google.com/?q=Locorotondo+centro+storico"
+        "text": "La visita guidata alle Grotte di Castellana (percorso completo 3 km, 100 minuti, 25€) non è in programma: abbiamo preferito il tempo ad Alberobello. Resta recuperabile un altro giorno, le partenze di agosto vanno dalle 9:00 alle 18:00",
+        "url": "https://www.grottedicastellana.it/informazioni-utili/orari-e-prezzi/"
       }
     ]
   },

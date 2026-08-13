@@ -52,7 +52,7 @@
       "sunHours": 10,
       "humidity": "55%",
       "wind": "Aria secca, notti fresche nell'entroterra",
-      "note": "Escursione termica forte: 33°C di giorno e 18°C di notte, quindi felpa leggera per le serate. Nelle Grotte di Castellana ci sono 16-18°C fissi con umidità alta: felpa e scarpe chiuse obbligatorie anche ad agosto."
+      "note": "Escursione termica forte: 33°C di giorno e 18°C di notte, quindi felpa leggera per le serate. Serve anche per Hell in the Cave: nella caverna delle Grotte di Castellana ci sono 16-18°C fissi con umidità alta."
     },
     {
       "name": "Matera e Murgia",
@@ -115,7 +115,7 @@
     {
       "icon": "🥶",
       "title": "Sotto terra",
-      "text": "Grotte di Castellana e Grotta di San Michele: 16-18°C con umidità altissima. Sembra poco, ma dopo due ore di 33°C fuori il contrasto si sente: portate una felpa vera, non un velo."
+      "text": "Nella Grave delle Grotte di Castellana, dove si tiene Hell in the Cave, ci sono 16-18°C con umidità altissima. Sembra poco, ma dopo un pomeriggio a 33°C tra i trulli il contrasto si sente: portate una felpa vera, non un velo."
     }
   ],
   "packing": [

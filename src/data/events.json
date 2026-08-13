@@ -22,20 +22,10 @@
       "location": "Grotte di Castellana",
       "dates": "Sabato 29 Agosto, ore 21:00",
       "icon": "🔥",
-      "match": "In programma il giorno 7",
+      "match": "Scelto: è la serata del giorno 7",
       "matchType": "hit",
-      "description": "L'Inferno di Dante nella Grave: acrobati sulle pareti della caverna, musica dal vivo, proiezioni sulla roccia. 25€ adulti, 20€ fino a 17 anni, 42€ il combinato con la visita alla grotta. Età consigliata dagli 8 anni.",
+      "description": "L'Inferno di Dante nella Grave, la caverna d'ingresso delle Grotte di Castellana: acrobati sulle pareti, musica dal vivo, proiezioni sulla roccia. 25€ adulti e 20€ fino a 17 anni, 90€ in quattro. Età consigliata dagli 8 anni. Dentro fa fresco: felpa.",
       "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
-    },
-    {
-      "name": "Alice nelle Grotte delle Meraviglie",
-      "location": "Grotte di Castellana",
-      "dates": "Venerdì 28 Agosto, ore 19:00 e 20:00",
-      "icon": "🐇",
-      "match": "Alternativa a Hell in the Cave",
-      "matchType": "hit",
-      "description": "Spettacolo teatrale itinerante lungo il percorso breve della grotta, con finale scritto insieme al pubblico davanti a tè e biscotti. 22€ dai 15 anni, 19€ dai 6 ai 14 anni. Se lo scegliamo, va invertito con il giro Savelletri-Monopoli-Polignano.",
-      "url": "https://www.grottedicastellana.it/esperienze/alice/"
     },
     {
       "name": "Sapore di Sale - 30ª edizione",
@@ -112,10 +102,10 @@
       "description": "Gli orari precisi di processione, Cavalcata e fuochi cambiano di anno in anno, e i nomi degli artisti dei tre concerti gratuiti si sanno tardi. Controllare il sito del Comune e i canali social nei giorni prima."
     },
     {
-      "name": "Disponibilità di Hell in the Cave",
+      "name": "Biglietti per Hell in the Cave",
       "location": "Grotte di Castellana",
       "period": "Da prenotare appena possibile",
-      "description": "Le date estive vanno esaurite. Verificare sullo shop online e, se il 29 agosto è pieno, ripiegare su Alice del 28."
+      "description": "Le date estive vanno esaurite e il 29 agosto è la serata scelta. Prenotare sullo shop online appena possibile: non ci sono altre date compatibili con il soggiorno a Ostuni."
     },
     {
       "name": "Escursione grotte marine di Vieste",

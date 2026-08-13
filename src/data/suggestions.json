@@ -39,13 +39,13 @@
         {
           "place": "Alberobello",
           "time": "40 min da Ostuni",
-          "note": "1.500 trulli UNESCO. Tardo pomeriggio: i tour organizzati sono già andati via e la luce è la migliore.",
+          "note": "1.500 trulli UNESCO. Ci passiamo il pomeriggio intero: Rione Monti, il Rione Aia Piccola ancora abitato, il Trullo Sovrano e il belvedere di Santa Lucia.",
           "url": "https://maps.google.com/?q=Rione+Monti+Alberobello"
         },
         {
           "place": "Castellana Grotte",
           "time": "+20 min",
-          "note": "Il complesso carsico più famoso d'Italia, e la sede dei due spettacoli che vogliamo vedere. Dentro 16-18°C: felpa obbligatoria.",
+          "note": "Ci andiamo solo la sera, per Hell in the Cave nella caverna d'ingresso. La visita guidata alla grotta l'abbiamo lasciata fuori per stare di più ad Alberobello.",
           "url": "https://www.grottedicastellana.it/"
         }
       ]
@@ -66,26 +66,17 @@
       ]
     }
   ],
-  "wishlistTitle": "Le due esperienze nelle Grotte di Castellana",
-  "wishlistIntro": "Vogliamo vederne almeno una. Sono nello stesso posto ma in serate diverse, quindi la scelta condiziona l'ordine delle giornate.",
+  "wishlistTitle": "Lo spettacolo nelle Grotte di Castellana",
+  "wishlistIntro": "Abbiamo scelto Hell in the Cave, sabato 29 agosto alle 21:00. Solo lo spettacolo: la visita guidata alla grotta resta fuori, per avere un pomeriggio pieno ad Alberobello.",
   "wishlist": [
     {
       "name": "Hell in the Cave",
       "status": "primary",
-      "statusLabel": "Prima scelta",
+      "statusLabel": "Scelto",
       "when": "Sabato 29 Agosto, ore 21:00",
-      "price": "25€ adulti · 20€ fino a 17 anni · 42€ combinato con la visita alla grotta",
-      "description": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni sulla roccia. Durata circa 1h15, età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Ad agosto va sold out: da prenotare appena decidiamo.",
+      "price": "25€ adulti · 20€ fino a 17 anni · 90€ in quattro",
+      "description": "L'Inferno di Dante messo in scena nella Grave, l'enorme caverna d'ingresso: acrobati appesi alle pareti, musica dal vivo e proiezioni sulla roccia. Durata circa 1h15, età consigliata dagli 8 anni. In biglietteria 30 minuti prima. Ad agosto va sold out: da prenotare appena possibile.",
       "url": "https://www.grottedicastellana.it/esperienze/hell-in-the-cave/"
-    },
-    {
-      "name": "Alice nelle Grotte delle Meraviglie",
-      "status": "alt",
-      "statusLabel": "Alternativa",
-      "when": "Venerdì 28 Agosto, ore 19:00 e 20:00",
-      "price": "22€ dai 15 anni · 19€ dai 6 ai 14 anni",
-      "description": "Spettacolo teatrale itinerante lungo il percorso breve della grotta: si segue il Bianconiglio incontrando i personaggi di Carroll, e il finale si scrive insieme al pubblico davanti a tè e biscotti. Più giocoso e in orario più umano. Se scegliamo questo, va invertito con il giro Savelletri-Monopoli-Polignano.",
-      "url": "https://www.grottedicastellana.it/esperienze/alice/"
     }
   ],
   "bookingNote": "Biglietti online su shop.grottedicastellana.it, oppure telefono 080 4998221 e WhatsApp 339 1176722 (segreteria@grottedicastellana.it).",
