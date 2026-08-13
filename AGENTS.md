@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026: 11 days by car from Alessandria, 10 nights across four stops (Montemarciano in the Marche, Vieste on the Gargano, Ostuni as the main base for six nights, Grottammare in the Marche on the way home). The site is a PWA (Progressive Web App) with offline support via Service Worker.
+Static travel planning web app for a family trip to Puglia (southern Italy) in August/September 2026: 13 days by car from Alessandria, 12 nights across six stops (Montemarciano in the Marche, Vieste on the Gargano, Ostuni as the main base for six nights, then Matera, the Costa dei Trabocchi and Cervia on the way home). The site is a PWA (Progressive Web App) with offline support via Service Worker.
 
 **Tech stack:** Astro 6.x · TypeScript (strict) · Plain CSS · Leaflet.js (maps, CDN) · Static JSON data layer  
 **Deployment:** GitHub Pages at `https://lussoluca.github.io/puglia2026/`
@@ -70,12 +70,12 @@ puglia2026/
 │   ├── pages/
 │   │   ├── index.astro        # Single-page site, one section per component
 │   │   └── day/
-│   │       └── [day].astro    # Day detail pages 1-11, generated via getStaticPaths()
+│   │       └── [day].astro    # Day detail pages 1-13, generated via getStaticPaths()
 │   ├── components/            # One component per content section
 │   │   ├── Hero.astro
 │   │   ├── Overview.astro
 │   │   ├── DailyLocation.astro    # Table: where we sleep and what we do each day
-│   │   ├── Accommodation.astro    # The four stops
+│   │   ├── Accommodation.astro    # The six stops
 │   │   ├── Itinerary.astro
 │   │   ├── Suggestions.astro      # Friend-recommended places, grouped by direction
 │   │   ├── Contacts.astro         # Addresses and useful phone numbers
@@ -92,9 +92,9 @@ puglia2026/
 │   │   └── global.css             # Single global CSS file — no preprocessor, no Tailwind
 │   └── data/                      # All app content as static JSON (no database, no API)
 │       ├── trip.json
-│       ├── itinerary.json         # 11-day itinerary, one entry per day page
+│       ├── itinerary.json         # 13-day itinerary, one entry per day page
 │       ├── daily-locations.json   # Rows of the "Dove Saremo Ogni Giorno" table
-│       ├── accommodation.json     # The four stops
+│       ├── accommodation.json     # The six stops
 │       ├── suggestions.json       # Friend recommendations + Castellana experiences
 │       ├── contacts.json
 │       ├── budget.json            # Budget; GPL price updated automatically by CI
@@ -133,7 +133,7 @@ puglia2026/
 | URL | Page |
 |-----|------|
 | `/puglia2026/` | Main page |
-| `/puglia2026/day/1/` … `/puglia2026/day/11/` | Day detail pages (static, generated from `itinerary.json`) |
+| `/puglia2026/day/1/` … `/puglia2026/day/13/` | Day detail pages (static, generated from `itinerary.json`) |
 
 ### Component Props Pattern
 

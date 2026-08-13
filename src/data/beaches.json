@@ -210,18 +210,33 @@
     "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
   },
   {
-    "name": "Grottammare",
-    "zone": "Marche",
-    "zoneColor": "salento",
-    "description": "Sabbia finissima, fondale che scende piano e cinque chilometri di lungomare orlato di palme, sotto il borgo medievale. Bandiera Blu.",
+    "name": "Fossacesia Marina",
+    "zone": "Trabocchi",
+    "zoneColor": "polignano",
+    "description": "Ciottoli chiari nel Golfo di Venere, Bandiera Blu, con la ciclabile della Via Verde che passa dietro la spiaggia e l'abbazia romanica sulla collina sopra.",
     "tags": [
-      "Sabbia fine",
-      "Fondale basso",
-      "Bandiera Blu"
+      "Ciottoli",
+      "Bandiera Blu",
+      "Ciclabile"
     ],
-    "tip": "L'ultimo bagno del viaggio, il 1 settembre. A settembre le spiagge sono vuote e l'acqua è al massimo.",
-    "lat": 42.9905,
-    "lng": 13.8683,
-    "url": "https://maps.google.com/?q=Spiaggia+di+Grottammare"
+    "tip": "Scarpe da scoglio comode: è ghiaia, non sabbia. Il mare è pulitissimo.",
+    "lat": 42.245,
+    "lng": 14.493,
+    "url": "https://maps.google.com/?q=Fossacesia+Marina+spiaggia"
+  },
+  {
+    "name": "Punta Aderci",
+    "zone": "Trabocchi",
+    "zoneColor": "polignano",
+    "description": "Riserva naturale con un promontorio e la spiaggia di Punta Penna, una delle poche di sabbia della costa abruzzese. Si raggiunge in bici dalla Via Verde.",
+    "tags": [
+      "Riserva",
+      "Sabbia",
+      "In bici"
+    ],
+    "tip": "È il pezzo più bello della Via Verde: ci si arriva pedalando da Fossacesia in circa un'ora.",
+    "lat": 42.173,
+    "lng": 14.718,
+    "url": "https://maps.google.com/?q=Punta+Aderci+riserva"
   }
 ]

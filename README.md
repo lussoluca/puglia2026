@@ -1,12 +1,12 @@
 # Puglia 2026
 
-Sito statico per pianificare la vacanza in Puglia dal 23 agosto al 2 settembre 2026: 11 giorni in auto da Alessandria, 10 notti in quattro tappe (Montemarciano, Vieste, Ostuni per sei notti, Grottammare al rientro).
+Sito statico per pianificare la vacanza in Puglia dal 23 agosto al 4 settembre 2026: 13 giorni in auto da Alessandria, 12 notti in sei tappe (Montemarciano, Vieste, Ostuni per sei notti, poi Matera, Costa dei Trabocchi e Cervia al rientro).
 
 Pubblicato su GitHub Pages: <https://lussoluca.github.io/puglia2026/>
 
 ## Cosa contiene
 
-- Itinerario giorno per giorno con una pagina di dettaglio per ciascuno degli 11 giorni
+- Itinerario giorno per giorno con una pagina di dettaglio per ciascuno dei 13 giorni
 - Tabella riassuntiva di dove si dorme e cosa si fa ogni giorno
 - Consigli degli amici raggruppati per direzione, con i tempi reali di percorrenza da Ostuni
 - Mappa interattiva con alloggi, spiagge, borghi, ristoranti e punti naturali

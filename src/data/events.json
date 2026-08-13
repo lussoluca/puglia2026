@@ -1,5 +1,5 @@
 {
-  "intro": "Il colpo di fortuna di questo viaggio è la data di arrivo a Ostuni: il 26 agosto è il cuore della festa patronale, e dormiamo a duecento metri dal centro. Qui sotto tutto quello che si incrocia lungo l'itinerario.",
+  "intro": "Due colpi di fortuna sulle date: arriviamo a Ostuni il 26 agosto, cuore della festa patronale, e a Cervia il 3 settembre, il giorno in cui apre Sapore di Sale. Qui sotto tutto quello che si incrocia lungo l'itinerario.",
   "highlight": {
     "icon": "🐴",
     "title": "Festa di Sant'Oronzo a Ostuni · 25-27 Agosto",
@@ -36,6 +36,16 @@
       "matchType": "hit",
       "description": "Spettacolo teatrale itinerante lungo il percorso breve della grotta, con finale scritto insieme al pubblico davanti a tè e biscotti. 22€ dai 15 anni, 19€ dai 6 ai 14 anni. Se lo scegliamo, va invertito con il giro Savelletri-Monopoli-Polignano.",
       "url": "https://www.grottedicastellana.it/esperienze/alice/"
+    },
+    {
+      "name": "Sapore di Sale - 30ª edizione",
+      "location": "Cervia (RA), Romagna",
+      "dates": "3-6 Settembre (serata di apertura: il 3)",
+      "icon": "🧂",
+      "match": "Arriviamo a Cervia proprio il 3!",
+      "matchType": "hit",
+      "description": "La festa del sale dolce di Cervia compie trent'anni: quattro giorni tra centro storico, Porto Canale e Magazzino del Sale, con stand, cucina, musica e la Rimessa del Sale portata in barca sul canale il sabato. Noi becchiamo la serata di apertura in piazzale Salinari.",
+      "url": "https://www.cerviasaporedisale.it/"
     },
     {
       "name": "Settimana dell'Olio",
@@ -124,14 +134,56 @@
       "location": "Savelletri, Fasano",
       "period": "Prima di partire per la costa",
       "description": "Il parco archeologico in estate chiude alle 13:30 e il museo è chiuso la seconda domenica del mese. Verificare gli orari del 28 agosto sul sito dei Musei Puglia."
+    },
+    {
+      "name": "Slot per il Mausoleo di Galla Placidia",
+      "location": "Ravenna Mosaici",
+      "period": "Prima di partire",
+      "description": "Il cumulativo da 12,50€ include l'ingresso a orario prenotato per Galla Placidia e il Battistero Neoniano, ma lo slot va bloccato online: senza prenotazione non si entra."
+    },
+    {
+      "name": "Tavolo su un trabocco",
+      "location": "Costa dei Trabocchi",
+      "period": "Almeno una settimana prima",
+      "description": "Ogni trabocco ha pochissimi coperti e a inizio settembre sono ancora pieni. Se non si trova, si cena sul lungomare a Fossacesia."
     }
   ],
   "resources": [
-    { "name": "Comune di Ostuni - Eventi", "url": "https://www.comune.ostuni.br.it/vivere-il-comune/eventi/festa-di-santoronzo/" },
-    { "name": "Grotte di Castellana", "url": "https://www.grottedicastellana.it/" },
-    { "name": "Turismo Vieste", "url": "https://www.turismovieste.it/eventi-vieste/" },
-    { "name": "Riserva di Torre Guaceto", "url": "https://www.riservaditorreguaceto.it/" },
-    { "name": "Musei Puglia - Egnazia", "url": "https://museipuglia.cultura.gov.it/musei-puglia/museo-archeologico-nazionale-e-parco-archeologico-di-egnazia/" },
-    { "name": "Il Tacco di Bacco - Eventi in Puglia", "url": "https://iltaccodibacco.it/puglia/" }
+    {
+      "name": "Comune di Ostuni - Eventi",
+      "url": "https://www.comune.ostuni.br.it/vivere-il-comune/eventi/festa-di-santoronzo/"
+    },
+    {
+      "name": "Grotte di Castellana",
+      "url": "https://www.grottedicastellana.it/"
+    },
+    {
+      "name": "Turismo Vieste",
+      "url": "https://www.turismovieste.it/eventi-vieste/"
+    },
+    {
+      "name": "Riserva di Torre Guaceto",
+      "url": "https://www.riservaditorreguaceto.it/"
+    },
+    {
+      "name": "Musei Puglia - Egnazia",
+      "url": "https://museipuglia.cultura.gov.it/musei-puglia/museo-archeologico-nazionale-e-parco-archeologico-di-egnazia/"
+    },
+    {
+      "name": "Il Tacco di Bacco - Eventi in Puglia",
+      "url": "https://iltaccodibacco.it/puglia/"
+    },
+    {
+      "name": "Sapore di Sale - Cervia",
+      "url": "https://www.cerviasaporedisale.it/"
+    },
+    {
+      "name": "Ravenna Mosaici",
+      "url": "https://www.ravennamosaici.it/"
+    },
+    {
+      "name": "Via Verde dei Trabocchi",
+      "url": "https://viaverdedeitrabocchi.info/"
+    }
   ]
 }

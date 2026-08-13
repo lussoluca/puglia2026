@@ -1,11 +1,11 @@
 {
   "intro": "Fine agosto in Puglia: caldo pieno, pioggia rara, mare ancora caldissimo. Ecco cosa aspettarsi zona per zona lungo l'itinerario.",
-  "period": "23 Agosto - 2 Settembre",
+  "period": "23 Agosto - 4 Settembre",
   "zones": [
     {
-      "name": "Marche (Montemarciano e Grottammare)",
+      "name": "Marche (Montemarciano)",
       "icon": "🌊",
-      "dates": "23 Agosto e 1-2 Settembre",
+      "dates": "23 Agosto",
       "tempMin": 19,
       "tempMax": 29,
       "seaTemp": 25,
@@ -13,7 +13,7 @@
       "sunHours": 9,
       "humidity": "70%",
       "wind": "Brezza da nord-est sull'Adriatico",
-      "note": "Qualche grado in meno della Puglia. A inizio settembre le spiagge marchigiane si svuotano e l'acqua resta sui 25°C: l'ultimo bagno a Grottammare è più piacevole di quelli di agosto in mezzo alla folla."
+      "note": "Qualche grado in meno della Puglia: la prima sera si sta bene in maglietta anche dopo il tramonto."
     },
     {
       "name": "Gargano (Vieste)",
@@ -53,6 +53,32 @@
       "humidity": "55%",
       "wind": "Aria secca, notti fresche nell'entroterra",
       "note": "Escursione termica forte: 33°C di giorno e 18°C di notte, quindi felpa leggera per le serate. Nelle Grotte di Castellana ci sono 16-18°C fissi con umidità alta: felpa e scarpe chiuse obbligatorie anche ad agosto."
+    },
+    {
+      "name": "Matera e Murgia",
+      "icon": "🏘️",
+      "dates": "1-2 Settembre",
+      "tempMin": 17,
+      "tempMax": 31,
+      "seaTemp": null,
+      "rainDays": 2,
+      "sunHours": 10,
+      "humidity": "50%",
+      "wind": "Aria secca, forte escursione termica",
+      "note": "Matera è a 400 m e l'aria è asciutta: di giorno picchia sul tufo, ma la sera nei Sassi si scende sotto i 20°C. Felpa per la cena all'aperto."
+    },
+    {
+      "name": "Costa dei Trabocchi e Romagna",
+      "icon": "🚲",
+      "dates": "2-4 Settembre",
+      "tempMin": 17,
+      "tempMax": 28,
+      "seaTemp": 25,
+      "rainDays": 3,
+      "sunHours": 9,
+      "humidity": "70%",
+      "wind": "Brezza di mare, più fresca del Sud",
+      "note": "Inizio settembre sull'Adriatico centro-nord: 28°C invece di 33 e mare ancora a 25°C. Condizioni ideali per pedalare sulla Via Verde, ma i temporali di settembre qui sono più probabili: guardate il meteo la sera prima."
     }
   ],
   "general": [

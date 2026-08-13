@@ -4,11 +4,13 @@ const defaultStages = [
     { icon: "🌊", title: "Tappa 1", place: "Montemarciano (Marche)", date: "23 Agosto - 1 notte", highlight: false },
     { icon: "⛰️", title: "Tappa 2", place: "Vieste (Gargano)", date: "24-26 Agosto - 2 notti", highlight: true },
     { icon: "🏘️", title: "Tappa 3", place: "Ostuni (Alto Salento)", date: "26 Ago - 1 Set - 6 notti", highlight: true },
-    { icon: "🏖️", title: "Tappa 4", place: "Grottammare (Marche)", date: "1 Settembre - 1 notte", highlight: false },
-    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Mercoledì 2 Settembre", highlight: false },
+    { icon: "🕳️", title: "Tappa 4", place: "Matera (Basilicata)", date: "1 Settembre - 1 notte", highlight: true },
+    { icon: "🚲", title: "Tappa 5", place: "Costa dei Trabocchi (Abruzzo)", date: "2 Settembre - 1 notte", highlight: false },
+    { icon: "🧂", title: "Tappa 6", place: "Cervia e Ravenna (Romagna)", date: "3 Settembre - 1 notte", highlight: false },
+    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Venerdì 4 Settembre", highlight: false },
 ];
 const stages = Astro.props.stagesData || defaultStages;
-const intro = Astro.props.introText || "Undici giorni in auto: il Gargano, poi Ostuni come campo base per mare, trulli e grotte.";
+const intro = Astro.props.introText || "Tredici giorni in auto: il Gargano, Ostuni come campo base, e un rientro con Matera, i trabocchi e Ravenna.";
 ---
 
 <section id="overview" class="section">

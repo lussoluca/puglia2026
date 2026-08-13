@@ -24,12 +24,45 @@
       "note": "Base per sei notti, a piedi dal centro storico. Chiedere al proprietario dove lasciare l'auto, soprattutto nei giorni della festa di Sant'Oronzo (25-27 agosto)."
     },
     {
-      "name": "Tappa a Grottammare",
-      "location": "Grottammare (AP), Marche",
+      "name": "Notte a Matera",
+      "location": "Matera (MT)",
       "role": "Alloggio 1 Settembre - DA PRENOTARE",
       "status": "toVerify",
-      "url": "https://maps.google.com/?q=Grottammare+lungomare",
-      "note": "L'unica prenotazione che manca. Cercare sul lungomare di Grottammare o di San Benedetto del Tronto: a settembre è bassa stagione e una notte sola si trova senza problemi."
+      "url": "https://maps.google.com/?q=Sassi+di+Matera",
+      "note": "Meglio dentro i Sassi. Chiedere dove si parcheggia: nel centro storico si arriva solo a piedi."
+    },
+    {
+      "name": "Notte sulla Costa dei Trabocchi",
+      "location": "Fossacesia Marina (CH)",
+      "role": "Alloggio 2 Settembre - DA PRENOTARE",
+      "status": "toVerify",
+      "url": "https://maps.google.com/?q=Fossacesia+Marina",
+      "note": "Prenotare anche il tavolo su un trabocco: i coperti sono pochissimi e vanno via giorni prima."
+    },
+    {
+      "name": "Notte a Cervia",
+      "location": "Cervia o Milano Marittima (RA)",
+      "role": "Alloggio 3 Settembre - DA PRENOTARE",
+      "status": "toVerify",
+      "url": "https://maps.google.com/?q=Cervia+centro",
+      "note": "Sono i giorni di Sapore di Sale (3-6 settembre): alberghi pieni e centro chiuso al traffico. Muoversi presto."
+    },
+    {
+      "name": "Ravenna Mosaici",
+      "location": "Ravenna",
+      "role": "Biglietto cumulativo 5 siti UNESCO",
+      "status": "toVerify",
+      "url": "https://www.ravennamosaici.it/",
+      "booking": "https://www.ravennamosaici.it/en/ticketoffice/",
+      "note": "12,50€ a testa. La prenotazione a orario per il Mausoleo di Galla Placidia e il Battistero Neoniano è obbligatoria ed è compresa nel prezzo: bloccare lo slot online prima di partire."
+    },
+    {
+      "name": "Via Verde dei Trabocchi",
+      "location": "Fossacesia (CH)",
+      "role": "Noleggio bici sulla ciclabile",
+      "status": "toVerify",
+      "url": "https://viaverdedeitrabocchi.info/fossacesia/",
+      "note": "42 km di ex ferrovia sul mare, piatta. Noleggio 10-15€/giorno per city bike, 20-25€ per bici da strada, e-bike disponibili a Ortona, San Vito Marina e Fossacesia."
     },
     {
       "name": "Grotte di Castellana",

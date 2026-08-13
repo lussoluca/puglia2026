@@ -7,12 +7,12 @@
   {
     "icon": "🚗",
     "title": "Chilometri",
-    "text": "Con la base fissa a Ostuni nessuna gita supera l'ora di strada. Il rientro è spezzato in due: ~470 km il 1 settembre fino a Grottammare, ~555 km il 2 fino ad Alessandria. Cinque ore al giorno invece di dieci in una volta."
+    "text": "Con la base fissa a Ostuni nessuna gita supera l'ora di strada. Il rientro è spezzato in quattro tratte: 100 km fino a Matera, 260 ai trabocchi, 360 a Cervia, 360 a casa. Nessuna giornata oltre le 3h30 al volante."
   },
   {
     "icon": "🎟️",
     "title": "Cosa prenotare subito",
-    "text": "Hell in the Cave del 29 agosto (o Alice del 28): ad agosto si esaurisce. Poi la cena all'Osteria del Tempo Perso e, se vi va, il trabucco a Peschici. Le grotte marine di Vieste si prenotano al porto il giorno prima."
+    "text": "Hell in the Cave del 29 agosto (o Alice del 28): ad agosto si esaurisce. Poi le tre notti del rientro (Matera, Fossacesia, Cervia), un tavolo su un trabocco e lo slot per Galla Placidia a Ravenna. Le grotte marine di Vieste si prenotano al porto il giorno prima."
   },
   {
     "icon": "🌞",
@@ -53,5 +53,15 @@
     "icon": "😎",
     "title": "Niente sensi di colpa",
     "text": "Se un giorno non avete voglia di muovervi, restate a Ostuni. Il centro storico si gira a piedi e la spiaggia è a un quarto d'ora: il programma è una proposta, non un obbligo."
+  },
+  {
+    "icon": "🚲",
+    "title": "Via Verde",
+    "text": "La ciclabile dei trabocchi è piatta e sempre sul mare: 42 km totali, ma bastano due ore verso Punta Aderci per vedere il pezzo migliore. Noleggio 10-15€ al giorno, e-bike 20-25€. È la cosa che i ragazzi ricorderanno del rientro."
+  },
+  {
+    "icon": "🧊",
+    "title": "Borsa termica al ritorno",
+    "text": "Con tre notti di rientro, burrata e formaggi comprati a Ostuni viaggiano per giorni. Comprate solo quello che regge, e tenete la borsa termica con i ghiaccetti in ombra: l'auto ferma al sole arriva a 60°C."
   }
 ]

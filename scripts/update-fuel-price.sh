@@ -11,8 +11,8 @@ BUDGET_FILE="$PROJECT_DIR/src/data/budget.json"
 CSV_URL="https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv"
 TMP_CSV="$(mktemp)"
 
-# Litres budgeted for the whole trip: ~2.700 km at ~11 L/100km
-TRIP_LITRES=297
+# Litres budgeted for the whole trip: ~2.750 km at ~11 L/100km
+TRIP_LITRES=303
 
 echo "Downloading fuel prices from MIMIT..."
 curl -sL "$CSV_URL" -o "$TMP_CSV"

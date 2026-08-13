@@ -1,6 +1,6 @@
 {
   "title": "Dove Saremo Ogni Giorno",
-  "intro": "La griglia di riferimento per pianificare: dove si dorme, in che zona si passa la giornata, che tipo di giornata è e quanti chilometri comporta. Il criterio è uno: mai due giornate impegnative di fila, e in una giornata o il mare o una visita, non entrambi.",
+  "intro": "La griglia di riferimento per pianificare: dove si dorme, in che zona si passa la giornata, che tipo di giornata è e quanti chilometri comporta. Il criterio è uno: mai due giornate impegnative di fila, e in una giornata o il mare o una visita, non entrambi. Il rientro è spezzato in quattro tratte, nessuna oltre le 3h30.",
   "days": [
     {
       "day": 1,
@@ -86,50 +86,64 @@
     {
       "day": 10,
       "date": "Mar 1 Set",
-      "base": "Grottammare (AP)",
-      "zone": "Marche",
-      "type": "travel",
-      "plan": "Rientro, prima metà + ultimo bagno",
-      "km": "~470 km"
+      "base": "Matera (MT)",
+      "zone": "Basilicata",
+      "type": "visit",
+      "plan": "Sassi e tramonto dal Belvedere",
+      "km": "~100 km"
     },
     {
       "day": 11,
       "date": "Mer 2 Set",
+      "base": "Fossacesia (CH)",
+      "zone": "Costa dei Trabocchi",
+      "type": "sea",
+      "plan": "Via Verde in bici + cena su un trabocco",
+      "km": "~260 km"
+    },
+    {
+      "day": 12,
+      "date": "Gio 3 Set",
+      "base": "Cervia (RA)",
+      "zone": "Romagna",
+      "type": "visit",
+      "plan": "Mosaici di Ravenna + Sapore di Sale",
+      "km": "~360 km"
+    },
+    {
+      "day": 13,
+      "date": "Ven 4 Set",
       "base": "Rientro",
       "zone": "Autostrada",
       "type": "travel",
-      "plan": "Grottammare → Alessandria",
-      "km": "~555 km"
+      "plan": "Cervia → Alessandria",
+      "km": "~360 km"
     }
   ],
   "summary": [
-    {
-      "label": "Notti a Montemarciano",
-      "value": "1"
-    },
-    {
-      "label": "Notti a Vieste",
-      "value": "2"
-    },
     {
       "label": "Notti a Ostuni",
       "value": "6"
     },
     {
-      "label": "Notti a Grottammare",
-      "value": "1"
+      "label": "Notti in viaggio",
+      "value": "6"
     },
     {
       "label": "Giornate di mare",
-      "value": "3"
+      "value": "4"
     },
     {
       "label": "Giornate di visita",
-      "value": "3"
+      "value": "5"
     },
     {
-      "label": "Giornate di trasferimento",
-      "value": "5"
+      "label": "Tratta più lunga",
+      "value": "450 km"
+    },
+    {
+      "label": "Km totali",
+      "value": "~2.750"
     }
   ]
 }

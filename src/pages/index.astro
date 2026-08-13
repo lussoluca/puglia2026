@@ -31,8 +31,10 @@ const stages = [
     { icon: "🌊", title: "Tappa 1", place: "Montemarciano (Marche)", date: "23 Agosto - 1 notte", highlight: false },
     { icon: "⛰️", title: "Tappa 2", place: "Vieste (Gargano)", date: "24-26 Agosto - 2 notti", highlight: true },
     { icon: "🏘️", title: "Tappa 3", place: "Ostuni (Alto Salento)", date: "26 Ago - 1 Set - 6 notti", highlight: true },
-    { icon: "🏖️", title: "Tappa 4", place: "Grottammare (Marche)", date: "1 Settembre - 1 notte", highlight: false },
-    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Mercoledì 2 Settembre", highlight: false },
+    { icon: "🕳️", title: "Tappa 4", place: "Matera (Basilicata)", date: "1 Settembre - 1 notte", highlight: true },
+    { icon: "🚲", title: "Tappa 5", place: "Costa dei Trabocchi (Abruzzo)", date: "2 Settembre - 1 notte", highlight: false },
+    { icon: "🧂", title: "Tappa 6", place: "Cervia e Ravenna (Romagna)", date: "3 Settembre - 1 notte", highlight: false },
+    { icon: "📍", title: "Ritorno", place: "Alessandria", date: "Venerdì 4 Settembre", highlight: false },
 ];
 ---
 
@@ -40,7 +42,7 @@ const stages = [
     <Hero tripData={trip} />
     <Overview
         stagesData={stages}
-        introText="Undici giorni in auto, con Ostuni come vera base: sei notti nello stesso posto e tutto a meno di un'ora di strada. Andata e ritorno spezzati da una notte nelle Marche, così nessuna giornata al volante supera le cinque ore."
+        introText="Tredici giorni in auto. Ostuni è la vera base, con sei notti nello stesso posto e tutto a meno di un'ora di strada. Il rientro non è una corsa: quattro tratte corte con Matera, i trabocchi abruzzesi e i mosaici di Ravenna in mezzo."
     />
     <DailyLocation />
     <Accommodation accommodationData={accommodation} />

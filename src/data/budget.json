@@ -2,18 +2,18 @@
   "categories": [
     {
       "title": "Alloggi",
-      "detail": "10 notti in 4 strutture: 3 già prenotate, resta Grottammare",
+      "detail": "12 notti: le 3 strutture pugliesi già prenotate, più 3 tappe del rientro da prenotare",
       "items": [
-        "Montemarciano: 1 notte - prenotata",
-        "Vieste: 2 notti - prenotate",
-        "Ostuni: 6 notti - prenotate",
-        "Grottammare: 1 notte - da prenotare, ~80-120€"
+        "Montemarciano, Vieste, Ostuni: 9 notti già prenotate",
+        "Matera: 1 notte, ~100-150€ (in grotta costa di più)",
+        "Fossacesia Marina: 1 notte, ~80-110€",
+        "Cervia: 1 notte, ~100-140€ (giorni di Sapore di Sale)"
       ],
-      "total": "~100€"
+      "total": "~340€"
     },
     {
       "title": "Ristoranti",
-      "detail": "9-10 pasti fuori su 11 giorni",
+      "detail": "12-13 pasti fuori su 13 giorni",
       "items": [
         "Senigallia: 1 cena ~ 90€",
         "Vieste: 2 cene ~ 150€",
@@ -22,9 +22,11 @@
         "Ostuni: 2 cene ~ 130€",
         "Cisternino (bombette): 1 cena ~ 70€",
         "Locorotondo: 1 pranzo ~ 90€",
-        "Grottammare: 1 cena ~ 90€"
+        "Matera: 1 cena ~ 90€",
+        "Cena su un trabocco: ~ 220€",
+        "Cervia, stand di Sapore di Sale: ~ 60€"
       ],
-      "total": "~740€"
+      "total": "~1020€"
     },
     {
       "title": "Attività e Ingressi",
@@ -34,28 +36,33 @@
         "Hell in the Cave + visita grotta (combinato 42€): ~168€",
         "Egnazia (6€ a testa): ~24€",
         "Trullo Sovrano e ingressi minori: ~25€",
-        "Parcheggi spiagge e Torre Guaceto: ~60€"
+        "Parcheggi spiagge e Torre Guaceto: ~60€",
+        "Matera: Belvedere Murgia Timone 10€ + Casa Grotta 5€ a testa: ~60€",
+        "Noleggio bici sulla Via Verde: ~60€",
+        "Ravenna, cumulativo 5 siti UNESCO (12,50€ a testa): ~50€"
       ],
-      "total": "~377€"
+      "total": "~547€"
     },
     {
       "title": "Carburante",
-      "detail": "~2.700 km, consumo ~11 L/100km (auto GPL)",
+      "detail": "~2.750 km, consumo ~11 L/100km (auto GPL)",
       "items": [
-        "Totale litri: ~297 L",
+        "Totale litri: ~303 L",
         "Prezzo GPL: ~0.757€/L (media nazionale self)"
       ],
-      "total": "~225€"
+      "total": "~229€"
     },
     {
       "title": "Pedaggi autostradali",
-      "detail": "A21, A1, A14 - Classe A",
+      "detail": "A21, A1, A14 e strade statali in Basilicata",
       "items": [
         "Alessandria-Montemarciano: ~35€",
         "Montemarciano-Vieste: ~25€",
         "Vieste-Ostuni: ~15€",
-        "Ostuni-Grottammare: ~35€",
-        "Grottammare-Alessandria: ~45€"
+        "Ostuni-Matera: quasi tutto statale, ~5€",
+        "Matera-Fossacesia: ~20€",
+        "Fossacesia-Cervia: ~25€",
+        "Cervia-Alessandria: ~30€"
       ],
       "total": "~155€"
     },
@@ -64,14 +71,14 @@
       "detail": "Colazioni, pranzi al sacco e cene in casa",
       "items": [
         "~30€/giorno per 4 persone",
-        "11 giorni",
-        "Include la scorta di prodotti pugliesi da portare a casa"
+        "13 giorni",
+        "Include la scorta di prodotti da portare a casa"
       ],
-      "total": "~330€"
+      "total": "~390€"
     }
   ],
-  "grandTotal": "~1950€",
-  "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e la notte di Grottammare ancora da prenotare. Le tre strutture già prenotate sono pagate a parte. Non include usura auto e assicurazione viaggio.",
+  "grandTotal": "~2700€",
+  "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e le tre notti del rientro ancora da prenotare. Le nove notti pugliesi, già prenotate, sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
     "price": 0.757,
     "fuelType": "gpl",

@@ -1,6 +1,6 @@
 {
   "title": "Dove Dormiamo",
-  "intro": "Le tre case del viaggio di andata e del soggiorno sono già prenotate. Il grosso della vacanza è a Ostuni: sei notti nello stesso appartamento, in pieno centro, così le giornate si costruiscono partendo sempre dallo stesso punto. Resta da prenotare solo la tappa del rientro.",
+  "intro": "Le tre case della Puglia sono già prenotate, e Ostuni è la vera base: sei notti nello stesso appartamento in pieno centro. Il rientro, invece, è diventato un pezzo di vacanza a sé: tre tappe da una notte ciascuna, tutte ancora da prenotare.",
   "stays": [
     {
       "name": "Casa a Montemarciano",
@@ -31,16 +31,39 @@
       "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
     },
     {
-      "name": "Tappa a Grottammare",
-      "location": "Grottammare (AP), Marche",
+      "name": "Notte a Matera",
+      "location": "Matera (MT), Basilicata",
       "nights": 1,
       "nightsLabel": "1 notte: 1 Settembre",
-      "type": "Tappa intermedia ritorno - da prenotare",
-      "detail": "Spezza il rientro in due giornate da circa 5 ore invece di una da dieci. Grottammare è Bandiera Blu, con sabbia fine e fondale basso, e ha il borgo medievale sulla collina tra i Borghi più Belli d'Italia. A settembre nelle Marche è bassa stagione: si trova facilmente anche per una notte sola.",
-      "warning": "È l'unica prenotazione che manca. Cercate sul lungomare di Grottammare o di San Benedetto del Tronto, così la spiaggia è a piedi e l'auto resta ferma.",
-      "alternative": "San Benedetto del Tronto, 5 km a sud: più grande e più servita, con il lungomare delle palme. Collegata a Grottammare da una ciclopedonale di 8 km.",
-      "url": "https://maps.google.com/?q=Grottammare+lungomare",
-      "alternativeUrl": "https://maps.google.com/?q=Lungomare+San+Benedetto+del+Tronto"
+      "type": "Prima tappa del rientro - da prenotare",
+      "detail": "Matera è a 1h20 da Ostuni, quasi sulla strada verso nord: il pezzo di Sud che questo itinerario si stava perdendo. Vale la pena dormire dentro i Sassi, in una delle camere ricavate nelle grotte di tufo.",
+      "warning": "Nei Sassi si arriva solo a piedi, su scalinate. Chiedete alla struttura dove si parcheggia e quanti gradini ci sono con le valigie.",
+      "alternative": "Il centro moderno di Matera: costa meno e il Sasso Barisano è a dieci minuti a piedi.",
+      "url": "https://maps.google.com/?q=Sassi+di+Matera",
+      "alternativeUrl": "https://maps.google.com/?q=Matera+centro"
+    },
+    {
+      "name": "Notte sulla Costa dei Trabocchi",
+      "location": "Fossacesia Marina (CH), Abruzzo",
+      "nights": 1,
+      "nightsLabel": "1 notte: 2 Settembre",
+      "type": "Seconda tappa del rientro - da prenotare",
+      "detail": "Fossacesia Marina sta nel Golfo di Venere, spiaggia Bandiera Blu, a metà della Via Verde: la ciclabile di 42 km che corre sul mare al posto della vecchia ferrovia. Sopra il paese c'è l'Abbazia di San Giovanni in Venere, romanica, a picco sulla costa.",
+      "alternative": "San Vito Chietino, 15 minuti a nord: più piccolo, con il Trabocco Turchino raccontato da D'Annunzio.",
+      "url": "https://maps.google.com/?q=Fossacesia+Marina",
+      "alternativeUrl": "https://maps.google.com/?q=San+Vito+Chietino+trabocco"
+    },
+    {
+      "name": "Notte a Cervia",
+      "location": "Cervia o Milano Marittima (RA), Romagna",
+      "nights": 1,
+      "nightsLabel": "1 notte: 3 Settembre",
+      "type": "Ultima tappa del rientro - da prenotare",
+      "detail": "Dormire a Cervia mette la festa di Sapore di Sale a portata di piedi e lascia solo 3h30 di strada per l'ultimo giorno. I mosaici di Ravenna sono a venti minuti.",
+      "warning": "Il 3 settembre apre Sapore di Sale, trentesima edizione: gli alberghi si riempiono e il centro è chiuso al traffico. Prenotate presto e chiedete del parcheggio.",
+      "alternative": "Ravenna centro, se preferite dormire accanto ai mosaici e passare da Cervia solo per la serata.",
+      "url": "https://maps.google.com/?q=Cervia+centro",
+      "alternativeUrl": "https://maps.google.com/?q=Ravenna+centro+storico"
     }
   ]
 }

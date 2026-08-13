@@ -4,7 +4,9 @@
     "date": "2026-08-23",
     "weekday": "Domenica",
     "title": "Alessandria → Montemarciano (Marche)",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "travelInfo": "~450 km - circa 4h30 di guida (A21 + A1 + A14)",
     "description": "Prima tappa di trasferimento: si spezza il viaggio in due per non arrivare al Gargano distrutti. Partenza la mattina, sosta pranzo lungo la A14, arrivo a Montemarciano nel pomeriggio.",
     "activities": [
@@ -41,7 +43,9 @@
     "date": "2026-08-24",
     "weekday": "Lunedì",
     "title": "Montemarciano → Vieste (Gargano)",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "travelInfo": "~390 km - circa 4h15 di guida (A14 fino a Poggio Imperiale, poi SS693 e SS89)",
     "description": "Seconda e ultima mezza giornata di autostrada. L'ultimo pezzo, dalla piana di Foggia al promontorio del Gargano, è il più bello: la strada sale, gira e all'improvviso c'è il mare.",
     "activities": [
@@ -78,7 +82,10 @@
     "date": "2026-08-25",
     "weekday": "Martedì",
     "title": "Vieste - Grotte marine e mare",
-    "tags": ["sea", "nature"],
+    "tags": [
+      "sea",
+      "nature"
+    ],
     "travelInfo": "Pochi km: solo spostamenti locali dentro Vieste",
     "description": "L'unica giornata piena sul Gargano, quindi una cosa sola fatta bene: il giro in barca lungo la costa. Il resto è mare.",
     "activities": [
@@ -126,7 +133,10 @@
     "date": "2026-08-26",
     "weekday": "Mercoledì",
     "title": "Vieste → Ostuni: arrivo nel giorno di Sant'Oronzo",
-    "tags": ["travel", "culture"],
+    "tags": [
+      "travel",
+      "culture"
+    ],
     "travelInfo": "~290 km - circa 3h15 di guida (SS89 + SS16 + A14)",
     "description": "Trasferimento verso la base principale del viaggio. Arriviamo a Ostuni proprio nel giorno centrale della festa patronale: la sera non serve prendere l'auto, la città fa tutto da sola.",
     "activities": [
@@ -164,7 +174,10 @@
     "date": "2026-08-27",
     "weekday": "Giovedì",
     "title": "Mare a Torre Guaceto",
-    "tags": ["sea", "nature"],
+    "tags": [
+      "sea",
+      "nature"
+    ],
     "travelInfo": "~20 km all'andata - circa 30 minuti",
     "description": "Prima giornata di mare vero: area marina protetta la mattina, concerto di chiusura della festa la sera. Zero corse.",
     "activities": [
@@ -193,7 +206,10 @@
     "date": "2026-08-28",
     "weekday": "Venerdì",
     "title": "Savelletri, Monopoli e Polignano",
-    "tags": ["culture", "sea"],
+    "tags": [
+      "culture",
+      "sea"
+    ],
     "travelInfo": "~110 km in tutta la giornata - circa 2h di guida spalmate su tre tappe",
     "description": "Il giro consigliato dagli amici, fatto in un'unica direzione: si sale lungo la costa adriatica fermandosi tre volte e si torna dopo il tramonto. Tanti chilometri ma nessuno tutto d'un fiato.",
     "activities": [
@@ -239,7 +255,10 @@
     "date": "2026-08-29",
     "weekday": "Sabato",
     "title": "Alberobello, Grotte di Castellana e Hell in the Cave",
-    "tags": ["culture", "nature"],
+    "tags": [
+      "culture",
+      "nature"
+    ],
     "travelInfo": "~110 km A/R - circa 1h all'andata, rientro in tarda serata",
     "description": "La giornata più piena del viaggio, ma tutta in una direzione: mattina lenta a Ostuni, pomeriggio tra trulli e grotte, sera lo spettacolo sotto terra. Si rientra tardi, però domani non c'è niente da fare.",
     "activities": [
@@ -289,7 +308,10 @@
     "date": "2026-08-30",
     "weekday": "Domenica",
     "title": "Mare vicino casa e Ostuni con calma",
-    "tags": ["sea", "culture"],
+    "tags": [
+      "sea",
+      "culture"
+    ],
     "travelInfo": "~25 km A/R - 15/20 minuti per la spiaggia",
     "description": "Giornata di recupero dopo la serata a Castellana. Mare a un quarto d'ora da casa e finalmente il tempo di guardarsi Ostuni per bene, senza la folla della festa.",
     "activities": [
@@ -318,7 +340,9 @@
     "date": "2026-08-31",
     "weekday": "Lunedì",
     "title": "Valle d'Itria: Locorotondo e bombette a Cisternino",
-    "tags": ["culture"],
+    "tags": [
+      "culture"
+    ],
     "travelInfo": "~70 km A/R - 35 minuti per Locorotondo, 25 per Cisternino",
     "description": "Ultimo giorno pieno, tenuto leggero perché domani si guida tanto. Un borgo la mattina, la spesa di prodotti pugliesi nel pomeriggio, la cena migliore del viaggio la sera.",
     "activities": [
@@ -361,76 +385,167 @@
     "day": 10,
     "date": "2026-09-01",
     "weekday": "Martedì",
-    "title": "Ostuni → Grottammare (Marche)",
-    "tags": ["travel", "sea"],
-    "travelInfo": "~470 km - circa 5h di guida (A14). Metà esatta del rientro",
-    "description": "Il rientro spezzato in due giornate ragionevoli invece di una da dieci ore. Cinque ore di A14 la mattina e si arriva in tempo per l'ultimo bagno del viaggio.",
+    "title": "Ostuni → Matera",
+    "tags": [
+      "travel",
+      "culture"
+    ],
+    "travelInfo": "~100 km - circa 1h20 di guida (SS7 attraverso la Murgia)",
+    "description": "Il rientro comincia con la cosa più bella che questo viaggio si stava perdendo: Matera è a un'ora e venti da Ostuni, praticamente sulla strada verso nord. Giornata di guida quasi nulla e un pomeriggio intero nei Sassi.",
     "activities": [
       {
         "icon": "🧳",
-        "title": "Mattina - Check-out e partenza",
-        "text": "Sveglia con calma, carico bagagli, partenza verso le 9. Giro di controllo prima di chiudere la porta: caricabatterie nelle prese, costumi stesi sul balcone, roba nel frigo, ciabatte sotto il letto. Rifornimento fatto la sera prima.",
-        "url": "https://maps.google.com/?q=Ostuni"
-      },
-      {
-        "icon": "🚗",
-        "title": "Durante - A14 verso nord",
-        "text": "Cinque ore filate lungo l'Adriatico, con una sosta pranzo dopo Vasto. Con due che guidano basta un cambio a metà. Arrivo a Grottammare nel primo pomeriggio.",
-        "url": "https://maps.google.com/?q=A14+Vasto+area+di+servizio"
-      },
-      {
-        "icon": "🏖️",
-        "title": "Pomeriggio - Ultimo bagno",
-        "text": "Grottammare è Bandiera Blu: sabbia finissima, fondale che scende piano e cinque chilometri di lungomare orlato di palme. A settembre le spiagge si svuotano e l'acqua è al massimo della temperatura: l'ultimo bagno del viaggio si fa qui.",
-        "url": "https://maps.google.com/?q=Spiaggia+di+Grottammare"
+        "title": "Mattina - Check-out senza fretta",
+        "text": "Sei notti a Ostuni finiscono qui: bagagli, giro di controllo e partenza verso le 10. La strada entra nell'interno tra vigneti e muretti a secco. Sosta possibile ad Altamura, dove il pane DOP si compra ancora nei forni a legna.",
+        "url": "https://maps.google.com/?q=Altamura+forno+pane"
       },
       {
         "icon": "🏘️",
-        "title": "Sera - Grottammare Alta",
-        "text": "Il borgo medievale è arroccato sulla collina sopra la spiaggia ed è uno dei Borghi più Belli d'Italia: Piazza Peretti, il Teatro dell'Arancio e un belvedere che guarda tutta la costa. Qui è nato Papa Sisto V. Cena di pesce in paese: il piatto locale è il brodetto alla sambenedettese.",
-        "url": "https://maps.google.com/?q=Grottammare+Alta+Piazza+Peretti"
+        "title": "Pomeriggio - I Sassi",
+        "text": "Si scende a piedi nel Sasso Barisano e nel Sasso Caveoso, il labirinto di case scavate nel tufo abitate fino agli anni Cinquanta. Da vedere: una Casa Grotta arredata come allora (da 5€), una chiesa rupestre come Santa Lucia alle Malve, e la Civita con il Duomo in cima.",
+        "url": "https://maps.google.com/?q=Sasso+Caveoso+Matera"
+      },
+      {
+        "icon": "🌇",
+        "title": "Tramonto - Belvedere di Murgia Timone",
+        "text": "Dall'altro lato della gravina si vedono tutti i Sassi in un colpo d'occhio, ed è il punto da cui sono state girate mezze scene di film. Dal 2026 l'accesso si paga: 10€ da aprile a ottobre, compresi i sentieri e la navetta fino al belvedere. In alternativa si scende dal ponte tibetano partendo da piazza Santa Lucia.",
+        "url": "https://maps.google.com/?q=Belvedere+Murgia+Timone+Matera"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Sera - Cena materana",
+        "text": "Pane di Matera IGP, peperoni cruschi, cialledda, crapiata di legumi, pecorino di Filiano. Cucina povera fatta bene, e costa meno che in Puglia. Poi giro nei vicoli illuminati: di sera i Sassi sono un'altra cosa.",
+        "url": "https://maps.google.com/?q=ristoranti+Sassi+Matera"
       }
     ],
     "accommodation": {
-      "name": "Tappa a Grottammare",
-      "location": "Grottammare (AP), Marche",
+      "name": "Notte a Matera",
+      "location": "Matera (MT), Basilicata",
       "nights": 1,
       "nightsLabel": "1 notte: 1 Settembre",
-      "detail": "Tappa intermedia del rientro, ancora da prenotare. A settembre nelle Marche è bassa stagione: hotel e B&B sul lungomare si trovano facilmente anche per una notte sola.",
-      "warning": "È l'unica prenotazione che manca. Cercate sul lungomare di Grottammare o di San Benedetto, così la spiaggia è a piedi e non serve rispostare l'auto.",
-      "url": "https://maps.google.com/?q=Grottammare+lungomare"
-    },
-    "highlightsTitle": "Se avanza tempo o voglia",
-    "highlights": [
-      {
-        "text": "San Benedetto del Tronto, 5 km a sud: il lungomare delle palme (settemila piante), il porto peschereccio e il Molo Sud. Collegata a Grottammare da una ciclopedonale di 8 km lungo il mare",
-        "url": "https://maps.google.com/?q=Lungomare+San+Benedetto+del+Tronto"
-      },
-      {
-        "text": "Ascoli Piceno, 35 minuti nell'interno: Piazza del Popolo in travertino è una delle più belle d'Italia. Alternativa alla spiaggia se il tempo gira male",
-        "url": "https://maps.google.com/?q=Piazza+del+Popolo+Ascoli+Piceno"
-      }
-    ]
+      "detail": "Da prenotare. Vale la pena dormire dentro i Sassi, in una delle camere ricavate nelle grotte: costano più di un hotel in città ma sono l'esperienza. In alternativa il centro moderno, a dieci minuti a piedi dal Sasso Barisano.",
+      "warning": "Dentro i Sassi si arriva solo a piedi e su scalinate: chiedete alla struttura dove si parcheggia e quanto si cammina con le valigie.",
+      "url": "https://maps.google.com/?q=Sassi+di+Matera"
+    }
   },
   {
     "day": 11,
     "date": "2026-09-02",
     "weekday": "Mercoledì",
-    "title": "Grottammare → Alessandria",
-    "tags": ["travel"],
-    "travelInfo": "~555 km - circa 5h30 di guida (A14 + A1 + A21)",
-    "description": "Seconda metà del rientro. Partendo la mattina si è ad Alessandria nel primo pomeriggio, con il resto della giornata per disfare le valigie.",
+    "title": "Matera → Costa dei Trabocchi (Abruzzo)",
+    "tags": [
+      "travel",
+      "sea"
+    ],
+    "travelInfo": "~260 km - circa 2h45 di guida (SS655 fino a Foggia, poi A14)",
+    "description": "Si risale sull'Adriatico nel punto più bello della costa abruzzese: i trabocchi, le palafitte di legno per la pesca, e una ciclabile che corre sul mare al posto della vecchia ferrovia.",
+    "activities": [
+      {
+        "icon": "🌅",
+        "title": "Mattina - Ultimo giro nei Sassi",
+        "text": "La luce del mattino sul tufo è la migliore della giornata: un'ora di giro e una colazione con la sfogliatella lucana, poi partenza verso le 11.",
+        "url": "https://maps.google.com/?q=Sasso+Barisano+Matera"
+      },
+      {
+        "icon": "🏖️",
+        "title": "Pomeriggio - Fossacesia Marina",
+        "text": "Arrivo nel Golfo di Venere, spiaggia di ciottoli Bandiera Blu. Sopra il paese c'è l'Abbazia di San Giovanni in Venere, romanica dell'XI secolo, su una collina che guarda tutta la costa: dieci minuti di auto e ne vale la pena.",
+        "url": "https://maps.google.com/?q=Abbazia+di+San+Giovanni+in+Venere"
+      },
+      {
+        "icon": "🚲",
+        "title": "Pomeriggio - Via Verde in bici",
+        "text": "La ciclopedonale della Costa dei Trabocchi: 42 km da Ortona a San Salvo sul tracciato della vecchia ferrovia adriatica, piatta e sempre sul mare, tra gallerie, calette e riserve naturali. Passa proprio da Fossacesia. Noleggio 10-15€ al giorno per una city bike, 20-25€ per una da strada, e-bike disponibili. Farla tutta sono 3-4 ore: bastano due ore per il pezzo più bello, verso Punta Aderci.",
+        "url": "https://viaverdedeitrabocchi.info/fossacesia/"
+      },
+      {
+        "icon": "🐟",
+        "title": "Sera - Cena su un trabocco",
+        "text": "Alcuni trabocchi sono diventati ristoranti: si mangia su una palafitta di legno sospesa sull'acqua, con le reti ancora attaccate. I coperti sono pochissimi, quindi va prenotato con giorni di anticipo, non il giorno stesso.",
+        "url": "https://maps.google.com/?q=trabocco+ristorante+Costa+dei+Trabocchi"
+      }
+    ],
+    "accommodation": {
+      "name": "Notte sulla Costa dei Trabocchi",
+      "location": "Fossacesia Marina (CH), Abruzzo",
+      "nights": 1,
+      "nightsLabel": "1 notte: 2 Settembre",
+      "detail": "Da prenotare. Fossacesia Marina è la base più comoda: sta a metà della Via Verde, ha la spiaggia a due passi e l'abbazia sopra. A settembre è bassa stagione e si trova facilmente anche per una notte.",
+      "alternative": "San Vito Chietino, 15 minuti a nord: più piccolo, con il Trabocco Turchino che D'Annunzio mise nel Trionfo della morte.",
+      "url": "https://maps.google.com/?q=Fossacesia+Marina",
+      "alternativeUrl": "https://maps.google.com/?q=San+Vito+Chietino+trabocco"
+    }
+  },
+  {
+    "day": 12,
+    "date": "2026-09-03",
+    "weekday": "Giovedì",
+    "title": "Costa dei Trabocchi → Ravenna e Cervia",
+    "tags": [
+      "travel",
+      "culture"
+    ],
+    "travelInfo": "~360 km - circa 3h30 di guida (A14)",
+    "description": "Penultima tappa: i mosaici bizantini di Ravenna nel pomeriggio e la sera la festa del sale a Cervia, che apre proprio oggi la trentesima edizione.",
     "activities": [
       {
         "icon": "🚗",
+        "title": "Mattina - Risalita",
+        "text": "Partenza dopo colazione, o dopo un'ora di bici sulla Via Verde se vi è piaciuta. Tre ore e mezza di A14 lungo le Marche, con sosta pranzo a metà. Arrivo a Ravenna nel primo pomeriggio.",
+        "url": "https://maps.google.com/?q=Ravenna+centro"
+      },
+      {
+        "icon": "✨",
+        "title": "Pomeriggio - I mosaici di Ravenna",
+        "text": "Otto siti UNESCO in una città piccola. Il biglietto cumulativo da 12,50€ copre i cinque principali: Basilica di San Vitale, Mausoleo di Galla Placidia, Sant'Apollinare Nuovo, Battistero Neoniano e Museo Arcivescovile. Galla Placidia è minuscola e si entra a orario prenotato, incluso nel prezzo: bloccate lo slot online prima di partire.",
+        "url": "https://www.ravennamosaici.it/"
+      },
+      {
+        "icon": "🧂",
+        "title": "Sera - Sapore di Sale a Cervia",
+        "text": "Venti minuti da Ravenna. La festa del sale dolce di Cervia compie trent'anni e va dal 3 al 6 settembre: stasera è la serata di apertura in piazzale Salinari, con il centro storico, il Porto Canale e il Magazzino del Sale pieni di stand, cucina e musica. Capitarci il primo giorno è fortuna pura.",
+        "url": "https://www.cerviasaporedisale.it/"
+      }
+    ],
+    "accommodation": {
+      "name": "Notte a Cervia",
+      "location": "Cervia o Milano Marittima (RA), Romagna",
+      "nights": 1,
+      "nightsLabel": "1 notte: 3 Settembre",
+      "detail": "Da prenotare. Cervia mette a portata di piedi la festa e lascia 3h30 di strada per l'ultimo giorno. Milano Marittima è attaccata, più elegante e con la pineta.",
+      "warning": "Sono i giorni di Sapore di Sale: gli alberghi si riempiono e il centro è chiuso al traffico. Prenotate presto e chiedete del parcheggio.",
+      "alternative": "Ravenna centro, se preferite dormire vicino ai mosaici e salutare la festa prima di cena.",
+      "url": "https://maps.google.com/?q=Cervia+centro",
+      "alternativeUrl": "https://maps.google.com/?q=Ravenna+centro+storico"
+    }
+  },
+  {
+    "day": 13,
+    "date": "2026-09-04",
+    "weekday": "Venerdì",
+    "title": "Cervia → Alessandria",
+    "tags": [
+      "travel"
+    ],
+    "travelInfo": "~360 km - circa 3h30 di guida (A14 + A1 + A21)",
+    "description": "Ultima tratta, la più corta del rientro. Partendo la mattina si è ad Alessandria per pranzo.",
+    "activities": [
+      {
+        "icon": "🦩",
+        "title": "Prima di partire - Se avanza mezz'ora",
+        "text": "La Salina di Cervia è dentro il Parco del Delta del Po e ci vivono i fenicotteri rosa: si vedono dai sentieri e dal centro visite, a cinque minuti dal centro. Accanto c'è il MUSA, il museo del sale nel vecchio magazzino.",
+        "url": "https://maps.google.com/?q=Salina+di+Cervia"
+      },
+      {
+        "icon": "🚗",
         "title": "Mattina - Rientro",
-        "text": "Colazione e via verso le 8:30. A14 fino a Bologna, poi A1 e A21. Sosta pranzo dopo Bologna. Arrivo ad Alessandria nel primo pomeriggio.",
+        "text": "Partenza verso le 9: A14 fino a Bologna, poi A1 e A21. Una sosta sola e si arriva ad Alessandria per pranzo, con il pomeriggio libero per le valigie.",
         "url": "https://maps.google.com/?q=Alessandria"
       },
       {
-        "icon": "🛒",
-        "title": "Prima di partire",
-        "text": "Ultimo controllo alla borsa termica: la burrata e i formaggi comprati a Ostuni hanno passato una notte in più, quindi vanno messi in frigo appena arrivati. Taralli, olio e vino invece aspettano tranquilli."
+        "icon": "🧊",
+        "title": "La borsa termica",
+        "text": "Formaggi e burrata hanno passato tre notti in giro: in frigo appena arrivati. Olio, taralli, vino Primitivo, pane di Matera e sale di Cervia invece aspettano tranquilli in cantina."
       }
     ]
   }

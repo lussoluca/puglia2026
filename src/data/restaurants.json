@@ -1,8 +1,8 @@
 [
   {
-    "zone": "Marche (Senigallia / Grottammare)",
+    "zone": "Marche (Senigallia)",
     "zoneIcon": "🌊",
-    "mealsAdvice": "2 cene: la prima e la penultima sera del viaggio",
+    "mealsAdvice": "1 cena, la prima sera del viaggio",
     "restaurants": [
       {
         "name": "Trattorie del centro di Senigallia",
@@ -12,15 +12,6 @@
         "price": "20-30€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=trattorie+centro+Senigallia"
-      },
-      {
-        "name": "Trattorie di Grottammare e San Benedetto",
-        "location": "Lungomare e borgo alto, Grottammare (AP)",
-        "type": "Brodetto e pesce dell'Adriatico",
-        "description": "Il piatto del posto è il brodetto alla sambenedettese, zuppa di pesce con pomodori verdi e peperone. Cena nel borgo alto per la vista, sul lungomare per la comodità.",
-        "price": "25-35€/persona",
-        "featured": false,
-        "url": "https://maps.google.com/?q=ristoranti+Grottammare+Alta"
       }
     ]
   },
@@ -161,6 +152,65 @@
         "price": "40-60€/persona",
         "featured": false,
         "url": "https://maps.google.com/?q=Osteria+di+Chichibio+Polignano"
+      }
+    ]
+  },
+  {
+    "zone": "Rientro: Matera",
+    "zoneIcon": "🥖",
+    "mealsAdvice": "1 cena, il 1 settembre",
+    "restaurants": [
+      {
+        "name": "Trattorie dei Sassi",
+        "location": "Sasso Barisano e Sasso Caveoso, Matera",
+        "type": "Cucina lucana povera",
+        "description": "Pane di Matera IGP, peperoni cruschi, cialledda, crapiata di legumi, pecorino di Filiano, orecchiette con la mollica. Si mangia bene e si spende meno che in Puglia.",
+        "price": "20-30€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=ristoranti+Sassi+Matera"
+      }
+    ]
+  },
+  {
+    "zone": "Rientro: Costa dei Trabocchi",
+    "zoneIcon": "🐟",
+    "mealsAdvice": "1 cena, il 2 settembre. Da prenotare per tempo",
+    "restaurants": [
+      {
+        "name": "Cena su un trabocco",
+        "location": "Tra San Vito Chietino e Fossacesia (CH)",
+        "type": "Pesce su palafitta",
+        "description": "Si mangia su una piattaforma di legno sospesa sul mare, con le reti ancora attaccate ai bracci. Menu fisso di pesce, quasi sempre. I coperti sono pochissimi.",
+        "price": "45-65€/persona",
+        "featured": true,
+        "featuredLabel": "Prenotare giorni prima",
+        "url": "https://maps.google.com/?q=trabocco+ristorante+Costa+dei+Trabocchi"
+      },
+      {
+        "name": "Trattorie di Fossacesia Marina",
+        "location": "Lungomare, Fossacesia Marina",
+        "type": "Pesce abruzzese",
+        "description": "Brodetto alla vastese, scapece, arrosticini se qualcuno vuole la carne. Alternativa più economica e senza prenotazione al trabocco.",
+        "price": "25-35€/persona",
+        "featured": false,
+        "url": "https://maps.google.com/?q=ristoranti+Fossacesia+Marina"
+      }
+    ]
+  },
+  {
+    "zone": "Rientro: Romagna",
+    "zoneIcon": "🧂",
+    "mealsAdvice": "1 cena, il 3 settembre alla festa",
+    "restaurants": [
+      {
+        "name": "Stand di Sapore di Sale",
+        "location": "Centro storico e Porto Canale, Cervia",
+        "type": "Street food romagnolo",
+        "description": "Piadina, cassoni, sardoncini, formaggio di fossa e il sale dolce di Cervia. Con la festa in corso conviene cenare tra gli stand invece di mettersi a tavola.",
+        "price": "12-20€/persona",
+        "featured": true,
+        "featuredLabel": "3-6 Settembre",
+        "url": "https://www.cerviasaporedisale.it/"
       }
     ]
   }

@@ -25,12 +25,28 @@
       "url": "https://maps.google.com/?q=Corso+Garibaldi+138+Ostuni"
     },
     {
-      "name": "Tappa a Grottammare",
-      "lat": 42.9905,
-      "lng": 13.8683,
-      "desc": "Grottammare (AP) - tappa intermedia del rientro, da prenotare. 1 notte, 1 settembre.",
-      "zone": "Marche",
-      "url": "https://maps.google.com/?q=Grottammare+lungomare"
+      "name": "Notte a Matera",
+      "lat": 40.6664,
+      "lng": 16.6043,
+      "desc": "Matera (MT) - prima tappa del rientro, da prenotare. 1 notte, 1 settembre.",
+      "zone": "Basilicata",
+      "url": "https://maps.google.com/?q=Sassi+di+Matera"
+    },
+    {
+      "name": "Notte a Fossacesia Marina",
+      "lat": 42.245,
+      "lng": 14.493,
+      "desc": "Costa dei Trabocchi (CH) - seconda tappa del rientro, da prenotare. 1 notte, 2 settembre.",
+      "zone": "Abruzzo",
+      "url": "https://maps.google.com/?q=Fossacesia+Marina"
+    },
+    {
+      "name": "Notte a Cervia",
+      "lat": 44.262,
+      "lng": 12.35,
+      "desc": "Cervia (RA) - ultima tappa del rientro, da prenotare. 1 notte, 3 settembre.",
+      "zone": "Romagna",
+      "url": "https://maps.google.com/?q=Cervia+centro"
     }
   ],
   "beaches": [
@@ -139,12 +155,12 @@
       "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
     },
     {
-      "name": "Spiaggia di Grottammare",
-      "lat": 42.9885,
-      "lng": 13.872,
-      "desc": "Sabbia fine, fondale basso, Bandiera Blu. L'ultimo bagno del viaggio.",
-      "zone": "Marche",
-      "url": "https://maps.google.com/?q=Spiaggia+di+Grottammare"
+      "name": "Fossacesia Marina",
+      "lat": 42.245,
+      "lng": 14.493,
+      "desc": "Ciottoli nel Golfo di Venere, Bandiera Blu, sulla Via Verde.",
+      "zone": "Abruzzo",
+      "url": "https://maps.google.com/?q=Fossacesia+Marina+spiaggia"
     }
   ],
   "culture": [
@@ -245,12 +261,36 @@
       "url": "https://maps.google.com/?q=Rotonda+a+Mare+Senigallia"
     },
     {
-      "name": "Grottammare Alta",
-      "lat": 42.993,
-      "lng": 13.86,
-      "desc": "Borgo medievale sulla collina, tra i Borghi più Belli d'Italia. Piazza Peretti e il Teatro dell'Arancio.",
-      "zone": "Marche",
-      "url": "https://maps.google.com/?q=Grottammare+Alta+Piazza+Peretti"
+      "name": "Sassi di Matera (UNESCO)",
+      "lat": 40.6664,
+      "lng": 16.611,
+      "desc": "Città scavata nel tufo, abitata fino agli anni Cinquanta. Case grotta e chiese rupestri.",
+      "zone": "Basilicata",
+      "url": "https://maps.google.com/?q=Sasso+Caveoso+Matera"
+    },
+    {
+      "name": "Belvedere di Murgia Timone",
+      "lat": 40.669,
+      "lng": 16.628,
+      "desc": "Il punto da cui si vedono tutti i Sassi in un colpo d'occhio. 10€ da aprile a ottobre, navetta compresa.",
+      "zone": "Basilicata",
+      "url": "https://maps.google.com/?q=Belvedere+Murgia+Timone+Matera"
+    },
+    {
+      "name": "Abbazia di San Giovanni in Venere",
+      "lat": 42.247,
+      "lng": 14.468,
+      "desc": "Abbazia romanica dell'XI secolo su una collina a picco sulla Costa dei Trabocchi.",
+      "zone": "Abruzzo",
+      "url": "https://maps.google.com/?q=Abbazia+di+San+Giovanni+in+Venere"
+    },
+    {
+      "name": "Mosaici di Ravenna (UNESCO)",
+      "lat": 44.42,
+      "lng": 12.197,
+      "desc": "San Vitale, Galla Placidia, Sant'Apollinare Nuovo, Battistero Neoniano. Cumulativo 12,50€.",
+      "zone": "Romagna",
+      "url": "https://www.ravennamosaici.it/"
     }
   ],
   "restaurants": [
@@ -301,6 +341,14 @@
       "desc": "Polignano - panini di pesce, 10-18€/persona.",
       "zone": "Polignano",
       "url": "https://www.pescaria.it/"
+    },
+    {
+      "name": "Trabocchi ristorante",
+      "lat": 42.238,
+      "lng": 14.525,
+      "desc": "Costa dei Trabocchi - cena su una palafitta di legno sul mare. Pochi coperti: prenotare giorni prima.",
+      "zone": "Abruzzo",
+      "url": "https://maps.google.com/?q=trabocco+ristorante+Costa+dei+Trabocchi"
     }
   ],
   "nature": [
@@ -335,6 +383,30 @@
       "desc": "Percorso completo 3 km / 100 min, 16-18°C. Sede di Hell in the Cave e di Alice.",
       "zone": "Valle d'Itria",
       "url": "https://www.grottedicastellana.it/"
+    },
+    {
+      "name": "Via Verde dei Trabocchi",
+      "lat": 42.24,
+      "lng": 14.51,
+      "desc": "42 km di ciclabile sull'ex ferrovia adriatica, da Ortona a San Salvo. Noleggio bici 10-15€.",
+      "zone": "Abruzzo",
+      "url": "https://viaverdedeitrabocchi.info/fossacesia/"
+    },
+    {
+      "name": "Riserva di Punta Aderci",
+      "lat": 42.173,
+      "lng": 14.718,
+      "desc": "Promontorio e spiaggia di sabbia di Punta Penna. Il pezzo più bello della Via Verde.",
+      "zone": "Abruzzo",
+      "url": "https://maps.google.com/?q=Punta+Aderci+riserva"
+    },
+    {
+      "name": "Salina di Cervia",
+      "lat": 44.245,
+      "lng": 12.34,
+      "desc": "Salina nel Parco del Delta del Po, con i fenicotteri rosa. Accanto il MUSA, museo del sale.",
+      "zone": "Romagna",
+      "url": "https://maps.google.com/?q=Salina+di+Cervia"
     }
   ],
   "route": [
@@ -371,8 +443,16 @@
       17.5794
     ],
     [
-      42.9905,
-      13.8683
+      40.6664,
+      16.6043
+    ],
+    [
+      42.245,
+      14.493
+    ],
+    [
+      44.262,
+      12.35
     ],
     [
       44.9122,
