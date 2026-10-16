@@ -50,9 +50,9 @@
       "detail": "~2.800 km, consumo ~11 L/100km (auto GPL)",
       "items": [
         "Totale litri: ~308 L",
-        "Prezzo GPL: ~0.774€/L (media nazionale self)"
+        "Prezzo GPL: ~0.775€/L (media nazionale self)"
       ],
-      "total": "~238€"
+      "total": "~239€"
     },
     {
       "title": "Pedaggi autostradali",
@@ -82,10 +82,10 @@
   "grandTotal": "~2700€",
   "grandTotalNote": "Il totale copre ristoranti, attività, carburante GPL, pedaggi, spesa alimentare e le tre notti del rientro ancora da prenotare. Le nove notti pugliesi, già prenotate, sono pagate a parte. Non include usura auto e assicurazione viaggio.",
   "fuelPrice": {
-    "price": 0.774,
+    "price": 0.775,
     "fuelType": "gpl",
     "fuelLabel": "GPL",
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "source": "MIMIT - Ministero delle Imprese e del Made in Italy",
     "sourceUrl": "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni",
     "stations": 164
